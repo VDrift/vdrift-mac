@@ -682,7 +682,6 @@
 		F5A667AC13FC3E7900EBE432 /* window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
 		F5A668D613FC3EF200EBE432 /* vdrift.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = vdrift.icns; sourceTree = "<group>"; };
 		F5A668D813FC3EF800EBE432 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5A6690113FC439A00EBE432 /* VDrift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VDrift.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -757,7 +756,6 @@
 				B9653A8C091E84FE00006133 /* ReadMe.rtf */,
 				F5A668D813FC3EF800EBE432 /* Info.plist */,
 				F5A668D613FC3EF200EBE432 /* vdrift.icns */,
-				F5A6690113FC439A00EBE432 /* VDrift.entitlements */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1321,6 +1319,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0410;
+				ORGANIZATIONNAME = "VDrift Team";
 			};
 			buildConfigurationList = B9ADCF750907C8EB00D55A16 /* Build configuration list for PBXProject "vdrift" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1520,7 +1519,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CODE_SIGN_ENTITLEMENTS = VDrift.entitlements;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
@@ -1543,7 +1541,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CODE_SIGN_ENTITLEMENTS = VDrift.entitlements;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
