@@ -10,6 +10,8 @@
 		B937D144091BC36000EF8096 /* config_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B937D143091BC36000EF8096 /* config_mac.mm */; };
 		B9ADD11A0907CF9C00D55A16 /* SDLMain.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A47A9D01A0482F01D3D55B /* SDLMain.h */; };
 		B9ADD1680907CF9C00D55A16 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A47A9E01A0483001D3D55B /* SDLMain.m */; };
+		F59A4B23140FEE6A0047591F /* contentmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F59A4B21140FEE6A0047591F /* contentmanager.cpp */; };
+		F59A4B24140FEE6A0047591F /* contentmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = F59A4B22140FEE6A0047591F /* contentmanager.h */; };
 		F5A667AD13FC3E7900EBE432 /* aabb_space_partitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6668213FC3E7800EBE432 /* aabb_space_partitioning.cpp */; };
 		F5A667AE13FC3E7900EBE432 /* aabb_space_partitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6668313FC3E7800EBE432 /* aabb_space_partitioning.h */; };
 		F5A667AF13FC3E7900EBE432 /* aabb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6668413FC3E7800EBE432 /* aabb.cpp */; };
@@ -171,7 +173,6 @@
 		F5A6684B13FC3E7900EBE432 /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6672213FC3E7800EBE432 /* logging.h */; };
 		F5A6684C13FC3E7900EBE432 /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6672313FC3E7800EBE432 /* macros.h */; };
 		F5A6684D13FC3E7900EBE432 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6672413FC3E7800EBE432 /* main.cpp */; };
-		F5A6684E13FC3E7900EBE432 /* manager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6672513FC3E7800EBE432 /* manager.h */; };
 		F5A6684F13FC3E7900EBE432 /* mathplane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6672613FC3E7800EBE432 /* mathplane.cpp */; };
 		F5A6685013FC3E7900EBE432 /* mathplane.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6672713FC3E7800EBE432 /* mathplane.h */; };
 		F5A6685113FC3E7900EBE432 /* mathvector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6672813FC3E7800EBE432 /* mathvector.cpp */; };
@@ -187,8 +188,6 @@
 		F5A6685B13FC3E7900EBE432 /* model_obj.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6673213FC3E7800EBE432 /* model_obj.h */; };
 		F5A6685C13FC3E7900EBE432 /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6673313FC3E7800EBE432 /* model.cpp */; };
 		F5A6685D13FC3E7900EBE432 /* model.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6673413FC3E7800EBE432 /* model.h */; };
-		F5A6685E13FC3E7900EBE432 /* modelmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6673513FC3E7800EBE432 /* modelmanager.cpp */; };
-		F5A6685F13FC3E7900EBE432 /* modelmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6673613FC3E7800EBE432 /* modelmanager.h */; };
 		F5A6686013FC3E7900EBE432 /* motionstate.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6673713FC3E7800EBE432 /* motionstate.h */; };
 		F5A6686113FC3E7900EBE432 /* numprocessors.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6673813FC3E7800EBE432 /* numprocessors.h */; };
 		F5A6686213FC3E7900EBE432 /* opengl_utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6673913FC3E7800EBE432 /* opengl_utility.cpp */; };
@@ -239,8 +238,6 @@
 		F5A6689013FC3E7900EBE432 /* soundfilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6676713FC3E7900EBE432 /* soundfilter.cpp */; };
 		F5A6689113FC3E7900EBE432 /* soundfilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6676813FC3E7900EBE432 /* soundfilter.h */; };
 		F5A6689213FC3E7900EBE432 /* soundinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6676913FC3E7900EBE432 /* soundinfo.h */; };
-		F5A6689313FC3E7900EBE432 /* soundmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6676A13FC3E7900EBE432 /* soundmanager.cpp */; };
-		F5A6689413FC3E7900EBE432 /* soundmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6676B13FC3E7900EBE432 /* soundmanager.h */; };
 		F5A6689513FC3E7900EBE432 /* soundsource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6676C13FC3E7900EBE432 /* soundsource.cpp */; };
 		F5A6689613FC3E7900EBE432 /* soundsource.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6676D13FC3E7900EBE432 /* soundsource.h */; };
 		F5A6689713FC3E7900EBE432 /* spline.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6676E13FC3E7900EBE432 /* spline.h */; };
@@ -257,8 +254,6 @@
 		F5A668A213FC3E7900EBE432 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6677913FC3E7900EBE432 /* texture.cpp */; };
 		F5A668A313FC3E7900EBE432 /* texture.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6677A13FC3E7900EBE432 /* texture.h */; };
 		F5A668A413FC3E7900EBE432 /* textureinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6677B13FC3E7900EBE432 /* textureinfo.h */; };
-		F5A668A513FC3E7900EBE432 /* texturemanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6677C13FC3E7900EBE432 /* texturemanager.cpp */; };
-		F5A668A613FC3E7900EBE432 /* texturemanager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6677D13FC3E7900EBE432 /* texturemanager.h */; };
 		F5A668A713FC3E7900EBE432 /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6677E13FC3E7900EBE432 /* timer.cpp */; };
 		F5A668A813FC3E7900EBE432 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6677F13FC3E7900EBE432 /* timer.h */; };
 		F5A668A913FC3E7900EBE432 /* tobullet.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6678013FC3E7900EBE432 /* tobullet.h */; };
@@ -382,6 +377,8 @@
 		B9653A8C091E84FE00006133 /* ReadMe.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
 		B9ADD1AF0907CF9D00D55A16 /* VDrift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DE32B309A4FC81003B34CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		F59A4B21140FEE6A0047591F /* contentmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = contentmanager.cpp; sourceTree = "<group>"; };
+		F59A4B22140FEE6A0047591F /* contentmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contentmanager.h; sourceTree = "<group>"; };
 		F5A47A9D01A0482F01D3D55B /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = SOURCE_ROOT; };
 		F5A47A9E01A0483001D3D55B /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = SOURCE_ROOT; };
 		F5A6668213FC3E7800EBE432 /* aabb_space_partitioning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aabb_space_partitioning.cpp; sourceTree = "<group>"; };
@@ -545,7 +542,6 @@
 		F5A6672213FC3E7800EBE432 /* logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
 		F5A6672313FC3E7800EBE432 /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
 		F5A6672413FC3E7800EBE432 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F5A6672513FC3E7800EBE432 /* manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = manager.h; sourceTree = "<group>"; };
 		F5A6672613FC3E7800EBE432 /* mathplane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mathplane.cpp; sourceTree = "<group>"; };
 		F5A6672713FC3E7800EBE432 /* mathplane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mathplane.h; sourceTree = "<group>"; };
 		F5A6672813FC3E7800EBE432 /* mathvector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mathvector.cpp; sourceTree = "<group>"; };
@@ -561,8 +557,6 @@
 		F5A6673213FC3E7800EBE432 /* model_obj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_obj.h; sourceTree = "<group>"; };
 		F5A6673313FC3E7800EBE432 /* model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model.cpp; sourceTree = "<group>"; };
 		F5A6673413FC3E7800EBE432 /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
-		F5A6673513FC3E7800EBE432 /* modelmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = modelmanager.cpp; sourceTree = "<group>"; };
-		F5A6673613FC3E7800EBE432 /* modelmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modelmanager.h; sourceTree = "<group>"; };
 		F5A6673713FC3E7800EBE432 /* motionstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motionstate.h; sourceTree = "<group>"; };
 		F5A6673813FC3E7800EBE432 /* numprocessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numprocessors.h; sourceTree = "<group>"; };
 		F5A6673913FC3E7800EBE432 /* opengl_utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = opengl_utility.cpp; sourceTree = "<group>"; };
@@ -613,8 +607,6 @@
 		F5A6676713FC3E7900EBE432 /* soundfilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = soundfilter.cpp; sourceTree = "<group>"; };
 		F5A6676813FC3E7900EBE432 /* soundfilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundfilter.h; sourceTree = "<group>"; };
 		F5A6676913FC3E7900EBE432 /* soundinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundinfo.h; sourceTree = "<group>"; };
-		F5A6676A13FC3E7900EBE432 /* soundmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = soundmanager.cpp; sourceTree = "<group>"; };
-		F5A6676B13FC3E7900EBE432 /* soundmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundmanager.h; sourceTree = "<group>"; };
 		F5A6676C13FC3E7900EBE432 /* soundsource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = soundsource.cpp; sourceTree = "<group>"; };
 		F5A6676D13FC3E7900EBE432 /* soundsource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundsource.h; sourceTree = "<group>"; };
 		F5A6676E13FC3E7900EBE432 /* spline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spline.h; sourceTree = "<group>"; };
@@ -631,8 +623,6 @@
 		F5A6677913FC3E7900EBE432 /* texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = texture.cpp; sourceTree = "<group>"; };
 		F5A6677A13FC3E7900EBE432 /* texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texture.h; sourceTree = "<group>"; };
 		F5A6677B13FC3E7900EBE432 /* textureinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textureinfo.h; sourceTree = "<group>"; };
-		F5A6677C13FC3E7900EBE432 /* texturemanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = texturemanager.cpp; sourceTree = "<group>"; };
-		F5A6677D13FC3E7900EBE432 /* texturemanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texturemanager.h; sourceTree = "<group>"; };
 		F5A6677E13FC3E7900EBE432 /* timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timer.cpp; sourceTree = "<group>"; };
 		F5A6677F13FC3E7900EBE432 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
 		F5A6678013FC3E7900EBE432 /* tobullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tobullet.h; sourceTree = "<group>"; };
@@ -710,14 +700,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080E96DDFE201D6D7F000001 /* mac */ = {
+		080E96DDFE201D6D7F000001 /* Mac */ = {
 			isa = PBXGroup;
 			children = (
 				F5A47A9D01A0482F01D3D55B /* SDLMain.h */,
 				F5A47A9E01A0483001D3D55B /* SDLMain.m */,
 				B937D143091BC36000EF8096 /* config_mac.mm */,
 			);
-			name = mac;
+			name = Mac;
 			sourceTree = "<group>";
 		};
 		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
@@ -741,11 +731,11 @@
 		29B97314FDCFA39411CA2CEA /* vdrift */ = {
 			isa = PBXGroup;
 			children = (
-				B97D75FF12AA720D0042C221 /* src */,
-				080E96DDFE201D6D7F000001 /* mac */,
-				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				080E96DDFE201D6D7F000001 /* Mac */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				B97D75FF12AA720D0042C221 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
 			);
 			name = vdrift;
 			sourceTree = "<group>";
@@ -781,7 +771,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B97D75FF12AA720D0042C221 /* src */ = {
+		B97D75FF12AA720D0042C221 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				F5A6668213FC3E7800EBE432 /* aabb_space_partitioning.cpp */,
@@ -840,6 +830,8 @@
 				F5A666BC13FC3E7800EBE432 /* config.h */,
 				F5A666BD13FC3E7800EBE432 /* containeralgorithm.cpp */,
 				F5A666BE13FC3E7800EBE432 /* containeralgorithm.h */,
+				F59A4B21140FEE6A0047591F /* contentmanager.cpp */,
+				F59A4B22140FEE6A0047591F /* contentmanager.h */,
 				F5A666BF13FC3E7800EBE432 /* coordinatesystem.h */,
 				F5A666C013FC3E7800EBE432 /* crashdetection.cpp */,
 				F5A666C113FC3E7800EBE432 /* crashdetection.h */,
@@ -915,7 +907,6 @@
 				F5A6672213FC3E7800EBE432 /* logging.h */,
 				F5A6672313FC3E7800EBE432 /* macros.h */,
 				F5A6672413FC3E7800EBE432 /* main.cpp */,
-				F5A6672513FC3E7800EBE432 /* manager.h */,
 				F5A6672613FC3E7800EBE432 /* mathplane.cpp */,
 				F5A6672713FC3E7800EBE432 /* mathplane.h */,
 				F5A6672813FC3E7800EBE432 /* mathvector.cpp */,
@@ -931,8 +922,6 @@
 				F5A6673213FC3E7800EBE432 /* model_obj.h */,
 				F5A6673313FC3E7800EBE432 /* model.cpp */,
 				F5A6673413FC3E7800EBE432 /* model.h */,
-				F5A6673513FC3E7800EBE432 /* modelmanager.cpp */,
-				F5A6673613FC3E7800EBE432 /* modelmanager.h */,
 				F5A6673713FC3E7800EBE432 /* motionstate.h */,
 				F5A6673813FC3E7800EBE432 /* numprocessors.h */,
 				F5A6673913FC3E7800EBE432 /* opengl_utility.cpp */,
@@ -983,8 +972,6 @@
 				F5A6676713FC3E7900EBE432 /* soundfilter.cpp */,
 				F5A6676813FC3E7900EBE432 /* soundfilter.h */,
 				F5A6676913FC3E7900EBE432 /* soundinfo.h */,
-				F5A6676A13FC3E7900EBE432 /* soundmanager.cpp */,
-				F5A6676B13FC3E7900EBE432 /* soundmanager.h */,
 				F5A6676C13FC3E7900EBE432 /* soundsource.cpp */,
 				F5A6676D13FC3E7900EBE432 /* soundsource.h */,
 				F5A6676E13FC3E7900EBE432 /* spline.h */,
@@ -1001,8 +988,6 @@
 				F5A6677913FC3E7900EBE432 /* texture.cpp */,
 				F5A6677A13FC3E7900EBE432 /* texture.h */,
 				F5A6677B13FC3E7900EBE432 /* textureinfo.h */,
-				F5A6677C13FC3E7900EBE432 /* texturemanager.cpp */,
-				F5A6677D13FC3E7900EBE432 /* texturemanager.h */,
 				F5A6677E13FC3E7900EBE432 /* timer.cpp */,
 				F5A6677F13FC3E7900EBE432 /* timer.h */,
 				F5A6678013FC3E7900EBE432 /* tobullet.h */,
@@ -1051,7 +1036,7 @@
 				F5A667AB13FC3E7900EBE432 /* window.cpp */,
 				F5A667AC13FC3E7900EBE432 /* window.h */,
 			);
-			name = src;
+			name = Source;
 			path = ../src;
 			sourceTree = SOURCE_ROOT;
 		};
@@ -1145,6 +1130,7 @@
 				F5A667E613FC3E7900EBE432 /* config.h in Headers */,
 				F5A667E813FC3E7900EBE432 /* containeralgorithm.h in Headers */,
 				F5A667E913FC3E7900EBE432 /* coordinatesystem.h in Headers */,
+				F59A4B24140FEE6A0047591F /* contentmanager.h in Headers */,
 				F5A667EB13FC3E7900EBE432 /* crashdetection.h in Headers */,
 				F5A667EC13FC3E7900EBE432 /* derived.h in Headers */,
 				F5A667EE13FC3E7900EBE432 /* downloadable.h in Headers */,
@@ -1206,7 +1192,6 @@
 				F5A6684A13FC3E7900EBE432 /* loadingscreen.h in Headers */,
 				F5A6684B13FC3E7900EBE432 /* logging.h in Headers */,
 				F5A6684C13FC3E7900EBE432 /* macros.h in Headers */,
-				F5A6684E13FC3E7900EBE432 /* manager.h in Headers */,
 				F5A6685013FC3E7900EBE432 /* mathplane.h in Headers */,
 				F5A6685213FC3E7900EBE432 /* mathvector.h in Headers */,
 				F5A6685313FC3E7900EBE432 /* matrix3.h in Headers */,
@@ -1215,7 +1200,6 @@
 				F5A6685913FC3E7900EBE432 /* model_joe03.h in Headers */,
 				F5A6685B13FC3E7900EBE432 /* model_obj.h in Headers */,
 				F5A6685D13FC3E7900EBE432 /* model.h in Headers */,
-				F5A6685F13FC3E7900EBE432 /* modelmanager.h in Headers */,
 				F5A6686013FC3E7900EBE432 /* motionstate.h in Headers */,
 				F5A6686113FC3E7900EBE432 /* numprocessors.h in Headers */,
 				F5A6686313FC3E7900EBE432 /* opengl_utility.h in Headers */,
@@ -1245,7 +1229,6 @@
 				F5A6688F13FC3E7900EBE432 /* soundbuffer.h in Headers */,
 				F5A6689113FC3E7900EBE432 /* soundfilter.h in Headers */,
 				F5A6689213FC3E7900EBE432 /* soundinfo.h in Headers */,
-				F5A6689413FC3E7900EBE432 /* soundmanager.h in Headers */,
 				F5A6689613FC3E7900EBE432 /* soundsource.h in Headers */,
 				F5A6689713FC3E7900EBE432 /* spline.h in Headers */,
 				F5A6689913FC3E7900EBE432 /* sprite2d.h in Headers */,
@@ -1256,7 +1239,6 @@
 				F5A668A113FC3E7900EBE432 /* texture_interface.h in Headers */,
 				F5A668A313FC3E7900EBE432 /* texture.h in Headers */,
 				F5A668A413FC3E7900EBE432 /* textureinfo.h in Headers */,
-				F5A668A613FC3E7900EBE432 /* texturemanager.h in Headers */,
 				F5A668A813FC3E7900EBE432 /* timer.h in Headers */,
 				F5A668A913FC3E7900EBE432 /* tobullet.h in Headers */,
 				F5A668AB13FC3E7900EBE432 /* toggle.h in Headers */,
@@ -1290,9 +1272,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B9ADD1180907CF9C00D55A16 /* vdrift */ = {
+		B9ADD1180907CF9C00D55A16 /* VDrift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9ADD1AA0907CF9C00D55A16 /* Build configuration list for PBXNativeTarget "vdrift" */;
+			buildConfigurationList = B9ADD1AA0907CF9C00D55A16 /* Build configuration list for PBXNativeTarget "VDrift" */;
 			buildPhases = (
 				661C35A50BBF233E000A5A26 /* ShellScript */,
 				B9ADD1190907CF9C00D55A16 /* Headers */,
@@ -1306,7 +1288,7 @@
 			);
 			dependencies = (
 			);
-			name = vdrift;
+			name = VDrift;
 			productInstallPath = "$(HOME)/Applications";
 			productName = vdrift;
 			productReference = B9ADD1AF0907CF9D00D55A16 /* VDrift.app */;
@@ -1335,7 +1317,7 @@
 			projectDirPath = "";
 			projectRoot = ..;
 			targets = (
-				B9ADD1180907CF9C00D55A16 /* vdrift */,
+				B9ADD1180907CF9C00D55A16 /* VDrift */,
 			);
 		};
 /* End PBXProject section */
@@ -1415,6 +1397,7 @@
 				F5A667E313FC3E7900EBE432 /* xml.cpp in Sources */,
 				F5A667E513FC3E7900EBE432 /* config.cpp in Sources */,
 				F5A667E713FC3E7900EBE432 /* containeralgorithm.cpp in Sources */,
+				F59A4B23140FEE6A0047591F /* contentmanager.cpp in Sources */,
 				F5A667EA13FC3E7900EBE432 /* crashdetection.cpp in Sources */,
 				F5A667ED13FC3E7900EBE432 /* downloadable.cpp in Sources */,
 				F5A667F013FC3E7900EBE432 /* drawable.cpp in Sources */,
@@ -1459,7 +1442,6 @@
 				F5A6685813FC3E7900EBE432 /* model_joe03.cpp in Sources */,
 				F5A6685A13FC3E7900EBE432 /* model_obj.cpp in Sources */,
 				F5A6685C13FC3E7900EBE432 /* model.cpp in Sources */,
-				F5A6685E13FC3E7900EBE432 /* modelmanager.cpp in Sources */,
 				F5A6686213FC3E7900EBE432 /* opengl_utility.cpp in Sources */,
 				F5A6686413FC3E7900EBE432 /* optional.cpp in Sources */,
 				F5A6686713FC3E7900EBE432 /* parallel_task.cpp in Sources */,
@@ -1481,14 +1463,12 @@
 				F5A6688C13FC3E7900EBE432 /* sound.cpp in Sources */,
 				F5A6688E13FC3E7900EBE432 /* soundbuffer.cpp in Sources */,
 				F5A6689013FC3E7900EBE432 /* soundfilter.cpp in Sources */,
-				F5A6689313FC3E7900EBE432 /* soundmanager.cpp in Sources */,
 				F5A6689513FC3E7900EBE432 /* soundsource.cpp in Sources */,
 				F5A6689813FC3E7900EBE432 /* sprite2d.cpp in Sources */,
 				F5A6689B13FC3E7900EBE432 /* suspensionbumpdetection.cpp in Sources */,
 				F5A6689D13FC3E7900EBE432 /* svn_sourceforge.cpp in Sources */,
 				F5A6689F13FC3E7900EBE432 /* text_draw.cpp in Sources */,
 				F5A668A213FC3E7900EBE432 /* texture.cpp in Sources */,
-				F5A668A513FC3E7900EBE432 /* texturemanager.cpp in Sources */,
 				F5A668A713FC3E7900EBE432 /* timer.cpp in Sources */,
 				F5A668AA13FC3E7900EBE432 /* toggle.cpp in Sources */,
 				F5A668AC13FC3E7900EBE432 /* track.cpp in Sources */,
@@ -1531,7 +1511,6 @@
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = VDrift;
 			};
 			name = Debug;
@@ -1552,7 +1531,6 @@
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = VDrift;
 			};
 			name = Release;
@@ -1560,20 +1538,12 @@
 		B9ADD1AB0907CF9C00D55A16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/VDrift/Dev/vdrift/vdrift-mac/Frameworks\"",
-				);
 			};
 			name = Debug;
 		};
 		B9ADD1AC0907CF9C00D55A16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/VDrift/Dev/vdrift/vdrift-mac/Frameworks\"",
-				);
 			};
 			name = Release;
 		};
@@ -1589,7 +1559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B9ADD1AA0907CF9C00D55A16 /* Build configuration list for PBXNativeTarget "vdrift" */ = {
+		B9ADD1AA0907CF9C00D55A16 /* Build configuration list for PBXNativeTarget "VDrift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9ADD1AB0907CF9C00D55A16 /* Debug */,
