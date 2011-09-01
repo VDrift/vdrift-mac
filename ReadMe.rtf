@@ -1,6 +1,6 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1138
-{\fonttbl\f0\fnil\fcharset0 Verdana;\f1\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;\red196\green26\blue22;}
+{\fonttbl\f0\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;}
 {\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
 {\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
 {\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
@@ -76,22 +76,4 @@ premake4 xcode3\
 to generate an Xcode project which you can use to build VDrift, as before. For more options you can use\
 premake4 --help\
 \
-To make the project build, you need to add "vdrift-mac/Frameworks" to Framework Search Paths in Build Setting. You also need to change the Prebuild script in Build Phases to the following:\
-\
-\pard\tx560\pardeftab560\pardirnatural
-
-\f1\fs22 \cf0 \CocoaLigature0 DATE=`date +%Y-%m-%d`\
-echo \cf2 "#ifndef _DEFINITIONS_H"\cf0  > $SRCROOT/src/definitions.h\
-echo \cf2 "#define _DEFINITIONS_H"\cf0  >> $SRCROOT/src/definitions.h\
-echo \cf2 "char* get_mac_data_dir();"\cf0  >> $SRCROOT/src/definitions.h\
-echo \cf2 "#define SETTINGS_DIR \\"Library/Preferences/VDrift\\""\cf0  >> $SRCROOT/src/definitions.h\
-echo \cf2 "#define DATA_DIR get_mac_data_dir()"\cf0  >> $SRCROOT/src/definitions.h\
-echo \cf2 "#define PACKAGE \\"VDrift\\""\cf0  >> $SRCROOT/src/definitions.h\
-echo \cf2 "#define LOCALEDIR \\"/usr/share/locale\\""\cf0  >> $SRCROOT/src/definitions.h\
-echo \cf2 "#ifndef VERSION"\cf0  >> $SRCROOT/src/definitions.h\
-echo \cf2 "#define VERSION \\"$DATE\\""\cf0  >> $SRCROOT/src/definitions.h\
-echo \cf2 "#endif //VERSION"\cf0  >> $SRCROOT/src/definitions.h\
-echo \cf2 "#ifndef REVISION"\cf0  >> $SRCROOT/src/definitions.h\
-echo \cf2 "#define REVISION \\"$DATE\\""\cf0  >> $SRCROOT/src/definitions.h\
-echo \cf2 "#endif //REVISION"\cf0  >> $SRCROOT/src/definitions.h\
-echo \cf2 "#endif // _DEFINITIONS_H"\cf0  >> $SRCROOT/src/definitions.h}
+To make the project build, you need to add "vdrift-mac/Frameworks" to Framework Search Paths in Build Setting.}
