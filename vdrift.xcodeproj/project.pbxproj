@@ -301,7 +301,7 @@
 		F5A668D313FC3E7900EBE432 /* widget.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A667AA13FC3E7900EBE432 /* widget.h */; };
 		F5A668D413FC3E7900EBE432 /* window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A667AB13FC3E7900EBE432 /* window.cpp */; };
 		F5A668D513FC3E7900EBE432 /* window.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A667AC13FC3E7900EBE432 /* window.h */; };
-		F5A668D713FC3EF200EBE432 /* vdrift.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5A668D613FC3EF200EBE432 /* vdrift.icns */; };
+		F5A668D713FC3EF200EBE432 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5A668D613FC3EF200EBE432 /* icon.icns */; };
 		F5A668E013FC431F00EBE432 /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACE0A6EE13E4D8ED00524C7D /* Archive.framework */; };
 		F5A668E113FC431F00EBE432 /* LinearMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC67047A13CCD8E200B6B360 /* LinearMath.framework */; };
 		F5A668E213FC431F00EBE432 /* BulletCollision.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC67047413CCD8D800B6B360 /* BulletCollision.framework */; };
@@ -670,8 +670,9 @@
 		F5A667AA13FC3E7900EBE432 /* widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = widget.h; sourceTree = "<group>"; };
 		F5A667AB13FC3E7900EBE432 /* window.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = window.cpp; sourceTree = "<group>"; };
 		F5A667AC13FC3E7900EBE432 /* window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
-		F5A668D613FC3EF200EBE432 /* vdrift.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = vdrift.icns; sourceTree = "<group>"; };
+		F5A668D613FC3EF200EBE432 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		F5A668D813FC3EF800EBE432 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B8D8EA1410223800E6A7A3 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -743,9 +744,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B9653A8C091E84FE00006133 /* ReadMe.rtf */,
+				F5A668D613FC3EF200EBE432 /* icon.icns */,
 				F5A668D813FC3EF800EBE432 /* Info.plist */,
-				F5A668D613FC3EF200EBE432 /* vdrift.icns */,
+				F5B8D8EA1410223800E6A7A3 /* License.rtf */,
+				B9653A8C091E84FE00006133 /* ReadMe.rtf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1329,7 +1331,7 @@
 			files = (
 				F5A667F213FC3E7900EBE432 /* drawables.def in Resources */,
 				F5A6680913FC3E7900EBE432 /* glenums.def in Resources */,
-				F5A668D713FC3EF200EBE432 /* vdrift.icns in Resources */,
+				F5A668D713FC3EF200EBE432 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1361,7 +1363,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "cd $TARGET_BUILD_DIR\n\n#make the directory which our disk image will be made of\nmkdir VDrift\n\n#copy vdrift there\n/Developer/Tools/CpMac -r $TARGET_BUILD_DIR/VDrift.app VDrift/\n\n#copy readme and docs\n/Developer/Tools/CpMac $SRCROOT/ReadMe.rtf VDrift/ReadMe.rtf\n\n#copy data and remove unnecessary stuff\nmkdir VDrift/data\n/Developer/Tools/CpMac -r $SRCROOT/../data/carparts VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/lists VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/music VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/settings VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/shaders VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/skins VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/textures VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/trackparts VDrift/data/\nmkdir VDrift/data/cars\n350Z\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/350Z VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/360 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/ATT VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/CO VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/CS VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/F1-02 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/G4 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/LE VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/M7 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/MC VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/MI VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/SV VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/T73 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/TC6 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/TL2 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/XS VDrift/data/cars/\nmkdir VDrift/data/tracks\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/bahrain VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/estoril88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/jerez88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/lemans VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/monaco88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/monza88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/paulricard88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/rouen VDrift/data/tracks/\nfind VDrift/ -type f -name SConscript -exec rm {} ';'\nfind VDrift/ -type f -name \\.DS_Store -exec rm -f {} ';'\nfind -d VDrift/ -type d -name \\.svn -exec rm -rf {} ';'\n\n#finally make a disk image out of the stuff\nhdiutil create -srcfolder VDrift vdrift-mac-yyyy-mm-dd.dmg\nhdiutil internet-enable -yes vdrift-mac-yyyy-mm-dd.dmg\n\n#cleanup\nrm -r VDrift";
+			shellScript = "cd $TARGET_BUILD_DIR\n\n#Make the directory which our disk image will be made of.\nmkdir VDrift\n\n#Copy vdrift there.\n/Developer/Tools/CpMac -r $TARGET_BUILD_DIR/VDrift.app VDrift/\n\n#Copy docs.\n/Developer/Tools/CpMac $SRCROOT/ReadMe.rtf VDrift/ReadMe.rtf\n/Developer/Tools/CpMac $SRCROOT/License.rtf VDrift/License.rtf\n\n#Copy data and remove unnecessary stuff.\nmkdir VDrift/data\n/Developer/Tools/CpMac -r $SRCROOT/../data/carparts VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/lists VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/music VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/settings VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/shaders VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/skins VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/textures VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/trackparts VDrift/data/\nmkdir VDrift/data/cars\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/350Z VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/360 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/ATT VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/CO VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/CS VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/F1-02 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/G4 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/LE VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/M7 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/MC VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/MI VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/SV VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/T73 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/TC6 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/TL2 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/XS VDrift/data/cars/\nmkdir VDrift/data/tracks\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/bahrain VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/estoril88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/jerez88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/lemans VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/monaco88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/monza88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/paulricard88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/rouen VDrift/data/tracks/\nfind VDrift/ -type f -name SConscript -exec rm {} ';'\nfind VDrift/ -type f -name \\.DS_Store -exec rm -f {} ';'\nfind -d VDrift/ -type d -name \\.svn -exec rm -rf {} ';'\n\n#Finally make a disk image out of the stuff.\nhdiutil create -srcfolder VDrift vdrift-mac-yyyy-mm-dd.dmg\nhdiutil internet-enable -yes vdrift-mac-yyyy-mm-dd.dmg\n\n#Cleanup.\nrm -r VDrift";
 		};
 /* End PBXShellScriptBuildPhase section */
 
