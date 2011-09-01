@@ -11,7 +11,7 @@
 	<key>CFBundleExecutable</key>
 	<string>VDrift</string>
 	<key>CFBundleIconFile</key>
-	<string>vdrift.icns</string>
+	<string>icon.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.vdrift-team.vdrift</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -26,12 +26,10 @@
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
 	<array/>
-	<key>CFBundleVersion</key>
-	<string>yyyy-mm-dd</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.simulation-games</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright 2005 - 2011 VDrift-Team.</string>
+	<string>Copyright 2005 - 2011 VDrift-Team. Released under the GNU General Public License v3.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
