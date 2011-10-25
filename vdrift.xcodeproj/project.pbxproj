@@ -1334,7 +1334,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "VDrift Team";
 			};
 			buildConfigurationList = B9ADCF750907C8EB00D55A16 /* Build configuration list for PBXProject "vdrift" */;
