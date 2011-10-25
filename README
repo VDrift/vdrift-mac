@@ -1,47 +1,123 @@
 VDrift Mac OS X build dependencies.
 
-README:
+VDrift - a car racing simulator for multiple platforms
+======================================================
 
-VDrift is a cross-platform, open source driving simulation made with drift racing in mind. The driving physics engine was recently re-written from scratch but was inspired and owes much to the Vamos physics engine. It is released under the GNU General Public License (GPL) v3. It is currently available for Linux, Mac OS X and Windows. 
-Project's Homepage: http://vdrift.net/
-Documentation: http://wiki.vdrift.net/Main_Page
-Source repositories: https://github.com/VDrift
-Data repository: http://sourceforge.net/projects/vdrift/
+VDrift is a cross-platform, open source driving simulation made with drift
+racing in mind. The driving physics engine was recently re-written from scratch
+but was inspired and owes much to the Vamos physics engine. It is released under
+the GNU General Public License (GPL) v3. It is currently available for Linux,
+FreeBSD, Mac OS X and Windows.
 
+Mission Statement
+-----------------
 
-HARDWARE:
+The goals of the VDrift project are:
 
-VDrift requires a relatively fast CPU. A 2 GHz or better clock speed is recommended, although it should be possible to run VDrift with a 1 GHz or better CPU.
-On a typical run, VDrift might consume 300 MiB of memory space. 512 MiB of memory may be sufficient on some operating systems. 1 GiB or more is recommended, and required for larger tracks.
-VDrift requires a recent nVidia or ATI graphics card. A nVidia GeForce 7-series or better (or the equivalent ATI card) is recommended in order to enable all the visual effects. By reducing or disabling some of the display options, it should be possible to play VDrift with a nVidia GeForce 2 or better. Users should install the newest version of the device drivers for their graphics card to run VDrift. Intel graphics cards are not supported.
+- to be a high-quality, open source racing simulation featuring enjoyable and
+  challenging gameplay;
+- to take advantage of modern computing hardware to accurately simulate vehicle
+  physics in rich and immersive racing environments; and
+- to provide a platform for creative experimentation to a community of
+  developers and artists.
 
+Hardware Requirements
+=====================
 
-PREREQUISITES:
+CPU
+---
 
-- The VDrift Mac OS X project requires Xcode 3.2 or later. The latest version, Xcode 4.1 is free on the Mac App Store.
-- Get the VDrift source code, either from the latest source release on the VDrift downloads page, or the development version. You'll need the source code and the Mac OS X dependencies.
-For downloading the source code from the repository execute the following in a terminal:
-git clone https://github.com/VDrift/vdrift.git
-cd vdrift
-git clone https://github.com/VDrift/vdrift-mac.git
+VDrift requires a relatively fast CPU. A 2 GHz or better clock speed is
+recommended, although it should be possible to run VDrift with a 1 GHz or better
+CPU.
 
-BUILDING:
+GPU
+---
 
-Open tools/osx/vdrift.xcodeproj and in Xcode 4 or higher click "Build" in the "Product" menu, otherwise hit "Build" from XCode's "Build" menu.
+VDrift requires a recent nVidia or ATI graphics card. Some Intel graphics cards may work with recent drivers.
 
+A nVidia GeForce 7-series or ATI Radeon X1000-Series card is recommended in
+order to enable all the visual effects. By reducing or disabling some of the
+display options, it should be possible to play VDrift with a nVidia GeForce 2 or
+better.
 
-ERROR FIXING:
+HDD
+---
+
+VDrift takes up quite some harddisk space. The VDrift Data alone is about 1.6 GB
+in size and you will need to check it out, first and install it afterwards. So
+be prepared for handling some 3 - 5 GB.
+
+RAM
+---
+
+VDrift consumes 300 MiB of memory space on a typical run. 512 MiB of
+memory may be sufficient on some operating systems. 1 GiB or more is
+recommended and required for larger tracks.
+
+See also
+--------
+
+- http://wiki.VDrift.net/Hardware_requirements
+
+Dependencies
+============
+
+Downloading Dependencies on Mac OS
+----------------------------------
+
+Download the dependencies for Mac OS:
+
+- Mac OS: `git clone https://github.com/VDrift/VDrift-mac.git`
+
+See also
+--------
+
+- http://wiki.VDrift.net/Software_requirements
+
+Downloading VDrift
+==================
+
+For downloading the source code from the repository execute
+
+    git clone https://github.com/VDrift/VDrift.git VDrift
+
+Downloading VDrift Data
+-----------------------
+
+VDrift Data is expected to reside in a folder called data in the root of VDrift,
+so change your directory to the root of the sources:
+
+    cd VDrift
+
+Currently the VDrift Data is still hosted at Sourceforge, so to getting it
+requires checking out the repository with subversion:
+
+    svn checkout https://vdrift.svn.sourceforge.net/svnroot/vdrift/vdrift-data data
+
+See also
+--------
+
+- http://wiki.VDrift.net/Getting_the_latest_release
+- [http://wiki.VDrift.net/Getting_the_development_version
+
+Compiling VDrift
+================
+
+- The VDrift Mac OS X project requires Xcode 3.2 or later. The latest version, Xcode 4.2 is free on the Mac App Store.
+- Open tools/osx/vdrift.xcodeproj and in Xcode 4 or higher click "Build" in the "Product" menu, otherwise hit "Build" from XCode's "Build" menu.
+
+Error Fixing
+============
 
 If when building, you get some errors, it is most likely because the Xcode project is out of date (it often is as we don't have an active Mac OS X developer). To fix it:
 - Remove files from Xcode that are in the project but not in the repository anymore.
 - Add new files to Xcode that are in the repository, but have not yet been added to the project.
 
+Everything further
+==================
 
-EXPERIMENTAL - PREMAKE:
+For configuring, running and extending the game, for playing, contributing and
+developing please search the wiki for an article on your topic:
 
-To build VDrift with premake, you first need to download and install premake4. Then make sure you have downloaded the source code and the vdrift-mac dependancies package. In a terminal use the command:
-premake4 xcode3
-to generate an Xcode project which you can use to build VDrift, as before. For more options you can use
-premake4 --help
-
-IMPORTANT: To make the project build, you need to add "vdrift-mac/Frameworks" to Framework Search Paths in Build Settings.
+- http://wiki.VDrift.net/Main_Page
