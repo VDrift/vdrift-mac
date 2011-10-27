@@ -10,6 +10,16 @@
 		B937D144091BC36000EF8096 /* config_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B937D143091BC36000EF8096 /* config_mac.mm */; };
 		B9ADD11A0907CF9C00D55A16 /* SDLMain.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A47A9D01A0482F01D3D55B /* SDLMain.h */; };
 		B9ADD1680907CF9C00D55A16 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A47A9E01A0483001D3D55B /* SDLMain.m */; };
+		F5148CC61443937A00A4208C /* gl.h in Headers */ = {isa = PBXBuildFile; fileRef = F5148CC51443937A00A4208C /* gl.h */; };
+		F5148CC81443938100A4208C /* glew.h in Headers */ = {isa = PBXBuildFile; fileRef = F5148CC71443938100A4208C /* glew.h */; };
+		F5148CE91443995200A4208C /* cardifferential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CE81443995200A4208C /* cardifferential.cpp */; };
+		F5148CEC1443998600A4208C /* glenums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CEB1443998600A4208C /* glenums.cpp */; };
+		F5148CEE1443999300A4208C /* rendermodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CED1443999300A4208C /* rendermodel.cpp */; };
+		F5148CF01443999E00A4208C /* rendermodelext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CEF1443999E00A4208C /* rendermodelext.cpp */; };
+		F5148CF2144399B200A4208C /* rendertextureentry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CF1144399B200A4208C /* rendertextureentry.cpp */; };
+		F5148CF4144399BB00A4208C /* renderuniform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CF3144399BB00A4208C /* renderuniform.cpp */; };
+		F5148CF6144399C200A4208C /* renderuniformentry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CF5144399C200A4208C /* renderuniformentry.cpp */; };
+		F5148CF8144399C900A4208C /* stringidmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CF7144399C900A4208C /* stringidmap.cpp */; };
 		F59A4B23140FEE6A0047591F /* contentmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F59A4B21140FEE6A0047591F /* contentmanager.cpp */; };
 		F59A4B24140FEE6A0047591F /* contentmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = F59A4B22140FEE6A0047591F /* contentmanager.h */; };
 		F5A667AD13FC3E7900EBE432 /* aabb_space_partitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6668213FC3E7800EBE432 /* aabb_space_partitioning.cpp */; };
@@ -377,6 +387,16 @@
 		B9653A8C091E84FE00006133 /* ReadMe.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
 		B9ADD1AF0907CF9D00D55A16 /* VDrift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DE32B309A4FC81003B34CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		F5148CC51443937A00A4208C /* gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gl.h; sourceTree = "<group>"; };
+		F5148CC71443938100A4208C /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		F5148CE81443995200A4208C /* cardifferential.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cardifferential.cpp; sourceTree = "<group>"; };
+		F5148CEB1443998600A4208C /* glenums.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glenums.cpp; sourceTree = "<group>"; };
+		F5148CED1443999300A4208C /* rendermodel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rendermodel.cpp; sourceTree = "<group>"; };
+		F5148CEF1443999E00A4208C /* rendermodelext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rendermodelext.cpp; sourceTree = "<group>"; };
+		F5148CF1144399B200A4208C /* rendertextureentry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rendertextureentry.cpp; sourceTree = "<group>"; };
+		F5148CF3144399BB00A4208C /* renderuniform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderuniform.cpp; sourceTree = "<group>"; };
+		F5148CF5144399C200A4208C /* renderuniformentry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderuniformentry.cpp; sourceTree = "<group>"; };
+		F5148CF7144399C900A4208C /* stringidmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stringidmap.cpp; sourceTree = "<group>"; };
 		F59A4B21140FEE6A0047591F /* contentmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = contentmanager.cpp; sourceTree = "<group>"; };
 		F59A4B22140FEE6A0047591F /* contentmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contentmanager.h; sourceTree = "<group>"; };
 		F5A47A9D01A0482F01D3D55B /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = SOURCE_ROOT; };
@@ -811,6 +831,7 @@
 				F5A666A213FC3E7800EBE432 /* carclutch.h */,
 				F5A666A313FC3E7800EBE432 /* carcontrolmap_local.cpp */,
 				F5A666A413FC3E7800EBE432 /* carcontrolmap_local.h */,
+				F5148CE81443995200A4208C /* cardifferential.cpp */,
 				F5A666A513FC3E7800EBE432 /* cardifferential.h */,
 				F5A666A613FC3E7800EBE432 /* cardynamics.cpp */,
 				F5A666A713FC3E7800EBE432 /* cardynamics.h */,
@@ -866,7 +887,9 @@
 				F5A666DC13FC3E7800EBE432 /* game_downloader.h */,
 				F5A666DD13FC3E7800EBE432 /* game.cpp */,
 				F5A666DE13FC3E7800EBE432 /* game.h */,
+				F5148CC51443937A00A4208C /* gl.h */,
 				F5A666DF13FC3E7800EBE432 /* gl3v */,
+				F5148CC71443938100A4208C /* glew.h */,
 				F5A666FB13FC3E7800EBE432 /* glstatemanager.h */,
 				F5A666FC13FC3E7800EBE432 /* graphics_config_condition.cpp */,
 				F5A666FD13FC3E7800EBE432 /* graphics_config_condition.h */,
@@ -1057,6 +1080,7 @@
 		F5A666DF13FC3E7800EBE432 /* gl3v */ = {
 			isa = PBXGroup;
 			children = (
+				F5148CEB1443998600A4208C /* glenums.cpp */,
 				F5A666E013FC3E7800EBE432 /* glenums.def */,
 				F5A666E113FC3E7800EBE432 /* glenums.h */,
 				F5A666E213FC3E7800EBE432 /* glwrapper.cpp */,
@@ -1066,8 +1090,10 @@
 				F5A666E613FC3E7800EBE432 /* renderdimensions.h */,
 				F5A666E713FC3E7800EBE432 /* renderer.cpp */,
 				F5A666E813FC3E7800EBE432 /* renderer.h */,
+				F5148CED1443999300A4208C /* rendermodel.cpp */,
 				F5A666E913FC3E7800EBE432 /* rendermodel.h */,
 				F5A666EA13FC3E7800EBE432 /* rendermodelentry.h */,
+				F5148CEF1443999E00A4208C /* rendermodelext.cpp */,
 				F5A666EB13FC3E7800EBE432 /* rendermodelext.h */,
 				F5A666EC13FC3E7800EBE432 /* renderpass.cpp */,
 				F5A666ED13FC3E7800EBE432 /* renderpass.h */,
@@ -1079,10 +1105,14 @@
 				F5A666F313FC3E7800EBE432 /* renderstate.h */,
 				F5A666F413FC3E7800EBE432 /* renderstatusverbosity.h */,
 				F5A666F513FC3E7800EBE432 /* rendertexture.h */,
+				F5148CF1144399B200A4208C /* rendertextureentry.cpp */,
 				F5A666F613FC3E7800EBE432 /* rendertextureentry.h */,
+				F5148CF3144399BB00A4208C /* renderuniform.cpp */,
 				F5A666F713FC3E7800EBE432 /* renderuniform.h */,
+				F5148CF5144399C200A4208C /* renderuniformentry.cpp */,
 				F5A666F813FC3E7800EBE432 /* renderuniformentry.h */,
 				F5A666F913FC3E7800EBE432 /* renderuniformvector.h */,
+				F5148CF7144399C900A4208C /* stringidmap.cpp */,
 				F5A666FA13FC3E7800EBE432 /* stringidmap.h */,
 			);
 			path = gl3v;
@@ -1268,6 +1298,8 @@
 				F5A668D213FC3E7900EBE432 /* widget_toggle.h in Headers */,
 				F5A668D313FC3E7900EBE432 /* widget.h in Headers */,
 				F5A668D513FC3E7900EBE432 /* window.h in Headers */,
+				F5148CC61443937A00A4208C /* gl.h in Headers */,
+				F5148CC81443938100A4208C /* glew.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1302,7 +1334,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "VDrift Team";
 			};
 			buildConfigurationList = B9ADCF750907C8EB00D55A16 /* Build configuration list for PBXProject "vdrift" */;
@@ -1491,6 +1523,14 @@
 				F5A668CF13FC3E7900EBE432 /* widget_stringwheel.cpp in Sources */,
 				F5A668D113FC3E7900EBE432 /* widget_toggle.cpp in Sources */,
 				F5A668D413FC3E7900EBE432 /* window.cpp in Sources */,
+				F5148CE91443995200A4208C /* cardifferential.cpp in Sources */,
+				F5148CEC1443998600A4208C /* glenums.cpp in Sources */,
+				F5148CEE1443999300A4208C /* rendermodel.cpp in Sources */,
+				F5148CF01443999E00A4208C /* rendermodelext.cpp in Sources */,
+				F5148CF2144399B200A4208C /* rendertextureentry.cpp in Sources */,
+				F5148CF4144399BB00A4208C /* renderuniform.cpp in Sources */,
+				F5148CF6144399C200A4208C /* renderuniformentry.cpp in Sources */,
+				F5148CF8144399C900A4208C /* stringidmap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
