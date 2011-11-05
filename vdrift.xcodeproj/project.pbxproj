@@ -384,7 +384,7 @@
 		ACE0A6EE13E4D8ED00524C7D /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
 		B2F67ED704C74A3F00A80002 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		B937D143091BC36000EF8096 /* config_mac.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = config_mac.mm; sourceTree = "<group>"; };
-		B9653A8C091E84FE00006133 /* ReadMe.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
+		B9653A8C091E84FE00006133 /* ReadMe.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = ReadMe.rtfd; sourceTree = "<group>"; };
 		B9ADD1AF0907CF9D00D55A16 /* VDrift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DE32B309A4FC81003B34CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		F5148CC51443937A00A4208C /* gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gl.h; sourceTree = "<group>"; };
@@ -767,7 +767,7 @@
 				F5A668D613FC3EF200EBE432 /* icon.icns */,
 				F5A668D813FC3EF800EBE432 /* Info.plist */,
 				F5B8D8EA1410223800E6A7A3 /* License.rtf */,
-				B9653A8C091E84FE00006133 /* ReadMe.rtf */,
+				B9653A8C091E84FE00006133 /* ReadMe.rtfd */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
