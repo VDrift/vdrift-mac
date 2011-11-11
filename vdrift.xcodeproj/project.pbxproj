@@ -344,6 +344,7 @@
 		F5A668F913FC432900EBE432 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC873D2813C59B5E00DF9182 /* Vorbis.framework */; };
 		F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F67ED704C74A3F00A80002 /* OpenGL.framework */; };
 		F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE32B309A4FC81003B34CD /* AppKit.framework */; };
+		F5B09268146D91F500335B97 /* memory.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B09267146D91F500335B97 /* memory.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -700,6 +701,7 @@
 		F5A667AC13FC3E7900EBE432 /* window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
 		F5A668D613FC3EF200EBE432 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		F5A668D813FC3EF800EBE432 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B09267146D91F500335B97 /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
 		F5B8D8EA1410223800E6A7A3 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -951,6 +953,7 @@
 				F5A6672A13FC3E7800EBE432 /* matrix3.h */,
 				F5A6672B13FC3E7800EBE432 /* matrix4.cpp */,
 				F5A6672C13FC3E7800EBE432 /* matrix4.h */,
+				F5B09267146D91F500335B97 /* memory.h */,
 				F5A6672D13FC3E7800EBE432 /* mesh_gen.cpp */,
 				F5A6672E13FC3E7800EBE432 /* mesh_gen.h */,
 				F5A6672F13FC3E7800EBE432 /* model_joe03.cpp */,
@@ -1314,6 +1317,7 @@
 				F5148CC81443938100A4208C /* glew.h in Headers */,
 				F5491E1C14659152003903A3 /* hudbar.h in Headers */,
 				F5491E1E14659152003903A3 /* hudgauge.h in Headers */,
+				F5B09268146D91F500335B97 /* memory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
