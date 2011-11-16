@@ -20,6 +20,10 @@
 		F5148CF4144399BB00A4208C /* renderuniform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CF3144399BB00A4208C /* renderuniform.cpp */; };
 		F5148CF6144399C200A4208C /* renderuniformentry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CF5144399C200A4208C /* renderuniformentry.cpp */; };
 		F5148CF8144399C900A4208C /* stringidmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CF7144399C900A4208C /* stringidmap.cpp */; };
+		F5491E1B14659152003903A3 /* hudbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5491E1714659152003903A3 /* hudbar.cpp */; };
+		F5491E1C14659152003903A3 /* hudbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491E1814659152003903A3 /* hudbar.h */; };
+		F5491E1D14659152003903A3 /* hudgauge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5491E1914659152003903A3 /* hudgauge.cpp */; };
+		F5491E1E14659152003903A3 /* hudgauge.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491E1A14659152003903A3 /* hudgauge.h */; };
 		F59A4B23140FEE6A0047591F /* contentmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F59A4B21140FEE6A0047591F /* contentmanager.cpp */; };
 		F59A4B24140FEE6A0047591F /* contentmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = F59A4B22140FEE6A0047591F /* contentmanager.h */; };
 		F5A667AD13FC3E7900EBE432 /* aabb_space_partitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6668213FC3E7800EBE432 /* aabb_space_partitioning.cpp */; };
@@ -340,6 +344,7 @@
 		F5A668F913FC432900EBE432 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC873D2813C59B5E00DF9182 /* Vorbis.framework */; };
 		F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F67ED704C74A3F00A80002 /* OpenGL.framework */; };
 		F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE32B309A4FC81003B34CD /* AppKit.framework */; };
+		F5B09268146D91F500335B97 /* memory.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B09267146D91F500335B97 /* memory.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -397,6 +402,10 @@
 		F5148CF3144399BB00A4208C /* renderuniform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderuniform.cpp; sourceTree = "<group>"; };
 		F5148CF5144399C200A4208C /* renderuniformentry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderuniformentry.cpp; sourceTree = "<group>"; };
 		F5148CF7144399C900A4208C /* stringidmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stringidmap.cpp; sourceTree = "<group>"; };
+		F5491E1714659152003903A3 /* hudbar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hudbar.cpp; sourceTree = "<group>"; };
+		F5491E1814659152003903A3 /* hudbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hudbar.h; sourceTree = "<group>"; };
+		F5491E1914659152003903A3 /* hudgauge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hudgauge.cpp; sourceTree = "<group>"; };
+		F5491E1A14659152003903A3 /* hudgauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hudgauge.h; sourceTree = "<group>"; };
 		F59A4B21140FEE6A0047591F /* contentmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = contentmanager.cpp; sourceTree = "<group>"; };
 		F59A4B22140FEE6A0047591F /* contentmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contentmanager.h; sourceTree = "<group>"; };
 		F5A47A9D01A0482F01D3D55B /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = SOURCE_ROOT; };
@@ -692,6 +701,7 @@
 		F5A667AC13FC3E7900EBE432 /* window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
 		F5A668D613FC3EF200EBE432 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		F5A668D813FC3EF800EBE432 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B09267146D91F500335B97 /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
 		F5B8D8EA1410223800E6A7A3 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -912,6 +922,10 @@
 				F5A6670E13FC3E7800EBE432 /* http.h */,
 				F5A6670F13FC3E7800EBE432 /* hud.cpp */,
 				F5A6671013FC3E7800EBE432 /* hud.h */,
+				F5491E1714659152003903A3 /* hudbar.cpp */,
+				F5491E1814659152003903A3 /* hudbar.h */,
+				F5491E1914659152003903A3 /* hudgauge.cpp */,
+				F5491E1A14659152003903A3 /* hudgauge.h */,
 				F5A6671113FC3E7800EBE432 /* inputgraph.h */,
 				F5A6671213FC3E7800EBE432 /* joepack.cpp */,
 				F5A6671313FC3E7800EBE432 /* joepack.h */,
@@ -939,6 +953,7 @@
 				F5A6672A13FC3E7800EBE432 /* matrix3.h */,
 				F5A6672B13FC3E7800EBE432 /* matrix4.cpp */,
 				F5A6672C13FC3E7800EBE432 /* matrix4.h */,
+				F5B09267146D91F500335B97 /* memory.h */,
 				F5A6672D13FC3E7800EBE432 /* mesh_gen.cpp */,
 				F5A6672E13FC3E7800EBE432 /* mesh_gen.h */,
 				F5A6672F13FC3E7800EBE432 /* model_joe03.cpp */,
@@ -1300,6 +1315,9 @@
 				F5A668D513FC3E7900EBE432 /* window.h in Headers */,
 				F5148CC61443937A00A4208C /* gl.h in Headers */,
 				F5148CC81443938100A4208C /* glew.h in Headers */,
+				F5491E1C14659152003903A3 /* hudbar.h in Headers */,
+				F5491E1E14659152003903A3 /* hudgauge.h in Headers */,
+				F5B09268146D91F500335B97 /* memory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1531,6 +1549,8 @@
 				F5148CF4144399BB00A4208C /* renderuniform.cpp in Sources */,
 				F5148CF6144399C200A4208C /* renderuniformentry.cpp in Sources */,
 				F5148CF8144399C900A4208C /* stringidmap.cpp in Sources */,
+				F5491E1B14659152003903A3 /* hudbar.cpp in Sources */,
+				F5491E1D14659152003903A3 /* hudgauge.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
