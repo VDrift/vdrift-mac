@@ -1574,6 +1574,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_NAME = VDrift;
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -1594,6 +1595,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_NAME = VDrift;
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};
