@@ -1,35 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
-<plist version="0.9">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
 <dict>
 	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>	
-	
+	<string>6.0</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
-	
 	<key>CFBundleExecutable</key>
-	<string>curl</string>
-	
+	<string>cURL</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.libcurl.libcurl</string>
-	
+	<string>com.libcurl.cURL</string>
 	<key>CFBundleVersion</key>
-	<string>7.21.3</string>
-
+	<string>7.23.1</string>
 	<key>CFBundleName</key>
-	<string>libcurl</string>
-
+	<string>cURL</string>
 	<key>CFBundlePackageType</key>
-	<string>FMWK</string>	
-	 
+	<string>FMWK</string>
 	<key>CFBundleSignature</key>
-	<string>????</string>	
-	
+	<string>????</string>
 	<key>CFBundleShortVersionString</key>
-	<string>libcurl 7.21.3</string>
-	
+	<string>libcurl 7.23.1</string>
 	<key>CFBundleGetInfoString</key>
-	<string>libcurl.plist 7.21.3</string>
+	<string>cURL.plist 7.23.1</string>
 </dict>
 </plist>
