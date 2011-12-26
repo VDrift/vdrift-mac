@@ -1602,20 +1602,12 @@
 		B9ADD1AB0907CF9C00D55A16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/VDrift/Dev/Timo6/vdrift/vdrift-mac/Frameworks\"",
-				);
 			};
 			name = Debug;
 		};
 		B9ADD1AC0907CF9C00D55A16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/VDrift/Dev/Timo6/vdrift/vdrift-mac/Frameworks\"",
-				);
 			};
 			name = Release;
 		};
