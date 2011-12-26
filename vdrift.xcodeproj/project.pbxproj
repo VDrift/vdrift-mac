@@ -345,6 +345,8 @@
 		F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F67ED704C74A3F00A80002 /* OpenGL.framework */; };
 		F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE32B309A4FC81003B34CD /* AppKit.framework */; };
 		F5B09268146D91F500335B97 /* memory.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B09267146D91F500335B97 /* memory.h */; };
+		F5F16E5D14A8A0AA00268D63 /* dynamicsdraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F16E5B14A8A0AA00268D63 /* dynamicsdraw.cpp */; };
+		F5F16E5E14A8A0AA00268D63 /* dynamicsdraw.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F16E5C14A8A0AA00268D63 /* dynamicsdraw.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -703,6 +705,8 @@
 		F5A668D813FC3EF800EBE432 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B09267146D91F500335B97 /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
 		F5B8D8EA1410223800E6A7A3 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
+		F5F16E5B14A8A0AA00268D63 /* dynamicsdraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dynamicsdraw.cpp; sourceTree = "<group>"; };
+		F5F16E5C14A8A0AA00268D63 /* dynamicsdraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dynamicsdraw.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -876,6 +880,8 @@
 				F5A666C713FC3E7800EBE432 /* drawable.h */,
 				F5A666C813FC3E7800EBE432 /* drawables.def */,
 				F5A666C913FC3E7800EBE432 /* driveshaft.h */,
+				F5F16E5B14A8A0AA00268D63 /* dynamicsdraw.cpp */,
+				F5F16E5C14A8A0AA00268D63 /* dynamicsdraw.h */,
 				F5A666CA13FC3E7800EBE432 /* dynamicsworld.cpp */,
 				F5A666CB13FC3E7800EBE432 /* dynamicsworld.h */,
 				F5A666CC13FC3E7800EBE432 /* endian_utility.cpp */,
@@ -1184,6 +1190,7 @@
 				F5A667EF13FC3E7900EBE432 /* drawable_container.h in Headers */,
 				F5A667F113FC3E7900EBE432 /* drawable.h in Headers */,
 				F5A667F313FC3E7900EBE432 /* driveshaft.h in Headers */,
+				F5F16E5E14A8A0AA00268D63 /* dynamicsdraw.h in Headers */,
 				F5A667F513FC3E7900EBE432 /* dynamicsworld.h in Headers */,
 				F5A667F713FC3E7900EBE432 /* endian_utility.h in Headers */,
 				F5A667F813FC3E7900EBE432 /* enginesoundinfo.h in Headers */,
@@ -1216,6 +1223,8 @@
 				F5A6682113FC3E7900EBE432 /* renderuniformentry.h in Headers */,
 				F5A6682213FC3E7900EBE432 /* renderuniformvector.h in Headers */,
 				F5A6682313FC3E7900EBE432 /* stringidmap.h in Headers */,
+				F5148CC61443937A00A4208C /* gl.h in Headers */,
+				F5148CC81443938100A4208C /* glew.h in Headers */,
 				F5A6682413FC3E7900EBE432 /* glstatemanager.h in Headers */,
 				F5A6682613FC3E7900EBE432 /* graphics_config_condition.h in Headers */,
 				F5A6682813FC3E7900EBE432 /* graphics_config.h in Headers */,
@@ -1228,6 +1237,8 @@
 				F5A6683513FC3E7900EBE432 /* guipage.h in Headers */,
 				F5A6683713FC3E7900EBE432 /* http.h in Headers */,
 				F5A6683913FC3E7900EBE432 /* hud.h in Headers */,
+				F5491E1C14659152003903A3 /* hudbar.h in Headers */,
+				F5491E1E14659152003903A3 /* hudgauge.h in Headers */,
 				F5A6683A13FC3E7900EBE432 /* inputgraph.h in Headers */,
 				F5A6683C13FC3E7900EBE432 /* joepack.h in Headers */,
 				F5A6683E13FC3E7900EBE432 /* joeserialize.h in Headers */,
@@ -1243,6 +1254,7 @@
 				F5A6685213FC3E7900EBE432 /* mathvector.h in Headers */,
 				F5A6685313FC3E7900EBE432 /* matrix3.h in Headers */,
 				F5A6685513FC3E7900EBE432 /* matrix4.h in Headers */,
+				F5B09268146D91F500335B97 /* memory.h in Headers */,
 				F5A6685713FC3E7900EBE432 /* mesh_gen.h in Headers */,
 				F5A6685913FC3E7900EBE432 /* model_joe03.h in Headers */,
 				F5A6685B13FC3E7900EBE432 /* model_obj.h in Headers */,
@@ -1313,11 +1325,6 @@
 				F5A668D213FC3E7900EBE432 /* widget_toggle.h in Headers */,
 				F5A668D313FC3E7900EBE432 /* widget.h in Headers */,
 				F5A668D513FC3E7900EBE432 /* window.h in Headers */,
-				F5148CC61443937A00A4208C /* gl.h in Headers */,
-				F5148CC81443938100A4208C /* glew.h in Headers */,
-				F5491E1C14659152003903A3 /* hudbar.h in Headers */,
-				F5491E1E14659152003903A3 /* hudgauge.h in Headers */,
-				F5B09268146D91F500335B97 /* memory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1439,6 +1446,7 @@
 				F5A667C613FC3E7900EBE432 /* camera_system.cpp in Sources */,
 				F5A667C913FC3E7900EBE432 /* car.cpp in Sources */,
 				F5A667CE13FC3E7900EBE432 /* carcontrolmap_local.cpp in Sources */,
+				F5148CE91443995200A4208C /* cardifferential.cpp in Sources */,
 				F5A667D113FC3E7900EBE432 /* cardynamics.cpp in Sources */,
 				F5A667D313FC3E7900EBE432 /* carengine.cpp in Sources */,
 				F5A667D713FC3E7900EBE432 /* carsuspension.cpp in Sources */,
@@ -1453,6 +1461,7 @@
 				F5A667EA13FC3E7900EBE432 /* crashdetection.cpp in Sources */,
 				F5A667ED13FC3E7900EBE432 /* downloadable.cpp in Sources */,
 				F5A667F013FC3E7900EBE432 /* drawable.cpp in Sources */,
+				F5F16E5D14A8A0AA00268D63 /* dynamicsdraw.cpp in Sources */,
 				F5A667F413FC3E7900EBE432 /* dynamicsworld.cpp in Sources */,
 				F5A667F613FC3E7900EBE432 /* endian_utility.cpp in Sources */,
 				F5A667F913FC3E7900EBE432 /* eventsystem.cpp in Sources */,
@@ -1462,12 +1471,19 @@
 				F5A6680113FC3E7900EBE432 /* forcefeedback.cpp in Sources */,
 				F5A6680313FC3E7900EBE432 /* fracturebody.cpp in Sources */,
 				F5A6680713FC3E7900EBE432 /* game.cpp in Sources */,
+				F5148CEC1443998600A4208C /* glenums.cpp in Sources */,
 				F5A6680B13FC3E7900EBE432 /* glwrapper.cpp in Sources */,
 				F5A6680E13FC3E7900EBE432 /* renderdimensions.cpp in Sources */,
 				F5A6681013FC3E7900EBE432 /* renderer.cpp in Sources */,
+				F5148CEE1443999300A4208C /* rendermodel.cpp in Sources */,
+				F5148CF01443999E00A4208C /* rendermodelext.cpp in Sources */,
 				F5A6681513FC3E7900EBE432 /* renderpass.cpp in Sources */,
 				F5A6681813FC3E7900EBE432 /* rendersampler.cpp in Sources */,
 				F5A6681B13FC3E7900EBE432 /* renderstate.cpp in Sources */,
+				F5148CF2144399B200A4208C /* rendertextureentry.cpp in Sources */,
+				F5148CF4144399BB00A4208C /* renderuniform.cpp in Sources */,
+				F5148CF6144399C200A4208C /* renderuniformentry.cpp in Sources */,
+				F5148CF8144399C900A4208C /* stringidmap.cpp in Sources */,
 				F5A6682513FC3E7900EBE432 /* graphics_config_condition.cpp in Sources */,
 				F5A6682713FC3E7900EBE432 /* graphics_config.cpp in Sources */,
 				F5A6682913FC3E7900EBE432 /* graphics_fallback.cpp in Sources */,
@@ -1478,6 +1494,8 @@
 				F5A6683413FC3E7900EBE432 /* guipage.cpp in Sources */,
 				F5A6683613FC3E7900EBE432 /* http.cpp in Sources */,
 				F5A6683813FC3E7900EBE432 /* hud.cpp in Sources */,
+				F5491E1B14659152003903A3 /* hudbar.cpp in Sources */,
+				F5491E1D14659152003903A3 /* hudgauge.cpp in Sources */,
 				F5A6683B13FC3E7900EBE432 /* joepack.cpp in Sources */,
 				F5A6683D13FC3E7900EBE432 /* joeserialize.cpp in Sources */,
 				F5A6683F13FC3E7900EBE432 /* k1999.cpp in Sources */,
@@ -1541,16 +1559,6 @@
 				F5A668CF13FC3E7900EBE432 /* widget_stringwheel.cpp in Sources */,
 				F5A668D113FC3E7900EBE432 /* widget_toggle.cpp in Sources */,
 				F5A668D413FC3E7900EBE432 /* window.cpp in Sources */,
-				F5148CE91443995200A4208C /* cardifferential.cpp in Sources */,
-				F5148CEC1443998600A4208C /* glenums.cpp in Sources */,
-				F5148CEE1443999300A4208C /* rendermodel.cpp in Sources */,
-				F5148CF01443999E00A4208C /* rendermodelext.cpp in Sources */,
-				F5148CF2144399B200A4208C /* rendertextureentry.cpp in Sources */,
-				F5148CF4144399BB00A4208C /* renderuniform.cpp in Sources */,
-				F5148CF6144399C200A4208C /* renderuniformentry.cpp in Sources */,
-				F5148CF8144399C900A4208C /* stringidmap.cpp in Sources */,
-				F5491E1B14659152003903A3 /* hudbar.cpp in Sources */,
-				F5491E1D14659152003903A3 /* hudgauge.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1569,6 +1577,16 @@
 					Frameworks/Archive.framework/Headers,
 					Frameworks/BulletCollision.framework/Headers,
 					Frameworks/BulletDynamics.framework/Headers,
+					Frameworks/BulletSoftBody.framework/Headers,
+					Frameworks/GLEW.framework/Headers,
+					Frameworks/libcurl.framework/Headers,
+					Frameworks/LinearMath.framework/Headers,
+					Frameworks/Ogg.framework/Headers,
+					Frameworks/SDL_gfx.framework/Headers,
+					Frameworks/SDL_image.framework/Headers,
+					Frameworks/SDL_net.framework/Headers,
+					Frameworks/SDL.framework/Headers,
+					Frameworks/Vorbis.framework/Headers,
 				);
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -1590,6 +1608,16 @@
 					Frameworks/Archive.framework/Headers,
 					Frameworks/BulletCollision.framework/Headers,
 					Frameworks/BulletDynamics.framework/Headers,
+					Frameworks/BulletSoftBody.framework/Headers,
+					Frameworks/GLEW.framework/Headers,
+					Frameworks/libcurl.framework/Headers,
+					Frameworks/LinearMath.framework/Headers,
+					Frameworks/Ogg.framework/Headers,
+					Frameworks/SDL_gfx.framework/Headers,
+					Frameworks/SDL_image.framework/Headers,
+					Frameworks/SDL_net.framework/Headers,
+					Frameworks/SDL.framework/Headers,
+					Frameworks/Vorbis.framework/Headers,
 				);
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
