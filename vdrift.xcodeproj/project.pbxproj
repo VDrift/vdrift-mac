@@ -769,8 +769,8 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				080E96DDFE201D6D7F000001 /* Mac */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				B97D75FF12AA720D0042C221 /* Source */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				B97D75FF12AA720D0042C221 /* Source */,
 			);
 			name = vdrift;
 			sourceTree = "<group>";
@@ -1569,7 +1569,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = Frameworks;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
 					.,
@@ -1600,7 +1600,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = Frameworks;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
 					.,
