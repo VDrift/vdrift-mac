@@ -1568,7 +1568,6 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = Frameworks;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
 					.,
 					../src,
@@ -1586,7 +1585,9 @@
 					Frameworks/SDL.framework/Headers,
 					Frameworks/Vorbis.framework/Headers,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = VDrift;
 			};
 			name = Debug;
 		};
@@ -1595,7 +1596,6 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = Frameworks;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
 					.,
 					../src,
@@ -1613,23 +1613,21 @@
 					Frameworks/SDL.framework/Headers,
 					Frameworks/Vorbis.framework/Headers,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = VDrift;
 			};
 			name = Release;
 		};
 		B9ADD1AB0907CF9C00D55A16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = VDrift;
 			};
 			name = Debug;
 		};
 		B9ADD1AC0907CF9C00D55A16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = VDrift;
 			};
 			name = Release;
 		};
