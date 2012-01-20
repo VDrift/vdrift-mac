@@ -24,6 +24,32 @@
 		F5491E1C14659152003903A3 /* hudbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491E1814659152003903A3 /* hudbar.h */; };
 		F5491E1D14659152003903A3 /* hudgauge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5491E1914659152003903A3 /* hudgauge.cpp */; };
 		F5491E1E14659152003903A3 /* hudgauge.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491E1A14659152003903A3 /* hudgauge.h */; };
+		F582B6B514C9CEF30017D8DF /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582B6A814C9CEF30017D8DF /* Archive.framework */; };
+		F582B6B614C9CEF40017D8DF /* BulletCollision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582B6A914C9CEF30017D8DF /* BulletCollision.framework */; };
+		F582B6B714C9CEF40017D8DF /* BulletDynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582B6AA14C9CEF30017D8DF /* BulletDynamics.framework */; };
+		F582B6B814C9CEF40017D8DF /* BulletSoftBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582B6AB14C9CEF30017D8DF /* BulletSoftBody.framework */; };
+		F582B6B914C9CEF40017D8DF /* GLEW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582B6AC14C9CEF30017D8DF /* GLEW.framework */; };
+		F582B6BA14C9CEF40017D8DF /* libcurl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582B6AD14C9CEF30017D8DF /* libcurl.framework */; };
+		F582B6BB14C9CEF40017D8DF /* LinearMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582B6AE14C9CEF30017D8DF /* LinearMath.framework */; };
+		F582B6BC14C9CEF40017D8DF /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582B6AF14C9CEF30017D8DF /* Ogg.framework */; };
+		F582B6BD14C9CEF40017D8DF /* SDL_gfx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582B6B014C9CEF30017D8DF /* SDL_gfx.framework */; };
+		F582B6BE14C9CEF40017D8DF /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582B6B114C9CEF30017D8DF /* SDL_image.framework */; };
+		F582B6BF14C9CEF40017D8DF /* SDL_net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582B6B214C9CEF30017D8DF /* SDL_net.framework */; };
+		F582B6C014C9CEF40017D8DF /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582B6B314C9CEF30017D8DF /* SDL.framework */; };
+		F582B6C114C9CEF40017D8DF /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582B6B414C9CEF30017D8DF /* Vorbis.framework */; };
+		F582B6C214C9CEFC0017D8DF /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F582B6A814C9CEF30017D8DF /* Archive.framework */; };
+		F582B6C314C9CEFC0017D8DF /* BulletCollision.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F582B6A914C9CEF30017D8DF /* BulletCollision.framework */; };
+		F582B6C414C9CEFC0017D8DF /* BulletDynamics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F582B6AA14C9CEF30017D8DF /* BulletDynamics.framework */; };
+		F582B6C514C9CEFC0017D8DF /* BulletSoftBody.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F582B6AB14C9CEF30017D8DF /* BulletSoftBody.framework */; };
+		F582B6C614C9CEFC0017D8DF /* GLEW.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F582B6AC14C9CEF30017D8DF /* GLEW.framework */; };
+		F582B6C714C9CEFC0017D8DF /* libcurl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F582B6AD14C9CEF30017D8DF /* libcurl.framework */; };
+		F582B6C814C9CEFC0017D8DF /* LinearMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F582B6AE14C9CEF30017D8DF /* LinearMath.framework */; };
+		F582B6C914C9CEFC0017D8DF /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F582B6AF14C9CEF30017D8DF /* Ogg.framework */; };
+		F582B6CA14C9CEFC0017D8DF /* SDL_gfx.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F582B6B014C9CEF30017D8DF /* SDL_gfx.framework */; };
+		F582B6CB14C9CEFC0017D8DF /* SDL_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F582B6B114C9CEF30017D8DF /* SDL_image.framework */; };
+		F582B6CC14C9CEFC0017D8DF /* SDL_net.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F582B6B214C9CEF30017D8DF /* SDL_net.framework */; };
+		F582B6CD14C9CEFC0017D8DF /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F582B6B314C9CEF30017D8DF /* SDL.framework */; };
+		F582B6CE14C9CEFC0017D8DF /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F582B6B414C9CEF30017D8DF /* Vorbis.framework */; };
 		F59A4B23140FEE6A0047591F /* contentmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F59A4B21140FEE6A0047591F /* contentmanager.cpp */; };
 		F59A4B24140FEE6A0047591F /* contentmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = F59A4B22140FEE6A0047591F /* contentmanager.h */; };
 		F5A667AD13FC3E7900EBE432 /* aabb_space_partitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6668213FC3E7800EBE432 /* aabb_space_partitioning.cpp */; };
@@ -316,32 +342,6 @@
 		F5A668D413FC3E7900EBE432 /* window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A667AB13FC3E7900EBE432 /* window.cpp */; };
 		F5A668D513FC3E7900EBE432 /* window.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A667AC13FC3E7900EBE432 /* window.h */; };
 		F5A668D713FC3EF200EBE432 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5A668D613FC3EF200EBE432 /* icon.icns */; };
-		F5A668E013FC431F00EBE432 /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACE0A6EE13E4D8ED00524C7D /* Archive.framework */; };
-		F5A668E113FC431F00EBE432 /* LinearMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC67047A13CCD8E200B6B360 /* LinearMath.framework */; };
-		F5A668E213FC431F00EBE432 /* BulletCollision.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC67047413CCD8D800B6B360 /* BulletCollision.framework */; };
-		F5A668E313FC431F00EBE432 /* BulletDynamics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC67047513CCD8D800B6B360 /* BulletDynamics.framework */; };
-		F5A668E413FC431F00EBE432 /* BulletSoftBody.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC67047613CCD8D800B6B360 /* BulletSoftBody.framework */; };
-		F5A668E513FC431F00EBE432 /* GLEW.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC873D2013C59B5E00DF9182 /* GLEW.framework */; };
-		F5A668E613FC431F00EBE432 /* libcurl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC873D2113C59B5E00DF9182 /* libcurl.framework */; };
-		F5A668E713FC431F00EBE432 /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC873D2313C59B5E00DF9182 /* Ogg.framework */; };
-		F5A668E813FC431F00EBE432 /* SDL_gfx.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC873D2413C59B5E00DF9182 /* SDL_gfx.framework */; };
-		F5A668E913FC431F00EBE432 /* SDL_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC873D2513C59B5E00DF9182 /* SDL_image.framework */; };
-		F5A668EA13FC431F00EBE432 /* SDL_net.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC873D2613C59B5E00DF9182 /* SDL_net.framework */; };
-		F5A668EB13FC431F00EBE432 /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC873D2713C59B5E00DF9182 /* SDL.framework */; };
-		F5A668EC13FC431F00EBE432 /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC873D2813C59B5E00DF9182 /* Vorbis.framework */; };
-		F5A668ED13FC432900EBE432 /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE0A6EE13E4D8ED00524C7D /* Archive.framework */; };
-		F5A668EE13FC432900EBE432 /* LinearMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC67047A13CCD8E200B6B360 /* LinearMath.framework */; };
-		F5A668EF13FC432900EBE432 /* BulletCollision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC67047413CCD8D800B6B360 /* BulletCollision.framework */; };
-		F5A668F013FC432900EBE432 /* BulletDynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC67047513CCD8D800B6B360 /* BulletDynamics.framework */; };
-		F5A668F113FC432900EBE432 /* BulletSoftBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC67047613CCD8D800B6B360 /* BulletSoftBody.framework */; };
-		F5A668F213FC432900EBE432 /* GLEW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC873D2013C59B5E00DF9182 /* GLEW.framework */; };
-		F5A668F313FC432900EBE432 /* libcurl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC873D2113C59B5E00DF9182 /* libcurl.framework */; };
-		F5A668F413FC432900EBE432 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC873D2313C59B5E00DF9182 /* Ogg.framework */; };
-		F5A668F513FC432900EBE432 /* SDL_gfx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC873D2413C59B5E00DF9182 /* SDL_gfx.framework */; };
-		F5A668F613FC432900EBE432 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC873D2513C59B5E00DF9182 /* SDL_image.framework */; };
-		F5A668F713FC432900EBE432 /* SDL_net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC873D2613C59B5E00DF9182 /* SDL_net.framework */; };
-		F5A668F813FC432900EBE432 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC873D2713C59B5E00DF9182 /* SDL.framework */; };
-		F5A668F913FC432900EBE432 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC873D2813C59B5E00DF9182 /* Vorbis.framework */; };
 		F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F67ED704C74A3F00A80002 /* OpenGL.framework */; };
 		F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE32B309A4FC81003B34CD /* AppKit.framework */; };
 		F5B09268146D91F500335B97 /* memory.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B09267146D91F500335B97 /* memory.h */; };
@@ -356,19 +356,19 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F5A668E013FC431F00EBE432 /* Archive.framework in CopyFiles */,
-				F5A668E113FC431F00EBE432 /* LinearMath.framework in CopyFiles */,
-				F5A668E213FC431F00EBE432 /* BulletCollision.framework in CopyFiles */,
-				F5A668E313FC431F00EBE432 /* BulletDynamics.framework in CopyFiles */,
-				F5A668E413FC431F00EBE432 /* BulletSoftBody.framework in CopyFiles */,
-				F5A668E513FC431F00EBE432 /* GLEW.framework in CopyFiles */,
-				F5A668E613FC431F00EBE432 /* libcurl.framework in CopyFiles */,
-				F5A668E713FC431F00EBE432 /* Ogg.framework in CopyFiles */,
-				F5A668E813FC431F00EBE432 /* SDL_gfx.framework in CopyFiles */,
-				F5A668E913FC431F00EBE432 /* SDL_image.framework in CopyFiles */,
-				F5A668EA13FC431F00EBE432 /* SDL_net.framework in CopyFiles */,
-				F5A668EB13FC431F00EBE432 /* SDL.framework in CopyFiles */,
-				F5A668EC13FC431F00EBE432 /* Vorbis.framework in CopyFiles */,
+				F582B6C214C9CEFC0017D8DF /* Archive.framework in CopyFiles */,
+				F582B6C314C9CEFC0017D8DF /* BulletCollision.framework in CopyFiles */,
+				F582B6C414C9CEFC0017D8DF /* BulletDynamics.framework in CopyFiles */,
+				F582B6C514C9CEFC0017D8DF /* BulletSoftBody.framework in CopyFiles */,
+				F582B6C614C9CEFC0017D8DF /* GLEW.framework in CopyFiles */,
+				F582B6C714C9CEFC0017D8DF /* libcurl.framework in CopyFiles */,
+				F582B6C814C9CEFC0017D8DF /* LinearMath.framework in CopyFiles */,
+				F582B6C914C9CEFC0017D8DF /* Ogg.framework in CopyFiles */,
+				F582B6CA14C9CEFC0017D8DF /* SDL_gfx.framework in CopyFiles */,
+				F582B6CB14C9CEFC0017D8DF /* SDL_image.framework in CopyFiles */,
+				F582B6CC14C9CEFC0017D8DF /* SDL_net.framework in CopyFiles */,
+				F582B6CD14C9CEFC0017D8DF /* SDL.framework in CopyFiles */,
+				F582B6CE14C9CEFC0017D8DF /* Vorbis.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,19 +376,6 @@
 
 /* Begin PBXFileReference section */
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		AC67047413CCD8D800B6B360 /* BulletCollision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletCollision.framework; path = Frameworks/BulletCollision.framework; sourceTree = "<group>"; };
-		AC67047513CCD8D800B6B360 /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = Frameworks/BulletDynamics.framework; sourceTree = "<group>"; };
-		AC67047613CCD8D800B6B360 /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = Frameworks/BulletSoftBody.framework; sourceTree = "<group>"; };
-		AC67047A13CCD8E200B6B360 /* LinearMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearMath.framework; path = Frameworks/LinearMath.framework; sourceTree = "<group>"; };
-		AC873D2013C59B5E00DF9182 /* GLEW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLEW.framework; path = Frameworks/GLEW.framework; sourceTree = "<group>"; };
-		AC873D2113C59B5E00DF9182 /* libcurl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libcurl.framework; path = Frameworks/libcurl.framework; sourceTree = "<group>"; };
-		AC873D2313C59B5E00DF9182 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
-		AC873D2413C59B5E00DF9182 /* SDL_gfx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_gfx.framework; path = Frameworks/SDL_gfx.framework; sourceTree = "<group>"; };
-		AC873D2513C59B5E00DF9182 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = Frameworks/SDL_image.framework; sourceTree = "<group>"; };
-		AC873D2613C59B5E00DF9182 /* SDL_net.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_net.framework; path = Frameworks/SDL_net.framework; sourceTree = "<group>"; };
-		AC873D2713C59B5E00DF9182 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Frameworks/SDL.framework; sourceTree = "<group>"; };
-		AC873D2813C59B5E00DF9182 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
-		ACE0A6EE13E4D8ED00524C7D /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
 		B2F67ED704C74A3F00A80002 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		B937D143091BC36000EF8096 /* config_mac.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = config_mac.mm; sourceTree = "<group>"; };
 		B9653A8C091E84FE00006133 /* ReadMe.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = ReadMe.rtfd; sourceTree = "<group>"; };
@@ -408,6 +395,19 @@
 		F5491E1814659152003903A3 /* hudbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hudbar.h; sourceTree = "<group>"; };
 		F5491E1914659152003903A3 /* hudgauge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hudgauge.cpp; sourceTree = "<group>"; };
 		F5491E1A14659152003903A3 /* hudgauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hudgauge.h; sourceTree = "<group>"; };
+		F582B6A814C9CEF30017D8DF /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
+		F582B6A914C9CEF30017D8DF /* BulletCollision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletCollision.framework; path = Frameworks/BulletCollision.framework; sourceTree = "<group>"; };
+		F582B6AA14C9CEF30017D8DF /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = Frameworks/BulletDynamics.framework; sourceTree = "<group>"; };
+		F582B6AB14C9CEF30017D8DF /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = Frameworks/BulletSoftBody.framework; sourceTree = "<group>"; };
+		F582B6AC14C9CEF30017D8DF /* GLEW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLEW.framework; path = Frameworks/GLEW.framework; sourceTree = "<group>"; };
+		F582B6AD14C9CEF30017D8DF /* libcurl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libcurl.framework; path = Frameworks/libcurl.framework; sourceTree = "<group>"; };
+		F582B6AE14C9CEF30017D8DF /* LinearMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearMath.framework; path = Frameworks/LinearMath.framework; sourceTree = "<group>"; };
+		F582B6AF14C9CEF30017D8DF /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
+		F582B6B014C9CEF30017D8DF /* SDL_gfx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_gfx.framework; path = Frameworks/SDL_gfx.framework; sourceTree = "<group>"; };
+		F582B6B114C9CEF30017D8DF /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = Frameworks/SDL_image.framework; sourceTree = "<group>"; };
+		F582B6B214C9CEF30017D8DF /* SDL_net.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_net.framework; path = Frameworks/SDL_net.framework; sourceTree = "<group>"; };
+		F582B6B314C9CEF30017D8DF /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Frameworks/SDL.framework; sourceTree = "<group>"; };
+		F582B6B414C9CEF30017D8DF /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
 		F59A4B21140FEE6A0047591F /* contentmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = contentmanager.cpp; sourceTree = "<group>"; };
 		F59A4B22140FEE6A0047591F /* contentmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contentmanager.h; sourceTree = "<group>"; };
 		F5A47A9D01A0482F01D3D55B /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = SOURCE_ROOT; };
@@ -714,21 +714,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5A668ED13FC432900EBE432 /* Archive.framework in Frameworks */,
-				F5A668EE13FC432900EBE432 /* LinearMath.framework in Frameworks */,
-				F5A668EF13FC432900EBE432 /* BulletCollision.framework in Frameworks */,
-				F5A668F013FC432900EBE432 /* BulletDynamics.framework in Frameworks */,
-				F5A668F113FC432900EBE432 /* BulletSoftBody.framework in Frameworks */,
-				F5A668F213FC432900EBE432 /* GLEW.framework in Frameworks */,
-				F5A668F313FC432900EBE432 /* libcurl.framework in Frameworks */,
-				F5A668F413FC432900EBE432 /* Ogg.framework in Frameworks */,
-				F5A668F513FC432900EBE432 /* SDL_gfx.framework in Frameworks */,
-				F5A668F613FC432900EBE432 /* SDL_image.framework in Frameworks */,
-				F5A668F713FC432900EBE432 /* SDL_net.framework in Frameworks */,
-				F5A668F813FC432900EBE432 /* SDL.framework in Frameworks */,
-				F5A668F913FC432900EBE432 /* Vorbis.framework in Frameworks */,
-				F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */,
 				F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */,
+				F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */,
+				F582B6B514C9CEF30017D8DF /* Archive.framework in Frameworks */,
+				F582B6B614C9CEF40017D8DF /* BulletCollision.framework in Frameworks */,
+				F582B6B714C9CEF40017D8DF /* BulletDynamics.framework in Frameworks */,
+				F582B6B814C9CEF40017D8DF /* BulletSoftBody.framework in Frameworks */,
+				F582B6B914C9CEF40017D8DF /* GLEW.framework in Frameworks */,
+				F582B6BA14C9CEF40017D8DF /* libcurl.framework in Frameworks */,
+				F582B6BB14C9CEF40017D8DF /* LinearMath.framework in Frameworks */,
+				F582B6BC14C9CEF40017D8DF /* Ogg.framework in Frameworks */,
+				F582B6BD14C9CEF40017D8DF /* SDL_gfx.framework in Frameworks */,
+				F582B6BE14C9CEF40017D8DF /* SDL_image.framework in Frameworks */,
+				F582B6BF14C9CEF40017D8DF /* SDL_net.framework in Frameworks */,
+				F582B6C014C9CEF40017D8DF /* SDL.framework in Frameworks */,
+				F582B6C114C9CEF40017D8DF /* Vorbis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -789,19 +789,19 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ACE0A6EE13E4D8ED00524C7D /* Archive.framework */,
-				AC67047A13CCD8E200B6B360 /* LinearMath.framework */,
-				AC67047413CCD8D800B6B360 /* BulletCollision.framework */,
-				AC67047513CCD8D800B6B360 /* BulletDynamics.framework */,
-				AC67047613CCD8D800B6B360 /* BulletSoftBody.framework */,
-				AC873D2013C59B5E00DF9182 /* GLEW.framework */,
-				AC873D2113C59B5E00DF9182 /* libcurl.framework */,
-				AC873D2313C59B5E00DF9182 /* Ogg.framework */,
-				AC873D2413C59B5E00DF9182 /* SDL_gfx.framework */,
-				AC873D2513C59B5E00DF9182 /* SDL_image.framework */,
-				AC873D2613C59B5E00DF9182 /* SDL_net.framework */,
-				AC873D2713C59B5E00DF9182 /* SDL.framework */,
-				AC873D2813C59B5E00DF9182 /* Vorbis.framework */,
+				F582B6A814C9CEF30017D8DF /* Archive.framework */,
+				F582B6A914C9CEF30017D8DF /* BulletCollision.framework */,
+				F582B6AA14C9CEF30017D8DF /* BulletDynamics.framework */,
+				F582B6AB14C9CEF30017D8DF /* BulletSoftBody.framework */,
+				F582B6AC14C9CEF30017D8DF /* GLEW.framework */,
+				F582B6AD14C9CEF30017D8DF /* libcurl.framework */,
+				F582B6AE14C9CEF30017D8DF /* LinearMath.framework */,
+				F582B6AF14C9CEF30017D8DF /* Ogg.framework */,
+				F582B6B014C9CEF30017D8DF /* SDL_gfx.framework */,
+				F582B6B114C9CEF30017D8DF /* SDL_image.framework */,
+				F582B6B214C9CEF30017D8DF /* SDL_net.framework */,
+				F582B6B314C9CEF30017D8DF /* SDL.framework */,
+				F582B6B414C9CEF30017D8DF /* Vorbis.framework */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -1420,7 +1420,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "cd $TARGET_BUILD_DIR\n\n#Make the directory which our disk image will be made of.\nmkdir VDrift\n\n#Copy vdrift there.\n/Developer/Tools/CpMac -r $TARGET_BUILD_DIR/VDrift.app VDrift/\n\n#Copy docs.\n/Developer/Tools/CpMac $SRCROOT/ReadMe.rtf VDrift/ReadMe.rtf\n/Developer/Tools/CpMac $SRCROOT/License.rtf VDrift/License.rtf\n\n#Copy data and remove unnecessary stuff.\nmkdir VDrift/data\n/Developer/Tools/CpMac -r $SRCROOT/../data/carparts VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/lists VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/music VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/settings VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/shaders VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/skins VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/textures VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/trackparts VDrift/data/\nmkdir VDrift/data/cars\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/350Z VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/360 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/ATT VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/CO VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/CS VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/F1-02 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/G4 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/LE VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/M7 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/MC VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/MI VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/SV VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/T73 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/TC6 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/TL2 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/XS VDrift/data/cars/\nmkdir VDrift/data/tracks\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/bahrain VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/estoril88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/jerez88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/lemans VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/monaco88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/monza88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/paulricard88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/rouen VDrift/data/tracks/\nfind VDrift/ -type f -name SConscript -exec rm {} ';'\nfind VDrift/ -type f -name \\.DS_Store -exec rm -f {} ';'\nfind -d VDrift/ -type d -name \\.svn -exec rm -rf {} ';'\n\n#Finally make a disk image out of the stuff.\nhdiutil create -srcfolder VDrift vdrift-mac-yyyy-mm-dd.dmg\nhdiutil internet-enable -yes vdrift-mac-yyyy-mm-dd.dmg\n\n#Cleanup.\nrm -r VDrift";
+			shellScript = "cd $TARGET_BUILD_DIR\n\n#Make the directory which our disk image will be made of.\nmkdir VDrift\n\n#Copy vdrift there.\n/Developer/Tools/CpMac -r $TARGET_BUILD_DIR/VDrift.app VDrift/\n\n#Copy docs.\n/Developer/Tools/CpMac $SRCROOT/ReadMe.rtfd VDrift/ReadMe.rtfd\n/Developer/Tools/CpMac $SRCROOT/License.rtf VDrift/License.rtf\n\n#Copy data and remove unnecessary stuff.\nmkdir VDrift/data\n/Developer/Tools/CpMac -r $SRCROOT/../data/carparts VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/lists VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/music VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/settings VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/shaders VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/skins VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/textures VDrift/data/\n/Developer/Tools/CpMac -r $SRCROOT/../data/trackparts VDrift/data/\nmkdir VDrift/data/cars\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/350Z VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/360 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/ATT VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/CO VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/CS VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/F1-02 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/G4 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/LE VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/M7 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/MC VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/MI VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/SV VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/T73 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/TC6 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/TL2 VDrift/data/cars/\n/Developer/Tools/CpMac -r $SRCROOT/../data/cars/XS VDrift/data/cars/\nmkdir VDrift/data/tracks\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/bahrain VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/estoril88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/jerez88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/lemans VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/monaco88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/monza88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/paulricard88 VDrift/data/tracks/\n/Developer/Tools/CpMac -r $SRCROOT/../data/tracks/rouen VDrift/data/tracks/\nfind VDrift/ -type f -name SConscript -exec rm {} ';'\nfind VDrift/ -type f -name \\.DS_Store -exec rm -f {} ';'\nfind -d VDrift/ -type d -name \\.svn -exec rm -rf {} ';'\n\n#Finally make a disk image out of the stuff.\nhdiutil create -srcfolder VDrift vdrift-mac-yyyy-mm-dd.dmg\nhdiutil internet-enable -yes vdrift-mac-yyyy-mm-dd.dmg\n\n#Cleanup.\nrm -r VDrift";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1569,8 +1569,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
-				GCC_OPTIMIZATION_LEVEL = 0;
+				FRAMEWORK_SEARCH_PATHS = Frameworks;
+				GCC_OPTIMIZATION_LEVEL = s;
 				HEADER_SEARCH_PATHS = (
 					.,
 					../src,
@@ -1590,9 +1590,9 @@
 				);
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = VDrift;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -1600,8 +1600,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
-				GCC_OPTIMIZATION_LEVEL = 0;
+				FRAMEWORK_SEARCH_PATHS = Frameworks;
+				GCC_OPTIMIZATION_LEVEL = s;
 				HEADER_SEARCH_PATHS = (
 					.,
 					../src,
@@ -1621,21 +1621,23 @@
 				);
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = VDrift;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 		B9ADD1AB0907CF9C00D55A16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 			};
 			name = Debug;
 		};
 		B9ADD1AC0907CF9C00D55A16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 			};
 			name = Release;
 		};
