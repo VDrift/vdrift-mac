@@ -58,14 +58,14 @@ recommended and required for larger tracks.
 See also
 --------
 
-- http://wiki.VDrift.net/Hardware_requirements
+- http://wiki.vdrift.net/Hardware_requirements
 
 Downloading VDrift
 ==================
 
 For downloading the source code from the repository execute
 
-    git clone https://github.com/VDrift/VDrift.git
+    git clone https://github.com/vdrift/vdrift.git
 
 Downloading VDrift Data
 -----------------------
@@ -83,24 +83,21 @@ requires checking out the repository with subversion:
 See also
 --------
 
-- http://wiki.VDrift.net/Getting_the_latest_release
-- [http://wiki.VDrift.net/Getting_the_development_version
+- http://wiki.vdrift.net/Getting_the_latest_release
+- http://wiki.vdrift.net/Getting_the_development_version
 
 Dependencies
 ============
 
-Downloading Dependencies on Mac OS
-----------------------------------
-
 Download the dependencies for Mac OS:
 
     cd vdrift
-    git clone https://github.com/VDrift/VDrift-mac.git
+    git clone https://github.com/vdrift/vdrift-mac.git
 
 See also
 --------
 
-- http://wiki.VDrift.net/Software_requirements
+- http://wiki.vdrift.net/Software_requirements
 
 Compiling VDrift
 ================
@@ -121,4 +118,4 @@ Everything further
 For configuring, running and extending the game, for playing, contributing and
 developing please search the wiki for an article on your topic:
 
-- http://wiki.VDrift.net/Main_Page
+- http://wiki.vdrift.net/Main_Page
