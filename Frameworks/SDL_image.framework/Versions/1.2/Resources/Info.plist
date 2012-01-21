@@ -17,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2.10</string>
+	<string>1.2.12</string>
 	<key>CFBundleVersion</key>
-	<string>1.2.10</string>
+	<string>1.2.12</string>
 	<key>DTCompiler</key>
 	<string></string>
 	<key>DTPlatformBuild</key>
@@ -27,9 +27,9 @@
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>11C74</string>
+	<string>11C63</string>
 	<key>DTSDKName</key>
-	<string></string>
+	<string>macosx10.7</string>
 	<key>DTXcode</key>
 	<string>0421</string>
 	<key>DTXcodeBuild</key>

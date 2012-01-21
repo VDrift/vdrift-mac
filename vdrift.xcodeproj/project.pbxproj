@@ -1588,6 +1588,7 @@
 				INFOPLIST_FILE = Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = VDrift;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -1616,6 +1617,7 @@
 				INFOPLIST_FILE = Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = VDrift;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
