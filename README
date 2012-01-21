@@ -60,27 +60,12 @@ See also
 
 - http://wiki.VDrift.net/Hardware_requirements
 
-Dependencies
-============
-
-Downloading Dependencies on Mac OS
-----------------------------------
-
-Download the dependencies for Mac OS:
-
-- Mac OS: `git clone https://github.com/VDrift/VDrift-mac.git`
-
-See also
---------
-
-- http://wiki.VDrift.net/Software_requirements
-
 Downloading VDrift
 ==================
 
 For downloading the source code from the repository execute
 
-    git clone https://github.com/VDrift/VDrift.git VDrift
+    git clone https://github.com/VDrift/VDrift.git
 
 Downloading VDrift Data
 -----------------------
@@ -88,7 +73,7 @@ Downloading VDrift Data
 VDrift Data is expected to reside in a folder called data in the root of VDrift,
 so change your directory to the root of the sources:
 
-    cd VDrift
+    cd vdrift
 
 Currently the VDrift Data is still hosted at Sourceforge, so to getting it
 requires checking out the repository with subversion:
@@ -101,11 +86,27 @@ See also
 - http://wiki.VDrift.net/Getting_the_latest_release
 - [http://wiki.VDrift.net/Getting_the_development_version
 
+Dependencies
+============
+
+Downloading Dependencies on Mac OS
+----------------------------------
+
+Download the dependencies for Mac OS:
+
+    cd vdrift
+    git clone https://github.com/VDrift/VDrift-mac.git
+
+See also
+--------
+
+- http://wiki.VDrift.net/Software_requirements
+
 Compiling VDrift
 ================
 
 - The VDrift Mac OS X project requires Xcode 3.2 or later. The latest version, Xcode 4.2 is free on the Mac App Store.
-- Open tools/osx/vdrift.xcodeproj and in Xcode 4 or higher click "Build" in the "Product" menu, otherwise hit "Build" from XCode's "Build" menu.
+- Open vdrift/vdrift-mac/vdrift.xcodeproj and in Xcode 4 or higher click "Build" in the "Product" menu, otherwise hit "Build" from XCode's "Build" menu.
 
 Error Fixing
 ============
