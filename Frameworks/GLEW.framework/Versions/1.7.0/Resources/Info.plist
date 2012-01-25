@@ -9,13 +9,15 @@
 	<key>CFBundleExecutable</key>
 	<string>GLEW</string>
 	<key>CFBundleIdentifier</key>
-	<string>net.sourceforge.glew</string>
+	<string>net.sourceforge.glew.GLEW</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>GLEW</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.7.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
@@ -27,12 +29,14 @@
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>11C63</string>
+	<string>11C74</string>
 	<key>DTSDKName</key>
-	<string>macosx10.7</string>
+	<string></string>
 	<key>DTXcode</key>
 	<string>0421</string>
 	<key>DTXcodeBuild</key>
 	<string>4D502</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2012. All rights reserved.</string>
 </dict>
 </plist>
