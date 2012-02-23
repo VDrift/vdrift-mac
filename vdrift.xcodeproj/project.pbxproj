@@ -20,6 +20,10 @@
 		F5148CF4144399BB00A4208C /* renderuniform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CF3144399BB00A4208C /* renderuniform.cpp */; };
 		F5148CF6144399C200A4208C /* renderuniformentry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CF5144399C200A4208C /* renderuniformentry.cpp */; };
 		F5148CF8144399C900A4208C /* stringidmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CF7144399C900A4208C /* stringidmap.cpp */; };
+		F52ADBCB14F6BBDF00D2588B /* loadcamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52ADBC714F6BBDF00D2588B /* loadcamera.cpp */; };
+		F52ADBCC14F6BBDF00D2588B /* loadcamera.h in Headers */ = {isa = PBXBuildFile; fileRef = F52ADBC814F6BBDF00D2588B /* loadcamera.h */; };
+		F52ADBCD14F6BBDF00D2588B /* loaddrawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52ADBC914F6BBDF00D2588B /* loaddrawable.cpp */; };
+		F52ADBCE14F6BBDF00D2588B /* loaddrawable.h in Headers */ = {isa = PBXBuildFile; fileRef = F52ADBCA14F6BBDF00D2588B /* loaddrawable.h */; };
 		F54744B314D1C657009F54DA /* aerodevice.h in Headers */ = {isa = PBXBuildFile; fileRef = F54744B214D1C657009F54DA /* aerodevice.h */; };
 		F5491E1B14659152003903A3 /* hudbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5491E1714659152003903A3 /* hudbar.cpp */; };
 		F5491E1C14659152003903A3 /* hudbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491E1814659152003903A3 /* hudbar.h */; };
@@ -381,6 +385,10 @@
 		F5148CF3144399BB00A4208C /* renderuniform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderuniform.cpp; sourceTree = "<group>"; };
 		F5148CF5144399C200A4208C /* renderuniformentry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderuniformentry.cpp; sourceTree = "<group>"; };
 		F5148CF7144399C900A4208C /* stringidmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stringidmap.cpp; sourceTree = "<group>"; };
+		F52ADBC714F6BBDF00D2588B /* loadcamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loadcamera.cpp; sourceTree = "<group>"; };
+		F52ADBC814F6BBDF00D2588B /* loadcamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadcamera.h; sourceTree = "<group>"; };
+		F52ADBC914F6BBDF00D2588B /* loaddrawable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loaddrawable.cpp; sourceTree = "<group>"; };
+		F52ADBCA14F6BBDF00D2588B /* loaddrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loaddrawable.h; sourceTree = "<group>"; };
 		F54744B214D1C657009F54DA /* aerodevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aerodevice.h; sourceTree = "<group>"; };
 		F5491E1714659152003903A3 /* hudbar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hudbar.cpp; sourceTree = "<group>"; };
 		F5491E1814659152003903A3 /* hudbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hudbar.h; sourceTree = "<group>"; };
@@ -919,8 +927,12 @@
 				F5A6671B13FC3E7800EBE432 /* linearframe.h */,
 				F5A6671C13FC3E7800EBE432 /* linearinterp.cpp */,
 				F5A6671D13FC3E7800EBE432 /* linearinterp.h */,
+				F52ADBC714F6BBDF00D2588B /* loadcamera.cpp */,
+				F52ADBC814F6BBDF00D2588B /* loadcamera.h */,
 				F5A6671E13FC3E7800EBE432 /* loadcollisionshape.cpp */,
 				F5A6671F13FC3E7800EBE432 /* loadcollisionshape.h */,
+				F52ADBC914F6BBDF00D2588B /* loaddrawable.cpp */,
+				F52ADBCA14F6BBDF00D2588B /* loaddrawable.h */,
 				F5A6672013FC3E7800EBE432 /* loadingscreen.cpp */,
 				F5A6672113FC3E7800EBE432 /* loadingscreen.h */,
 				F5A6672213FC3E7800EBE432 /* logging.h */,
@@ -1217,7 +1229,9 @@
 				F5A6684213FC3E7900EBE432 /* keyed_container.h in Headers */,
 				F5A6684413FC3E7900EBE432 /* linearframe.h in Headers */,
 				F5A6684613FC3E7900EBE432 /* linearinterp.h in Headers */,
+				F52ADBCC14F6BBDF00D2588B /* loadcamera.h in Headers */,
 				F5A6684813FC3E7900EBE432 /* loadcollisionshape.h in Headers */,
+				F52ADBCE14F6BBDF00D2588B /* loaddrawable.h in Headers */,
 				F5A6684A13FC3E7900EBE432 /* loadingscreen.h in Headers */,
 				F5A6684B13FC3E7900EBE432 /* logging.h in Headers */,
 				F5A6684C13FC3E7900EBE432 /* macros.h in Headers */,
@@ -1470,7 +1484,9 @@
 				F5A6684113FC3E7900EBE432 /* keyed_container.cpp in Sources */,
 				F5A6684313FC3E7900EBE432 /* linearframe.cpp in Sources */,
 				F5A6684513FC3E7900EBE432 /* linearinterp.cpp in Sources */,
+				F52ADBCB14F6BBDF00D2588B /* loadcamera.cpp in Sources */,
 				F5A6684713FC3E7900EBE432 /* loadcollisionshape.cpp in Sources */,
+				F52ADBCD14F6BBDF00D2588B /* loaddrawable.cpp in Sources */,
 				F5A6684913FC3E7900EBE432 /* loadingscreen.cpp in Sources */,
 				F5A6684D13FC3E7900EBE432 /* main.cpp in Sources */,
 				F5A6684F13FC3E7900EBE432 /* mathplane.cpp in Sources */,
@@ -1551,7 +1567,6 @@
 					Frameworks/Ogg.framework/Headers,
 					Frameworks/SDL_gfx.framework/Headers,
 					Frameworks/SDL_image.framework/Headers,
-					Frameworks/SDL_net.framework/Headers,
 					Frameworks/SDL.framework/Headers,
 					Frameworks/Vorbis.framework/Headers,
 				);
@@ -1580,7 +1595,6 @@
 					Frameworks/Ogg.framework/Headers,
 					Frameworks/SDL_gfx.framework/Headers,
 					Frameworks/SDL_image.framework/Headers,
-					Frameworks/SDL_net.framework/Headers,
 					Frameworks/SDL.framework/Headers,
 					Frameworks/Vorbis.framework/Headers,
 				);
