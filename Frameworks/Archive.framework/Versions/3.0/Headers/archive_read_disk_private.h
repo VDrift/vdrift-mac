@@ -1,12 +1,13 @@
 /*-
- * Copyright (c) 2009 Joerg  Sonnenberger
+ * Copyright (c) 2003-2009 Tim Kientzle
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
  * are met:
  * 1. Redistributions of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer.
+ *    notice, this list of conditions and the following disclaimer
+ *    in this position and unchanged.
  * 2. Redistributions in binary form must reproduce the above copyright
  *    notice, this list of conditions and the following disclaimer in the
  *    documentation and/or other materials provided with the distribution.
@@ -22,45 +23,49 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $FreeBSD: head/lib/libarchive/archive_crc32.h 201102 2009-12-28 03:11:36Z kientzle $
+ * $FreeBSD: head/lib/libarchive/archive_read_disk_private.h 201105 2009-12-28 03:20:54Z kientzle $
  */
 
 #ifndef __LIBARCHIVE_BUILD
 #error This header is only to be used internally to libarchive.
 #endif
 
-/*
- * When zlib is unavailable, we should still be able to validate
- * uncompressed zip archives.  That requires us to be able to compute
- * the CRC32 check value.  This is a drop-in compatible replacement
- * for crc32() from zlib.  It's slower than the zlib implementation,
- * but still pretty fast: This runs about 300MB/s on my 3GHz P4
- * compared to about 800MB/s for the zlib implementation.
- */
-static unsigned long
-crc32(unsigned long crc, const void *_p, size_t len)
-{
-	unsigned long crc2, b, i;
-	const unsigned char *p = _p;
-	static volatile int crc_tbl_inited = 0;
-	static unsigned long crc_tbl[256];
+#ifndef ARCHIVE_READ_DISK_PRIVATE_H_INCLUDED
+#define ARCHIVE_READ_DISK_PRIVATE_H_INCLUDED
 
-	if (!crc_tbl_inited) {
-		for (b = 0; b < 256; ++b) {
-			crc2 = b;
-			for (i = 8; i > 0; --i) {
-				if (crc2 & 1)
-					crc2 = (crc2 >> 1) ^ 0xedb88320UL;
-				else    
-					crc2 = (crc2 >> 1);
-			}
-			crc_tbl[b] = crc2;
-		}
-		crc_tbl_inited = 1;
-	}
+struct tree;
 
-	crc = crc ^ 0xffffffffUL;
-	while (len--)
-		crc = crc_tbl[(crc ^ *p++) & 0xff] ^ (crc >> 8);
-	return (crc ^ 0xffffffffUL);
-}
+struct archive_read_disk {
+	struct archive	archive;
+
+	/*
+	 * Symlink mode is one of 'L'ogical, 'P'hysical, or 'H'ybrid,
+	 * following an old BSD convention.  'L' follows all symlinks,
+	 * 'P' follows none, 'H' follows symlinks only for the first
+	 * item.
+	 */
+	char	symlink_mode;
+
+	/*
+	 * Since symlink interaction changes, we need to track whether
+	 * we're following symlinks for the current item.  'L' mode above
+	 * sets this true, 'P' sets it false, 'H' changes it as we traverse.
+	 */
+	char	follow_symlinks;  /* Either 'L' or 'P'. */
+
+	/* Directory traversals. */
+	struct tree *tree;
+
+	/* Set 1 if users request to restore atime . */
+	int		 restore_time;
+	int		 entry_wd_fd;
+
+	const char * (*lookup_gname)(void *private, int64_t gid);
+	void	(*cleanup_gname)(void *private);
+	void	 *lookup_gname_data;
+	const char * (*lookup_uname)(void *private, int64_t uid);
+	void	(*cleanup_uname)(void *private);
+	void	 *lookup_uname_data;
+};
+
+#endif
