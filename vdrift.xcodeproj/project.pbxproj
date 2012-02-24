@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B937D144091BC36000EF8096 /* config_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B937D143091BC36000EF8096 /* config_mac.mm */; };
 		B9ADD1680907CF9C00D55A16 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A47A9E01A0483001D3D55B /* SDLMain.m */; };
+		F50E397614F847AF005998F2 /* loadcamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F50E397214F847AF005998F2 /* loadcamera.cpp */; };
+		F50E397714F847AF005998F2 /* loaddrawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F50E397414F847AF005998F2 /* loaddrawable.cpp */; };
 		F5148CE91443995200A4208C /* cardifferential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CE81443995200A4208C /* cardifferential.cpp */; };
 		F5148CEC1443998600A4208C /* glenums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CEB1443998600A4208C /* glenums.cpp */; };
 		F5148CEE1443999300A4208C /* rendermodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CED1443999300A4208C /* rendermodel.cpp */; };
@@ -196,6 +198,10 @@
 		B9ADD1AF0907CF9D00D55A16 /* VDrift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DE32B309A4FC81003B34CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		F50E396714F8439F005998F2 /* VDrift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VDrift.entitlements; sourceTree = "<group>"; };
+		F50E397214F847AF005998F2 /* loadcamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loadcamera.cpp; sourceTree = "<group>"; };
+		F50E397314F847AF005998F2 /* loadcamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadcamera.h; sourceTree = "<group>"; };
+		F50E397414F847AF005998F2 /* loaddrawable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loaddrawable.cpp; sourceTree = "<group>"; };
+		F50E397514F847AF005998F2 /* loaddrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loaddrawable.h; sourceTree = "<group>"; };
 		F5148CC51443937A00A4208C /* gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gl.h; sourceTree = "<group>"; };
 		F5148CC71443938100A4208C /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
 		F5148CE81443995200A4208C /* cardifferential.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cardifferential.cpp; sourceTree = "<group>"; };
@@ -745,8 +751,12 @@
 				F5A6671B13FC3E7800EBE432 /* linearframe.h */,
 				F5A6671C13FC3E7800EBE432 /* linearinterp.cpp */,
 				F5A6671D13FC3E7800EBE432 /* linearinterp.h */,
+				F50E397214F847AF005998F2 /* loadcamera.cpp */,
+				F50E397314F847AF005998F2 /* loadcamera.h */,
 				F5A6671E13FC3E7800EBE432 /* loadcollisionshape.cpp */,
 				F5A6671F13FC3E7800EBE432 /* loadcollisionshape.h */,
+				F50E397414F847AF005998F2 /* loaddrawable.cpp */,
+				F50E397514F847AF005998F2 /* loaddrawable.h */,
 				F5A6672013FC3E7800EBE432 /* loadingscreen.cpp */,
 				F5A6672113FC3E7800EBE432 /* loadingscreen.h */,
 				F5A6672213FC3E7800EBE432 /* logging.h */,
@@ -1126,7 +1136,9 @@
 				F5A6684113FC3E7900EBE432 /* keyed_container.cpp in Sources */,
 				F5A6684313FC3E7900EBE432 /* linearframe.cpp in Sources */,
 				F5A6684513FC3E7900EBE432 /* linearinterp.cpp in Sources */,
+				F50E397614F847AF005998F2 /* loadcamera.cpp in Sources */,
 				F5A6684713FC3E7900EBE432 /* loadcollisionshape.cpp in Sources */,
+				F50E397714F847AF005998F2 /* loaddrawable.cpp in Sources */,
 				F5A6684913FC3E7900EBE432 /* loadingscreen.cpp in Sources */,
 				F5A6684D13FC3E7900EBE432 /* main.cpp in Sources */,
 				F5A6684F13FC3E7900EBE432 /* mathplane.cpp in Sources */,
