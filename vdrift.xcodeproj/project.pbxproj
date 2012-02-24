@@ -195,6 +195,7 @@
 		B9653A8C091E84FE00006133 /* ReadMe.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = ReadMe.rtfd; sourceTree = "<group>"; };
 		B9ADD1AF0907CF9D00D55A16 /* VDrift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DE32B309A4FC81003B34CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		F50E396714F8439F005998F2 /* VDrift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VDrift.entitlements; sourceTree = "<group>"; };
 		F5148CC51443937A00A4208C /* gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gl.h; sourceTree = "<group>"; };
 		F5148CC71443938100A4208C /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
 		F5148CE81443995200A4208C /* cardifferential.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cardifferential.cpp; sourceTree = "<group>"; };
@@ -587,6 +588,7 @@
 				F5A668D813FC3EF800EBE432 /* Info.plist */,
 				F5B8D8EA1410223800E6A7A3 /* License.rtf */,
 				B9653A8C091E84FE00006133 /* ReadMe.rtfd */,
+				F50E396714F8439F005998F2 /* VDrift.entitlements */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1191,7 +1193,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = Frameworks;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
 					.,
 					../src,
@@ -1205,13 +1212,10 @@
 					Frameworks/Ogg.framework/Headers,
 					Frameworks/SDL_gfx.framework/Headers,
 					Frameworks/SDL_image.framework/Headers,
-					Frameworks/SDL_net.framework/Headers,
 					Frameworks/SDL.framework/Headers,
 					Frameworks/Vorbis.framework/Headers,
 				);
-				INFOPLIST_FILE = Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -1220,7 +1224,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = Frameworks;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = (
 					.,
 					../src,
@@ -1234,13 +1240,10 @@
 					Frameworks/Ogg.framework/Headers,
 					Frameworks/SDL_gfx.framework/Headers,
 					Frameworks/SDL_image.framework/Headers,
-					Frameworks/SDL_net.framework/Headers,
 					Frameworks/SDL.framework/Headers,
 					Frameworks/Vorbis.framework/Headers,
 				);
-				INFOPLIST_FILE = Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -1248,14 +1251,99 @@
 		B9ADD1AB0907CF9C00D55A16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		B9ADD1AC0907CF9C00D55A16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
+		};
+		F50E396314F8437E005998F2 /* Code Sign Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = VDrift.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = Frameworks;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					.,
+					../src,
+					Frameworks/Archive.framework/Headers,
+					Frameworks/BulletCollision.framework/Headers,
+					Frameworks/BulletDynamics.framework/Headers,
+					Frameworks/BulletSoftBody.framework/Headers,
+					Frameworks/cURL.framework/Headers,
+					Frameworks/GLEW.framework/Headers,
+					Frameworks/LinearMath.framework/Headers,
+					Frameworks/Ogg.framework/Headers,
+					Frameworks/SDL_gfx.framework/Headers,
+					Frameworks/SDL_image.framework/Headers,
+					Frameworks/SDL.framework/Headers,
+					Frameworks/Vorbis.framework/Headers,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = "Code Sign Debug";
+		};
+		F50E396414F8437E005998F2 /* Code Sign Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = "Code Sign Debug";
+		};
+		F50E396514F84388005998F2 /* Code Sign Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = VDrift.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = Frameworks;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					../src,
+					Frameworks/Archive.framework/Headers,
+					Frameworks/BulletCollision.framework/Headers,
+					Frameworks/BulletDynamics.framework/Headers,
+					Frameworks/BulletSoftBody.framework/Headers,
+					Frameworks/cURL.framework/Headers,
+					Frameworks/GLEW.framework/Headers,
+					Frameworks/LinearMath.framework/Headers,
+					Frameworks/Ogg.framework/Headers,
+					Frameworks/SDL_gfx.framework/Headers,
+					Frameworks/SDL_image.framework/Headers,
+					Frameworks/SDL.framework/Headers,
+					Frameworks/Vorbis.framework/Headers,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = "Code Sign Release";
+		};
+		F50E396614F84388005998F2 /* Code Sign Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = "Code Sign Release";
 		};
 /* End XCBuildConfiguration section */
 
@@ -1264,7 +1352,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9ADCF760907C8EB00D55A16 /* Debug */,
+				F50E396314F8437E005998F2 /* Code Sign Debug */,
 				B9ADCF770907C8EB00D55A16 /* Release */,
+				F50E396514F84388005998F2 /* Code Sign Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -1273,7 +1363,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9ADD1AB0907CF9C00D55A16 /* Debug */,
+				F50E396414F8437E005998F2 /* Code Sign Debug */,
 				B9ADD1AC0907CF9C00D55A16 /* Release */,
+				F50E396614F84388005998F2 /* Code Sign Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
