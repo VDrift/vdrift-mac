@@ -8,10 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B937D144091BC36000EF8096 /* config_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B937D143091BC36000EF8096 /* config_mac.mm */; };
-		B9ADD11A0907CF9C00D55A16 /* SDLMain.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A47A9D01A0482F01D3D55B /* SDLMain.h */; };
 		B9ADD1680907CF9C00D55A16 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A47A9E01A0483001D3D55B /* SDLMain.m */; };
-		F5148CC61443937A00A4208C /* gl.h in Headers */ = {isa = PBXBuildFile; fileRef = F5148CC51443937A00A4208C /* gl.h */; };
-		F5148CC81443938100A4208C /* glew.h in Headers */ = {isa = PBXBuildFile; fileRef = F5148CC71443938100A4208C /* glew.h */; };
 		F5148CE91443995200A4208C /* cardifferential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CE81443995200A4208C /* cardifferential.cpp */; };
 		F5148CEC1443998600A4208C /* glenums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CEB1443998600A4208C /* glenums.cpp */; };
 		F5148CEE1443999300A4208C /* rendermodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CED1443999300A4208C /* rendermodel.cpp */; };
@@ -20,299 +17,127 @@
 		F5148CF4144399BB00A4208C /* renderuniform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CF3144399BB00A4208C /* renderuniform.cpp */; };
 		F5148CF6144399C200A4208C /* renderuniformentry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CF5144399C200A4208C /* renderuniformentry.cpp */; };
 		F5148CF8144399C900A4208C /* stringidmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CF7144399C900A4208C /* stringidmap.cpp */; };
-		F54744B314D1C657009F54DA /* aerodevice.h in Headers */ = {isa = PBXBuildFile; fileRef = F54744B214D1C657009F54DA /* aerodevice.h */; };
 		F5491E1B14659152003903A3 /* hudbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5491E1714659152003903A3 /* hudbar.cpp */; };
-		F5491E1C14659152003903A3 /* hudbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491E1814659152003903A3 /* hudbar.h */; };
 		F5491E1D14659152003903A3 /* hudgauge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5491E1914659152003903A3 /* hudgauge.cpp */; };
-		F5491E1E14659152003903A3 /* hudgauge.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491E1A14659152003903A3 /* hudgauge.h */; };
 		F59A4B23140FEE6A0047591F /* contentmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F59A4B21140FEE6A0047591F /* contentmanager.cpp */; };
-		F59A4B24140FEE6A0047591F /* contentmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = F59A4B22140FEE6A0047591F /* contentmanager.h */; };
 		F5A667AD13FC3E7900EBE432 /* aabb_space_partitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6668213FC3E7800EBE432 /* aabb_space_partitioning.cpp */; };
-		F5A667AE13FC3E7900EBE432 /* aabb_space_partitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6668313FC3E7800EBE432 /* aabb_space_partitioning.h */; };
 		F5A667AF13FC3E7900EBE432 /* aabb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6668413FC3E7800EBE432 /* aabb.cpp */; };
-		F5A667B013FC3E7900EBE432 /* aabb.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6668513FC3E7800EBE432 /* aabb.h */; };
 		F5A667B113FC3E7900EBE432 /* ai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6668613FC3E7800EBE432 /* ai.cpp */; };
-		F5A667B213FC3E7900EBE432 /* ai.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6668713FC3E7800EBE432 /* ai.h */; };
 		F5A667B313FC3E7900EBE432 /* archiveutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6668813FC3E7800EBE432 /* archiveutils.cpp */; };
-		F5A667B413FC3E7900EBE432 /* archiveutils.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6668913FC3E7800EBE432 /* archiveutils.h */; };
 		F5A667B513FC3E7900EBE432 /* autoupdate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6668A13FC3E7800EBE432 /* autoupdate.cpp */; };
-		F5A667B613FC3E7900EBE432 /* autoupdate.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6668B13FC3E7800EBE432 /* autoupdate.h */; };
 		F5A667B713FC3E7900EBE432 /* bezier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6668C13FC3E7800EBE432 /* bezier.cpp */; };
-		F5A667B813FC3E7900EBE432 /* bezier.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6668D13FC3E7800EBE432 /* bezier.h */; };
-		F5A667B913FC3E7900EBE432 /* bucketed_hashmap.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6668E13FC3E7800EBE432 /* bucketed_hashmap.h */; };
 		F5A667BA13FC3E7900EBE432 /* camera_chase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6668F13FC3E7800EBE432 /* camera_chase.cpp */; };
-		F5A667BB13FC3E7900EBE432 /* camera_chase.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6669013FC3E7800EBE432 /* camera_chase.h */; };
 		F5A667BE13FC3E7900EBE432 /* camera_free.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6669313FC3E7800EBE432 /* camera_free.cpp */; };
-		F5A667BF13FC3E7900EBE432 /* camera_free.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6669413FC3E7800EBE432 /* camera_free.h */; };
 		F5A667C013FC3E7900EBE432 /* camera_mount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6669513FC3E7800EBE432 /* camera_mount.cpp */; };
-		F5A667C113FC3E7900EBE432 /* camera_mount.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6669613FC3E7800EBE432 /* camera_mount.h */; };
 		F5A667C213FC3E7900EBE432 /* camera_orbit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6669713FC3E7800EBE432 /* camera_orbit.cpp */; };
-		F5A667C313FC3E7900EBE432 /* camera_orbit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6669813FC3E7800EBE432 /* camera_orbit.h */; };
-		F5A667C813FC3E7900EBE432 /* camera.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6669D13FC3E7800EBE432 /* camera.h */; };
 		F5A667C913FC3E7900EBE432 /* car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6669E13FC3E7800EBE432 /* car.cpp */; };
-		F5A667CA13FC3E7900EBE432 /* car.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6669F13FC3E7800EBE432 /* car.h */; };
-		F5A667CC13FC3E7900EBE432 /* carbrake.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666A113FC3E7800EBE432 /* carbrake.h */; };
-		F5A667CD13FC3E7900EBE432 /* carclutch.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666A213FC3E7800EBE432 /* carclutch.h */; };
 		F5A667CE13FC3E7900EBE432 /* carcontrolmap_local.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666A313FC3E7800EBE432 /* carcontrolmap_local.cpp */; };
-		F5A667CF13FC3E7900EBE432 /* carcontrolmap_local.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666A413FC3E7800EBE432 /* carcontrolmap_local.h */; };
-		F5A667D013FC3E7900EBE432 /* cardifferential.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666A513FC3E7800EBE432 /* cardifferential.h */; };
 		F5A667D113FC3E7900EBE432 /* cardynamics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666A613FC3E7800EBE432 /* cardynamics.cpp */; };
-		F5A667D213FC3E7900EBE432 /* cardynamics.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666A713FC3E7800EBE432 /* cardynamics.h */; };
 		F5A667D313FC3E7900EBE432 /* carengine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666A813FC3E7800EBE432 /* carengine.cpp */; };
-		F5A667D413FC3E7900EBE432 /* carengine.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666A913FC3E7800EBE432 /* carengine.h */; };
-		F5A667D513FC3E7900EBE432 /* carfueltank.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666AA13FC3E7800EBE432 /* carfueltank.h */; };
-		F5A667D613FC3E7900EBE432 /* carinput.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666AB13FC3E7800EBE432 /* carinput.h */; };
 		F5A667D713FC3E7900EBE432 /* carsuspension.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666AC13FC3E7800EBE432 /* carsuspension.cpp */; };
-		F5A667D813FC3E7900EBE432 /* carsuspension.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666AD13FC3E7800EBE432 /* carsuspension.h */; };
-		F5A667D913FC3E7900EBE432 /* cartelemetry.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666AE13FC3E7800EBE432 /* cartelemetry.h */; };
 		F5A667DA13FC3E7900EBE432 /* cartire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666AF13FC3E7800EBE432 /* cartire.cpp */; };
-		F5A667DB13FC3E7900EBE432 /* cartire.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666B013FC3E7800EBE432 /* cartire.h */; };
-		F5A667DC13FC3E7900EBE432 /* cartransmission.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666B113FC3E7800EBE432 /* cartransmission.h */; };
-		F5A667DD13FC3E7900EBE432 /* carwheel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666B213FC3E7800EBE432 /* carwheel.h */; };
-		F5A667DE13FC3E7900EBE432 /* carwheelposition.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666B313FC3E7800EBE432 /* carwheelposition.h */; };
 		F5A667DF13FC3E7900EBE432 /* inf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666B513FC3E7800EBE432 /* inf.cpp */; };
 		F5A667E013FC3E7900EBE432 /* ini.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666B613FC3E7800EBE432 /* ini.cpp */; };
 		F5A667E113FC3E7900EBE432 /* ptree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666B713FC3E7800EBE432 /* ptree.cpp */; };
-		F5A667E213FC3E7900EBE432 /* ptree.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666B813FC3E7800EBE432 /* ptree.h */; };
 		F5A667E313FC3E7900EBE432 /* xml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666B913FC3E7800EBE432 /* xml.cpp */; };
-		F5A667E413FC3E7900EBE432 /* collision_contact.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666BA13FC3E7800EBE432 /* collision_contact.h */; };
 		F5A667E513FC3E7900EBE432 /* config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666BB13FC3E7800EBE432 /* config.cpp */; };
-		F5A667E613FC3E7900EBE432 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666BC13FC3E7800EBE432 /* config.h */; };
 		F5A667E713FC3E7900EBE432 /* containeralgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666BD13FC3E7800EBE432 /* containeralgorithm.cpp */; };
-		F5A667E813FC3E7900EBE432 /* containeralgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666BE13FC3E7800EBE432 /* containeralgorithm.h */; };
-		F5A667E913FC3E7900EBE432 /* coordinatesystem.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666BF13FC3E7800EBE432 /* coordinatesystem.h */; };
 		F5A667EA13FC3E7900EBE432 /* crashdetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666C013FC3E7800EBE432 /* crashdetection.cpp */; };
-		F5A667EB13FC3E7900EBE432 /* crashdetection.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666C113FC3E7800EBE432 /* crashdetection.h */; };
-		F5A667EC13FC3E7900EBE432 /* derived.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666C213FC3E7800EBE432 /* derived.h */; };
 		F5A667ED13FC3E7900EBE432 /* downloadable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666C313FC3E7800EBE432 /* downloadable.cpp */; };
-		F5A667EE13FC3E7900EBE432 /* downloadable.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666C413FC3E7800EBE432 /* downloadable.h */; };
-		F5A667EF13FC3E7900EBE432 /* drawable_container.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666C513FC3E7800EBE432 /* drawable_container.h */; };
 		F5A667F013FC3E7900EBE432 /* drawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666C613FC3E7800EBE432 /* drawable.cpp */; };
-		F5A667F113FC3E7900EBE432 /* drawable.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666C713FC3E7800EBE432 /* drawable.h */; };
 		F5A667F213FC3E7900EBE432 /* drawables.def in Resources */ = {isa = PBXBuildFile; fileRef = F5A666C813FC3E7800EBE432 /* drawables.def */; };
-		F5A667F313FC3E7900EBE432 /* driveshaft.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666C913FC3E7800EBE432 /* driveshaft.h */; };
 		F5A667F413FC3E7900EBE432 /* dynamicsworld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666CA13FC3E7800EBE432 /* dynamicsworld.cpp */; };
-		F5A667F513FC3E7900EBE432 /* dynamicsworld.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666CB13FC3E7800EBE432 /* dynamicsworld.h */; };
 		F5A667F613FC3E7900EBE432 /* endian_utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666CC13FC3E7800EBE432 /* endian_utility.cpp */; };
-		F5A667F713FC3E7900EBE432 /* endian_utility.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666CD13FC3E7800EBE432 /* endian_utility.h */; };
-		F5A667F813FC3E7900EBE432 /* enginesoundinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666CE13FC3E7800EBE432 /* enginesoundinfo.h */; };
 		F5A667F913FC3E7900EBE432 /* eventsystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666CF13FC3E7800EBE432 /* eventsystem.cpp */; };
-		F5A667FA13FC3E7900EBE432 /* eventsystem.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666D013FC3E7800EBE432 /* eventsystem.h */; };
 		F5A667FB13FC3E7900EBE432 /* fbobject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666D113FC3E7800EBE432 /* fbobject.cpp */; };
-		F5A667FC13FC3E7900EBE432 /* fbobject.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666D213FC3E7800EBE432 /* fbobject.h */; };
 		F5A667FD13FC3E7900EBE432 /* fbtexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666D313FC3E7800EBE432 /* fbtexture.cpp */; };
-		F5A667FE13FC3E7900EBE432 /* fbtexture.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666D413FC3E7800EBE432 /* fbtexture.h */; };
 		F5A667FF13FC3E7900EBE432 /* font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666D513FC3E7800EBE432 /* font.cpp */; };
-		F5A6680013FC3E7900EBE432 /* font.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666D613FC3E7800EBE432 /* font.h */; };
 		F5A6680113FC3E7900EBE432 /* forcefeedback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666D713FC3E7800EBE432 /* forcefeedback.cpp */; };
-		F5A6680213FC3E7900EBE432 /* forcefeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666D813FC3E7800EBE432 /* forcefeedback.h */; };
 		F5A6680313FC3E7900EBE432 /* fracturebody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666D913FC3E7800EBE432 /* fracturebody.cpp */; };
-		F5A6680413FC3E7900EBE432 /* fracturebody.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666DA13FC3E7800EBE432 /* fracturebody.h */; };
-		F5A6680513FC3E7900EBE432 /* frustum.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666DB13FC3E7800EBE432 /* frustum.h */; };
-		F5A6680613FC3E7900EBE432 /* game_downloader.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666DC13FC3E7800EBE432 /* game_downloader.h */; };
 		F5A6680713FC3E7900EBE432 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666DD13FC3E7800EBE432 /* game.cpp */; };
-		F5A6680813FC3E7900EBE432 /* game.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666DE13FC3E7800EBE432 /* game.h */; };
 		F5A6680913FC3E7900EBE432 /* glenums.def in Resources */ = {isa = PBXBuildFile; fileRef = F5A666E013FC3E7800EBE432 /* glenums.def */; };
-		F5A6680A13FC3E7900EBE432 /* glenums.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666E113FC3E7800EBE432 /* glenums.h */; };
 		F5A6680B13FC3E7900EBE432 /* glwrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666E213FC3E7800EBE432 /* glwrapper.cpp */; };
-		F5A6680C13FC3E7900EBE432 /* glwrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666E313FC3E7800EBE432 /* glwrapper.h */; };
-		F5A6680D13FC3E7900EBE432 /* rendercachevector.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666E413FC3E7800EBE432 /* rendercachevector.h */; };
 		F5A6680E13FC3E7900EBE432 /* renderdimensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666E513FC3E7800EBE432 /* renderdimensions.cpp */; };
-		F5A6680F13FC3E7900EBE432 /* renderdimensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666E613FC3E7800EBE432 /* renderdimensions.h */; };
 		F5A6681013FC3E7900EBE432 /* renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666E713FC3E7800EBE432 /* renderer.cpp */; };
-		F5A6681113FC3E7900EBE432 /* renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666E813FC3E7800EBE432 /* renderer.h */; };
-		F5A6681213FC3E7900EBE432 /* rendermodel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666E913FC3E7800EBE432 /* rendermodel.h */; };
-		F5A6681313FC3E7900EBE432 /* rendermodelentry.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666EA13FC3E7800EBE432 /* rendermodelentry.h */; };
-		F5A6681413FC3E7900EBE432 /* rendermodelext.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666EB13FC3E7800EBE432 /* rendermodelext.h */; };
 		F5A6681513FC3E7900EBE432 /* renderpass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666EC13FC3E7800EBE432 /* renderpass.cpp */; };
-		F5A6681613FC3E7900EBE432 /* renderpass.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666ED13FC3E7800EBE432 /* renderpass.h */; };
-		F5A6681713FC3E7900EBE432 /* renderpassinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666EE13FC3E7800EBE432 /* renderpassinfo.h */; };
 		F5A6681813FC3E7900EBE432 /* rendersampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666EF13FC3E7800EBE432 /* rendersampler.cpp */; };
-		F5A6681913FC3E7900EBE432 /* rendersampler.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666F013FC3E7800EBE432 /* rendersampler.h */; };
-		F5A6681A13FC3E7900EBE432 /* rendershader.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666F113FC3E7800EBE432 /* rendershader.h */; };
 		F5A6681B13FC3E7900EBE432 /* renderstate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666F213FC3E7800EBE432 /* renderstate.cpp */; };
-		F5A6681C13FC3E7900EBE432 /* renderstate.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666F313FC3E7800EBE432 /* renderstate.h */; };
-		F5A6681D13FC3E7900EBE432 /* renderstatusverbosity.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666F413FC3E7800EBE432 /* renderstatusverbosity.h */; };
-		F5A6681E13FC3E7900EBE432 /* rendertexture.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666F513FC3E7800EBE432 /* rendertexture.h */; };
-		F5A6681F13FC3E7900EBE432 /* rendertextureentry.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666F613FC3E7800EBE432 /* rendertextureentry.h */; };
-		F5A6682013FC3E7900EBE432 /* renderuniform.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666F713FC3E7800EBE432 /* renderuniform.h */; };
-		F5A6682113FC3E7900EBE432 /* renderuniformentry.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666F813FC3E7800EBE432 /* renderuniformentry.h */; };
-		F5A6682213FC3E7900EBE432 /* renderuniformvector.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666F913FC3E7800EBE432 /* renderuniformvector.h */; };
-		F5A6682313FC3E7900EBE432 /* stringidmap.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666FA13FC3E7800EBE432 /* stringidmap.h */; };
-		F5A6682413FC3E7900EBE432 /* glstatemanager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666FB13FC3E7800EBE432 /* glstatemanager.h */; };
 		F5A6682513FC3E7900EBE432 /* graphics_config_condition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666FC13FC3E7800EBE432 /* graphics_config_condition.cpp */; };
-		F5A6682613FC3E7900EBE432 /* graphics_config_condition.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666FD13FC3E7800EBE432 /* graphics_config_condition.h */; };
 		F5A6682713FC3E7900EBE432 /* graphics_config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A666FE13FC3E7800EBE432 /* graphics_config.cpp */; };
-		F5A6682813FC3E7900EBE432 /* graphics_config.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A666FF13FC3E7800EBE432 /* graphics_config.h */; };
 		F5A6682913FC3E7900EBE432 /* graphics_fallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6670013FC3E7800EBE432 /* graphics_fallback.cpp */; };
-		F5A6682A13FC3E7900EBE432 /* graphics_fallback.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6670113FC3E7800EBE432 /* graphics_fallback.h */; };
 		F5A6682B13FC3E7900EBE432 /* graphics_gl3v.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6670213FC3E7800EBE432 /* graphics_gl3v.cpp */; };
-		F5A6682C13FC3E7900EBE432 /* graphics_gl3v.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6670313FC3E7800EBE432 /* graphics_gl3v.h */; };
-		F5A6682D13FC3E7900EBE432 /* graphics_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6670413FC3E7800EBE432 /* graphics_interface.h */; };
 		F5A6682E13FC3E7900EBE432 /* graphics_renderers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6670513FC3E7800EBE432 /* graphics_renderers.cpp */; };
-		F5A6682F13FC3E7900EBE432 /* graphics_renderers.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6670613FC3E7800EBE432 /* graphics_renderers.h */; };
 		F5A6683013FC3E7900EBE432 /* gui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6670713FC3E7800EBE432 /* gui.cpp */; };
-		F5A6683113FC3E7900EBE432 /* gui.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6670813FC3E7800EBE432 /* gui.h */; };
 		F5A6683213FC3E7900EBE432 /* guioption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6670913FC3E7800EBE432 /* guioption.cpp */; };
-		F5A6683313FC3E7900EBE432 /* guioption.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6670A13FC3E7800EBE432 /* guioption.h */; };
 		F5A6683413FC3E7900EBE432 /* guipage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6670B13FC3E7800EBE432 /* guipage.cpp */; };
-		F5A6683513FC3E7900EBE432 /* guipage.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6670C13FC3E7800EBE432 /* guipage.h */; };
 		F5A6683613FC3E7900EBE432 /* http.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6670D13FC3E7800EBE432 /* http.cpp */; };
-		F5A6683713FC3E7900EBE432 /* http.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6670E13FC3E7800EBE432 /* http.h */; };
 		F5A6683813FC3E7900EBE432 /* hud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6670F13FC3E7800EBE432 /* hud.cpp */; };
-		F5A6683913FC3E7900EBE432 /* hud.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6671013FC3E7800EBE432 /* hud.h */; };
-		F5A6683A13FC3E7900EBE432 /* inputgraph.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6671113FC3E7800EBE432 /* inputgraph.h */; };
 		F5A6683B13FC3E7900EBE432 /* joepack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6671213FC3E7800EBE432 /* joepack.cpp */; };
-		F5A6683C13FC3E7900EBE432 /* joepack.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6671313FC3E7800EBE432 /* joepack.h */; };
 		F5A6683D13FC3E7900EBE432 /* joeserialize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6671413FC3E7800EBE432 /* joeserialize.cpp */; };
-		F5A6683E13FC3E7900EBE432 /* joeserialize.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6671513FC3E7800EBE432 /* joeserialize.h */; };
 		F5A6683F13FC3E7900EBE432 /* k1999.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6671613FC3E7800EBE432 /* k1999.cpp */; };
-		F5A6684013FC3E7900EBE432 /* k1999.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6671713FC3E7800EBE432 /* k1999.h */; };
 		F5A6684113FC3E7900EBE432 /* keyed_container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6671813FC3E7800EBE432 /* keyed_container.cpp */; };
-		F5A6684213FC3E7900EBE432 /* keyed_container.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6671913FC3E7800EBE432 /* keyed_container.h */; };
 		F5A6684313FC3E7900EBE432 /* linearframe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6671A13FC3E7800EBE432 /* linearframe.cpp */; };
-		F5A6684413FC3E7900EBE432 /* linearframe.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6671B13FC3E7800EBE432 /* linearframe.h */; };
 		F5A6684513FC3E7900EBE432 /* linearinterp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6671C13FC3E7800EBE432 /* linearinterp.cpp */; };
-		F5A6684613FC3E7900EBE432 /* linearinterp.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6671D13FC3E7800EBE432 /* linearinterp.h */; };
 		F5A6684713FC3E7900EBE432 /* loadcollisionshape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6671E13FC3E7800EBE432 /* loadcollisionshape.cpp */; };
-		F5A6684813FC3E7900EBE432 /* loadcollisionshape.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6671F13FC3E7800EBE432 /* loadcollisionshape.h */; };
 		F5A6684913FC3E7900EBE432 /* loadingscreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6672013FC3E7800EBE432 /* loadingscreen.cpp */; };
-		F5A6684A13FC3E7900EBE432 /* loadingscreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6672113FC3E7800EBE432 /* loadingscreen.h */; };
-		F5A6684B13FC3E7900EBE432 /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6672213FC3E7800EBE432 /* logging.h */; };
-		F5A6684C13FC3E7900EBE432 /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6672313FC3E7800EBE432 /* macros.h */; };
 		F5A6684D13FC3E7900EBE432 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6672413FC3E7800EBE432 /* main.cpp */; };
 		F5A6684F13FC3E7900EBE432 /* mathplane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6672613FC3E7800EBE432 /* mathplane.cpp */; };
-		F5A6685013FC3E7900EBE432 /* mathplane.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6672713FC3E7800EBE432 /* mathplane.h */; };
 		F5A6685113FC3E7900EBE432 /* mathvector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6672813FC3E7800EBE432 /* mathvector.cpp */; };
-		F5A6685213FC3E7900EBE432 /* mathvector.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6672913FC3E7800EBE432 /* mathvector.h */; };
-		F5A6685313FC3E7900EBE432 /* matrix3.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6672A13FC3E7800EBE432 /* matrix3.h */; };
 		F5A6685413FC3E7900EBE432 /* matrix4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6672B13FC3E7800EBE432 /* matrix4.cpp */; };
-		F5A6685513FC3E7900EBE432 /* matrix4.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6672C13FC3E7800EBE432 /* matrix4.h */; };
 		F5A6685613FC3E7900EBE432 /* mesh_gen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6672D13FC3E7800EBE432 /* mesh_gen.cpp */; };
-		F5A6685713FC3E7900EBE432 /* mesh_gen.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6672E13FC3E7800EBE432 /* mesh_gen.h */; };
 		F5A6685813FC3E7900EBE432 /* model_joe03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6672F13FC3E7800EBE432 /* model_joe03.cpp */; };
-		F5A6685913FC3E7900EBE432 /* model_joe03.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6673013FC3E7800EBE432 /* model_joe03.h */; };
 		F5A6685A13FC3E7900EBE432 /* model_obj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6673113FC3E7800EBE432 /* model_obj.cpp */; };
-		F5A6685B13FC3E7900EBE432 /* model_obj.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6673213FC3E7800EBE432 /* model_obj.h */; };
 		F5A6685C13FC3E7900EBE432 /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6673313FC3E7800EBE432 /* model.cpp */; };
-		F5A6685D13FC3E7900EBE432 /* model.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6673413FC3E7800EBE432 /* model.h */; };
-		F5A6686013FC3E7900EBE432 /* motionstate.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6673713FC3E7800EBE432 /* motionstate.h */; };
-		F5A6686113FC3E7900EBE432 /* numprocessors.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6673813FC3E7800EBE432 /* numprocessors.h */; };
 		F5A6686213FC3E7900EBE432 /* opengl_utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6673913FC3E7800EBE432 /* opengl_utility.cpp */; };
-		F5A6686313FC3E7900EBE432 /* opengl_utility.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6673A13FC3E7800EBE432 /* opengl_utility.h */; };
 		F5A6686413FC3E7900EBE432 /* optional.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6673B13FC3E7800EBE432 /* optional.cpp */; };
-		F5A6686513FC3E7900EBE432 /* optional.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6673C13FC3E7800EBE432 /* optional.h */; };
-		F5A6686613FC3E7900EBE432 /* pairsort.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6673D13FC3E7800EBE432 /* pairsort.h */; };
 		F5A6686713FC3E7900EBE432 /* parallel_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6673E13FC3E7800EBE432 /* parallel_task.cpp */; };
-		F5A6686813FC3E7900EBE432 /* parallel_task.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6673F13FC3E7800EBE432 /* parallel_task.h */; };
 		F5A6686913FC3E7900EBE432 /* particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6674013FC3E7800EBE432 /* particle.cpp */; };
-		F5A6686A13FC3E7900EBE432 /* particle.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6674113FC3E7800EBE432 /* particle.h */; };
 		F5A6686B13FC3E7900EBE432 /* pathmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6674213FC3E7800EBE432 /* pathmanager.cpp */; };
-		F5A6686C13FC3E7900EBE432 /* pathmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6674313FC3E7800EBE432 /* pathmanager.h */; };
 		F5A6686D13FC3E7900EBE432 /* performance_testing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6674413FC3E7800EBE432 /* performance_testing.cpp */; };
-		F5A6686E13FC3E7900EBE432 /* performance_testing.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6674513FC3E7800EBE432 /* performance_testing.h */; };
 		F5A6686F13FC3E7900EBE432 /* quaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6674613FC3E7800EBE432 /* quaternion.cpp */; };
-		F5A6687013FC3E7900EBE432 /* quaternion.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6674713FC3E7800EBE432 /* quaternion.h */; };
-		F5A6687113FC3E7900EBE432 /* quickmp.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6674813FC3E7800EBE432 /* quickmp.h */; };
-		F5A6687213FC3E7900EBE432 /* quickprof.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6674913FC3E7800EBE432 /* quickprof.h */; };
 		F5A6687313FC3E7900EBE432 /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6674A13FC3E7800EBE432 /* random.cpp */; };
-		F5A6687413FC3E7900EBE432 /* random.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6674B13FC3E7800EBE432 /* random.h */; };
 		F5A6687513FC3E7900EBE432 /* rendermodelext_drawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6674C13FC3E7800EBE432 /* rendermodelext_drawable.cpp */; };
-		F5A6687613FC3E7900EBE432 /* rendermodelext_drawable.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6674D13FC3E7800EBE432 /* rendermodelext_drawable.h */; };
 		F5A6687713FC3E7900EBE432 /* replay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6674E13FC3E7800EBE432 /* replay.cpp */; };
-		F5A6687813FC3E7900EBE432 /* replay.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6674F13FC3E7800EBE432 /* replay.h */; };
 		F5A6687913FC3E7900EBE432 /* reseatable_reference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6675013FC3E7800EBE432 /* reseatable_reference.cpp */; };
-		F5A6687A13FC3E7900EBE432 /* reseatable_reference.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6675113FC3E7800EBE432 /* reseatable_reference.h */; };
 		F5A6687B13FC3E7900EBE432 /* rigidbody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6675213FC3E7800EBE432 /* rigidbody.cpp */; };
-		F5A6687C13FC3E7900EBE432 /* rigidbody.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6675313FC3E7800EBE432 /* rigidbody.h */; };
 		F5A6687D13FC3E7900EBE432 /* roadpatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6675413FC3E7800EBE432 /* roadpatch.cpp */; };
-		F5A6687E13FC3E7900EBE432 /* roadpatch.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6675513FC3E7800EBE432 /* roadpatch.h */; };
 		F5A6687F13FC3E7900EBE432 /* roadstrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6675613FC3E7800EBE432 /* roadstrip.cpp */; };
-		F5A6688013FC3E7900EBE432 /* roadstrip.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6675713FC3E7800EBE432 /* roadstrip.h */; };
 		F5A6688113FC3E7900EBE432 /* rotationalframe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6675813FC3E7800EBE432 /* rotationalframe.cpp */; };
-		F5A6688213FC3E7900EBE432 /* rotationalframe.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6675913FC3E7800EBE432 /* rotationalframe.h */; };
 		F5A6688313FC3E7900EBE432 /* scenenode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6675A13FC3E7800EBE432 /* scenenode.cpp */; };
-		F5A6688413FC3E7900EBE432 /* scenenode.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6675B13FC3E7800EBE432 /* scenenode.h */; };
 		F5A6688613FC3E7900EBE432 /* settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6675D13FC3E7800EBE432 /* settings.cpp */; };
-		F5A6688713FC3E7900EBE432 /* settings.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6675E13FC3E7800EBE432 /* settings.h */; };
 		F5A6688813FC3E7900EBE432 /* shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6675F13FC3E7800EBE432 /* shader.cpp */; };
-		F5A6688913FC3E7900EBE432 /* shader.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6676013FC3E7800EBE432 /* shader.h */; };
-		F5A6688A13FC3E7900EBE432 /* signalprocessing.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6676113FC3E7800EBE432 /* signalprocessing.h */; };
-		F5A6688B13FC3E7900EBE432 /* simpletree.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6676213FC3E7800EBE432 /* simpletree.h */; };
 		F5A6688C13FC3E7900EBE432 /* sound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6676313FC3E7800EBE432 /* sound.cpp */; };
-		F5A6688D13FC3E7900EBE432 /* sound.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6676413FC3E7800EBE432 /* sound.h */; };
 		F5A6688E13FC3E7900EBE432 /* soundbuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6676513FC3E7800EBE432 /* soundbuffer.cpp */; };
-		F5A6688F13FC3E7900EBE432 /* soundbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6676613FC3E7900EBE432 /* soundbuffer.h */; };
 		F5A6689013FC3E7900EBE432 /* soundfilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6676713FC3E7900EBE432 /* soundfilter.cpp */; };
-		F5A6689113FC3E7900EBE432 /* soundfilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6676813FC3E7900EBE432 /* soundfilter.h */; };
-		F5A6689213FC3E7900EBE432 /* soundinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6676913FC3E7900EBE432 /* soundinfo.h */; };
 		F5A6689513FC3E7900EBE432 /* soundsource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6676C13FC3E7900EBE432 /* soundsource.cpp */; };
-		F5A6689613FC3E7900EBE432 /* soundsource.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6676D13FC3E7900EBE432 /* soundsource.h */; };
-		F5A6689713FC3E7900EBE432 /* spline.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6676E13FC3E7900EBE432 /* spline.h */; };
 		F5A6689813FC3E7900EBE432 /* sprite2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6676F13FC3E7900EBE432 /* sprite2d.cpp */; };
-		F5A6689913FC3E7900EBE432 /* sprite2d.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6677013FC3E7900EBE432 /* sprite2d.h */; };
-		F5A6689A13FC3E7900EBE432 /* staticdrawables.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6677113FC3E7900EBE432 /* staticdrawables.h */; };
 		F5A6689B13FC3E7900EBE432 /* suspensionbumpdetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6677213FC3E7900EBE432 /* suspensionbumpdetection.cpp */; };
-		F5A6689C13FC3E7900EBE432 /* suspensionbumpdetection.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6677313FC3E7900EBE432 /* suspensionbumpdetection.h */; };
 		F5A6689D13FC3E7900EBE432 /* svn_sourceforge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6677413FC3E7900EBE432 /* svn_sourceforge.cpp */; };
-		F5A6689E13FC3E7900EBE432 /* svn_sourceforge.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6677513FC3E7900EBE432 /* svn_sourceforge.h */; };
 		F5A6689F13FC3E7900EBE432 /* text_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6677613FC3E7900EBE432 /* text_draw.cpp */; };
-		F5A668A013FC3E7900EBE432 /* text_draw.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6677713FC3E7900EBE432 /* text_draw.h */; };
-		F5A668A113FC3E7900EBE432 /* texture_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6677813FC3E7900EBE432 /* texture_interface.h */; };
 		F5A668A213FC3E7900EBE432 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6677913FC3E7900EBE432 /* texture.cpp */; };
-		F5A668A313FC3E7900EBE432 /* texture.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6677A13FC3E7900EBE432 /* texture.h */; };
-		F5A668A413FC3E7900EBE432 /* textureinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6677B13FC3E7900EBE432 /* textureinfo.h */; };
 		F5A668A713FC3E7900EBE432 /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6677E13FC3E7900EBE432 /* timer.cpp */; };
-		F5A668A813FC3E7900EBE432 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6677F13FC3E7900EBE432 /* timer.h */; };
-		F5A668A913FC3E7900EBE432 /* tobullet.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6678013FC3E7900EBE432 /* tobullet.h */; };
 		F5A668AA13FC3E7900EBE432 /* toggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6678113FC3E7900EBE432 /* toggle.cpp */; };
-		F5A668AB13FC3E7900EBE432 /* toggle.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6678213FC3E7900EBE432 /* toggle.h */; };
 		F5A668AC13FC3E7900EBE432 /* track.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6678313FC3E7900EBE432 /* track.cpp */; };
-		F5A668AD13FC3E7900EBE432 /* track.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6678413FC3E7900EBE432 /* track.h */; };
 		F5A668AE13FC3E7900EBE432 /* trackloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6678513FC3E7900EBE432 /* trackloader.cpp */; };
-		F5A668AF13FC3E7900EBE432 /* trackloader.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6678613FC3E7900EBE432 /* trackloader.h */; };
 		F5A668B013FC3E7900EBE432 /* trackmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6678713FC3E7900EBE432 /* trackmap.cpp */; };
-		F5A668B113FC3E7900EBE432 /* trackmap.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6678813FC3E7900EBE432 /* trackmap.h */; };
-		F5A668B213FC3E7900EBE432 /* tracksurface.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6678913FC3E7900EBE432 /* tracksurface.h */; };
-		F5A668B313FC3E7900EBE432 /* transform.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6678A13FC3E7900EBE432 /* transform.h */; };
-		F5A668B413FC3E7900EBE432 /* unittest.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6678B13FC3E7900EBE432 /* unittest.h */; };
-		F5A668B513FC3E7900EBE432 /* unordered_map.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6678C13FC3E7900EBE432 /* unordered_map.h */; };
 		F5A668B613FC3E7900EBE432 /* updatemanagement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6678D13FC3E7900EBE432 /* updatemanagement.cpp */; };
-		F5A668B713FC3E7900EBE432 /* updatemanagement.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6678E13FC3E7900EBE432 /* updatemanagement.h */; };
 		F5A668B813FC3E7900EBE432 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6678F13FC3E7900EBE432 /* utils.cpp */; };
-		F5A668B913FC3E7900EBE432 /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6679013FC3E7900EBE432 /* utils.h */; };
 		F5A668BA13FC3E7900EBE432 /* vertexarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6679113FC3E7900EBE432 /* vertexarray.cpp */; };
-		F5A668BB13FC3E7900EBE432 /* vertexarray.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6679213FC3E7900EBE432 /* vertexarray.h */; };
-		F5A668BC13FC3E7900EBE432 /* vertexattribs.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6679313FC3E7900EBE432 /* vertexattribs.h */; };
 		F5A668BD13FC3E7900EBE432 /* widget_button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6679413FC3E7900EBE432 /* widget_button.cpp */; };
-		F5A668BE13FC3E7900EBE432 /* widget_button.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6679513FC3E7900EBE432 /* widget_button.h */; };
 		F5A668BF13FC3E7900EBE432 /* widget_colorpicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6679613FC3E7900EBE432 /* widget_colorpicker.cpp */; };
-		F5A668C013FC3E7900EBE432 /* widget_colorpicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6679713FC3E7900EBE432 /* widget_colorpicker.h */; };
 		F5A668C113FC3E7900EBE432 /* widget_controlgrab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6679813FC3E7900EBE432 /* widget_controlgrab.cpp */; };
-		F5A668C213FC3E7900EBE432 /* widget_controlgrab.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6679913FC3E7900EBE432 /* widget_controlgrab.h */; };
 		F5A668C313FC3E7900EBE432 /* widget_doublestringwheel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6679A13FC3E7900EBE432 /* widget_doublestringwheel.cpp */; };
-		F5A668C413FC3E7900EBE432 /* widget_doublestringwheel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6679B13FC3E7900EBE432 /* widget_doublestringwheel.h */; };
 		F5A668C513FC3E7900EBE432 /* widget_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6679C13FC3E7900EBE432 /* widget_image.cpp */; };
-		F5A668C613FC3E7900EBE432 /* widget_image.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6679D13FC3E7900EBE432 /* widget_image.h */; };
 		F5A668C713FC3E7900EBE432 /* widget_label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A6679E13FC3E7900EBE432 /* widget_label.cpp */; };
-		F5A668C813FC3E7900EBE432 /* widget_label.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A6679F13FC3E7900EBE432 /* widget_label.h */; };
 		F5A668C913FC3E7900EBE432 /* widget_multiimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A667A013FC3E7900EBE432 /* widget_multiimage.cpp */; };
-		F5A668CA13FC3E7900EBE432 /* widget_multiimage.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A667A113FC3E7900EBE432 /* widget_multiimage.h */; };
 		F5A668CB13FC3E7900EBE432 /* widget_slider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A667A213FC3E7900EBE432 /* widget_slider.cpp */; };
-		F5A668CC13FC3E7900EBE432 /* widget_slider.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A667A313FC3E7900EBE432 /* widget_slider.h */; };
 		F5A668CD13FC3E7900EBE432 /* widget_spinningcar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A667A413FC3E7900EBE432 /* widget_spinningcar.cpp */; };
-		F5A668CE13FC3E7900EBE432 /* widget_spinningcar.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A667A513FC3E7900EBE432 /* widget_spinningcar.h */; };
 		F5A668CF13FC3E7900EBE432 /* widget_stringwheel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A667A613FC3E7900EBE432 /* widget_stringwheel.cpp */; };
-		F5A668D013FC3E7900EBE432 /* widget_stringwheel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A667A713FC3E7900EBE432 /* widget_stringwheel.h */; };
 		F5A668D113FC3E7900EBE432 /* widget_toggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A667A813FC3E7900EBE432 /* widget_toggle.cpp */; };
-		F5A668D213FC3E7900EBE432 /* widget_toggle.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A667A913FC3E7900EBE432 /* widget_toggle.h */; };
-		F5A668D313FC3E7900EBE432 /* widget.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A667AA13FC3E7900EBE432 /* widget.h */; };
 		F5A668D413FC3E7900EBE432 /* window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A667AB13FC3E7900EBE432 /* window.cpp */; };
-		F5A668D513FC3E7900EBE432 /* window.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A667AC13FC3E7900EBE432 /* window.h */; };
 		F5A668D713FC3EF200EBE432 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5A668D613FC3EF200EBE432 /* icon.icns */; };
 		F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F67ED704C74A3F00A80002 /* OpenGL.framework */; };
 		F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE32B309A4FC81003B34CD /* AppKit.framework */; };
-		F5B09268146D91F500335B97 /* memory.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B09267146D91F500335B97 /* memory.h */; };
 		F5B6BF5414EFD75F0004BB0D /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF4814EFD75F0004BB0D /* Archive.framework */; };
 		F5B6BF5514EFD75F0004BB0D /* BulletCollision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF4914EFD75F0004BB0D /* BulletCollision.framework */; };
 		F5B6BF5614EFD75F0004BB0D /* BulletDynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF4A14EFD75F0004BB0D /* BulletDynamics.framework */; };
@@ -338,7 +163,6 @@
 		F5B6BF6A14EFD76F0004BB0D /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5B6BF5214EFD75F0004BB0D /* SDL.framework */; };
 		F5B6BF6B14EFD76F0004BB0D /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5B6BF5314EFD75F0004BB0D /* Vorbis.framework */; };
 		F5F16E5D14A8A0AA00268D63 /* dynamicsdraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F16E5B14A8A0AA00268D63 /* dynamicsdraw.cpp */; };
-		F5F16E5E14A8A0AA00268D63 /* dynamicsdraw.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F16E5C14A8A0AA00268D63 /* dynamicsdraw.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1115,199 +939,12 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		B9ADD1190907CF9C00D55A16 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9ADD11A0907CF9C00D55A16 /* SDLMain.h in Headers */,
-				F5A667AE13FC3E7900EBE432 /* aabb_space_partitioning.h in Headers */,
-				F5A667B013FC3E7900EBE432 /* aabb.h in Headers */,
-				F54744B314D1C657009F54DA /* aerodevice.h in Headers */,
-				F5A667B213FC3E7900EBE432 /* ai.h in Headers */,
-				F5A667B413FC3E7900EBE432 /* archiveutils.h in Headers */,
-				F5A667B613FC3E7900EBE432 /* autoupdate.h in Headers */,
-				F5A667B813FC3E7900EBE432 /* bezier.h in Headers */,
-				F5A667B913FC3E7900EBE432 /* bucketed_hashmap.h in Headers */,
-				F5A667BB13FC3E7900EBE432 /* camera_chase.h in Headers */,
-				F5A667BF13FC3E7900EBE432 /* camera_free.h in Headers */,
-				F5A667C113FC3E7900EBE432 /* camera_mount.h in Headers */,
-				F5A667C313FC3E7900EBE432 /* camera_orbit.h in Headers */,
-				F5A667C813FC3E7900EBE432 /* camera.h in Headers */,
-				F5A667CA13FC3E7900EBE432 /* car.h in Headers */,
-				F5A667CC13FC3E7900EBE432 /* carbrake.h in Headers */,
-				F5A667CD13FC3E7900EBE432 /* carclutch.h in Headers */,
-				F5A667CF13FC3E7900EBE432 /* carcontrolmap_local.h in Headers */,
-				F5A667D013FC3E7900EBE432 /* cardifferential.h in Headers */,
-				F5A667D213FC3E7900EBE432 /* cardynamics.h in Headers */,
-				F5A667D413FC3E7900EBE432 /* carengine.h in Headers */,
-				F5A667D513FC3E7900EBE432 /* carfueltank.h in Headers */,
-				F5A667D613FC3E7900EBE432 /* carinput.h in Headers */,
-				F5A667D813FC3E7900EBE432 /* carsuspension.h in Headers */,
-				F5A667D913FC3E7900EBE432 /* cartelemetry.h in Headers */,
-				F5A667DB13FC3E7900EBE432 /* cartire.h in Headers */,
-				F5A667DC13FC3E7900EBE432 /* cartransmission.h in Headers */,
-				F5A667DD13FC3E7900EBE432 /* carwheel.h in Headers */,
-				F5A667DE13FC3E7900EBE432 /* carwheelposition.h in Headers */,
-				F5A667E213FC3E7900EBE432 /* ptree.h in Headers */,
-				F5A667E413FC3E7900EBE432 /* collision_contact.h in Headers */,
-				F5A667E613FC3E7900EBE432 /* config.h in Headers */,
-				F5A667E813FC3E7900EBE432 /* containeralgorithm.h in Headers */,
-				F5A667E913FC3E7900EBE432 /* coordinatesystem.h in Headers */,
-				F59A4B24140FEE6A0047591F /* contentmanager.h in Headers */,
-				F5A667EB13FC3E7900EBE432 /* crashdetection.h in Headers */,
-				F5A667EC13FC3E7900EBE432 /* derived.h in Headers */,
-				F5A667EE13FC3E7900EBE432 /* downloadable.h in Headers */,
-				F5A667EF13FC3E7900EBE432 /* drawable_container.h in Headers */,
-				F5A667F113FC3E7900EBE432 /* drawable.h in Headers */,
-				F5A667F313FC3E7900EBE432 /* driveshaft.h in Headers */,
-				F5F16E5E14A8A0AA00268D63 /* dynamicsdraw.h in Headers */,
-				F5A667F513FC3E7900EBE432 /* dynamicsworld.h in Headers */,
-				F5A667F713FC3E7900EBE432 /* endian_utility.h in Headers */,
-				F5A667F813FC3E7900EBE432 /* enginesoundinfo.h in Headers */,
-				F5A667FA13FC3E7900EBE432 /* eventsystem.h in Headers */,
-				F5A667FC13FC3E7900EBE432 /* fbobject.h in Headers */,
-				F5A667FE13FC3E7900EBE432 /* fbtexture.h in Headers */,
-				F5A6680013FC3E7900EBE432 /* font.h in Headers */,
-				F5A6680213FC3E7900EBE432 /* forcefeedback.h in Headers */,
-				F5A6680413FC3E7900EBE432 /* fracturebody.h in Headers */,
-				F5A6680513FC3E7900EBE432 /* frustum.h in Headers */,
-				F5A6680613FC3E7900EBE432 /* game_downloader.h in Headers */,
-				F5A6680813FC3E7900EBE432 /* game.h in Headers */,
-				F5A6680A13FC3E7900EBE432 /* glenums.h in Headers */,
-				F5A6680C13FC3E7900EBE432 /* glwrapper.h in Headers */,
-				F5A6680D13FC3E7900EBE432 /* rendercachevector.h in Headers */,
-				F5A6680F13FC3E7900EBE432 /* renderdimensions.h in Headers */,
-				F5A6681113FC3E7900EBE432 /* renderer.h in Headers */,
-				F5A6681213FC3E7900EBE432 /* rendermodel.h in Headers */,
-				F5A6681313FC3E7900EBE432 /* rendermodelentry.h in Headers */,
-				F5A6681413FC3E7900EBE432 /* rendermodelext.h in Headers */,
-				F5A6681613FC3E7900EBE432 /* renderpass.h in Headers */,
-				F5A6681713FC3E7900EBE432 /* renderpassinfo.h in Headers */,
-				F5A6681913FC3E7900EBE432 /* rendersampler.h in Headers */,
-				F5A6681A13FC3E7900EBE432 /* rendershader.h in Headers */,
-				F5A6681C13FC3E7900EBE432 /* renderstate.h in Headers */,
-				F5A6681D13FC3E7900EBE432 /* renderstatusverbosity.h in Headers */,
-				F5A6681E13FC3E7900EBE432 /* rendertexture.h in Headers */,
-				F5A6681F13FC3E7900EBE432 /* rendertextureentry.h in Headers */,
-				F5A6682013FC3E7900EBE432 /* renderuniform.h in Headers */,
-				F5A6682113FC3E7900EBE432 /* renderuniformentry.h in Headers */,
-				F5A6682213FC3E7900EBE432 /* renderuniformvector.h in Headers */,
-				F5A6682313FC3E7900EBE432 /* stringidmap.h in Headers */,
-				F5148CC61443937A00A4208C /* gl.h in Headers */,
-				F5148CC81443938100A4208C /* glew.h in Headers */,
-				F5A6682413FC3E7900EBE432 /* glstatemanager.h in Headers */,
-				F5A6682613FC3E7900EBE432 /* graphics_config_condition.h in Headers */,
-				F5A6682813FC3E7900EBE432 /* graphics_config.h in Headers */,
-				F5A6682A13FC3E7900EBE432 /* graphics_fallback.h in Headers */,
-				F5A6682C13FC3E7900EBE432 /* graphics_gl3v.h in Headers */,
-				F5A6682D13FC3E7900EBE432 /* graphics_interface.h in Headers */,
-				F5A6682F13FC3E7900EBE432 /* graphics_renderers.h in Headers */,
-				F5A6683113FC3E7900EBE432 /* gui.h in Headers */,
-				F5A6683313FC3E7900EBE432 /* guioption.h in Headers */,
-				F5A6683513FC3E7900EBE432 /* guipage.h in Headers */,
-				F5A6683713FC3E7900EBE432 /* http.h in Headers */,
-				F5A6683913FC3E7900EBE432 /* hud.h in Headers */,
-				F5491E1C14659152003903A3 /* hudbar.h in Headers */,
-				F5491E1E14659152003903A3 /* hudgauge.h in Headers */,
-				F5A6683A13FC3E7900EBE432 /* inputgraph.h in Headers */,
-				F5A6683C13FC3E7900EBE432 /* joepack.h in Headers */,
-				F5A6683E13FC3E7900EBE432 /* joeserialize.h in Headers */,
-				F5A6684013FC3E7900EBE432 /* k1999.h in Headers */,
-				F5A6684213FC3E7900EBE432 /* keyed_container.h in Headers */,
-				F5A6684413FC3E7900EBE432 /* linearframe.h in Headers */,
-				F5A6684613FC3E7900EBE432 /* linearinterp.h in Headers */,
-				F5A6684813FC3E7900EBE432 /* loadcollisionshape.h in Headers */,
-				F5A6684A13FC3E7900EBE432 /* loadingscreen.h in Headers */,
-				F5A6684B13FC3E7900EBE432 /* logging.h in Headers */,
-				F5A6684C13FC3E7900EBE432 /* macros.h in Headers */,
-				F5A6685013FC3E7900EBE432 /* mathplane.h in Headers */,
-				F5A6685213FC3E7900EBE432 /* mathvector.h in Headers */,
-				F5A6685313FC3E7900EBE432 /* matrix3.h in Headers */,
-				F5A6685513FC3E7900EBE432 /* matrix4.h in Headers */,
-				F5B09268146D91F500335B97 /* memory.h in Headers */,
-				F5A6685713FC3E7900EBE432 /* mesh_gen.h in Headers */,
-				F5A6685913FC3E7900EBE432 /* model_joe03.h in Headers */,
-				F5A6685B13FC3E7900EBE432 /* model_obj.h in Headers */,
-				F5A6685D13FC3E7900EBE432 /* model.h in Headers */,
-				F5A6686013FC3E7900EBE432 /* motionstate.h in Headers */,
-				F5A6686113FC3E7900EBE432 /* numprocessors.h in Headers */,
-				F5A6686313FC3E7900EBE432 /* opengl_utility.h in Headers */,
-				F5A6686513FC3E7900EBE432 /* optional.h in Headers */,
-				F5A6686613FC3E7900EBE432 /* pairsort.h in Headers */,
-				F5A6686813FC3E7900EBE432 /* parallel_task.h in Headers */,
-				F5A6686A13FC3E7900EBE432 /* particle.h in Headers */,
-				F5A6686C13FC3E7900EBE432 /* pathmanager.h in Headers */,
-				F5A6686E13FC3E7900EBE432 /* performance_testing.h in Headers */,
-				F5A6687013FC3E7900EBE432 /* quaternion.h in Headers */,
-				F5A6687113FC3E7900EBE432 /* quickmp.h in Headers */,
-				F5A6687213FC3E7900EBE432 /* quickprof.h in Headers */,
-				F5A6687413FC3E7900EBE432 /* random.h in Headers */,
-				F5A6687613FC3E7900EBE432 /* rendermodelext_drawable.h in Headers */,
-				F5A6687813FC3E7900EBE432 /* replay.h in Headers */,
-				F5A6687A13FC3E7900EBE432 /* reseatable_reference.h in Headers */,
-				F5A6687C13FC3E7900EBE432 /* rigidbody.h in Headers */,
-				F5A6687E13FC3E7900EBE432 /* roadpatch.h in Headers */,
-				F5A6688013FC3E7900EBE432 /* roadstrip.h in Headers */,
-				F5A6688213FC3E7900EBE432 /* rotationalframe.h in Headers */,
-				F5A6688413FC3E7900EBE432 /* scenenode.h in Headers */,
-				F5A6688713FC3E7900EBE432 /* settings.h in Headers */,
-				F5A6688913FC3E7900EBE432 /* shader.h in Headers */,
-				F5A6688A13FC3E7900EBE432 /* signalprocessing.h in Headers */,
-				F5A6688B13FC3E7900EBE432 /* simpletree.h in Headers */,
-				F5A6688D13FC3E7900EBE432 /* sound.h in Headers */,
-				F5A6688F13FC3E7900EBE432 /* soundbuffer.h in Headers */,
-				F5A6689113FC3E7900EBE432 /* soundfilter.h in Headers */,
-				F5A6689213FC3E7900EBE432 /* soundinfo.h in Headers */,
-				F5A6689613FC3E7900EBE432 /* soundsource.h in Headers */,
-				F5A6689713FC3E7900EBE432 /* spline.h in Headers */,
-				F5A6689913FC3E7900EBE432 /* sprite2d.h in Headers */,
-				F5A6689A13FC3E7900EBE432 /* staticdrawables.h in Headers */,
-				F5A6689C13FC3E7900EBE432 /* suspensionbumpdetection.h in Headers */,
-				F5A6689E13FC3E7900EBE432 /* svn_sourceforge.h in Headers */,
-				F5A668A013FC3E7900EBE432 /* text_draw.h in Headers */,
-				F5A668A113FC3E7900EBE432 /* texture_interface.h in Headers */,
-				F5A668A313FC3E7900EBE432 /* texture.h in Headers */,
-				F5A668A413FC3E7900EBE432 /* textureinfo.h in Headers */,
-				F5A668A813FC3E7900EBE432 /* timer.h in Headers */,
-				F5A668A913FC3E7900EBE432 /* tobullet.h in Headers */,
-				F5A668AB13FC3E7900EBE432 /* toggle.h in Headers */,
-				F5A668AD13FC3E7900EBE432 /* track.h in Headers */,
-				F5A668AF13FC3E7900EBE432 /* trackloader.h in Headers */,
-				F5A668B113FC3E7900EBE432 /* trackmap.h in Headers */,
-				F5A668B213FC3E7900EBE432 /* tracksurface.h in Headers */,
-				F5A668B313FC3E7900EBE432 /* transform.h in Headers */,
-				F5A668B413FC3E7900EBE432 /* unittest.h in Headers */,
-				F5A668B513FC3E7900EBE432 /* unordered_map.h in Headers */,
-				F5A668B713FC3E7900EBE432 /* updatemanagement.h in Headers */,
-				F5A668B913FC3E7900EBE432 /* utils.h in Headers */,
-				F5A668BB13FC3E7900EBE432 /* vertexarray.h in Headers */,
-				F5A668BC13FC3E7900EBE432 /* vertexattribs.h in Headers */,
-				F5A668BE13FC3E7900EBE432 /* widget_button.h in Headers */,
-				F5A668C013FC3E7900EBE432 /* widget_colorpicker.h in Headers */,
-				F5A668C213FC3E7900EBE432 /* widget_controlgrab.h in Headers */,
-				F5A668C413FC3E7900EBE432 /* widget_doublestringwheel.h in Headers */,
-				F5A668C613FC3E7900EBE432 /* widget_image.h in Headers */,
-				F5A668C813FC3E7900EBE432 /* widget_label.h in Headers */,
-				F5A668CA13FC3E7900EBE432 /* widget_multiimage.h in Headers */,
-				F5A668CC13FC3E7900EBE432 /* widget_slider.h in Headers */,
-				F5A668CE13FC3E7900EBE432 /* widget_spinningcar.h in Headers */,
-				F5A668D013FC3E7900EBE432 /* widget_stringwheel.h in Headers */,
-				F5A668D213FC3E7900EBE432 /* widget_toggle.h in Headers */,
-				F5A668D313FC3E7900EBE432 /* widget.h in Headers */,
-				F5A668D513FC3E7900EBE432 /* window.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		B9ADD1180907CF9C00D55A16 /* VDrift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9ADD1AA0907CF9C00D55A16 /* Build configuration list for PBXNativeTarget "VDrift" */;
 			buildPhases = (
 				661C35A50BBF233E000A5A26 /* ShellScript */,
-				B9ADD1190907CF9C00D55A16 /* Headers */,
 				B9ADD1610907CF9C00D55A16 /* Resources */,
 				B9ADD1670907CF9C00D55A16 /* Sources */,
 				B9ADD1A60907CF9C00D55A16 /* Frameworks */,
