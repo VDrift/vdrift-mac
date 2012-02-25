@@ -6,6 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		F5D4343B14F945CF0092AF4A /* Create dmg */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F5D4343C14F945CF0092AF4A /* Build configuration list for PBXAggregateTarget "Create dmg" */;
+			buildPhases = (
+				F5D4344314F946020092AF4A /* Create dmg */,
+			);
+			dependencies = (
+				F5D4344214F945D40092AF4A /* PBXTargetDependency */,
+			);
+			name = "Create dmg";
+			productName = "Code Sign Release";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		B937D144091BC36000EF8096 /* config_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B937D143091BC36000EF8096 /* config_mac.mm */; };
 		B9ADD1680907CF9C00D55A16 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A47A9E01A0483001D3D55B /* SDLMain.m */; };
@@ -166,6 +181,16 @@
 		F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE32B309A4FC81003B34CD /* AppKit.framework */; };
 		F5F16E5D14A8A0AA00268D63 /* dynamicsdraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F16E5B14A8A0AA00268D63 /* dynamicsdraw.cpp */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5D4344114F945D40092AF4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ADD1180907CF9C00D55A16;
+			remoteInfo = VDrift;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B9EEC4160A20EAB100F5504B /* CopyFiles */ = {
@@ -962,7 +987,6 @@
 				B9EEC4160A20EAB100F5504B /* CopyFiles */,
 				B9ADD1610907CF9C00D55A16 /* Resources */,
 				B92C1E1D091E6A2700CF42D0 /* Copy data */,
-				F50E395914F840EA005998F2 /* Create dmg */,
 			);
 			buildRules = (
 			);
@@ -998,6 +1022,7 @@
 			projectRoot = ..;
 			targets = (
 				B9ADD1180907CF9C00D55A16 /* VDrift */,
+				F5D4343B14F945CF0092AF4A /* Create dmg */,
 			);
 		};
 /* End PBXProject section */
@@ -1029,7 +1054,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ -f \"SRCROOT\"/../src/definitions.h ]; then\nrm \"SRCROOT\"/../src/definitions.h\nfi\nDATE=`date +%Y-%m-%d`\necho \"#ifndef _DEFINITIONS_H\" > \"$SRCROOT\"/../src/definitions.h\necho \"#define _DEFINITIONS_H\" >> \"$SRCROOT\"/../src/definitions.h\necho \"char* get_mac_data_dir();\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#define SETTINGS_DIR \\\"Library/Preferences/VDrift\\\"\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#define DATA_DIR get_mac_data_dir()\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#define PACKAGE \\\"VDrift\\\"\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#define LOCALEDIR \\\"/usr/share/locale\\\"\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#ifndef VERSION\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#define VERSION \\\"$DATE\\\"\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#endif //VERSION\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#ifndef REVISION\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#define REVISION \\\"$DATE\\\"\" >> \"$SRCROOT\"/../src/definitions.h  #No longer have svn revision to fetch, and can't get git, so use date at the moment.\necho \"#endif //REVISION\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#endif // _DEFINITIONS_H\" >> \"$SRCROOT\"/../src/definitions.h\n";
+			shellScript = "if [ -f \"SRCROOT\"/../src/definitions.h ]; then\n    rm \"SRCROOT\"/../src/definitions.h\nfi\nDATE=`date +%Y-%m-%d`\necho \"#ifndef _DEFINITIONS_H\" > \"$SRCROOT\"/../src/definitions.h\necho \"#define _DEFINITIONS_H\" >> \"$SRCROOT\"/../src/definitions.h\necho \"char* get_mac_data_dir();\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#define SETTINGS_DIR \\\"Library/Preferences/VDrift\\\"\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#define DATA_DIR get_mac_data_dir()\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#define PACKAGE \\\"VDrift\\\"\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#define LOCALEDIR \\\"/usr/share/locale\\\"\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#ifndef VERSION\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#define VERSION \\\"$DATE\\\"\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#endif //VERSION\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#ifndef REVISION\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#define REVISION \\\"$DATE\\\"\" >> \"$SRCROOT\"/../src/definitions.h  #No longer have svn revision to fetch, and can't get git, so use date at the moment.\necho \"#endif //REVISION\" >> \"$SRCROOT\"/../src/definitions.h\necho \"#endif // _DEFINITIONS_H\" >> \"$SRCROOT\"/../src/definitions.h\n";
 		};
 		B92C1E1D091E6A2700CF42D0 /* Copy data */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1043,9 +1068,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#Change to the build directory.\ncd \"$TARGET_BUILD_DIR\"\n\n#Find CpMac\n#Xcode >= 4.3\nif [ -f /Applications/Xcode.app/Contents/Developer/Tools/CpMac ]; then \nCpMac=/Applications/Xcode.app/Contents/Developer/Tools/CpMac\n\n#Xcode <= 4.2.1\nelif [ -f /Developer/Tools/CpMac ]; then \nCpMac=/Developer/Tools/CpMac\n\n#Maybe you moved /Developer? Delete lines 14 and 15, uncomment line 13 and replace PATH with the full path to CpMac.\nelse \n#CpMac=PATH\necho \"Tell me where CpMac is!\"\nexit 1\nfi\n\n#Remove any previously copied data.\nif [ -d VDrift.app/Contents/Resources/data ]; then\nrm -r VDrift.app/Contents/Resources/data\nfi\n\n#Could be a broken alias too.\nif [ -f VDrift.app/Contents/Resources/data ]; then\nrm VDrift.app/Contents/Resources/data\nfi\n\n#Only copy some data, and do it tidily, if we're releasing.\nif [ \"${CONFIGURATION}\" == \"Code Sign Release\" ] || [ \"${CONFIGURATION}\" == \"Release\" ]; then\n\n#Copy data and remove unnecessary files.\nmkdir VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/carparts VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/lists VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/music VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/settings VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/shaders VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/skins VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/textures VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/trackparts VDrift.app/Contents/Resources/data\n\nmkdir VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/350Z VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/360 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/ATT VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/CO VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/CS VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/F1-02 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/G4 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/LE VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/M7 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/MC VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/MI VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/SV VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/T73 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/TC6 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/TL2 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/XS VDrift.app/Contents/Resources/data/cars\n\nmkdir VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/bahrain VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/estoril88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/jerez88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/lemans VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/monaco88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/monza88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/paulricard88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/rouen VDrift.app/Contents/Resources/data/tracks\n\nfind VDrift.app/Contents/Resources/data -type f -name SConscript -exec rm {} ';'\nfind VDrift.app/Contents/Resources/data -type f -name \\.DS_Store -exec rm -f {} ';'\nfind -d VDrift.app/Contents/Resources/data -type d -name \\.svn -exec rm -rf {} ';'\n\nelse\n\n#Copy all data.\nCpMac -r \"$SRCROOT\"/../data VDrift.app/Contents/Resources\n\nfi\n";
+			shellScript = "#Change to the build directory.\ncd \"$TARGET_BUILD_DIR\"\n\n#Find CpMac\n#Xcode >= 4.3\nif [ -f /Applications/Xcode.app/Contents/Developer/Tools/CpMac ]; then \n    CpMac=/Applications/Xcode.app/Contents/Developer/Tools/CpMac\n\n#Xcode < 4.3\nelif [ -f /Developer/Tools/CpMac ]; then \n    CpMac=/Developer/Tools/CpMac\n\n#Maybe you moved /Developer? Delete lines 14 and 15, uncomment line 13 and replace PATH with the full path to CpMac.\nelse \n    #CpMac=PATH\n    echo \"Tell me where CpMac is!\"\n    exit 1\nfi\n\n#Remove any previously copied data.\nif [ -d VDrift.app/Contents/Resources/data ]; then\n    rm -r VDrift.app/Contents/Resources/data\nfi\n\n#Could be a broken alias too.\nif [ -f VDrift.app/Contents/Resources/data ]; then\n    rm VDrift.app/Contents/Resources/data\nfi\n\n#Only copy some data, and do it tidily, if we're releasing.\nif [ \"${CONFIGURATION}\" == \"Code Sign Release\" ] || [ \"${CONFIGURATION}\" == \"Release\" ]; then\n\n    #Copy data and remove unnecessary files.\n    mkdir VDrift.app/Contents/Resources/data\n    CpMac -r \"$SRCROOT\"/../data/carparts VDrift.app/Contents/Resources/data\n    CpMac -r \"$SRCROOT\"/../data/lists VDrift.app/Contents/Resources/data\n    CpMac -r \"$SRCROOT\"/../data/music VDrift.app/Contents/Resources/data\n    CpMac -r \"$SRCROOT\"/../data/settings VDrift.app/Contents/Resources/data\n    CpMac -r \"$SRCROOT\"/../data/shaders VDrift.app/Contents/Resources/data\n    CpMac -r \"$SRCROOT\"/../data/skins VDrift.app/Contents/Resources/data\n    CpMac -r \"$SRCROOT\"/../data/textures VDrift.app/Contents/Resources/data\n    CpMac -r \"$SRCROOT\"/../data/trackparts VDrift.app/Contents/Resources/data\n\n    mkdir VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/350Z VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/360 VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/ATT VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/CO VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/CS VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/F1-02 VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/G4 VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/LE VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/M7 VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/MC VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/MI VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/SV VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/T73 VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/TC6 VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/TL2 VDrift.app/Contents/Resources/data/cars\n    CpMac -r \"$SRCROOT\"/../data/cars/XS VDrift.app/Contents/Resources/data/cars\n\n    mkdir VDrift.app/Contents/Resources/data/tracks\n    CpMac -r \"$SRCROOT\"/../data/tracks/bahrain VDrift.app/Contents/Resources/data/tracks\n    CpMac -r \"$SRCROOT\"/../data/tracks/estoril88 VDrift.app/Contents/Resources/data/tracks\n    CpMac -r \"$SRCROOT\"/../data/tracks/jerez88 VDrift.app/Contents/Resources/data/tracks\n    CpMac -r \"$SRCROOT\"/../data/tracks/lemans VDrift.app/Contents/Resources/data/tracks\n    CpMac -r \"$SRCROOT\"/../data/tracks/monaco88 VDrift.app/Contents/Resources/data/tracks\n    CpMac -r \"$SRCROOT\"/../data/tracks/monza88 VDrift.app/Contents/Resources/data/tracks\n    CpMac -r \"$SRCROOT\"/../data/tracks/paulricard88 VDrift.app/Contents/Resources/data/tracks\n    CpMac -r \"$SRCROOT\"/../data/tracks/rouen VDrift.app/Contents/Resources/data/tracks\n\n    find VDrift.app/Contents/Resources/data -type f -name SConscript -exec rm {} ';'\n    find VDrift.app/Contents/Resources/data -type f -name \\.DS_Store -exec rm -f {} ';'\n    find -d VDrift.app/Contents/Resources/data -type d -name \\.svn -exec rm -rf {} ';'\n\nelse\n\n    #Copy all data.\n    CpMac -r \"$SRCROOT\"/../data VDrift.app/Contents/Resources\n\nfi\n";
 		};
-		F50E395914F840EA005998F2 /* Create dmg */ = {
+		F5D4344314F946020092AF4A /* Create dmg */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1057,7 +1082,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#Change to the build directory.\ncd \"$TARGET_BUILD_DIR\"\n\n#Find CpMac\n#Xcode >= 4.3\nif [ -f /Applications/Xcode.app/Contents/Developer/Tools/CpMac ]; then \nCpMac=/Applications/Xcode.app/Contents/Developer/Tools/CpMac\n\n#Xcode <= 4.2.1\nelif [ -f /Developer/Tools/CpMac ]; then \nCpMac=/Developer/Tools/CpMac\n\n#Maybe you moved /Developer? Delete lines 16 and 17, uncomment line 15 and replace PATH with the full path to CpMac.\nelse \n#CpMac=PATH\necho \"Tell me where CpMac is!\"\nexit 1\nfi\n\n#Only copy some data, and do it tidily, if we're releasing.\nif [ \"${CONFIGURATION}\" == \"Code Sign Release\" ] || [ \"${CONFIGURATION}\" == \"Release\" ]; then\n\n#Remove any previously generated files.\nif [ -f vdrift-mac-yyyy-mm-dd.dmg ]; then\nrm vdrift-mac-yyyy-mm-dd.dmg\nfi\nif [ -d VDrift ]; then\nrm -r VDrift\nfi\n\n#Make the folder from which our disk image will be made of.\nmkdir VDrift\n\n#Copy documents.\nCpMac -r \"$SRCROOT\"/ReadMe.rtfd VDrift/ReadMe.rtfd\nCpMac \"$SRCROOT\"/License.rtf VDrift/License.rtf\n\n#Copy application.\nCpMac -r VDrift.app VDrift\n\n#Finally make a disk image out of the folder.\nhdiutil create -srcfolder VDrift vdrift-mac-yyyy-mm-dd.dmg\nhdiutil internet-enable -yes vdrift-mac-yyyy-mm-dd.dmg\n\n#Cleanup.\nrm -r VDrift\n\nfi\n";
+			shellScript = "#Only make a dmg if we're releasing.\nif [ \"${CONFIGURATION}\" == \"Code Sign Release\" ] || [ \"${CONFIGURATION}\" == \"Release\" ]; then\n\n    #Change to the build directory.\n    cd \"$TARGET_BUILD_DIR\"\n\n    #Find CpMac\n    #Xcode >= 4.3\n    if [ -f /Applications/Xcode.app/Contents/Developer/Tools/CpMac ]; then \n        CpMac=/Applications/Xcode.app/Contents/Developer/Tools/CpMac\n\n    #Xcode < 4.3\n    elif [ -f /Developer/Tools/CpMac ]; then \n        CpMac=/Developer/Tools/CpMac\n\n    #Maybe you moved /Developer? Delete lines 16 and 17, uncomment line 15 and replace PATH with the full path to CpMac.\n    else \n        #set CpMac=PATH\n        echo \"Tell me where CpMac is!\"\n        exit 1\n    fi\n\n    #Remove any previously generated files.\n    if [ -f vdrift-mac-yyyy-mm-dd.dmg ]; then\n        rm vdrift-mac-yyyy-mm-dd.dmg\n    fi\n    if [ -d VDrift ]; then\n        rm -r VDrift\n    fi\n\n    #Make the folder from which our disk image will be made of.\n    mkdir VDrift\n\n    #Copy documents.\n    CpMac -r \"$SRCROOT\"/ReadMe.rtfd VDrift/ReadMe.rtfd\n    CpMac \"$SRCROOT\"/License.rtf VDrift/License.rtf\n\n    #Copy application.\n    CpMac -r VDrift.app VDrift\n\n    #Finally make a disk image out of the folder.\n    hdiutil create -srcfolder VDrift vdrift-mac-yyyy-mm-dd.dmg\n    hdiutil internet-enable -yes vdrift-mac-yyyy-mm-dd.dmg\n\n    #Cleanup.\n    rm -r VDrift\n\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1199,6 +1224,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5D4344214F945D40092AF4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9ADD1180907CF9C00D55A16 /* VDrift */;
+			targetProxy = F5D4344114F945D40092AF4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B9ADCF760907C8EB00D55A16 /* Debug */ = {
@@ -1357,6 +1390,34 @@
 			};
 			name = "Code Sign Release";
 		};
+		F5D4343D14F945CF0092AF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5D4343E14F945CF0092AF4A /* Code Sign Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = "Code Sign Debug";
+		};
+		F5D4343F14F945CF0092AF4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5D4344014F945CF0092AF4A /* Code Sign Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = "Code Sign Release";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1381,6 +1442,16 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
+		};
+		F5D4343C14F945CF0092AF4A /* Build configuration list for PBXAggregateTarget "Create dmg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D4343D14F945CF0092AF4A /* Debug */,
+				F5D4343E14F945CF0092AF4A /* Code Sign Debug */,
+				F5D4343F14F945CF0092AF4A /* Release */,
+				F5D4344014F945CF0092AF4A /* Code Sign Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
