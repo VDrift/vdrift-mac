@@ -9,6 +9,30 @@
 /* Begin PBXBuildFile section */
 		B937D144091BC36000EF8096 /* config_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B937D143091BC36000EF8096 /* config_mac.mm */; };
 		B9ADD1680907CF9C00D55A16 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A47A9E01A0483001D3D55B /* SDLMain.m */; };
+		F50BF47314F8F62C000A5D09 /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BF46714F8F62C000A5D09 /* Archive.framework */; };
+		F50BF47414F8F62C000A5D09 /* BulletCollision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BF46814F8F62C000A5D09 /* BulletCollision.framework */; };
+		F50BF47514F8F62C000A5D09 /* BulletDynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BF46914F8F62C000A5D09 /* BulletDynamics.framework */; };
+		F50BF47614F8F62C000A5D09 /* BulletSoftBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BF46A14F8F62C000A5D09 /* BulletSoftBody.framework */; };
+		F50BF47714F8F62C000A5D09 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BF46B14F8F62C000A5D09 /* cURL.framework */; };
+		F50BF47814F8F62C000A5D09 /* GLEW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BF46C14F8F62C000A5D09 /* GLEW.framework */; };
+		F50BF47914F8F62C000A5D09 /* LinearMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BF46D14F8F62C000A5D09 /* LinearMath.framework */; };
+		F50BF47A14F8F62C000A5D09 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BF46E14F8F62C000A5D09 /* Ogg.framework */; };
+		F50BF47B14F8F62C000A5D09 /* SDL_gfx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BF46F14F8F62C000A5D09 /* SDL_gfx.framework */; };
+		F50BF47C14F8F62C000A5D09 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BF47014F8F62C000A5D09 /* SDL_image.framework */; };
+		F50BF47D14F8F62C000A5D09 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BF47114F8F62C000A5D09 /* SDL.framework */; };
+		F50BF47E14F8F62C000A5D09 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BF47214F8F62C000A5D09 /* Vorbis.framework */; };
+		F50BF47F14F8F631000A5D09 /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BF46714F8F62C000A5D09 /* Archive.framework */; };
+		F50BF48014F8F631000A5D09 /* BulletCollision.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BF46814F8F62C000A5D09 /* BulletCollision.framework */; };
+		F50BF48114F8F631000A5D09 /* BulletDynamics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BF46914F8F62C000A5D09 /* BulletDynamics.framework */; };
+		F50BF48214F8F631000A5D09 /* BulletSoftBody.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BF46A14F8F62C000A5D09 /* BulletSoftBody.framework */; };
+		F50BF48314F8F631000A5D09 /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BF46B14F8F62C000A5D09 /* cURL.framework */; };
+		F50BF48414F8F631000A5D09 /* GLEW.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BF46C14F8F62C000A5D09 /* GLEW.framework */; };
+		F50BF48514F8F631000A5D09 /* LinearMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BF46D14F8F62C000A5D09 /* LinearMath.framework */; };
+		F50BF48614F8F631000A5D09 /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BF46E14F8F62C000A5D09 /* Ogg.framework */; };
+		F50BF48714F8F631000A5D09 /* SDL_gfx.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BF46F14F8F62C000A5D09 /* SDL_gfx.framework */; };
+		F50BF48814F8F631000A5D09 /* SDL_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BF47014F8F62C000A5D09 /* SDL_image.framework */; };
+		F50BF48914F8F631000A5D09 /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BF47114F8F62C000A5D09 /* SDL.framework */; };
+		F50BF48A14F8F631000A5D09 /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50BF47214F8F62C000A5D09 /* Vorbis.framework */; };
 		F50E397614F847AF005998F2 /* loadcamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F50E397214F847AF005998F2 /* loadcamera.cpp */; };
 		F50E397714F847AF005998F2 /* loaddrawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F50E397414F847AF005998F2 /* loaddrawable.cpp */; };
 		F5148CE91443995200A4208C /* cardifferential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5148CE81443995200A4208C /* cardifferential.cpp */; };
@@ -140,30 +164,6 @@
 		F5A668D713FC3EF200EBE432 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5A668D613FC3EF200EBE432 /* icon.icns */; };
 		F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F67ED704C74A3F00A80002 /* OpenGL.framework */; };
 		F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE32B309A4FC81003B34CD /* AppKit.framework */; };
-		F5B6BF5414EFD75F0004BB0D /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF4814EFD75F0004BB0D /* Archive.framework */; };
-		F5B6BF5514EFD75F0004BB0D /* BulletCollision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF4914EFD75F0004BB0D /* BulletCollision.framework */; };
-		F5B6BF5614EFD75F0004BB0D /* BulletDynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF4A14EFD75F0004BB0D /* BulletDynamics.framework */; };
-		F5B6BF5714EFD75F0004BB0D /* BulletSoftBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF4B14EFD75F0004BB0D /* BulletSoftBody.framework */; };
-		F5B6BF5814EFD75F0004BB0D /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF4C14EFD75F0004BB0D /* cURL.framework */; };
-		F5B6BF5914EFD75F0004BB0D /* GLEW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF4D14EFD75F0004BB0D /* GLEW.framework */; };
-		F5B6BF5A14EFD7600004BB0D /* LinearMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF4E14EFD75F0004BB0D /* LinearMath.framework */; };
-		F5B6BF5B14EFD7600004BB0D /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF4F14EFD75F0004BB0D /* Ogg.framework */; };
-		F5B6BF5C14EFD7600004BB0D /* SDL_gfx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF5014EFD75F0004BB0D /* SDL_gfx.framework */; };
-		F5B6BF5D14EFD7600004BB0D /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF5114EFD75F0004BB0D /* SDL_image.framework */; };
-		F5B6BF5E14EFD7600004BB0D /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF5214EFD75F0004BB0D /* SDL.framework */; };
-		F5B6BF5F14EFD7600004BB0D /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6BF5314EFD75F0004BB0D /* Vorbis.framework */; };
-		F5B6BF6014EFD76F0004BB0D /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5B6BF4814EFD75F0004BB0D /* Archive.framework */; };
-		F5B6BF6114EFD76F0004BB0D /* BulletCollision.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5B6BF4914EFD75F0004BB0D /* BulletCollision.framework */; };
-		F5B6BF6214EFD76F0004BB0D /* BulletDynamics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5B6BF4A14EFD75F0004BB0D /* BulletDynamics.framework */; };
-		F5B6BF6314EFD76F0004BB0D /* BulletSoftBody.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5B6BF4B14EFD75F0004BB0D /* BulletSoftBody.framework */; };
-		F5B6BF6414EFD76F0004BB0D /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5B6BF4C14EFD75F0004BB0D /* cURL.framework */; };
-		F5B6BF6514EFD76F0004BB0D /* GLEW.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5B6BF4D14EFD75F0004BB0D /* GLEW.framework */; };
-		F5B6BF6614EFD76F0004BB0D /* LinearMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5B6BF4E14EFD75F0004BB0D /* LinearMath.framework */; };
-		F5B6BF6714EFD76F0004BB0D /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5B6BF4F14EFD75F0004BB0D /* Ogg.framework */; };
-		F5B6BF6814EFD76F0004BB0D /* SDL_gfx.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5B6BF5014EFD75F0004BB0D /* SDL_gfx.framework */; };
-		F5B6BF6914EFD76F0004BB0D /* SDL_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5B6BF5114EFD75F0004BB0D /* SDL_image.framework */; };
-		F5B6BF6A14EFD76F0004BB0D /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5B6BF5214EFD75F0004BB0D /* SDL.framework */; };
-		F5B6BF6B14EFD76F0004BB0D /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5B6BF5314EFD75F0004BB0D /* Vorbis.framework */; };
 		F5F16E5D14A8A0AA00268D63 /* dynamicsdraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F16E5B14A8A0AA00268D63 /* dynamicsdraw.cpp */; };
 /* End PBXBuildFile section */
 
@@ -174,18 +174,18 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F5B6BF6014EFD76F0004BB0D /* Archive.framework in CopyFiles */,
-				F5B6BF6114EFD76F0004BB0D /* BulletCollision.framework in CopyFiles */,
-				F5B6BF6214EFD76F0004BB0D /* BulletDynamics.framework in CopyFiles */,
-				F5B6BF6314EFD76F0004BB0D /* BulletSoftBody.framework in CopyFiles */,
-				F5B6BF6414EFD76F0004BB0D /* cURL.framework in CopyFiles */,
-				F5B6BF6514EFD76F0004BB0D /* GLEW.framework in CopyFiles */,
-				F5B6BF6614EFD76F0004BB0D /* LinearMath.framework in CopyFiles */,
-				F5B6BF6714EFD76F0004BB0D /* Ogg.framework in CopyFiles */,
-				F5B6BF6814EFD76F0004BB0D /* SDL_gfx.framework in CopyFiles */,
-				F5B6BF6914EFD76F0004BB0D /* SDL_image.framework in CopyFiles */,
-				F5B6BF6A14EFD76F0004BB0D /* SDL.framework in CopyFiles */,
-				F5B6BF6B14EFD76F0004BB0D /* Vorbis.framework in CopyFiles */,
+				F50BF47F14F8F631000A5D09 /* Archive.framework in CopyFiles */,
+				F50BF48014F8F631000A5D09 /* BulletCollision.framework in CopyFiles */,
+				F50BF48114F8F631000A5D09 /* BulletDynamics.framework in CopyFiles */,
+				F50BF48214F8F631000A5D09 /* BulletSoftBody.framework in CopyFiles */,
+				F50BF48314F8F631000A5D09 /* cURL.framework in CopyFiles */,
+				F50BF48414F8F631000A5D09 /* GLEW.framework in CopyFiles */,
+				F50BF48514F8F631000A5D09 /* LinearMath.framework in CopyFiles */,
+				F50BF48614F8F631000A5D09 /* Ogg.framework in CopyFiles */,
+				F50BF48714F8F631000A5D09 /* SDL_gfx.framework in CopyFiles */,
+				F50BF48814F8F631000A5D09 /* SDL_image.framework in CopyFiles */,
+				F50BF48914F8F631000A5D09 /* SDL.framework in CopyFiles */,
+				F50BF48A14F8F631000A5D09 /* Vorbis.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +197,18 @@
 		B9653A8C091E84FE00006133 /* ReadMe.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = ReadMe.rtfd; sourceTree = "<group>"; };
 		B9ADD1AF0907CF9D00D55A16 /* VDrift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DE32B309A4FC81003B34CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		F50BF46714F8F62C000A5D09 /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
+		F50BF46814F8F62C000A5D09 /* BulletCollision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletCollision.framework; path = Frameworks/BulletCollision.framework; sourceTree = "<group>"; };
+		F50BF46914F8F62C000A5D09 /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = Frameworks/BulletDynamics.framework; sourceTree = "<group>"; };
+		F50BF46A14F8F62C000A5D09 /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = Frameworks/BulletSoftBody.framework; sourceTree = "<group>"; };
+		F50BF46B14F8F62C000A5D09 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
+		F50BF46C14F8F62C000A5D09 /* GLEW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLEW.framework; path = Frameworks/GLEW.framework; sourceTree = "<group>"; };
+		F50BF46D14F8F62C000A5D09 /* LinearMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearMath.framework; path = Frameworks/LinearMath.framework; sourceTree = "<group>"; };
+		F50BF46E14F8F62C000A5D09 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
+		F50BF46F14F8F62C000A5D09 /* SDL_gfx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_gfx.framework; path = Frameworks/SDL_gfx.framework; sourceTree = "<group>"; };
+		F50BF47014F8F62C000A5D09 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = Frameworks/SDL_image.framework; sourceTree = "<group>"; };
+		F50BF47114F8F62C000A5D09 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Frameworks/SDL.framework; sourceTree = "<group>"; };
+		F50BF47214F8F62C000A5D09 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
 		F50E396714F8439F005998F2 /* VDrift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VDrift.entitlements; sourceTree = "<group>"; };
 		F50E397214F847AF005998F2 /* loadcamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loadcamera.cpp; sourceTree = "<group>"; };
 		F50E397314F847AF005998F2 /* loadcamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadcamera.h; sourceTree = "<group>"; };
@@ -506,18 +518,6 @@
 		F5A668D613FC3EF200EBE432 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		F5A668D813FC3EF800EBE432 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B09267146D91F500335B97 /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
-		F5B6BF4814EFD75F0004BB0D /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
-		F5B6BF4914EFD75F0004BB0D /* BulletCollision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletCollision.framework; path = Frameworks/BulletCollision.framework; sourceTree = "<group>"; };
-		F5B6BF4A14EFD75F0004BB0D /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = Frameworks/BulletDynamics.framework; sourceTree = "<group>"; };
-		F5B6BF4B14EFD75F0004BB0D /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = Frameworks/BulletSoftBody.framework; sourceTree = "<group>"; };
-		F5B6BF4C14EFD75F0004BB0D /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
-		F5B6BF4D14EFD75F0004BB0D /* GLEW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLEW.framework; path = Frameworks/GLEW.framework; sourceTree = "<group>"; };
-		F5B6BF4E14EFD75F0004BB0D /* LinearMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearMath.framework; path = Frameworks/LinearMath.framework; sourceTree = "<group>"; };
-		F5B6BF4F14EFD75F0004BB0D /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
-		F5B6BF5014EFD75F0004BB0D /* SDL_gfx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_gfx.framework; path = Frameworks/SDL_gfx.framework; sourceTree = "<group>"; };
-		F5B6BF5114EFD75F0004BB0D /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = Frameworks/SDL_image.framework; sourceTree = "<group>"; };
-		F5B6BF5214EFD75F0004BB0D /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Frameworks/SDL.framework; sourceTree = "<group>"; };
-		F5B6BF5314EFD75F0004BB0D /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
 		F5B8D8EA1410223800E6A7A3 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
 		F5F16E5B14A8A0AA00268D63 /* dynamicsdraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dynamicsdraw.cpp; sourceTree = "<group>"; };
 		F5F16E5C14A8A0AA00268D63 /* dynamicsdraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dynamicsdraw.h; sourceTree = "<group>"; };
@@ -530,18 +530,18 @@
 			files = (
 				F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */,
 				F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */,
-				F5B6BF5414EFD75F0004BB0D /* Archive.framework in Frameworks */,
-				F5B6BF5514EFD75F0004BB0D /* BulletCollision.framework in Frameworks */,
-				F5B6BF5614EFD75F0004BB0D /* BulletDynamics.framework in Frameworks */,
-				F5B6BF5714EFD75F0004BB0D /* BulletSoftBody.framework in Frameworks */,
-				F5B6BF5814EFD75F0004BB0D /* cURL.framework in Frameworks */,
-				F5B6BF5914EFD75F0004BB0D /* GLEW.framework in Frameworks */,
-				F5B6BF5A14EFD7600004BB0D /* LinearMath.framework in Frameworks */,
-				F5B6BF5B14EFD7600004BB0D /* Ogg.framework in Frameworks */,
-				F5B6BF5C14EFD7600004BB0D /* SDL_gfx.framework in Frameworks */,
-				F5B6BF5D14EFD7600004BB0D /* SDL_image.framework in Frameworks */,
-				F5B6BF5E14EFD7600004BB0D /* SDL.framework in Frameworks */,
-				F5B6BF5F14EFD7600004BB0D /* Vorbis.framework in Frameworks */,
+				F50BF47314F8F62C000A5D09 /* Archive.framework in Frameworks */,
+				F50BF47414F8F62C000A5D09 /* BulletCollision.framework in Frameworks */,
+				F50BF47514F8F62C000A5D09 /* BulletDynamics.framework in Frameworks */,
+				F50BF47614F8F62C000A5D09 /* BulletSoftBody.framework in Frameworks */,
+				F50BF47714F8F62C000A5D09 /* cURL.framework in Frameworks */,
+				F50BF47814F8F62C000A5D09 /* GLEW.framework in Frameworks */,
+				F50BF47914F8F62C000A5D09 /* LinearMath.framework in Frameworks */,
+				F50BF47A14F8F62C000A5D09 /* Ogg.framework in Frameworks */,
+				F50BF47B14F8F62C000A5D09 /* SDL_gfx.framework in Frameworks */,
+				F50BF47C14F8F62C000A5D09 /* SDL_image.framework in Frameworks */,
+				F50BF47D14F8F62C000A5D09 /* SDL.framework in Frameworks */,
+				F50BF47E14F8F62C000A5D09 /* Vorbis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,18 +602,18 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F5B6BF4814EFD75F0004BB0D /* Archive.framework */,
-				F5B6BF4914EFD75F0004BB0D /* BulletCollision.framework */,
-				F5B6BF4A14EFD75F0004BB0D /* BulletDynamics.framework */,
-				F5B6BF4B14EFD75F0004BB0D /* BulletSoftBody.framework */,
-				F5B6BF4C14EFD75F0004BB0D /* cURL.framework */,
-				F5B6BF4D14EFD75F0004BB0D /* GLEW.framework */,
-				F5B6BF4E14EFD75F0004BB0D /* LinearMath.framework */,
-				F5B6BF4F14EFD75F0004BB0D /* Ogg.framework */,
-				F5B6BF5014EFD75F0004BB0D /* SDL_gfx.framework */,
-				F5B6BF5114EFD75F0004BB0D /* SDL_image.framework */,
-				F5B6BF5214EFD75F0004BB0D /* SDL.framework */,
-				F5B6BF5314EFD75F0004BB0D /* Vorbis.framework */,
+				F50BF46714F8F62C000A5D09 /* Archive.framework */,
+				F50BF46814F8F62C000A5D09 /* BulletCollision.framework */,
+				F50BF46914F8F62C000A5D09 /* BulletDynamics.framework */,
+				F50BF46A14F8F62C000A5D09 /* BulletSoftBody.framework */,
+				F50BF46B14F8F62C000A5D09 /* cURL.framework */,
+				F50BF46C14F8F62C000A5D09 /* GLEW.framework */,
+				F50BF46D14F8F62C000A5D09 /* LinearMath.framework */,
+				F50BF46E14F8F62C000A5D09 /* Ogg.framework */,
+				F50BF46F14F8F62C000A5D09 /* SDL_gfx.framework */,
+				F50BF47014F8F62C000A5D09 /* SDL_image.framework */,
+				F50BF47114F8F62C000A5D09 /* SDL.framework */,
+				F50BF47214F8F62C000A5D09 /* Vorbis.framework */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -1043,7 +1043,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#Change to the build directory.\ncd \"$TARGET_BUILD_DIR\"\n\n#Find CpMac\n#Xcode >= 4.3\nif [ -f /Applications/Xcode.app/Contents/Developer/Tools/CpMac ]; then \nCpMac=/Applications/Xcode.app/Contents/Developer/Tools/CpMac\n\n#Xcode <= 4.2.1\nelif [ -f /Developer/Tools/CpMac ]; then \nCpMac=/Developer/Tools/CpMac\n\n#Maybe you moved /Developer? Delete lines 14 and 15, uncomment line 13 and replace PATH with the full path to CpMac.\nelse \n#CpMac=PATH\necho \"Tell me where CpMac is!\"\nexit 1\nfi\n\n#Remove any previously copied data.\nif [ -d VDrift.app/Contents/Resources/data ]; then\nrm -r VDrift.app/Contents/Resources/data\nfi\n\n#Could be a broken alias too.\nif [ -f VDrift.app/Contents/Resources/data ]; then\nrm VDrift.app/Contents/Resources/data\nfi\n\n#Only copy some data, and do it tidily, if we're releasing.\nif [ \"${CONFIGURATION}\" == \"Code Sign Release\" ] || [ \"${CONFIGURATION}\" == \"Release\" ]; then\n\n#Copy data and remove unnecessary files.\nmkdir VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/carparts VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/lists VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/music VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/settings VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/shaders VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/skins VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/textures VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/trackparts VDrift.app/Contents/Resources/data\n\nmkdir VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/350Z VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/360 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/ATT VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/CO VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/CS VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/F1-02 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/G4 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/LE VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/M7 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/MC VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/MI VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/SV VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/T73 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/TC6 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/TL2 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/XS VDrift.app/Contents/Resources/data/cars\n\nmkdir VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/bahrain VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/estoril88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/jerez88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/lemans VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/monaco88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/monza88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/paulricard88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/rouen VDrift.app/Contents/Resources/data/tracks\nfind VDrift.app/Contents/Resources/data -type f -name SConscript -exec rm {} ';'\nfind VDrift.app/Contents/Resources/data -type f -name \\.DS_Store -exec rm -f {} ';'\nfind -d VDrift.app/Contents/Resources/data -type d -name \\.svn -exec rm -rf {} ';'\n\nelse\n\n#Copy all data.\nCpMac -r \"$SRCROOT\"/../data VDrift.app/Contents/Resources\n\nfi\n";
+			shellScript = "#Change to the build directory.\ncd \"$TARGET_BUILD_DIR\"\n\n#Find CpMac\n#Xcode >= 4.3\nif [ -f /Applications/Xcode.app/Contents/Developer/Tools/CpMac ]; then \nCpMac=/Applications/Xcode.app/Contents/Developer/Tools/CpMac\n\n#Xcode <= 4.2.1\nelif [ -f /Developer/Tools/CpMac ]; then \nCpMac=/Developer/Tools/CpMac\n\n#Maybe you moved /Developer? Delete lines 14 and 15, uncomment line 13 and replace PATH with the full path to CpMac.\nelse \n#CpMac=PATH\necho \"Tell me where CpMac is!\"\nexit 1\nfi\n\n#Remove any previously copied data.\nif [ -d VDrift.app/Contents/Resources/data ]; then\nrm -r VDrift.app/Contents/Resources/data\nfi\n\n#Could be a broken alias too.\nif [ -f VDrift.app/Contents/Resources/data ]; then\nrm VDrift.app/Contents/Resources/data\nfi\n\n#Only copy some data, and do it tidily, if we're releasing.\nif [ \"${CONFIGURATION}\" == \"Code Sign Release\" ] || [ \"${CONFIGURATION}\" == \"Release\" ]; then\n\n#Copy data and remove unnecessary files.\nmkdir VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/carparts VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/lists VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/music VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/settings VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/shaders VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/skins VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/textures VDrift.app/Contents/Resources/data\nCpMac -r \"$SRCROOT\"/../data/trackparts VDrift.app/Contents/Resources/data\n\nmkdir VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/350Z VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/360 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/ATT VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/CO VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/CS VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/F1-02 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/G4 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/LE VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/M7 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/MC VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/MI VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/SV VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/T73 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/TC6 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/TL2 VDrift.app/Contents/Resources/data/cars\nCpMac -r \"$SRCROOT\"/../data/cars/XS VDrift.app/Contents/Resources/data/cars\n\nmkdir VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/bahrain VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/estoril88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/jerez88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/lemans VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/monaco88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/monza88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/paulricard88 VDrift.app/Contents/Resources/data/tracks\nCpMac -r \"$SRCROOT\"/../data/tracks/rouen VDrift.app/Contents/Resources/data/tracks\n\nfind VDrift.app/Contents/Resources/data -type f -name SConscript -exec rm {} ';'\nfind VDrift.app/Contents/Resources/data -type f -name \\.DS_Store -exec rm -f {} ';'\nfind -d VDrift.app/Contents/Resources/data -type d -name \\.svn -exec rm -rf {} ';'\n\nelse\n\n#Copy all data.\nCpMac -r \"$SRCROOT\"/../data VDrift.app/Contents/Resources\n\nfi\n";
 		};
 		F50E395914F840EA005998F2 /* Create dmg */ = {
 			isa = PBXShellScriptBuildPhase;
