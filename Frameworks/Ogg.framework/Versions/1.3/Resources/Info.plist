@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>11C74</string>
+	<string>11D50</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -27,17 +27,17 @@
 	<key>DTCompiler</key>
 	<string></string>
 	<key>DTPlatformBuild</key>
-	<string>4D502</string>
+	<string>4E109</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>11C74</string>
+	<string>11D50a</string>
 	<key>DTSDKName</key>
-	<string></string>
+	<string>macosx10.7</string>
 	<key>DTXcode</key>
-	<string>0421</string>
+	<string>0430</string>
 	<key>DTXcodeBuild</key>
-	<string>4D502</string>
+	<string>4E109</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Ogg framework 1.3.0, Copyright © 1994-2012 Xiph.Org Foundation</string>
 </dict>

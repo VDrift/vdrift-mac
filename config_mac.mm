@@ -3,7 +3,7 @@
 char* get_mac_data_dir()
 {
     NSAutoreleasePool	*pool = [[NSAutoreleasePool alloc] init];
-	NSString * path = [[[[NSBundle mainBundle] bundlePath] stringByDeletingLastPathComponent] stringByAppendingString:@"/data"];
+	NSString * path = [[[NSBundle mainBundle] resourcePath] stringByAppendingString:@"/data"];
 
 	CFStringRef resolvedPath = nil;
 	CFURLRef url = CFURLCreateWithFileSystemPath(NULL, (CFStringRef)path, kCFURLPOSIXPathStyle, true);
@@ -44,7 +44,7 @@ char* get_mac_data_dir()
 								defaultButton: @"OK"
 								alternateButton: nil
 								otherButton: nil
-                                informativeTextWithFormat: @"Please make sure vdrift.app is in the same folder as the \"data\" folder or an alias to the data folder!"];
+                                informativeTextWithFormat: @"Please make sure the \"data\" folder or an alias to the data folder is in VDrift.app/Contents/Resources!"];
 			[theAlert runModal];
 
 			[pool release];
@@ -79,7 +79,7 @@ char* get_mac_data_dir()
 							defaultButton: @"OK"
 							alternateButton: nil
 							otherButton: nil
-							informativeTextWithFormat: @"Please move vdrift to a sane location on your harddisk, without weird characters in it's path!"];
+							informativeTextWithFormat: @"Please move VDrift to a sane location on your computer, without weird characters in it's path!"];
 
 		[theAlert runModal];
 
