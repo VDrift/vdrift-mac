@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>cURL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>cURL 7.24.0</string>
+	<string>cURL 7.25.0</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.libcurl.cURL</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -19,15 +19,15 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>cURL 7.24.0</string>
+	<string>cURL 7.25.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>7.24.0</string>
+	<string>7.25.0</string>
 	<key>DTCompiler</key>
 	<string></string>
 	<key>DTPlatformBuild</key>
-	<string>4E109</string>
+	<string>4E2002</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -35,9 +35,9 @@
 	<key>DTSDKName</key>
 	<string>macosx10.7</string>
 	<key>DTXcode</key>
-	<string>0430</string>
+	<string>0432</string>
 	<key>DTXcodeBuild</key>
-	<string>4E109</string>
+	<string>4E2002</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2012. All rights reserved.</string>
 </dict>
