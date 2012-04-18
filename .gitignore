@@ -1,6 +1,6 @@
 .DS_Store
 build
-VDrift*
+VDrift.app
 vdrift-mac-*
 vdrift.xcodeproj/xcuserdata
 vdrift.xcodeproj/project.xcworkspace
