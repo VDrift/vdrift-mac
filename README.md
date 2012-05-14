@@ -79,7 +79,7 @@ checking out the repository with subversion:
 
 Download platform specific build dependencies on OS X:
 
-    cd VDrift git clone https://github.com/VDrift/vdrift-mac.git
+    git clone https://github.com/VDrift/vdrift-mac.git
 
 ### See also
 
