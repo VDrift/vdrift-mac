@@ -42,14 +42,6 @@
 		F56E1AB015DBEF1100E87C6E /* SDL_gfx.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F56E1AAE15DBEF0D00E87C6E /* SDL_gfx.framework */; };
 		F56E1AC215DBF57400E87C6E /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56E1AC115DBF57400E87C6E /* cURL.framework */; };
 		F56E1AC315DBF57B00E87C6E /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F56E1AC115DBF57400E87C6E /* cURL.framework */; };
-		F58E5AD715EF79B8000C8120 /* loadvehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F58E5AD515EF79B8000C8120 /* loadvehicle.cpp */; };
-		F58E5AE215EF7A22000C8120 /* engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F58E5AE015EF7A22000C8120 /* engine.cpp */; };
-		F58E5AF615EF7A54000C8120 /* ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F58E5AE415EF7A54000C8120 /* ray.cpp */; };
-		F58E5AF715EF7A54000C8120 /* suspension.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F58E5AE915EF7A54000C8120 /* suspension.cpp */; };
-		F58E5AF815EF7A54000C8120 /* tire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F58E5AEB15EF7A54000C8120 /* tire.cpp */; };
-		F58E5AF915EF7A54000C8120 /* vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F58E5AEE15EF7A54000C8120 /* vehicle.cpp */; };
-		F58E5AFA15EF7A54000C8120 /* wheel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F58E5AF215EF7A54000C8120 /* wheel.cpp */; };
-		F58E5AFB15EF7A54000C8120 /* world.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F58E5AF515EF7A54000C8120 /* world.cpp */; };
 		F5943E2915D981BC00988068 /* carcontrolmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2715D981BC00988068 /* carcontrolmap.cpp */; };
 		F5943E2C15D981E200988068 /* config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2A15D981E200988068 /* config.cpp */; };
 		F5943E3015D981EC00988068 /* ptree_inf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2D15D981EC00988068 /* ptree_inf.cpp */; };
@@ -99,7 +91,16 @@
 		F5943EC115D9824F00988068 /* font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EBF15D9824F00988068 /* font.cpp */; };
 		F5943EC415D9825A00988068 /* guilanguage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EC215D9825A00988068 /* guilanguage.cpp */; };
 		F5943EC715D9827700988068 /* text_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EC515D9827700988068 /* text_draw.cpp */; };
+		F5943EE815D9828600988068 /* cardifferential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943ECC15D9828600988068 /* cardifferential.cpp */; };
+		F5943EE915D9828600988068 /* cardynamics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943ECE15D9828600988068 /* cardynamics.cpp */; };
+		F5943EEA15D9828600988068 /* carengine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943ED015D9828600988068 /* carengine.cpp */; };
+		F5943EEB15D9828600988068 /* carsuspension.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943ED315D9828600988068 /* carsuspension.cpp */; };
+		F5943EEC15D9828600988068 /* cartire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943ED515D9828600988068 /* cartire.cpp */; };
+		F5943EED15D9828600988068 /* dynamicsworld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EDC15D9828600988068 /* dynamicsworld.cpp */; };
 		F5943EEE15D9828600988068 /* fracturebody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EDE15D9828600988068 /* fracturebody.cpp */; };
+		F5943EEF15D9828600988068 /* linearframe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EE015D9828600988068 /* linearframe.cpp */; };
+		F5943EF015D9828600988068 /* rigidbody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EE315D9828600988068 /* rigidbody.cpp */; };
+		F5943EF115D9828600988068 /* rotationalframe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EE515D9828600988068 /* rotationalframe.cpp */; };
 		F5943EFA15D9829900988068 /* sound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EF315D9829900988068 /* sound.cpp */; };
 		F5943EFB15D9829900988068 /* soundbuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EF515D9829900988068 /* soundbuffer.cpp */; };
 		F5943EFC15D9829900988068 /* soundfilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EF715D9829900988068 /* soundfilter.cpp */; };
@@ -233,37 +234,6 @@
 		F56E1AA815DBEA4100E87C6E /* GLEW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLEW.framework; path = Frameworks/GLEW.framework; sourceTree = "<group>"; };
 		F56E1AAE15DBEF0D00E87C6E /* SDL_gfx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_gfx.framework; path = Frameworks/SDL_gfx.framework; sourceTree = "<group>"; };
 		F56E1AC115DBF57400E87C6E /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
-		F58E5AD515EF79B8000C8120 /* loadvehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loadvehicle.cpp; sourceTree = "<group>"; };
-		F58E5AD615EF79B8000C8120 /* loadvehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadvehicle.h; sourceTree = "<group>"; };
-		F58E5AD915EF7A22000C8120 /* antirollbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = antirollbar.h; sourceTree = "<group>"; };
-		F58E5ADA15EF7A22000C8120 /* brake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brake.h; sourceTree = "<group>"; };
-		F58E5ADB15EF7A22000C8120 /* clutch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clutch.h; sourceTree = "<group>"; };
-		F58E5ADC15EF7A22000C8120 /* clutchjoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clutchjoint.h; sourceTree = "<group>"; };
-		F58E5ADD15EF7A22000C8120 /* constraintrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constraintrow.h; sourceTree = "<group>"; };
-		F58E5ADE15EF7A22000C8120 /* differential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = differential.h; sourceTree = "<group>"; };
-		F58E5ADF15EF7A22000C8120 /* differentialjoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = differentialjoint.h; sourceTree = "<group>"; };
-		F58E5AE015EF7A22000C8120 /* engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = engine.cpp; sourceTree = "<group>"; };
-		F58E5AE115EF7A22000C8120 /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
-		F58E5AE315EF7A54000C8120 /* motorjoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motorjoint.h; sourceTree = "<group>"; };
-		F58E5AE415EF7A54000C8120 /* ray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ray.cpp; sourceTree = "<group>"; };
-		F58E5AE515EF7A54000C8120 /* ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ray.h; sourceTree = "<group>"; };
-		F58E5AE615EF7A54000C8120 /* shaft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaft.h; sourceTree = "<group>"; };
-		F58E5AE715EF7A54000C8120 /* solveconstraintrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solveconstraintrow.h; sourceTree = "<group>"; };
-		F58E5AE815EF7A54000C8120 /* surface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = surface.h; sourceTree = "<group>"; };
-		F58E5AE915EF7A54000C8120 /* suspension.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = suspension.cpp; sourceTree = "<group>"; };
-		F58E5AEA15EF7A54000C8120 /* suspension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = suspension.h; sourceTree = "<group>"; };
-		F58E5AEB15EF7A54000C8120 /* tire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tire.cpp; sourceTree = "<group>"; };
-		F58E5AEC15EF7A54000C8120 /* tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tire.h; sourceTree = "<group>"; };
-		F58E5AED15EF7A54000C8120 /* transmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transmission.h; sourceTree = "<group>"; };
-		F58E5AEE15EF7A54000C8120 /* vehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vehicle.cpp; sourceTree = "<group>"; };
-		F58E5AEF15EF7A54000C8120 /* vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vehicle.h; sourceTree = "<group>"; };
-		F58E5AF015EF7A54000C8120 /* vehicleinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vehicleinfo.h; sourceTree = "<group>"; };
-		F58E5AF115EF7A54000C8120 /* vehiclestate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vehiclestate.h; sourceTree = "<group>"; };
-		F58E5AF215EF7A54000C8120 /* wheel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wheel.cpp; sourceTree = "<group>"; };
-		F58E5AF315EF7A54000C8120 /* wheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wheel.h; sourceTree = "<group>"; };
-		F58E5AF415EF7A54000C8120 /* wheelcontact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wheelcontact.h; sourceTree = "<group>"; };
-		F58E5AF515EF7A54000C8120 /* world.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = world.cpp; sourceTree = "<group>"; };
-		F58E5AFC15EF7A64000C8120 /* tracksurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tracksurface.h; sourceTree = "<group>"; };
 		F5943E2715D981BC00988068 /* carcontrolmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = carcontrolmap.cpp; sourceTree = "<group>"; };
 		F5943E2815D981BC00988068 /* carcontrolmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carcontrolmap.h; sourceTree = "<group>"; };
 		F5943E2A15D981E200988068 /* config.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = config.cpp; sourceTree = "<group>"; };
@@ -374,9 +344,36 @@
 		F5943EC515D9827700988068 /* text_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = text_draw.cpp; sourceTree = "<group>"; };
 		F5943EC615D9827700988068 /* text_draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text_draw.h; sourceTree = "<group>"; };
 		F5943EC915D9828600988068 /* aerodevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aerodevice.h; sourceTree = "<group>"; };
+		F5943ECA15D9828600988068 /* carbrake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carbrake.h; sourceTree = "<group>"; };
+		F5943ECB15D9828600988068 /* carclutch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carclutch.h; sourceTree = "<group>"; };
+		F5943ECC15D9828600988068 /* cardifferential.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cardifferential.cpp; sourceTree = "<group>"; };
+		F5943ECD15D9828600988068 /* cardifferential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cardifferential.h; sourceTree = "<group>"; };
+		F5943ECE15D9828600988068 /* cardynamics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cardynamics.cpp; sourceTree = "<group>"; };
+		F5943ECF15D9828600988068 /* cardynamics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cardynamics.h; sourceTree = "<group>"; };
+		F5943ED015D9828600988068 /* carengine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = carengine.cpp; sourceTree = "<group>"; };
+		F5943ED115D9828600988068 /* carengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carengine.h; sourceTree = "<group>"; };
+		F5943ED215D9828600988068 /* carfueltank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carfueltank.h; sourceTree = "<group>"; };
+		F5943ED315D9828600988068 /* carsuspension.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = carsuspension.cpp; sourceTree = "<group>"; };
+		F5943ED415D9828600988068 /* carsuspension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carsuspension.h; sourceTree = "<group>"; };
+		F5943ED515D9828600988068 /* cartire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cartire.cpp; sourceTree = "<group>"; };
+		F5943ED615D9828600988068 /* cartire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cartire.h; sourceTree = "<group>"; };
+		F5943ED715D9828600988068 /* cartransmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cartransmission.h; sourceTree = "<group>"; };
+		F5943ED815D9828600988068 /* carwheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carwheel.h; sourceTree = "<group>"; };
+		F5943ED915D9828600988068 /* carwheelposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carwheelposition.h; sourceTree = "<group>"; };
+		F5943EDA15D9828600988068 /* collision_contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collision_contact.h; sourceTree = "<group>"; };
+		F5943EDB15D9828600988068 /* driveshaft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = driveshaft.h; sourceTree = "<group>"; };
+		F5943EDC15D9828600988068 /* dynamicsworld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dynamicsworld.cpp; sourceTree = "<group>"; };
+		F5943EDD15D9828600988068 /* dynamicsworld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dynamicsworld.h; sourceTree = "<group>"; };
 		F5943EDE15D9828600988068 /* fracturebody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fracturebody.cpp; sourceTree = "<group>"; };
 		F5943EDF15D9828600988068 /* fracturebody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fracturebody.h; sourceTree = "<group>"; };
+		F5943EE015D9828600988068 /* linearframe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linearframe.cpp; sourceTree = "<group>"; };
+		F5943EE115D9828600988068 /* linearframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linearframe.h; sourceTree = "<group>"; };
 		F5943EE215D9828600988068 /* motionstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motionstate.h; sourceTree = "<group>"; };
+		F5943EE315D9828600988068 /* rigidbody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rigidbody.cpp; sourceTree = "<group>"; };
+		F5943EE415D9828600988068 /* rigidbody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rigidbody.h; sourceTree = "<group>"; };
+		F5943EE515D9828600988068 /* rotationalframe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rotationalframe.cpp; sourceTree = "<group>"; };
+		F5943EE615D9828600988068 /* rotationalframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rotationalframe.h; sourceTree = "<group>"; };
+		F5943EE715D9828600988068 /* tracksurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tracksurface.h; sourceTree = "<group>"; };
 		F5943EF315D9829900988068 /* sound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sound.cpp; sourceTree = "<group>"; };
 		F5943EF415D9829900988068 /* sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sound.h; sourceTree = "<group>"; };
 		F5943EF515D9829900988068 /* soundbuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = soundbuffer.cpp; sourceTree = "<group>"; };
@@ -720,8 +717,6 @@
 				F5F34657156949B100424EBA /* loaddrawable.h */,
 				F5F34658156949B100424EBA /* loadingscreen.cpp */,
 				F5F34659156949B100424EBA /* loadingscreen.h */,
-				F58E5AD515EF79B8000C8120 /* loadvehicle.cpp */,
-				F58E5AD615EF79B8000C8120 /* loadvehicle.h */,
 				F5F3465A156949B100424EBA /* logging.h */,
 				F5F3465B156949B100424EBA /* macros.h */,
 				F5F3465C156949B100424EBA /* main.cpp */,
@@ -783,7 +778,6 @@
 				F5F346B8156949B200424EBA /* trackloader.h */,
 				F5F346B9156949B200424EBA /* trackmap.cpp */,
 				F5F346BA156949B200424EBA /* trackmap.h */,
-				F58E5AFC15EF7A64000C8120 /* tracksurface.h */,
 				F5F346BC156949B200424EBA /* transform.h */,
 				F5005E8115ADDAA600E2B121 /* tripplebuffer.h */,
 				F5F346BD156949B200424EBA /* unittest.h */,
@@ -950,37 +944,36 @@
 			isa = PBXGroup;
 			children = (
 				F5943EC915D9828600988068 /* aerodevice.h */,
-				F58E5AD915EF7A22000C8120 /* antirollbar.h */,
-				F58E5ADA15EF7A22000C8120 /* brake.h */,
-				F58E5ADB15EF7A22000C8120 /* clutch.h */,
-				F58E5ADC15EF7A22000C8120 /* clutchjoint.h */,
-				F58E5ADD15EF7A22000C8120 /* constraintrow.h */,
-				F58E5ADE15EF7A22000C8120 /* differential.h */,
-				F58E5ADF15EF7A22000C8120 /* differentialjoint.h */,
-				F58E5AE015EF7A22000C8120 /* engine.cpp */,
-				F58E5AE115EF7A22000C8120 /* engine.h */,
+				F5943ECA15D9828600988068 /* carbrake.h */,
+				F5943ECB15D9828600988068 /* carclutch.h */,
+				F5943ECC15D9828600988068 /* cardifferential.cpp */,
+				F5943ECD15D9828600988068 /* cardifferential.h */,
+				F5943ECE15D9828600988068 /* cardynamics.cpp */,
+				F5943ECF15D9828600988068 /* cardynamics.h */,
+				F5943ED015D9828600988068 /* carengine.cpp */,
+				F5943ED115D9828600988068 /* carengine.h */,
+				F5943ED215D9828600988068 /* carfueltank.h */,
+				F5943ED315D9828600988068 /* carsuspension.cpp */,
+				F5943ED415D9828600988068 /* carsuspension.h */,
+				F5943ED515D9828600988068 /* cartire.cpp */,
+				F5943ED615D9828600988068 /* cartire.h */,
+				F5943ED715D9828600988068 /* cartransmission.h */,
+				F5943ED815D9828600988068 /* carwheel.h */,
+				F5943ED915D9828600988068 /* carwheelposition.h */,
+				F5943EDA15D9828600988068 /* collision_contact.h */,
+				F5943EDB15D9828600988068 /* driveshaft.h */,
+				F5943EDC15D9828600988068 /* dynamicsworld.cpp */,
+				F5943EDD15D9828600988068 /* dynamicsworld.h */,
 				F5943EDE15D9828600988068 /* fracturebody.cpp */,
 				F5943EDF15D9828600988068 /* fracturebody.h */,
+				F5943EE015D9828600988068 /* linearframe.cpp */,
+				F5943EE115D9828600988068 /* linearframe.h */,
 				F5943EE215D9828600988068 /* motionstate.h */,
-				F58E5AE315EF7A54000C8120 /* motorjoint.h */,
-				F58E5AE415EF7A54000C8120 /* ray.cpp */,
-				F58E5AE515EF7A54000C8120 /* ray.h */,
-				F58E5AE615EF7A54000C8120 /* shaft.h */,
-				F58E5AE715EF7A54000C8120 /* solveconstraintrow.h */,
-				F58E5AE815EF7A54000C8120 /* surface.h */,
-				F58E5AE915EF7A54000C8120 /* suspension.cpp */,
-				F58E5AEA15EF7A54000C8120 /* suspension.h */,
-				F58E5AEB15EF7A54000C8120 /* tire.cpp */,
-				F58E5AEC15EF7A54000C8120 /* tire.h */,
-				F58E5AED15EF7A54000C8120 /* transmission.h */,
-				F58E5AEE15EF7A54000C8120 /* vehicle.cpp */,
-				F58E5AEF15EF7A54000C8120 /* vehicle.h */,
-				F58E5AF015EF7A54000C8120 /* vehicleinfo.h */,
-				F58E5AF115EF7A54000C8120 /* vehiclestate.h */,
-				F58E5AF215EF7A54000C8120 /* wheel.cpp */,
-				F58E5AF315EF7A54000C8120 /* wheel.h */,
-				F58E5AF415EF7A54000C8120 /* wheelcontact.h */,
-				F58E5AF515EF7A54000C8120 /* world.cpp */,
+				F5943EE315D9828600988068 /* rigidbody.cpp */,
+				F5943EE415D9828600988068 /* rigidbody.h */,
+				F5943EE515D9828600988068 /* rotationalframe.cpp */,
+				F5943EE615D9828600988068 /* rotationalframe.h */,
+				F5943EE715D9828600988068 /* tracksurface.h */,
 			);
 			path = physics;
 			sourceTree = "<group>";
@@ -1146,24 +1139,72 @@
 				F5F346E9156949B200424EBA /* camera_mount.cpp in Sources */,
 				F5F346EA156949B200424EBA /* camera_orbit.cpp in Sources */,
 				F5F346EB156949B200424EBA /* car.cpp in Sources */,
-				F5943E2915D981BC00988068 /* carcontrolmap.cpp in Sources */,
-				F5943E2C15D981E200988068 /* config.cpp in Sources */,
-				F5943E3015D981EC00988068 /* ptree_inf.cpp in Sources */,
-				F5943E3115D981EC00988068 /* ptree_ini.cpp in Sources */,
-				F5943E3215D981EC00988068 /* ptree_xml.cpp in Sources */,
 				F5F346F4156949B200424EBA /* ptree.cpp in Sources */,
 				F5F346F7156949B200424EBA /* containeralgorithm.cpp in Sources */,
-				F5943E3F15D981F700988068 /* configfactory.cpp in Sources */,
-				F5943E4015D981F700988068 /* contentmanager.cpp in Sources */,
-				F5943E4115D981F700988068 /* modelfactory.cpp in Sources */,
-				F5943E4215D981F700988068 /* soundfactory.cpp in Sources */,
-				F5943E4315D981F700988068 /* texturefactory.cpp in Sources */,
 				F5F346F9156949B200424EBA /* crashdetection.cpp in Sources */,
 				F5F346FA156949B200424EBA /* downloadable.cpp in Sources */,
 				F5F346FD156949B200424EBA /* dynamicsdraw.cpp in Sources */,
 				F5F34700156949B200424EBA /* eventsystem.cpp in Sources */,
 				F5F34704156949B200424EBA /* forcefeedback.cpp in Sources */,
 				F5F34706156949B200424EBA /* game.cpp in Sources */,
+				F5005E7715ADDA5900E2B121 /* gui.cpp in Sources */,
+				F5005E7815ADDA5900E2B121 /* guicontrol.cpp in Sources */,
+				F5005E7915ADDA5900E2B121 /* guiimage.cpp in Sources */,
+				F5005E7A15ADDA5900E2B121 /* guilabel.cpp in Sources */,
+				F5005E7B15ADDA5900E2B121 /* guioption.cpp in Sources */,
+				F5005E7C15ADDA5900E2B121 /* guipage.cpp in Sources */,
+				F5005E7D15ADDA5900E2B121 /* guislider.cpp in Sources */,
+				F5005E7E15ADDA5900E2B121 /* guiwidget.cpp in Sources */,
+				F5F3471D156949B200424EBA /* http.cpp in Sources */,
+				F5F3471E156949B200424EBA /* hud.cpp in Sources */,
+				F5F3471F156949B200424EBA /* hudbar.cpp in Sources */,
+				F5F34720156949B200424EBA /* hudgauge.cpp in Sources */,
+				F5F34721156949B200424EBA /* joepack.cpp in Sources */,
+				F5F34722156949B200424EBA /* joeserialize.cpp in Sources */,
+				F5F34723156949B200424EBA /* k1999.cpp in Sources */,
+				F5F34724156949B200424EBA /* keyed_container.cpp in Sources */,
+				F5F34726156949B200424EBA /* linearinterp.cpp in Sources */,
+				F5F34727156949B200424EBA /* loadcamera.cpp in Sources */,
+				F5F34728156949B200424EBA /* loadcollisionshape.cpp in Sources */,
+				F5F34729156949B200424EBA /* loaddrawable.cpp in Sources */,
+				F5F3472A156949B200424EBA /* loadingscreen.cpp in Sources */,
+				F5F3472B156949B200424EBA /* main.cpp in Sources */,
+				F5F3472C156949B200424EBA /* mathplane.cpp in Sources */,
+				F5F3472D156949B200424EBA /* mathvector.cpp in Sources */,
+				F5F3472E156949B200424EBA /* matrix4.cpp in Sources */,
+				F5F34734156949B200424EBA /* optional.cpp in Sources */,
+				F5F34735156949B200424EBA /* parallel_task.cpp in Sources */,
+				F5F34736156949B200424EBA /* particle.cpp in Sources */,
+				F5F34737156949B200424EBA /* pathmanager.cpp in Sources */,
+				F5F34738156949B200424EBA /* performance_testing.cpp in Sources */,
+				F5F34739156949B200424EBA /* quaternion.cpp in Sources */,
+				F5F3473A156949B200424EBA /* random.cpp in Sources */,
+				F5F3473C156949B200424EBA /* replay.cpp in Sources */,
+				F5F3473D156949B200424EBA /* reseatable_reference.cpp in Sources */,
+				F5F3473F156949B200424EBA /* roadpatch.cpp in Sources */,
+				F5F34740156949B200424EBA /* roadstrip.cpp in Sources */,
+				F5F34744156949B200424EBA /* settings.cpp in Sources */,
+				F5F3474A156949B200424EBA /* sprite2d.cpp in Sources */,
+				F5F3474B156949B200424EBA /* suspensionbumpdetection.cpp in Sources */,
+				F5F3474C156949B200424EBA /* svn_sourceforge.cpp in Sources */,
+				F5F3474F156949B200424EBA /* timer.cpp in Sources */,
+				F5F34750156949B200424EBA /* toggle.cpp in Sources */,
+				F5F34751156949B200424EBA /* track.cpp in Sources */,
+				F5F34752156949B200424EBA /* trackloader.cpp in Sources */,
+				F5F34753156949B200424EBA /* trackmap.cpp in Sources */,
+				F5005E8415ADDAB200E2B121 /* updatemanager.cpp in Sources */,
+				F5F34755156949B200424EBA /* utils.cpp in Sources */,
+				F5F34762156949B200424EBA /* window.cpp in Sources */,
+				F5943E2915D981BC00988068 /* carcontrolmap.cpp in Sources */,
+				F5943E2C15D981E200988068 /* config.cpp in Sources */,
+				F5943E3015D981EC00988068 /* ptree_inf.cpp in Sources */,
+				F5943E3115D981EC00988068 /* ptree_ini.cpp in Sources */,
+				F5943E3215D981EC00988068 /* ptree_xml.cpp in Sources */,
+				F5943E3F15D981F700988068 /* configfactory.cpp in Sources */,
+				F5943E4015D981F700988068 /* contentmanager.cpp in Sources */,
+				F5943E4115D981F700988068 /* modelfactory.cpp in Sources */,
+				F5943E4215D981F700988068 /* soundfactory.cpp in Sources */,
+				F5943E4315D981F700988068 /* texturefactory.cpp in Sources */,
 				F5943E9B15D9821800988068 /* drawable.cpp in Sources */,
 				F5943E9D15D9821800988068 /* fbobject.cpp in Sources */,
 				F5943E9E15D9821800988068 /* fbtexture.cpp in Sources */,
@@ -1199,68 +1240,21 @@
 				F5943EBD15D9821800988068 /* texture.cpp in Sources */,
 				F5943EBE15D9821800988068 /* vertexarray.cpp in Sources */,
 				F5943EC115D9824F00988068 /* font.cpp in Sources */,
-				F5005E7715ADDA5900E2B121 /* gui.cpp in Sources */,
-				F5005E7815ADDA5900E2B121 /* guicontrol.cpp in Sources */,
-				F5005E7915ADDA5900E2B121 /* guiimage.cpp in Sources */,
-				F5005E7A15ADDA5900E2B121 /* guilabel.cpp in Sources */,
 				F5943EC415D9825A00988068 /* guilanguage.cpp in Sources */,
-				F5005E7B15ADDA5900E2B121 /* guioption.cpp in Sources */,
-				F5005E7C15ADDA5900E2B121 /* guipage.cpp in Sources */,
-				F5005E7D15ADDA5900E2B121 /* guislider.cpp in Sources */,
-				F5005E7E15ADDA5900E2B121 /* guiwidget.cpp in Sources */,
 				F5943EC715D9827700988068 /* text_draw.cpp in Sources */,
-				F5F3471D156949B200424EBA /* http.cpp in Sources */,
-				F5F3471E156949B200424EBA /* hud.cpp in Sources */,
-				F5F3471F156949B200424EBA /* hudbar.cpp in Sources */,
-				F5F34720156949B200424EBA /* hudgauge.cpp in Sources */,
-				F5F34721156949B200424EBA /* joepack.cpp in Sources */,
-				F5F34722156949B200424EBA /* joeserialize.cpp in Sources */,
-				F5F34723156949B200424EBA /* k1999.cpp in Sources */,
-				F5F34724156949B200424EBA /* keyed_container.cpp in Sources */,
-				F5F34726156949B200424EBA /* linearinterp.cpp in Sources */,
-				F5F34727156949B200424EBA /* loadcamera.cpp in Sources */,
-				F5F34728156949B200424EBA /* loadcollisionshape.cpp in Sources */,
-				F5F34729156949B200424EBA /* loaddrawable.cpp in Sources */,
-				F5F3472A156949B200424EBA /* loadingscreen.cpp in Sources */,
-				F5F3472B156949B200424EBA /* main.cpp in Sources */,
-				F5F3472C156949B200424EBA /* mathplane.cpp in Sources */,
-				F5F3472D156949B200424EBA /* mathvector.cpp in Sources */,
-				F5F3472E156949B200424EBA /* matrix4.cpp in Sources */,
-				F5F34734156949B200424EBA /* optional.cpp in Sources */,
-				F5F34735156949B200424EBA /* parallel_task.cpp in Sources */,
-				F5F34736156949B200424EBA /* particle.cpp in Sources */,
-				F5F34737156949B200424EBA /* pathmanager.cpp in Sources */,
-				F5F34738156949B200424EBA /* performance_testing.cpp in Sources */,
-				F58E5AE215EF7A22000C8120 /* engine.cpp in Sources */,
+				F5943EE815D9828600988068 /* cardifferential.cpp in Sources */,
+				F5943EE915D9828600988068 /* cardynamics.cpp in Sources */,
+				F5943EEA15D9828600988068 /* carengine.cpp in Sources */,
+				F5943EEB15D9828600988068 /* carsuspension.cpp in Sources */,
+				F5943EEC15D9828600988068 /* cartire.cpp in Sources */,
+				F5943EED15D9828600988068 /* dynamicsworld.cpp in Sources */,
 				F5943EEE15D9828600988068 /* fracturebody.cpp in Sources */,
-				F58E5AF615EF7A54000C8120 /* ray.cpp in Sources */,
-				F58E5AF715EF7A54000C8120 /* suspension.cpp in Sources */,
-				F58E5AF815EF7A54000C8120 /* tire.cpp in Sources */,
-				F58E5AF915EF7A54000C8120 /* vehicle.cpp in Sources */,
-				F58E5AFA15EF7A54000C8120 /* wheel.cpp in Sources */,
-				F58E5AFB15EF7A54000C8120 /* world.cpp in Sources */,
-				F5F34739156949B200424EBA /* quaternion.cpp in Sources */,
-				F5F3473A156949B200424EBA /* random.cpp in Sources */,
-				F5F3473C156949B200424EBA /* replay.cpp in Sources */,
-				F5F3473D156949B200424EBA /* reseatable_reference.cpp in Sources */,
-				F5F3473F156949B200424EBA /* roadpatch.cpp in Sources */,
-				F5F34740156949B200424EBA /* roadstrip.cpp in Sources */,
-				F5F34744156949B200424EBA /* settings.cpp in Sources */,
+				F5943EEF15D9828600988068 /* linearframe.cpp in Sources */,
+				F5943EF015D9828600988068 /* rigidbody.cpp in Sources */,
+				F5943EF115D9828600988068 /* rotationalframe.cpp in Sources */,
 				F5943EFA15D9829900988068 /* sound.cpp in Sources */,
 				F5943EFB15D9829900988068 /* soundbuffer.cpp in Sources */,
 				F5943EFC15D9829900988068 /* soundfilter.cpp in Sources */,
-				F58E5AD715EF79B8000C8120 /* loadvehicle.cpp in Sources */,
-				F5F3474A156949B200424EBA /* sprite2d.cpp in Sources */,
-				F5F3474B156949B200424EBA /* suspensionbumpdetection.cpp in Sources */,
-				F5F3474C156949B200424EBA /* svn_sourceforge.cpp in Sources */,
-				F5F3474F156949B200424EBA /* timer.cpp in Sources */,
-				F5F34750156949B200424EBA /* toggle.cpp in Sources */,
-				F5F34751156949B200424EBA /* track.cpp in Sources */,
-				F5F34752156949B200424EBA /* trackloader.cpp in Sources */,
-				F5F34753156949B200424EBA /* trackmap.cpp in Sources */,
-				F5005E8415ADDAB200E2B121 /* updatemanager.cpp in Sources */,
-				F5F34755156949B200424EBA /* utils.cpp in Sources */,
-				F5F34762156949B200424EBA /* window.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
