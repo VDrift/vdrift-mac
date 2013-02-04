@@ -55,7 +55,6 @@
 		F5943EB315D9821800988068 /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E7F15D9821800988068 /* model.cpp */; };
 		F5943EB415D9821800988068 /* model_joe03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8115D9821800988068 /* model_joe03.cpp */; };
 		F5943EB515D9821800988068 /* model_obj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8315D9821800988068 /* model_obj.cpp */; };
-		F5943EB615D9821800988068 /* render_input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8515D9821800988068 /* render_input.cpp */; };
 		F5943EB715D9821800988068 /* render_input_postprocess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8715D9821800988068 /* render_input_postprocess.cpp */; };
 		F5943EB815D9821800988068 /* render_input_scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8915D9821800988068 /* render_input_scene.cpp */; };
 		F5943EB915D9821800988068 /* render_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8B15D9821800988068 /* render_output.cpp */; };
@@ -83,6 +82,30 @@
 		F5A668D713FC3EF200EBE432 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5A668D613FC3EF200EBE432 /* icon.icns */; };
 		F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F67ED704C74A3F00A80002 /* OpenGL.framework */; };
 		F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE32B309A4FC81003B34CD /* AppKit.framework */; };
+		F5EA1BAD16C0135E004E34C2 /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA116C0135E004E34C2 /* Archive.framework */; };
+		F5EA1BAE16C0135E004E34C2 /* BulletCollision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA216C0135E004E34C2 /* BulletCollision.framework */; };
+		F5EA1BAF16C0135E004E34C2 /* BulletDynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA316C0135E004E34C2 /* BulletDynamics.framework */; };
+		F5EA1BB016C0135E004E34C2 /* BulletSoftBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA416C0135E004E34C2 /* BulletSoftBody.framework */; };
+		F5EA1BB116C0135E004E34C2 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA516C0135E004E34C2 /* cURL.framework */; };
+		F5EA1BB216C0135E004E34C2 /* GLEW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA616C0135E004E34C2 /* GLEW.framework */; };
+		F5EA1BB316C0135E004E34C2 /* LinearMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA716C0135E004E34C2 /* LinearMath.framework */; };
+		F5EA1BB416C0135E004E34C2 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA816C0135E004E34C2 /* Ogg.framework */; };
+		F5EA1BB516C0135E004E34C2 /* SDL_gfx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA916C0135E004E34C2 /* SDL_gfx.framework */; };
+		F5EA1BB616C0135E004E34C2 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BAA16C0135E004E34C2 /* SDL_image.framework */; };
+		F5EA1BB716C0135E004E34C2 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BAB16C0135E004E34C2 /* SDL.framework */; };
+		F5EA1BB816C0135E004E34C2 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BAC16C0135E004E34C2 /* Vorbis.framework */; };
+		F5EA1BB916C0136B004E34C2 /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BA116C0135E004E34C2 /* Archive.framework */; };
+		F5EA1BBA16C0136B004E34C2 /* BulletCollision.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BA216C0135E004E34C2 /* BulletCollision.framework */; };
+		F5EA1BBB16C0136B004E34C2 /* BulletDynamics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BA316C0135E004E34C2 /* BulletDynamics.framework */; };
+		F5EA1BBC16C0136B004E34C2 /* BulletSoftBody.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BA416C0135E004E34C2 /* BulletSoftBody.framework */; };
+		F5EA1BBD16C0136B004E34C2 /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BA516C0135E004E34C2 /* cURL.framework */; };
+		F5EA1BBE16C0136B004E34C2 /* GLEW.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BA616C0135E004E34C2 /* GLEW.framework */; };
+		F5EA1BBF16C0136B004E34C2 /* LinearMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BA716C0135E004E34C2 /* LinearMath.framework */; };
+		F5EA1BC016C0136B004E34C2 /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BA816C0135E004E34C2 /* Ogg.framework */; };
+		F5EA1BC116C0136B004E34C2 /* SDL_gfx.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BA916C0135E004E34C2 /* SDL_gfx.framework */; };
+		F5EA1BC216C0136B004E34C2 /* SDL_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BAA16C0135E004E34C2 /* SDL_image.framework */; };
+		F5EA1BC316C0136B004E34C2 /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BAB16C0135E004E34C2 /* SDL.framework */; };
+		F5EA1BC416C0136B004E34C2 /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BAC16C0135E004E34C2 /* Vorbis.framework */; };
 		F5F346DF156949B200424EBA /* aabb_space_partitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345A2156949B100424EBA /* aabb_space_partitioning.cpp */; };
 		F5F346E0156949B200424EBA /* aabb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345A4156949B100424EBA /* aabb.cpp */; };
 		F5F346E1156949B200424EBA /* ai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345A8156949B100424EBA /* ai.cpp */; };
@@ -143,30 +166,6 @@
 		F5F34753156949B200424EBA /* trackmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F346B9156949B200424EBA /* trackmap.cpp */; };
 		F5F34755156949B200424EBA /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F346C1156949B200424EBA /* utils.cpp */; };
 		F5F34762156949B200424EBA /* window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F346DD156949B200424EBA /* window.cpp */; };
-		F5FF391D16A356B800762464 /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FF391116A356B800762464 /* Archive.framework */; };
-		F5FF391E16A356B800762464 /* BulletCollision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FF391216A356B800762464 /* BulletCollision.framework */; };
-		F5FF391F16A356B800762464 /* BulletDynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FF391316A356B800762464 /* BulletDynamics.framework */; };
-		F5FF392016A356B800762464 /* BulletSoftBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FF391416A356B800762464 /* BulletSoftBody.framework */; };
-		F5FF392116A356B800762464 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FF391516A356B800762464 /* cURL.framework */; };
-		F5FF392216A356B800762464 /* GLEW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FF391616A356B800762464 /* GLEW.framework */; };
-		F5FF392316A356B800762464 /* LinearMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FF391716A356B800762464 /* LinearMath.framework */; };
-		F5FF392416A356B800762464 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FF391816A356B800762464 /* Ogg.framework */; };
-		F5FF392516A356B800762464 /* SDL_gfx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FF391916A356B800762464 /* SDL_gfx.framework */; };
-		F5FF392616A356B800762464 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FF391A16A356B800762464 /* SDL_image.framework */; };
-		F5FF392716A356B800762464 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FF391B16A356B800762464 /* SDL.framework */; };
-		F5FF392816A356B800762464 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FF391C16A356B800762464 /* Vorbis.framework */; };
-		F5FF392916A356BB00762464 /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5FF391116A356B800762464 /* Archive.framework */; };
-		F5FF392A16A356BB00762464 /* BulletCollision.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5FF391216A356B800762464 /* BulletCollision.framework */; };
-		F5FF392B16A356BB00762464 /* BulletDynamics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5FF391316A356B800762464 /* BulletDynamics.framework */; };
-		F5FF392C16A356BB00762464 /* BulletSoftBody.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5FF391416A356B800762464 /* BulletSoftBody.framework */; };
-		F5FF392D16A356BB00762464 /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5FF391516A356B800762464 /* cURL.framework */; };
-		F5FF392E16A356BB00762464 /* GLEW.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5FF391616A356B800762464 /* GLEW.framework */; };
-		F5FF392F16A356BB00762464 /* LinearMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5FF391716A356B800762464 /* LinearMath.framework */; };
-		F5FF393016A356BB00762464 /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5FF391816A356B800762464 /* Ogg.framework */; };
-		F5FF393116A356BB00762464 /* SDL_gfx.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5FF391916A356B800762464 /* SDL_gfx.framework */; };
-		F5FF393216A356BB00762464 /* SDL_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5FF391A16A356B800762464 /* SDL_image.framework */; };
-		F5FF393316A356BB00762464 /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5FF391B16A356B800762464 /* SDL.framework */; };
-		F5FF393416A356BB00762464 /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5FF391C16A356B800762464 /* Vorbis.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -176,18 +175,18 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F5FF392916A356BB00762464 /* Archive.framework in CopyFiles */,
-				F5FF392A16A356BB00762464 /* BulletCollision.framework in CopyFiles */,
-				F5FF392B16A356BB00762464 /* BulletDynamics.framework in CopyFiles */,
-				F5FF392C16A356BB00762464 /* BulletSoftBody.framework in CopyFiles */,
-				F5FF392D16A356BB00762464 /* cURL.framework in CopyFiles */,
-				F5FF392E16A356BB00762464 /* GLEW.framework in CopyFiles */,
-				F5FF392F16A356BB00762464 /* LinearMath.framework in CopyFiles */,
-				F5FF393016A356BB00762464 /* Ogg.framework in CopyFiles */,
-				F5FF393116A356BB00762464 /* SDL_gfx.framework in CopyFiles */,
-				F5FF393216A356BB00762464 /* SDL_image.framework in CopyFiles */,
-				F5FF393316A356BB00762464 /* SDL.framework in CopyFiles */,
-				F5FF393416A356BB00762464 /* Vorbis.framework in CopyFiles */,
+				F5EA1BB916C0136B004E34C2 /* Archive.framework in CopyFiles */,
+				F5EA1BBA16C0136B004E34C2 /* BulletCollision.framework in CopyFiles */,
+				F5EA1BBB16C0136B004E34C2 /* BulletDynamics.framework in CopyFiles */,
+				F5EA1BBC16C0136B004E34C2 /* BulletSoftBody.framework in CopyFiles */,
+				F5EA1BBD16C0136B004E34C2 /* cURL.framework in CopyFiles */,
+				F5EA1BBE16C0136B004E34C2 /* GLEW.framework in CopyFiles */,
+				F5EA1BBF16C0136B004E34C2 /* LinearMath.framework in CopyFiles */,
+				F5EA1BC016C0136B004E34C2 /* Ogg.framework in CopyFiles */,
+				F5EA1BC116C0136B004E34C2 /* SDL_gfx.framework in CopyFiles */,
+				F5EA1BC216C0136B004E34C2 /* SDL_image.framework in CopyFiles */,
+				F5EA1BC316C0136B004E34C2 /* SDL.framework in CopyFiles */,
+				F5EA1BC416C0136B004E34C2 /* Vorbis.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +302,6 @@
 		F5943E8215D9821800988068 /* model_joe03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_joe03.h; sourceTree = "<group>"; };
 		F5943E8315D9821800988068 /* model_obj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model_obj.cpp; sourceTree = "<group>"; };
 		F5943E8415D9821800988068 /* model_obj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_obj.h; sourceTree = "<group>"; };
-		F5943E8515D9821800988068 /* render_input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = render_input.cpp; sourceTree = "<group>"; };
 		F5943E8615D9821800988068 /* render_input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render_input.h; sourceTree = "<group>"; };
 		F5943E8715D9821800988068 /* render_input_postprocess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = render_input_postprocess.cpp; sourceTree = "<group>"; };
 		F5943E8815D9821800988068 /* render_input_postprocess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render_input_postprocess.h; sourceTree = "<group>"; };
@@ -374,6 +372,18 @@
 		F5A668D613FC3EF200EBE432 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		F5A668D813FC3EF800EBE432 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B8D8EA1410223800E6A7A3 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
+		F5EA1BA116C0135E004E34C2 /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
+		F5EA1BA216C0135E004E34C2 /* BulletCollision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletCollision.framework; path = Frameworks/BulletCollision.framework; sourceTree = "<group>"; };
+		F5EA1BA316C0135E004E34C2 /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = Frameworks/BulletDynamics.framework; sourceTree = "<group>"; };
+		F5EA1BA416C0135E004E34C2 /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = Frameworks/BulletSoftBody.framework; sourceTree = "<group>"; };
+		F5EA1BA516C0135E004E34C2 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
+		F5EA1BA616C0135E004E34C2 /* GLEW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLEW.framework; path = Frameworks/GLEW.framework; sourceTree = "<group>"; };
+		F5EA1BA716C0135E004E34C2 /* LinearMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearMath.framework; path = Frameworks/LinearMath.framework; sourceTree = "<group>"; };
+		F5EA1BA816C0135E004E34C2 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
+		F5EA1BA916C0135E004E34C2 /* SDL_gfx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_gfx.framework; path = Frameworks/SDL_gfx.framework; sourceTree = "<group>"; };
+		F5EA1BAA16C0135E004E34C2 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = Frameworks/SDL_image.framework; sourceTree = "<group>"; };
+		F5EA1BAB16C0135E004E34C2 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Frameworks/SDL.framework; sourceTree = "<group>"; };
+		F5EA1BAC16C0135E004E34C2 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
 		F5F345A2156949B100424EBA /* aabb_space_partitioning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aabb_space_partitioning.cpp; sourceTree = "<group>"; };
 		F5F345A3156949B100424EBA /* aabb_space_partitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aabb_space_partitioning.h; sourceTree = "<group>"; };
 		F5F345A4156949B100424EBA /* aabb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aabb.cpp; sourceTree = "<group>"; };
@@ -522,18 +532,6 @@
 		F5F346C2156949B200424EBA /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 		F5F346DD156949B200424EBA /* window.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = window.cpp; sourceTree = "<group>"; };
 		F5F346DE156949B200424EBA /* window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
-		F5FF391116A356B800762464 /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
-		F5FF391216A356B800762464 /* BulletCollision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletCollision.framework; path = Frameworks/BulletCollision.framework; sourceTree = "<group>"; };
-		F5FF391316A356B800762464 /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = Frameworks/BulletDynamics.framework; sourceTree = "<group>"; };
-		F5FF391416A356B800762464 /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = Frameworks/BulletSoftBody.framework; sourceTree = "<group>"; };
-		F5FF391516A356B800762464 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
-		F5FF391616A356B800762464 /* GLEW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLEW.framework; path = Frameworks/GLEW.framework; sourceTree = "<group>"; };
-		F5FF391716A356B800762464 /* LinearMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearMath.framework; path = Frameworks/LinearMath.framework; sourceTree = "<group>"; };
-		F5FF391816A356B800762464 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
-		F5FF391916A356B800762464 /* SDL_gfx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_gfx.framework; path = Frameworks/SDL_gfx.framework; sourceTree = "<group>"; };
-		F5FF391A16A356B800762464 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = Frameworks/SDL_image.framework; sourceTree = "<group>"; };
-		F5FF391B16A356B800762464 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Frameworks/SDL.framework; sourceTree = "<group>"; };
-		F5FF391C16A356B800762464 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -543,18 +541,18 @@
 			files = (
 				F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */,
 				F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */,
-				F5FF391D16A356B800762464 /* Archive.framework in Frameworks */,
-				F5FF391E16A356B800762464 /* BulletCollision.framework in Frameworks */,
-				F5FF391F16A356B800762464 /* BulletDynamics.framework in Frameworks */,
-				F5FF392016A356B800762464 /* BulletSoftBody.framework in Frameworks */,
-				F5FF392116A356B800762464 /* cURL.framework in Frameworks */,
-				F5FF392216A356B800762464 /* GLEW.framework in Frameworks */,
-				F5FF392316A356B800762464 /* LinearMath.framework in Frameworks */,
-				F5FF392416A356B800762464 /* Ogg.framework in Frameworks */,
-				F5FF392516A356B800762464 /* SDL_gfx.framework in Frameworks */,
-				F5FF392616A356B800762464 /* SDL_image.framework in Frameworks */,
-				F5FF392716A356B800762464 /* SDL.framework in Frameworks */,
-				F5FF392816A356B800762464 /* Vorbis.framework in Frameworks */,
+				F5EA1BAD16C0135E004E34C2 /* Archive.framework in Frameworks */,
+				F5EA1BAE16C0135E004E34C2 /* BulletCollision.framework in Frameworks */,
+				F5EA1BAF16C0135E004E34C2 /* BulletDynamics.framework in Frameworks */,
+				F5EA1BB016C0135E004E34C2 /* BulletSoftBody.framework in Frameworks */,
+				F5EA1BB116C0135E004E34C2 /* cURL.framework in Frameworks */,
+				F5EA1BB216C0135E004E34C2 /* GLEW.framework in Frameworks */,
+				F5EA1BB316C0135E004E34C2 /* LinearMath.framework in Frameworks */,
+				F5EA1BB416C0135E004E34C2 /* Ogg.framework in Frameworks */,
+				F5EA1BB516C0135E004E34C2 /* SDL_gfx.framework in Frameworks */,
+				F5EA1BB616C0135E004E34C2 /* SDL_image.framework in Frameworks */,
+				F5EA1BB716C0135E004E34C2 /* SDL.framework in Frameworks */,
+				F5EA1BB816C0135E004E34C2 /* Vorbis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,18 +613,18 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F5FF391116A356B800762464 /* Archive.framework */,
-				F5FF391216A356B800762464 /* BulletCollision.framework */,
-				F5FF391316A356B800762464 /* BulletDynamics.framework */,
-				F5FF391416A356B800762464 /* BulletSoftBody.framework */,
-				F5FF391516A356B800762464 /* cURL.framework */,
-				F5FF391616A356B800762464 /* GLEW.framework */,
-				F5FF391716A356B800762464 /* LinearMath.framework */,
-				F5FF391816A356B800762464 /* Ogg.framework */,
-				F5FF391916A356B800762464 /* SDL_gfx.framework */,
-				F5FF391A16A356B800762464 /* SDL_image.framework */,
-				F5FF391B16A356B800762464 /* SDL.framework */,
-				F5FF391C16A356B800762464 /* Vorbis.framework */,
+				F5EA1BA116C0135E004E34C2 /* Archive.framework */,
+				F5EA1BA216C0135E004E34C2 /* BulletCollision.framework */,
+				F5EA1BA316C0135E004E34C2 /* BulletDynamics.framework */,
+				F5EA1BA416C0135E004E34C2 /* BulletSoftBody.framework */,
+				F5EA1BA516C0135E004E34C2 /* cURL.framework */,
+				F5EA1BA616C0135E004E34C2 /* GLEW.framework */,
+				F5EA1BA716C0135E004E34C2 /* LinearMath.framework */,
+				F5EA1BA816C0135E004E34C2 /* Ogg.framework */,
+				F5EA1BA916C0135E004E34C2 /* SDL_gfx.framework */,
+				F5EA1BAA16C0135E004E34C2 /* SDL_image.framework */,
+				F5EA1BAB16C0135E004E34C2 /* SDL.framework */,
+				F5EA1BAC16C0135E004E34C2 /* Vorbis.framework */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -873,7 +871,6 @@
 				F5943E8215D9821800988068 /* model_joe03.h */,
 				F5943E8315D9821800988068 /* model_obj.cpp */,
 				F5943E8415D9821800988068 /* model_obj.h */,
-				F5943E8515D9821800988068 /* render_input.cpp */,
 				F5943E8615D9821800988068 /* render_input.h */,
 				F5943E8715D9821800988068 /* render_input_postprocess.cpp */,
 				F5943E8815D9821800988068 /* render_input_postprocess.h */,
@@ -1230,7 +1227,6 @@
 				F5943EB315D9821800988068 /* model.cpp in Sources */,
 				F5943EB415D9821800988068 /* model_joe03.cpp in Sources */,
 				F5943EB515D9821800988068 /* model_obj.cpp in Sources */,
-				F5943EB615D9821800988068 /* render_input.cpp in Sources */,
 				F5943EB715D9821800988068 /* render_input_postprocess.cpp in Sources */,
 				F5943EB815D9821800988068 /* render_input_scene.cpp in Sources */,
 				F5943EB915D9821800988068 /* render_output.cpp in Sources */,
