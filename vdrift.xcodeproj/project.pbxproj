@@ -82,6 +82,7 @@
 		F5A668D713FC3EF200EBE432 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5A668D613FC3EF200EBE432 /* icon.icns */; };
 		F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F67ED704C74A3F00A80002 /* OpenGL.framework */; };
 		F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE32B309A4FC81003B34CD /* AppKit.framework */; };
+		F5D0D69F16C978250074E889 /* radix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5D0D69D16C978250074E889 /* radix.cpp */; };
 		F5EA1BAD16C0135E004E34C2 /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA116C0135E004E34C2 /* Archive.framework */; };
 		F5EA1BAE16C0135E004E34C2 /* BulletCollision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA216C0135E004E34C2 /* BulletCollision.framework */; };
 		F5EA1BAF16C0135E004E34C2 /* BulletDynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA316C0135E004E34C2 /* BulletDynamics.framework */; };
@@ -372,6 +373,8 @@
 		F5A668D613FC3EF200EBE432 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		F5A668D813FC3EF800EBE432 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B8D8EA1410223800E6A7A3 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
+		F5D0D69D16C978250074E889 /* radix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = radix.cpp; sourceTree = "<group>"; };
+		F5D0D69E16C978250074E889 /* radix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radix.h; sourceTree = "<group>"; };
 		F5EA1BA116C0135E004E34C2 /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
 		F5EA1BA216C0135E004E34C2 /* BulletCollision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletCollision.framework; path = Frameworks/BulletCollision.framework; sourceTree = "<group>"; };
 		F5EA1BA316C0135E004E34C2 /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = Frameworks/BulletDynamics.framework; sourceTree = "<group>"; };
@@ -743,6 +746,8 @@
 				F5F3467D156949B100424EBA /* quaternion.h */,
 				F5F3467E156949B100424EBA /* quickmp.h */,
 				F5F3467F156949B100424EBA /* quickprof.h */,
+				F5D0D69D16C978250074E889 /* radix.cpp */,
+				F5D0D69E16C978250074E889 /* radix.h */,
 				F5F34680156949B100424EBA /* random.cpp */,
 				F5F34681156949B100424EBA /* random.h */,
 				F5F34684156949B100424EBA /* replay.cpp */,
@@ -1175,6 +1180,7 @@
 				F5F34737156949B200424EBA /* pathmanager.cpp in Sources */,
 				F5F34738156949B200424EBA /* performance_testing.cpp in Sources */,
 				F5F34739156949B200424EBA /* quaternion.cpp in Sources */,
+				F5D0D69F16C978250074E889 /* radix.cpp in Sources */,
 				F5F3473A156949B200424EBA /* random.cpp in Sources */,
 				F5F3473C156949B200424EBA /* replay.cpp in Sources */,
 				F5F3473D156949B200424EBA /* reseatable_reference.cpp in Sources */,
