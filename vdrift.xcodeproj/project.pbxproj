@@ -9,15 +9,21 @@
 /* Begin PBXBuildFile section */
 		B937D144091BC36000EF8096 /* config_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B937D143091BC36000EF8096 /* config_mac.mm */; };
 		B9ADD1680907CF9C00D55A16 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A47A9E01A0483001D3D55B /* SDLMain.m */; };
-		F5005E7715ADDA5900E2B121 /* gui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E6715ADDA5900E2B121 /* gui.cpp */; };
-		F5005E7815ADDA5900E2B121 /* guicontrol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E6915ADDA5900E2B121 /* guicontrol.cpp */; };
-		F5005E7915ADDA5900E2B121 /* guiimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E6B15ADDA5900E2B121 /* guiimage.cpp */; };
-		F5005E7A15ADDA5900E2B121 /* guilabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E6D15ADDA5900E2B121 /* guilabel.cpp */; };
-		F5005E7B15ADDA5900E2B121 /* guioption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E6F15ADDA5900E2B121 /* guioption.cpp */; };
-		F5005E7C15ADDA5900E2B121 /* guipage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E7115ADDA5900E2B121 /* guipage.cpp */; };
-		F5005E7D15ADDA5900E2B121 /* guislider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E7315ADDA5900E2B121 /* guislider.cpp */; };
-		F5005E7E15ADDA5900E2B121 /* guiwidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E7515ADDA5900E2B121 /* guiwidget.cpp */; };
 		F5005E8415ADDAB200E2B121 /* updatemanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E8215ADDAB200E2B121 /* updatemanager.cpp */; };
+		F52C01D816D1443100ECA7EF /* font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01BB16D1443100ECA7EF /* font.cpp */; };
+		F52C01D916D1443100ECA7EF /* gui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01BD16D1443100ECA7EF /* gui.cpp */; };
+		F52C01DA16D1443100ECA7EF /* guicontrol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01BF16D1443100ECA7EF /* guicontrol.cpp */; };
+		F52C01DB16D1443100ECA7EF /* guicontrollist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01C116D1443100ECA7EF /* guicontrollist.cpp */; };
+		F52C01DC16D1443100ECA7EF /* guiimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01C316D1443100ECA7EF /* guiimage.cpp */; };
+		F52C01DD16D1443100ECA7EF /* guilabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01C516D1443100ECA7EF /* guilabel.cpp */; };
+		F52C01DE16D1443100ECA7EF /* guilabellist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01C716D1443100ECA7EF /* guilabellist.cpp */; };
+		F52C01DF16D1443100ECA7EF /* guilanguage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01C916D1443100ECA7EF /* guilanguage.cpp */; };
+		F52C01E016D1443100ECA7EF /* guioption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01CC16D1443100ECA7EF /* guioption.cpp */; };
+		F52C01E116D1443100ECA7EF /* guipage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01CE16D1443100ECA7EF /* guipage.cpp */; };
+		F52C01E216D1443100ECA7EF /* guislider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D016D1443100ECA7EF /* guislider.cpp */; };
+		F52C01E316D1443100ECA7EF /* guiwidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D216D1443100ECA7EF /* guiwidget.cpp */; };
+		F52C01E416D1443100ECA7EF /* guiwidgetlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D416D1443100ECA7EF /* guiwidgetlist.cpp */; };
+		F52C01E516D1443100ECA7EF /* text_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D616D1443100ECA7EF /* text_draw.cpp */; };
 		F5943E2915D981BC00988068 /* carcontrolmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2715D981BC00988068 /* carcontrolmap.cpp */; };
 		F5943E2C15D981E200988068 /* config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2A15D981E200988068 /* config.cpp */; };
 		F5943E3015D981EC00988068 /* ptree_inf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2D15D981EC00988068 /* ptree_inf.cpp */; };
@@ -63,9 +69,6 @@
 		F5943EBC15D9821800988068 /* shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E9115D9821800988068 /* shader.cpp */; };
 		F5943EBD15D9821800988068 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E9415D9821800988068 /* texture.cpp */; };
 		F5943EBE15D9821800988068 /* vertexarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E9815D9821800988068 /* vertexarray.cpp */; };
-		F5943EC115D9824F00988068 /* font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EBF15D9824F00988068 /* font.cpp */; };
-		F5943EC415D9825A00988068 /* guilanguage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EC215D9825A00988068 /* guilanguage.cpp */; };
-		F5943EC715D9827700988068 /* text_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EC515D9827700988068 /* text_draw.cpp */; };
 		F5943EE815D9828600988068 /* cardifferential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943ECC15D9828600988068 /* cardifferential.cpp */; };
 		F5943EE915D9828600988068 /* cardynamics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943ECE15D9828600988068 /* cardynamics.cpp */; };
 		F5943EEA15D9828600988068 /* carengine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943ED015D9828600988068 /* carengine.cpp */; };
@@ -200,28 +203,42 @@
 		B9ADD1AF0907CF9D00D55A16 /* VDrift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DE32B309A4FC81003B34CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		F5005E6515ADDA4300E2B121 /* delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegate.h; sourceTree = "<group>"; };
-		F5005E6715ADDA5900E2B121 /* gui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gui.cpp; sourceTree = "<group>"; };
-		F5005E6815ADDA5900E2B121 /* gui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gui.h; sourceTree = "<group>"; };
-		F5005E6915ADDA5900E2B121 /* guicontrol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guicontrol.cpp; sourceTree = "<group>"; };
-		F5005E6A15ADDA5900E2B121 /* guicontrol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guicontrol.h; sourceTree = "<group>"; };
-		F5005E6B15ADDA5900E2B121 /* guiimage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiimage.cpp; sourceTree = "<group>"; };
-		F5005E6C15ADDA5900E2B121 /* guiimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiimage.h; sourceTree = "<group>"; };
-		F5005E6D15ADDA5900E2B121 /* guilabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guilabel.cpp; sourceTree = "<group>"; };
-		F5005E6E15ADDA5900E2B121 /* guilabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guilabel.h; sourceTree = "<group>"; };
-		F5005E6F15ADDA5900E2B121 /* guioption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guioption.cpp; sourceTree = "<group>"; };
-		F5005E7015ADDA5900E2B121 /* guioption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guioption.h; sourceTree = "<group>"; };
-		F5005E7115ADDA5900E2B121 /* guipage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guipage.cpp; sourceTree = "<group>"; };
-		F5005E7215ADDA5900E2B121 /* guipage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guipage.h; sourceTree = "<group>"; };
-		F5005E7315ADDA5900E2B121 /* guislider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guislider.cpp; sourceTree = "<group>"; };
-		F5005E7415ADDA5900E2B121 /* guislider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guislider.h; sourceTree = "<group>"; };
-		F5005E7515ADDA5900E2B121 /* guiwidget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiwidget.cpp; sourceTree = "<group>"; };
-		F5005E7615ADDA5900E2B121 /* guiwidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiwidget.h; sourceTree = "<group>"; };
 		F5005E7F15ADDA7A00E2B121 /* hsvtorgb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hsvtorgb.h; sourceTree = "<group>"; };
 		F5005E8015ADDA9200E2B121 /* signalslot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signalslot.h; sourceTree = "<group>"; };
 		F5005E8115ADDAA600E2B121 /* tripplebuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tripplebuffer.h; sourceTree = "<group>"; };
 		F5005E8215ADDAB200E2B121 /* updatemanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = updatemanager.cpp; sourceTree = "<group>"; };
 		F5005E8315ADDAB200E2B121 /* updatemanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = updatemanager.h; sourceTree = "<group>"; };
 		F50E396714F8439F005998F2 /* VDrift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VDrift.entitlements; sourceTree = "<group>"; };
+		F52C01BA16D1441400ECA7EF /* carinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carinfo.h; sourceTree = "<group>"; };
+		F52C01BB16D1443100ECA7EF /* font.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = font.cpp; sourceTree = "<group>"; };
+		F52C01BC16D1443100ECA7EF /* font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font.h; sourceTree = "<group>"; };
+		F52C01BD16D1443100ECA7EF /* gui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gui.cpp; sourceTree = "<group>"; };
+		F52C01BE16D1443100ECA7EF /* gui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gui.h; sourceTree = "<group>"; };
+		F52C01BF16D1443100ECA7EF /* guicontrol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guicontrol.cpp; sourceTree = "<group>"; };
+		F52C01C016D1443100ECA7EF /* guicontrol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guicontrol.h; sourceTree = "<group>"; };
+		F52C01C116D1443100ECA7EF /* guicontrollist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guicontrollist.cpp; sourceTree = "<group>"; };
+		F52C01C216D1443100ECA7EF /* guicontrollist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guicontrollist.h; sourceTree = "<group>"; };
+		F52C01C316D1443100ECA7EF /* guiimage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiimage.cpp; sourceTree = "<group>"; };
+		F52C01C416D1443100ECA7EF /* guiimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiimage.h; sourceTree = "<group>"; };
+		F52C01C516D1443100ECA7EF /* guilabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guilabel.cpp; sourceTree = "<group>"; };
+		F52C01C616D1443100ECA7EF /* guilabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guilabel.h; sourceTree = "<group>"; };
+		F52C01C716D1443100ECA7EF /* guilabellist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guilabellist.cpp; sourceTree = "<group>"; };
+		F52C01C816D1443100ECA7EF /* guilabellist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guilabellist.h; sourceTree = "<group>"; };
+		F52C01C916D1443100ECA7EF /* guilanguage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guilanguage.cpp; sourceTree = "<group>"; };
+		F52C01CA16D1443100ECA7EF /* guilanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guilanguage.h; sourceTree = "<group>"; };
+		F52C01CB16D1443100ECA7EF /* guilist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guilist.h; sourceTree = "<group>"; };
+		F52C01CC16D1443100ECA7EF /* guioption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guioption.cpp; sourceTree = "<group>"; };
+		F52C01CD16D1443100ECA7EF /* guioption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guioption.h; sourceTree = "<group>"; };
+		F52C01CE16D1443100ECA7EF /* guipage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guipage.cpp; sourceTree = "<group>"; };
+		F52C01CF16D1443100ECA7EF /* guipage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guipage.h; sourceTree = "<group>"; };
+		F52C01D016D1443100ECA7EF /* guislider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guislider.cpp; sourceTree = "<group>"; };
+		F52C01D116D1443100ECA7EF /* guislider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guislider.h; sourceTree = "<group>"; };
+		F52C01D216D1443100ECA7EF /* guiwidget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiwidget.cpp; sourceTree = "<group>"; };
+		F52C01D316D1443100ECA7EF /* guiwidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiwidget.h; sourceTree = "<group>"; };
+		F52C01D416D1443100ECA7EF /* guiwidgetlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiwidgetlist.cpp; sourceTree = "<group>"; };
+		F52C01D516D1443100ECA7EF /* guiwidgetlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiwidgetlist.h; sourceTree = "<group>"; };
+		F52C01D616D1443100ECA7EF /* text_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = text_draw.cpp; sourceTree = "<group>"; };
+		F52C01D716D1443100ECA7EF /* text_draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text_draw.h; sourceTree = "<group>"; };
 		F5943E2715D981BC00988068 /* carcontrolmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = carcontrolmap.cpp; sourceTree = "<group>"; };
 		F5943E2815D981BC00988068 /* carcontrolmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carcontrolmap.h; sourceTree = "<group>"; };
 		F5943E2A15D981E200988068 /* config.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = config.cpp; sourceTree = "<group>"; };
@@ -324,12 +341,6 @@
 		F5943E9815D9821800988068 /* vertexarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vertexarray.cpp; sourceTree = "<group>"; };
 		F5943E9915D9821800988068 /* vertexarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertexarray.h; sourceTree = "<group>"; };
 		F5943E9A15D9821800988068 /* vertexattribs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertexattribs.h; sourceTree = "<group>"; };
-		F5943EBF15D9824F00988068 /* font.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = font.cpp; sourceTree = "<group>"; };
-		F5943EC015D9824F00988068 /* font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font.h; sourceTree = "<group>"; };
-		F5943EC215D9825A00988068 /* guilanguage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guilanguage.cpp; sourceTree = "<group>"; };
-		F5943EC315D9825A00988068 /* guilanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guilanguage.h; sourceTree = "<group>"; };
-		F5943EC515D9827700988068 /* text_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = text_draw.cpp; sourceTree = "<group>"; };
-		F5943EC615D9827700988068 /* text_draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text_draw.h; sourceTree = "<group>"; };
 		F5943EC915D9828600988068 /* aerodevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aerodevice.h; sourceTree = "<group>"; };
 		F5943ECA15D9828600988068 /* carbrake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carbrake.h; sourceTree = "<group>"; };
 		F5943ECB15D9828600988068 /* carclutch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carclutch.h; sourceTree = "<group>"; };
@@ -661,6 +672,7 @@
 				F5F345C1156949B100424EBA /* car.h */,
 				F5943E2715D981BC00988068 /* carcontrolmap.cpp */,
 				F5943E2815D981BC00988068 /* carcontrolmap.h */,
+				F52C01BA16D1441400ECA7EF /* carinfo.h */,
 				F5F345CD156949B100424EBA /* carinput.h */,
 				F5F345D0156949B100424EBA /* cartelemetry.h */,
 				F5F345D6156949B100424EBA /* cfg */,
@@ -799,28 +811,35 @@
 		F5005E6615ADDA5900E2B121 /* gui */ = {
 			isa = PBXGroup;
 			children = (
-				F5943EBF15D9824F00988068 /* font.cpp */,
-				F5943EC015D9824F00988068 /* font.h */,
-				F5005E6715ADDA5900E2B121 /* gui.cpp */,
-				F5005E6815ADDA5900E2B121 /* gui.h */,
-				F5005E6915ADDA5900E2B121 /* guicontrol.cpp */,
-				F5005E6A15ADDA5900E2B121 /* guicontrol.h */,
-				F5005E6B15ADDA5900E2B121 /* guiimage.cpp */,
-				F5005E6C15ADDA5900E2B121 /* guiimage.h */,
-				F5005E6D15ADDA5900E2B121 /* guilabel.cpp */,
-				F5005E6E15ADDA5900E2B121 /* guilabel.h */,
-				F5943EC215D9825A00988068 /* guilanguage.cpp */,
-				F5943EC315D9825A00988068 /* guilanguage.h */,
-				F5005E6F15ADDA5900E2B121 /* guioption.cpp */,
-				F5005E7015ADDA5900E2B121 /* guioption.h */,
-				F5005E7115ADDA5900E2B121 /* guipage.cpp */,
-				F5005E7215ADDA5900E2B121 /* guipage.h */,
-				F5005E7315ADDA5900E2B121 /* guislider.cpp */,
-				F5005E7415ADDA5900E2B121 /* guislider.h */,
-				F5005E7515ADDA5900E2B121 /* guiwidget.cpp */,
-				F5005E7615ADDA5900E2B121 /* guiwidget.h */,
-				F5943EC515D9827700988068 /* text_draw.cpp */,
-				F5943EC615D9827700988068 /* text_draw.h */,
+				F52C01BB16D1443100ECA7EF /* font.cpp */,
+				F52C01BC16D1443100ECA7EF /* font.h */,
+				F52C01BD16D1443100ECA7EF /* gui.cpp */,
+				F52C01BE16D1443100ECA7EF /* gui.h */,
+				F52C01BF16D1443100ECA7EF /* guicontrol.cpp */,
+				F52C01C016D1443100ECA7EF /* guicontrol.h */,
+				F52C01C116D1443100ECA7EF /* guicontrollist.cpp */,
+				F52C01C216D1443100ECA7EF /* guicontrollist.h */,
+				F52C01C316D1443100ECA7EF /* guiimage.cpp */,
+				F52C01C416D1443100ECA7EF /* guiimage.h */,
+				F52C01C516D1443100ECA7EF /* guilabel.cpp */,
+				F52C01C616D1443100ECA7EF /* guilabel.h */,
+				F52C01C716D1443100ECA7EF /* guilabellist.cpp */,
+				F52C01C816D1443100ECA7EF /* guilabellist.h */,
+				F52C01C916D1443100ECA7EF /* guilanguage.cpp */,
+				F52C01CA16D1443100ECA7EF /* guilanguage.h */,
+				F52C01CB16D1443100ECA7EF /* guilist.h */,
+				F52C01CC16D1443100ECA7EF /* guioption.cpp */,
+				F52C01CD16D1443100ECA7EF /* guioption.h */,
+				F52C01CE16D1443100ECA7EF /* guipage.cpp */,
+				F52C01CF16D1443100ECA7EF /* guipage.h */,
+				F52C01D016D1443100ECA7EF /* guislider.cpp */,
+				F52C01D116D1443100ECA7EF /* guislider.h */,
+				F52C01D216D1443100ECA7EF /* guiwidget.cpp */,
+				F52C01D316D1443100ECA7EF /* guiwidget.h */,
+				F52C01D416D1443100ECA7EF /* guiwidgetlist.cpp */,
+				F52C01D516D1443100ECA7EF /* guiwidgetlist.h */,
+				F52C01D616D1443100ECA7EF /* text_draw.cpp */,
+				F52C01D716D1443100ECA7EF /* text_draw.h */,
 			);
 			path = gui;
 			sourceTree = "<group>";
@@ -1149,14 +1168,6 @@
 				F5F34700156949B200424EBA /* eventsystem.cpp in Sources */,
 				F5F34704156949B200424EBA /* forcefeedback.cpp in Sources */,
 				F5F34706156949B200424EBA /* game.cpp in Sources */,
-				F5005E7715ADDA5900E2B121 /* gui.cpp in Sources */,
-				F5005E7815ADDA5900E2B121 /* guicontrol.cpp in Sources */,
-				F5005E7915ADDA5900E2B121 /* guiimage.cpp in Sources */,
-				F5005E7A15ADDA5900E2B121 /* guilabel.cpp in Sources */,
-				F5005E7B15ADDA5900E2B121 /* guioption.cpp in Sources */,
-				F5005E7C15ADDA5900E2B121 /* guipage.cpp in Sources */,
-				F5005E7D15ADDA5900E2B121 /* guislider.cpp in Sources */,
-				F5005E7E15ADDA5900E2B121 /* guiwidget.cpp in Sources */,
 				F5F3471D156949B200424EBA /* http.cpp in Sources */,
 				F5F3471E156949B200424EBA /* hud.cpp in Sources */,
 				F5F3471F156949B200424EBA /* hudbar.cpp in Sources */,
@@ -1241,9 +1252,20 @@
 				F5943EBC15D9821800988068 /* shader.cpp in Sources */,
 				F5943EBD15D9821800988068 /* texture.cpp in Sources */,
 				F5943EBE15D9821800988068 /* vertexarray.cpp in Sources */,
-				F5943EC115D9824F00988068 /* font.cpp in Sources */,
-				F5943EC415D9825A00988068 /* guilanguage.cpp in Sources */,
-				F5943EC715D9827700988068 /* text_draw.cpp in Sources */,
+				F52C01D816D1443100ECA7EF /* font.cpp in Sources */,
+				F52C01D916D1443100ECA7EF /* gui.cpp in Sources */,
+				F52C01DA16D1443100ECA7EF /* guicontrol.cpp in Sources */,
+				F52C01DB16D1443100ECA7EF /* guicontrollist.cpp in Sources */,
+				F52C01DC16D1443100ECA7EF /* guiimage.cpp in Sources */,
+				F52C01DD16D1443100ECA7EF /* guilabel.cpp in Sources */,
+				F52C01DE16D1443100ECA7EF /* guilabellist.cpp in Sources */,
+				F52C01DF16D1443100ECA7EF /* guilanguage.cpp in Sources */,
+				F52C01E016D1443100ECA7EF /* guioption.cpp in Sources */,
+				F52C01E116D1443100ECA7EF /* guipage.cpp in Sources */,
+				F52C01E216D1443100ECA7EF /* guislider.cpp in Sources */,
+				F52C01E316D1443100ECA7EF /* guiwidget.cpp in Sources */,
+				F52C01E416D1443100ECA7EF /* guiwidgetlist.cpp in Sources */,
+				F52C01E516D1443100ECA7EF /* text_draw.cpp in Sources */,
 				F5943EE815D9828600988068 /* cardifferential.cpp in Sources */,
 				F5943EE915D9828600988068 /* cardynamics.cpp in Sources */,
 				F5943EEA15D9828600988068 /* carengine.cpp in Sources */,
