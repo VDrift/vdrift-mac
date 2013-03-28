@@ -10,6 +10,7 @@
 		B937D144091BC36000EF8096 /* config_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B937D143091BC36000EF8096 /* config_mac.mm */; };
 		B9ADD1680907CF9C00D55A16 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A47A9E01A0483001D3D55B /* SDLMain.m */; };
 		F5005E8415ADDAB200E2B121 /* updatemanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E8215ADDAB200E2B121 /* updatemanager.cpp */; };
+		F5296EA31704948F0088D2F1 /* guiimagelist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5296EA01704942B0088D2F1 /* guiimagelist.cpp */; };
 		F52C01D816D1443100ECA7EF /* font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01BB16D1443100ECA7EF /* font.cpp */; };
 		F52C01D916D1443100ECA7EF /* gui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01BD16D1443100ECA7EF /* gui.cpp */; };
 		F52C01DA16D1443100ECA7EF /* guicontrol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01BF16D1443100ECA7EF /* guicontrol.cpp */; };
@@ -209,6 +210,8 @@
 		F5005E8215ADDAB200E2B121 /* updatemanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = updatemanager.cpp; sourceTree = "<group>"; };
 		F5005E8315ADDAB200E2B121 /* updatemanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = updatemanager.h; sourceTree = "<group>"; };
 		F50E396714F8439F005998F2 /* VDrift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VDrift.entitlements; sourceTree = "<group>"; };
+		F5296EA01704942B0088D2F1 /* guiimagelist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiimagelist.cpp; sourceTree = "<group>"; };
+		F5296EA11704942B0088D2F1 /* guiimagelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiimagelist.h; sourceTree = "<group>"; };
 		F52C01BA16D1441400ECA7EF /* carinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carinfo.h; sourceTree = "<group>"; };
 		F52C01BB16D1443100ECA7EF /* font.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = font.cpp; sourceTree = "<group>"; };
 		F52C01BC16D1443100ECA7EF /* font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font.h; sourceTree = "<group>"; };
@@ -821,6 +824,8 @@
 				F52C01C216D1443100ECA7EF /* guicontrollist.h */,
 				F52C01C316D1443100ECA7EF /* guiimage.cpp */,
 				F52C01C416D1443100ECA7EF /* guiimage.h */,
+				F5296EA01704942B0088D2F1 /* guiimagelist.cpp */,
+				F5296EA11704942B0088D2F1 /* guiimagelist.h */,
 				F52C01C516D1443100ECA7EF /* guilabel.cpp */,
 				F52C01C616D1443100ECA7EF /* guilabel.h */,
 				F52C01C716D1443100ECA7EF /* guilabellist.cpp */,
@@ -1257,6 +1262,7 @@
 				F52C01DA16D1443100ECA7EF /* guicontrol.cpp in Sources */,
 				F52C01DB16D1443100ECA7EF /* guicontrollist.cpp in Sources */,
 				F52C01DC16D1443100ECA7EF /* guiimage.cpp in Sources */,
+				F5296EA31704948F0088D2F1 /* guiimagelist.cpp in Sources */,
 				F52C01DD16D1443100ECA7EF /* guilabel.cpp in Sources */,
 				F52C01DE16D1443100ECA7EF /* guilabellist.cpp in Sources */,
 				F52C01DF16D1443100ECA7EF /* guilanguage.cpp in Sources */,
