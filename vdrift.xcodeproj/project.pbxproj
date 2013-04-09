@@ -89,6 +89,7 @@
 		F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F67ED704C74A3F00A80002 /* OpenGL.framework */; };
 		F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE32B309A4FC81003B34CD /* AppKit.framework */; };
 		F5D0D69F16C978250074E889 /* radix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5D0D69D16C978250074E889 /* radix.cpp */; };
+		F5DE84FC17148E1F00C7F276 /* dds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DE84FA17148E1F00C7F276 /* dds.cpp */; };
 		F5EA1BAE16C0135E004E34C2 /* BulletCollision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA216C0135E004E34C2 /* BulletCollision.framework */; };
 		F5EA1BAF16C0135E004E34C2 /* BulletDynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA316C0135E004E34C2 /* BulletDynamics.framework */; };
 		F5EA1BB016C0135E004E34C2 /* BulletSoftBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA416C0135E004E34C2 /* BulletSoftBody.framework */; };
@@ -390,6 +391,8 @@
 		F5B8D8EA1410223800E6A7A3 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
 		F5D0D69D16C978250074E889 /* radix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = radix.cpp; sourceTree = "<group>"; };
 		F5D0D69E16C978250074E889 /* radix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radix.h; sourceTree = "<group>"; };
+		F5DE84FA17148E1F00C7F276 /* dds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dds.cpp; sourceTree = "<group>"; };
+		F5DE84FB17148E1F00C7F276 /* dds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dds.h; sourceTree = "<group>"; };
 		F5EA1BA216C0135E004E34C2 /* BulletCollision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletCollision.framework; path = Frameworks/BulletCollision.framework; sourceTree = "<group>"; };
 		F5EA1BA316C0135E004E34C2 /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = Frameworks/BulletDynamics.framework; sourceTree = "<group>"; };
 		F5EA1BA416C0135E004E34C2 /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = Frameworks/BulletSoftBody.framework; sourceTree = "<group>"; };
@@ -870,6 +873,8 @@
 		F5943E4415D9821800988068 /* graphics */ = {
 			isa = PBXGroup;
 			children = (
+				F5DE84FA17148E1F00C7F276 /* dds.cpp */,
+				F5DE84FB17148E1F00C7F276 /* dds.h */,
 				F5943E4515D9821800988068 /* drawable.cpp */,
 				F5943E4615D9821800988068 /* drawable.h */,
 				F5943E4715D9821800988068 /* drawable_container.h */,
@@ -1224,6 +1229,7 @@
 				F5943E4115D981F700988068 /* modelfactory.cpp in Sources */,
 				F5943E4215D981F700988068 /* soundfactory.cpp in Sources */,
 				F5943E4315D981F700988068 /* texturefactory.cpp in Sources */,
+				F5DE84FC17148E1F00C7F276 /* dds.cpp in Sources */,
 				F5943E9B15D9821800988068 /* drawable.cpp in Sources */,
 				F5943E9D15D9821800988068 /* fbobject.cpp in Sources */,
 				F5943E9E15D9821800988068 /* fbtexture.cpp in Sources */,
