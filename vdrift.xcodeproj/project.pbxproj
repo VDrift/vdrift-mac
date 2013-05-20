@@ -29,6 +29,7 @@
 		F540091616D3B824004FFC6C /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
 		F5460CD6173411FC00BF77B2 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5460CD5173411FC00BF77B2 /* cURL.framework */; };
 		F5460CD71734120000BF77B2 /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5460CD5173411FC00BF77B2 /* cURL.framework */; };
+		F54C9B36174A3D0600B55709 /* tire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54C9B34174A3D0600B55709 /* tire.cpp */; };
 		F5943E2915D981BC00988068 /* carcontrolmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2715D981BC00988068 /* carcontrolmap.cpp */; };
 		F5943E2C15D981E200988068 /* config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2A15D981E200988068 /* config.cpp */; };
 		F5943E3015D981EC00988068 /* ptree_inf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2D15D981EC00988068 /* ptree_inf.cpp */; };
@@ -245,6 +246,8 @@
 		F52C01D716D1443100ECA7EF /* text_draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text_draw.h; sourceTree = "<group>"; };
 		F540091416D3B81E004FFC6C /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
 		F5460CD5173411FC00BF77B2 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
+		F54C9B34174A3D0600B55709 /* tire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tire.cpp; sourceTree = "<group>"; };
+		F54C9B35174A3D0600B55709 /* tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tire.h; sourceTree = "<group>"; };
 		F5943E2715D981BC00988068 /* carcontrolmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = carcontrolmap.cpp; sourceTree = "<group>"; };
 		F5943E2815D981BC00988068 /* carcontrolmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carcontrolmap.h; sourceTree = "<group>"; };
 		F5943E2A15D981E200988068 /* config.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = config.cpp; sourceTree = "<group>"; };
@@ -1004,6 +1007,8 @@
 				F5943EE415D9828600988068 /* rigidbody.h */,
 				F5943EE515D9828600988068 /* rotationalframe.cpp */,
 				F5943EE615D9828600988068 /* rotationalframe.h */,
+				F54C9B34174A3D0600B55709 /* tire.cpp */,
+				F54C9B35174A3D0600B55709 /* tire.h */,
 				F5943EE715D9828600988068 /* tracksurface.h */,
 			);
 			path = physics;
@@ -1288,6 +1293,7 @@
 				F5943EEF15D9828600988068 /* linearframe.cpp in Sources */,
 				F5943EF015D9828600988068 /* rigidbody.cpp in Sources */,
 				F5943EF115D9828600988068 /* rotationalframe.cpp in Sources */,
+				F54C9B36174A3D0600B55709 /* tire.cpp in Sources */,
 				F5943EFA15D9829900988068 /* sound.cpp in Sources */,
 				F5943EFB15D9829900988068 /* soundbuffer.cpp in Sources */,
 				F5943EFC15D9829900988068 /* soundfilter.cpp in Sources */,
