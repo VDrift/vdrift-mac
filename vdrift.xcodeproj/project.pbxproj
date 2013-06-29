@@ -25,6 +25,7 @@
 		F52C01E316D1443100ECA7EF /* guiwidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D216D1443100ECA7EF /* guiwidget.cpp */; };
 		F52C01E416D1443100ECA7EF /* guiwidgetlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D416D1443100ECA7EF /* guiwidgetlist.cpp */; };
 		F52C01E516D1443100ECA7EF /* text_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D616D1443100ECA7EF /* text_draw.cpp */; };
+		F5398026177EFFDC0087533B /* sky.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5398024177EFFDC0087533B /* sky.cpp */; };
 		F540091516D3B81E004FFC6C /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
 		F540091616D3B824004FFC6C /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
 		F5460CD6173411FC00BF77B2 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5460CD5173411FC00BF77B2 /* cURL.framework */; };
@@ -244,6 +245,8 @@
 		F52C01D516D1443100ECA7EF /* guiwidgetlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiwidgetlist.h; sourceTree = "<group>"; };
 		F52C01D616D1443100ECA7EF /* text_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = text_draw.cpp; sourceTree = "<group>"; };
 		F52C01D716D1443100ECA7EF /* text_draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text_draw.h; sourceTree = "<group>"; };
+		F5398024177EFFDC0087533B /* sky.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sky.cpp; sourceTree = "<group>"; };
+		F5398025177EFFDC0087533B /* sky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sky.h; sourceTree = "<group>"; };
 		F540091416D3B81E004FFC6C /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
 		F5460CD5173411FC00BF77B2 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
 		F54C9B34174A3D0600B55709 /* tire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tire.cpp; sourceTree = "<group>"; };
@@ -921,6 +924,8 @@
 				F5943E9015D9821800988068 /* scenenode.h */,
 				F5943E9115D9821800988068 /* shader.cpp */,
 				F5943E9215D9821800988068 /* shader.h */,
+				F5398024177EFFDC0087533B /* sky.cpp */,
+				F5398025177EFFDC0087533B /* sky.h */,
 				F5943E9315D9821800988068 /* staticdrawables.h */,
 				F5943E9415D9821800988068 /* texture.cpp */,
 				F5943E9515D9821800988068 /* texture.h */,
@@ -1266,6 +1271,7 @@
 				F5943EBA15D9821800988068 /* rendermodelext_drawable.cpp in Sources */,
 				F5943EBB15D9821800988068 /* scenenode.cpp in Sources */,
 				F5943EBC15D9821800988068 /* shader.cpp in Sources */,
+				F5398026177EFFDC0087533B /* sky.cpp in Sources */,
 				F5943EBD15D9821800988068 /* texture.cpp in Sources */,
 				F5943EBE15D9821800988068 /* vertexarray.cpp in Sources */,
 				F52C01D816D1443100ECA7EF /* font.cpp in Sources */,
