@@ -83,15 +83,15 @@
 		F5943EEC15D9828600988068 /* cartire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943ED515D9828600988068 /* cartire.cpp */; };
 		F5943EED15D9828600988068 /* dynamicsworld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EDC15D9828600988068 /* dynamicsworld.cpp */; };
 		F5943EEE15D9828600988068 /* fracturebody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EDE15D9828600988068 /* fracturebody.cpp */; };
-		F5943EEF15D9828600988068 /* linearframe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EE015D9828600988068 /* linearframe.cpp */; };
-		F5943EF015D9828600988068 /* rigidbody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EE315D9828600988068 /* rigidbody.cpp */; };
-		F5943EF115D9828600988068 /* rotationalframe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EE515D9828600988068 /* rotationalframe.cpp */; };
 		F5943EFA15D9829900988068 /* sound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EF315D9829900988068 /* sound.cpp */; };
 		F5943EFB15D9829900988068 /* soundbuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EF515D9829900988068 /* soundbuffer.cpp */; };
 		F5943EFC15D9829900988068 /* soundfilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EF715D9829900988068 /* soundfilter.cpp */; };
 		F5A668D713FC3EF200EBE432 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5A668D613FC3EF200EBE432 /* icon.icns */; };
 		F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F67ED704C74A3F00A80002 /* OpenGL.framework */; };
 		F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE32B309A4FC81003B34CD /* AppKit.framework */; };
+		F5C5142717E1026700850371 /* aabbtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5C5142517E1026700850371 /* aabbtree.cpp */; };
+		F5C5142B17E102CB00850371 /* carsound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5C5142917E102CB00850371 /* carsound.cpp */; };
+		F5C5142E17E102E400850371 /* cargraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5C5142C17E102E400850371 /* cargraphics.cpp */; };
 		F5D0D69F16C978250074E889 /* radix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5D0D69D16C978250074E889 /* radix.cpp */; };
 		F5DE84FC17148E1F00C7F276 /* dds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DE84FA17148E1F00C7F276 /* dds.cpp */; };
 		F5EA1BAE16C0135E004E34C2 /* BulletCollision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA216C0135E004E34C2 /* BulletCollision.framework */; };
@@ -114,7 +114,6 @@
 		F5EA1BC416C0136B004E34C2 /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BAC16C0135E004E34C2 /* Vorbis.framework */; };
 		F5EF4B0C1756495300EBFABA /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EF4B0B1756495300EBFABA /* Ogg.framework */; };
 		F5EF4B0D1756496000EBFABA /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EF4B0B1756495300EBFABA /* Ogg.framework */; };
-		F5F346DF156949B200424EBA /* aabb_space_partitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345A2156949B100424EBA /* aabb_space_partitioning.cpp */; };
 		F5F346E0156949B200424EBA /* aabb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345A4156949B100424EBA /* aabb.cpp */; };
 		F5F346E1156949B200424EBA /* ai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345A8156949B100424EBA /* ai.cpp */; };
 		F5F346E2156949B200424EBA /* ai_car_experimental.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345AB156949B100424EBA /* ai_car_experimental.cpp */; };
@@ -311,7 +310,6 @@
 		F5943E6D15D9821800988068 /* renderuniformvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderuniformvector.h; sourceTree = "<group>"; };
 		F5943E6E15D9821800988068 /* stringidmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stringidmap.cpp; sourceTree = "<group>"; };
 		F5943E6F15D9821800988068 /* stringidmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringidmap.h; sourceTree = "<group>"; };
-		F5943E7015D9821800988068 /* glstatemanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glstatemanager.h; sourceTree = "<group>"; };
 		F5943E7115D9821800988068 /* glutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glutil.cpp; sourceTree = "<group>"; };
 		F5943E7215D9821800988068 /* glutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glutil.h; sourceTree = "<group>"; };
 		F5943E7315D9821800988068 /* graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphics.h; sourceTree = "<group>"; };
@@ -376,13 +374,7 @@
 		F5943EDD15D9828600988068 /* dynamicsworld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dynamicsworld.h; sourceTree = "<group>"; };
 		F5943EDE15D9828600988068 /* fracturebody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fracturebody.cpp; sourceTree = "<group>"; };
 		F5943EDF15D9828600988068 /* fracturebody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fracturebody.h; sourceTree = "<group>"; };
-		F5943EE015D9828600988068 /* linearframe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linearframe.cpp; sourceTree = "<group>"; };
-		F5943EE115D9828600988068 /* linearframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linearframe.h; sourceTree = "<group>"; };
 		F5943EE215D9828600988068 /* motionstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motionstate.h; sourceTree = "<group>"; };
-		F5943EE315D9828600988068 /* rigidbody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rigidbody.cpp; sourceTree = "<group>"; };
-		F5943EE415D9828600988068 /* rigidbody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rigidbody.h; sourceTree = "<group>"; };
-		F5943EE515D9828600988068 /* rotationalframe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rotationalframe.cpp; sourceTree = "<group>"; };
-		F5943EE615D9828600988068 /* rotationalframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rotationalframe.h; sourceTree = "<group>"; };
 		F5943EE715D9828600988068 /* tracksurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tracksurface.h; sourceTree = "<group>"; };
 		F5943EF315D9829900988068 /* sound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sound.cpp; sourceTree = "<group>"; };
 		F5943EF415D9829900988068 /* sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sound.h; sourceTree = "<group>"; };
@@ -396,6 +388,15 @@
 		F5A668D613FC3EF200EBE432 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		F5A668D813FC3EF800EBE432 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B8D8EA1410223800E6A7A3 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
+		F5C5142517E1026700850371 /* aabbtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aabbtree.cpp; sourceTree = "<group>"; };
+		F5C5142617E1026700850371 /* aabbtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aabbtree.h; sourceTree = "<group>"; };
+		F5C5142817E102AF00850371 /* graphicsstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphicsstate.h; sourceTree = "<group>"; };
+		F5C5142917E102CB00850371 /* carsound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = carsound.cpp; sourceTree = "<group>"; };
+		F5C5142A17E102CB00850371 /* carsound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carsound.h; sourceTree = "<group>"; };
+		F5C5142C17E102E400850371 /* cargraphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cargraphics.cpp; sourceTree = "<group>"; };
+		F5C5142D17E102E400850371 /* cargraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cargraphics.h; sourceTree = "<group>"; };
+		F5C5142F17E1031000850371 /* gameinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameinput.h; sourceTree = "<group>"; };
+		F5C5143017E1032300850371 /* carinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carinput.h; sourceTree = "<group>"; };
 		F5D0D69D16C978250074E889 /* radix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = radix.cpp; sourceTree = "<group>"; };
 		F5D0D69E16C978250074E889 /* radix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radix.h; sourceTree = "<group>"; };
 		F5DE84FA17148E1F00C7F276 /* dds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dds.cpp; sourceTree = "<group>"; };
@@ -410,8 +411,6 @@
 		F5EA1BAB16C0135E004E34C2 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Frameworks/SDL.framework; sourceTree = "<group>"; };
 		F5EA1BAC16C0135E004E34C2 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
 		F5EF4B0B1756495300EBFABA /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
-		F5F345A2156949B100424EBA /* aabb_space_partitioning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aabb_space_partitioning.cpp; sourceTree = "<group>"; };
-		F5F345A3156949B100424EBA /* aabb_space_partitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aabb_space_partitioning.h; sourceTree = "<group>"; };
 		F5F345A4156949B100424EBA /* aabb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aabb.cpp; sourceTree = "<group>"; };
 		F5F345A5156949B100424EBA /* aabb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aabb.h; sourceTree = "<group>"; };
 		F5F345A8156949B100424EBA /* ai.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ai.cpp; sourceTree = "<group>"; };
@@ -440,7 +439,6 @@
 		F5F345BF156949B100424EBA /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
 		F5F345C0156949B100424EBA /* car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = car.cpp; sourceTree = "<group>"; };
 		F5F345C1156949B100424EBA /* car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = car.h; sourceTree = "<group>"; };
-		F5F345CD156949B100424EBA /* carinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carinput.h; sourceTree = "<group>"; };
 		F5F345D0156949B100424EBA /* cartelemetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cartelemetry.h; sourceTree = "<group>"; };
 		F5F345D9156949B100424EBA /* ptree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ptree.cpp; sourceTree = "<group>"; };
 		F5F345DA156949B100424EBA /* ptree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ptree.h; sourceTree = "<group>"; };
@@ -659,10 +657,10 @@
 		B97D75FF12AA720D0042C221 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F5F345A2156949B100424EBA /* aabb_space_partitioning.cpp */,
-				F5F345A3156949B100424EBA /* aabb_space_partitioning.h */,
 				F5F345A4156949B100424EBA /* aabb.cpp */,
 				F5F345A5156949B100424EBA /* aabb.h */,
+				F5C5142517E1026700850371 /* aabbtree.cpp */,
+				F5C5142617E1026700850371 /* aabbtree.h */,
 				F5F345A7156949B100424EBA /* ai */,
 				F5F345B0156949B100424EBA /* archiveutils.cpp */,
 				F5F345B1156949B100424EBA /* archiveutils.h */,
@@ -684,8 +682,11 @@
 				F5F345C1156949B100424EBA /* car.h */,
 				F5943E2715D981BC00988068 /* carcontrolmap.cpp */,
 				F5943E2815D981BC00988068 /* carcontrolmap.h */,
+				F5C5142C17E102E400850371 /* cargraphics.cpp */,
+				F5C5142D17E102E400850371 /* cargraphics.h */,
 				F52C01BA16D1441400ECA7EF /* carinfo.h */,
-				F5F345CD156949B100424EBA /* carinput.h */,
+				F5C5142917E102CB00850371 /* carsound.cpp */,
+				F5C5142A17E102CB00850371 /* carsound.h */,
 				F5F345D0156949B100424EBA /* cartelemetry.h */,
 				F5F345D6156949B100424EBA /* cfg */,
 				F5F345DF156949B100424EBA /* containeralgorithm.cpp */,
@@ -711,6 +712,7 @@
 				F5F34603156949B100424EBA /* game_downloader.h */,
 				F5F34604156949B100424EBA /* game.cpp */,
 				F5F34605156949B100424EBA /* game.h */,
+				F5C5142F17E1031000850371 /* gameinput.h */,
 				F5F3462A156949B100424EBA /* glew.h */,
 				F5943E4415D9821800988068 /* graphics */,
 				F5005E6615ADDA5900E2B121 /* gui */,
@@ -890,10 +892,10 @@
 				F5943E4B15D9821800988068 /* fbtexture.cpp */,
 				F5943E4C15D9821800988068 /* fbtexture.h */,
 				F5943E4D15D9821800988068 /* gl3v */,
-				F5943E7015D9821800988068 /* glstatemanager.h */,
 				F5943E7115D9821800988068 /* glutil.cpp */,
 				F5943E7215D9821800988068 /* glutil.h */,
 				F5943E7315D9821800988068 /* graphics.h */,
+				F5C5142817E102AF00850371 /* graphicsstate.h */,
 				F5943E7415D9821800988068 /* graphics_camera.h */,
 				F5943E7515D9821800988068 /* graphics_config.cpp */,
 				F5943E7615D9821800988068 /* graphics_config.h */,
@@ -992,6 +994,7 @@
 				F5943ED015D9828600988068 /* carengine.cpp */,
 				F5943ED115D9828600988068 /* carengine.h */,
 				F5943ED215D9828600988068 /* carfueltank.h */,
+				F5C5143017E1032300850371 /* carinput.h */,
 				F5943ED315D9828600988068 /* carsuspension.cpp */,
 				F5943ED415D9828600988068 /* carsuspension.h */,
 				F5943ED515D9828600988068 /* cartire.cpp */,
@@ -1005,13 +1008,7 @@
 				F5943EDD15D9828600988068 /* dynamicsworld.h */,
 				F5943EDE15D9828600988068 /* fracturebody.cpp */,
 				F5943EDF15D9828600988068 /* fracturebody.h */,
-				F5943EE015D9828600988068 /* linearframe.cpp */,
-				F5943EE115D9828600988068 /* linearframe.h */,
 				F5943EE215D9828600988068 /* motionstate.h */,
-				F5943EE315D9828600988068 /* rigidbody.cpp */,
-				F5943EE415D9828600988068 /* rigidbody.h */,
-				F5943EE515D9828600988068 /* rotationalframe.cpp */,
-				F5943EE615D9828600988068 /* rotationalframe.h */,
 				F54C9B34174A3D0600B55709 /* tire.cpp */,
 				F54C9B35174A3D0600B55709 /* tire.h */,
 				F5943EE715D9828600988068 /* tracksurface.h */,
@@ -1167,8 +1164,8 @@
 			files = (
 				B9ADD1680907CF9C00D55A16 /* SDLMain.m in Sources */,
 				B937D144091BC36000EF8096 /* config_mac.mm in Sources */,
-				F5F346DF156949B200424EBA /* aabb_space_partitioning.cpp in Sources */,
 				F5F346E0156949B200424EBA /* aabb.cpp in Sources */,
+				F5C5142717E1026700850371 /* aabbtree.cpp in Sources */,
 				F5F346E1156949B200424EBA /* ai.cpp in Sources */,
 				F5F346E2156949B200424EBA /* ai_car_experimental.cpp in Sources */,
 				F5F346E3156949B200424EBA /* ai_car_standard.cpp in Sources */,
@@ -1180,6 +1177,8 @@
 				F5F346E9156949B200424EBA /* camera_mount.cpp in Sources */,
 				F5F346EA156949B200424EBA /* camera_orbit.cpp in Sources */,
 				F5F346EB156949B200424EBA /* car.cpp in Sources */,
+				F5C5142E17E102E400850371 /* cargraphics.cpp in Sources */,
+				F5C5142B17E102CB00850371 /* carsound.cpp in Sources */,
 				F5F346F4156949B200424EBA /* ptree.cpp in Sources */,
 				F5F346F7156949B200424EBA /* containeralgorithm.cpp in Sources */,
 				F5F346F9156949B200424EBA /* crashdetection.cpp in Sources */,
@@ -1296,9 +1295,6 @@
 				F5943EEC15D9828600988068 /* cartire.cpp in Sources */,
 				F5943EED15D9828600988068 /* dynamicsworld.cpp in Sources */,
 				F5943EEE15D9828600988068 /* fracturebody.cpp in Sources */,
-				F5943EEF15D9828600988068 /* linearframe.cpp in Sources */,
-				F5943EF015D9828600988068 /* rigidbody.cpp in Sources */,
-				F5943EF115D9828600988068 /* rotationalframe.cpp in Sources */,
 				F54C9B36174A3D0600B55709 /* tire.cpp in Sources */,
 				F5943EFA15D9829900988068 /* sound.cpp in Sources */,
 				F5943EFB15D9829900988068 /* soundbuffer.cpp in Sources */,
