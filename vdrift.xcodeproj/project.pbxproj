@@ -25,6 +25,10 @@
 		F52C01E316D1443100ECA7EF /* guiwidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D216D1443100ECA7EF /* guiwidget.cpp */; };
 		F52C01E416D1443100ECA7EF /* guiwidgetlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D416D1443100ECA7EF /* guiwidgetlist.cpp */; };
 		F52C01E516D1443100ECA7EF /* text_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D616D1443100ECA7EF /* text_draw.cpp */; };
+		F530839D183ED26E0084A92F /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F530839B183ED26E0084A92F /* SDL2_image.framework */; };
+		F530839E183ED26E0084A92F /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F530839C183ED26E0084A92F /* SDL2.framework */; };
+		F530839F183ED3C00084A92F /* SDL2_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F530839B183ED26E0084A92F /* SDL2_image.framework */; };
+		F53083A0183ED3C00084A92F /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F530839C183ED26E0084A92F /* SDL2.framework */; };
 		F5398026177EFFDC0087533B /* sky.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5398024177EFFDC0087533B /* sky.cpp */; };
 		F540091516D3B81E004FFC6C /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
 		F540091616D3B824004FFC6C /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
@@ -100,17 +104,11 @@
 		F5EA1BAF16C0135E004E34C2 /* BulletDynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA316C0135E004E34C2 /* BulletDynamics.framework */; };
 		F5EA1BB016C0135E004E34C2 /* BulletSoftBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA416C0135E004E34C2 /* BulletSoftBody.framework */; };
 		F5EA1BB316C0135E004E34C2 /* LinearMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA716C0135E004E34C2 /* LinearMath.framework */; };
-		F5EA1BB516C0135E004E34C2 /* SDL_gfx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BA916C0135E004E34C2 /* SDL_gfx.framework */; };
-		F5EA1BB616C0135E004E34C2 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BAA16C0135E004E34C2 /* SDL_image.framework */; };
-		F5EA1BB716C0135E004E34C2 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BAB16C0135E004E34C2 /* SDL.framework */; };
 		F5EA1BB816C0135E004E34C2 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BAC16C0135E004E34C2 /* Vorbis.framework */; };
 		F5EA1BBA16C0136B004E34C2 /* BulletCollision.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BA216C0135E004E34C2 /* BulletCollision.framework */; };
 		F5EA1BBB16C0136B004E34C2 /* BulletDynamics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BA316C0135E004E34C2 /* BulletDynamics.framework */; };
 		F5EA1BBC16C0136B004E34C2 /* BulletSoftBody.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BA416C0135E004E34C2 /* BulletSoftBody.framework */; };
 		F5EA1BBF16C0136B004E34C2 /* LinearMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BA716C0135E004E34C2 /* LinearMath.framework */; };
-		F5EA1BC116C0136B004E34C2 /* SDL_gfx.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BA916C0135E004E34C2 /* SDL_gfx.framework */; };
-		F5EA1BC216C0136B004E34C2 /* SDL_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BAA16C0135E004E34C2 /* SDL_image.framework */; };
-		F5EA1BC316C0136B004E34C2 /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BAB16C0135E004E34C2 /* SDL.framework */; };
 		F5EA1BC416C0136B004E34C2 /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EA1BAC16C0135E004E34C2 /* Vorbis.framework */; };
 		F5EF4B0C1756495300EBFABA /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EF4B0B1756495300EBFABA /* Ogg.framework */; };
 		F5EF4B0D1756496000EBFABA /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5EF4B0B1756495300EBFABA /* Ogg.framework */; };
@@ -190,9 +188,8 @@
 				F5C5143317E106BF00850371 /* GLEW.framework in CopyFiles */,
 				F5EA1BBF16C0136B004E34C2 /* LinearMath.framework in CopyFiles */,
 				F5EF4B0D1756496000EBFABA /* Ogg.framework in CopyFiles */,
-				F5EA1BC116C0136B004E34C2 /* SDL_gfx.framework in CopyFiles */,
-				F5EA1BC216C0136B004E34C2 /* SDL_image.framework in CopyFiles */,
-				F5EA1BC316C0136B004E34C2 /* SDL.framework in CopyFiles */,
+				F530839F183ED3C00084A92F /* SDL2_image.framework in CopyFiles */,
+				F53083A0183ED3C00084A92F /* SDL2.framework in CopyFiles */,
 				F5EA1BC416C0136B004E34C2 /* Vorbis.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +241,8 @@
 		F52C01D516D1443100ECA7EF /* guiwidgetlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiwidgetlist.h; sourceTree = "<group>"; };
 		F52C01D616D1443100ECA7EF /* text_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = text_draw.cpp; sourceTree = "<group>"; };
 		F52C01D716D1443100ECA7EF /* text_draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text_draw.h; sourceTree = "<group>"; };
+		F530839B183ED26E0084A92F /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		F530839C183ED26E0084A92F /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		F5398024177EFFDC0087533B /* sky.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sky.cpp; sourceTree = "<group>"; };
 		F5398025177EFFDC0087533B /* sky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sky.h; sourceTree = "<group>"; };
 		F540091416D3B81E004FFC6C /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
@@ -406,9 +405,6 @@
 		F5EA1BA316C0135E004E34C2 /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = Frameworks/BulletDynamics.framework; sourceTree = "<group>"; };
 		F5EA1BA416C0135E004E34C2 /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = Frameworks/BulletSoftBody.framework; sourceTree = "<group>"; };
 		F5EA1BA716C0135E004E34C2 /* LinearMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearMath.framework; path = Frameworks/LinearMath.framework; sourceTree = "<group>"; };
-		F5EA1BA916C0135E004E34C2 /* SDL_gfx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_gfx.framework; path = Frameworks/SDL_gfx.framework; sourceTree = "<group>"; };
-		F5EA1BAA16C0135E004E34C2 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = Frameworks/SDL_image.framework; sourceTree = "<group>"; };
-		F5EA1BAB16C0135E004E34C2 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Frameworks/SDL.framework; sourceTree = "<group>"; };
 		F5EA1BAC16C0135E004E34C2 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
 		F5EF4B0B1756495300EBFABA /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
 		F5F345A4156949B100424EBA /* aabb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aabb.cpp; sourceTree = "<group>"; };
@@ -573,9 +569,8 @@
 				F5C5143217E106A600850371 /* GLEW.framework in Frameworks */,
 				F5EA1BB316C0135E004E34C2 /* LinearMath.framework in Frameworks */,
 				F5EF4B0C1756495300EBFABA /* Ogg.framework in Frameworks */,
-				F5EA1BB516C0135E004E34C2 /* SDL_gfx.framework in Frameworks */,
-				F5EA1BB616C0135E004E34C2 /* SDL_image.framework in Frameworks */,
-				F5EA1BB716C0135E004E34C2 /* SDL.framework in Frameworks */,
+				F530839D183ED26E0084A92F /* SDL2_image.framework in Frameworks */,
+				F530839E183ED26E0084A92F /* SDL2.framework in Frameworks */,
 				F5EA1BB816C0135E004E34C2 /* Vorbis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -645,9 +640,8 @@
 				F5C5143117E106A600850371 /* GLEW.framework */,
 				F5EA1BA716C0135E004E34C2 /* LinearMath.framework */,
 				F5EF4B0B1756495300EBFABA /* Ogg.framework */,
-				F5EA1BA916C0135E004E34C2 /* SDL_gfx.framework */,
-				F5EA1BAA16C0135E004E34C2 /* SDL_image.framework */,
-				F5EA1BAB16C0135E004E34C2 /* SDL.framework */,
+				F530839B183ED26E0084A92F /* SDL2_image.framework */,
+				F530839C183ED26E0084A92F /* SDL2.framework */,
 				F5EA1BAC16C0135E004E34C2 /* Vorbis.framework */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
@@ -1326,12 +1320,11 @@
 					Frameworks/GLEW.framework/Headers,
 					Frameworks/LinearMath.framework/Headers,
 					Frameworks/Ogg.framework/Headers,
-					Frameworks/SDL_gfx.framework/Headers,
-					Frameworks/SDL_image.framework/Headers,
-					Frameworks/SDL.framework/Headers,
+					Frameworks/SDL2_image.framework/Headers,
+					Frameworks/SDL2.framework/Headers,
 					Frameworks/Vorbis.framework/Headers,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -1354,12 +1347,11 @@
 					Frameworks/GLEW.framework/Headers,
 					Frameworks/LinearMath.framework/Headers,
 					Frameworks/Ogg.framework/Headers,
-					Frameworks/SDL_gfx.framework/Headers,
-					Frameworks/SDL_image.framework/Headers,
-					Frameworks/SDL.framework/Headers,
+					Frameworks/SDL2_image.framework/Headers,
+					Frameworks/SDL2.framework/Headers,
 					Frameworks/Vorbis.framework/Headers,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -1403,12 +1395,11 @@
 					Frameworks/GLEW.framework/Headers,
 					Frameworks/LinearMath.framework/Headers,
 					Frameworks/Ogg.framework/Headers,
-					Frameworks/SDL_gfx.framework/Headers,
-					Frameworks/SDL_image.framework/Headers,
-					Frameworks/SDL.framework/Headers,
+					Frameworks/SDL2_image.framework/Headers,
+					Frameworks/SDL2.framework/Headers,
 					Frameworks/Vorbis.framework/Headers,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = macosx;
 			};
 			name = "Debug no data";
@@ -1440,12 +1431,11 @@
 					Frameworks/GLEW.framework/Headers,
 					Frameworks/LinearMath.framework/Headers,
 					Frameworks/Ogg.framework/Headers,
-					Frameworks/SDL_gfx.framework/Headers,
-					Frameworks/SDL_image.framework/Headers,
-					Frameworks/SDL.framework/Headers,
+					Frameworks/SDL2_image.framework/Headers,
+					Frameworks/SDL2.framework/Headers,
 					Frameworks/Vorbis.framework/Headers,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = macosx;
 			};
 			name = "Release no data";
