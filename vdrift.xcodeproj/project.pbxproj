@@ -37,6 +37,8 @@
 		F530844C183EE3130084A92F /* BulletDynamics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5308444183EE3020084A92F /* BulletDynamics.framework */; };
 		F530844D183EE3130084A92F /* BulletSoftBody.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5308445183EE3020084A92F /* BulletSoftBody.framework */; };
 		F530844E183EE3170084A92F /* LinearMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5308446183EE3020084A92F /* LinearMath.framework */; };
+		F5308453183EE8190084A92F /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5308452183EE8190084A92F /* cURL.framework */; };
+		F5308454183EE8260084A92F /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5308452183EE8190084A92F /* cURL.framework */; };
 		F5398026177EFFDC0087533B /* sky.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5398024177EFFDC0087533B /* sky.cpp */; };
 		F540091516D3B81E004FFC6C /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
 		F540091616D3B824004FFC6C /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
@@ -104,8 +106,6 @@
 		F5C5142E17E102E400850371 /* cargraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5C5142C17E102E400850371 /* cargraphics.cpp */; };
 		F5C5143217E106A600850371 /* GLEW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C5143117E106A600850371 /* GLEW.framework */; };
 		F5C5143317E106BF00850371 /* GLEW.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5C5143117E106A600850371 /* GLEW.framework */; };
-		F5C5143F17E10F5B00850371 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C5143E17E10F5B00850371 /* cURL.framework */; };
-		F5C5144017E10F6000850371 /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5C5143E17E10F5B00850371 /* cURL.framework */; };
 		F5D0D69F16C978250074E889 /* radix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5D0D69D16C978250074E889 /* radix.cpp */; };
 		F5DE84FC17148E1F00C7F276 /* dds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DE84FA17148E1F00C7F276 /* dds.cpp */; };
 		F5EA1BB816C0135E004E34C2 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EA1BAC16C0135E004E34C2 /* Vorbis.framework */; };
@@ -181,10 +181,10 @@
 			dstSubfolderSpec = 10;
 			files = (
 				F540091616D3B824004FFC6C /* Archive.framework in CopyFiles */,
-				F5C5144017E10F6000850371 /* cURL.framework in CopyFiles */,
 				F530844B183EE3130084A92F /* BulletCollision.framework in CopyFiles */,
 				F530844C183EE3130084A92F /* BulletDynamics.framework in CopyFiles */,
 				F530844D183EE3130084A92F /* BulletSoftBody.framework in CopyFiles */,
+				F5308454183EE8260084A92F /* cURL.framework in CopyFiles */,
 				F5C5143317E106BF00850371 /* GLEW.framework in CopyFiles */,
 				F530844E183EE3170084A92F /* LinearMath.framework in CopyFiles */,
 				F5EF4B0D1756496000EBFABA /* Ogg.framework in CopyFiles */,
@@ -247,6 +247,7 @@
 		F5308444183EE3020084A92F /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = Frameworks/BulletDynamics.framework; sourceTree = "<group>"; };
 		F5308445183EE3020084A92F /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = Frameworks/BulletSoftBody.framework; sourceTree = "<group>"; };
 		F5308446183EE3020084A92F /* LinearMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearMath.framework; path = Frameworks/LinearMath.framework; sourceTree = "<group>"; };
+		F5308452183EE8190084A92F /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
 		F5398024177EFFDC0087533B /* sky.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sky.cpp; sourceTree = "<group>"; };
 		F5398025177EFFDC0087533B /* sky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sky.h; sourceTree = "<group>"; };
 		F540091416D3B81E004FFC6C /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
@@ -400,7 +401,6 @@
 		F5C5142F17E1031000850371 /* gameinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameinput.h; sourceTree = "<group>"; };
 		F5C5143017E1032300850371 /* carinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carinput.h; sourceTree = "<group>"; };
 		F5C5143117E106A600850371 /* GLEW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLEW.framework; path = Frameworks/GLEW.framework; sourceTree = "<group>"; };
-		F5C5143E17E10F5B00850371 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
 		F5D0D69D16C978250074E889 /* radix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = radix.cpp; sourceTree = "<group>"; };
 		F5D0D69E16C978250074E889 /* radix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radix.h; sourceTree = "<group>"; };
 		F5DE84FA17148E1F00C7F276 /* dds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dds.cpp; sourceTree = "<group>"; };
@@ -562,10 +562,10 @@
 				F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */,
 				F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */,
 				F540091516D3B81E004FFC6C /* Archive.framework in Frameworks */,
-				F5C5143F17E10F5B00850371 /* cURL.framework in Frameworks */,
 				F5308447183EE3020084A92F /* BulletCollision.framework in Frameworks */,
 				F5308448183EE3020084A92F /* BulletDynamics.framework in Frameworks */,
 				F5308449183EE3020084A92F /* BulletSoftBody.framework in Frameworks */,
+				F5308453183EE8190084A92F /* cURL.framework in Frameworks */,
 				F5C5143217E106A600850371 /* GLEW.framework in Frameworks */,
 				F530844A183EE3030084A92F /* LinearMath.framework in Frameworks */,
 				F5EF4B0C1756495300EBFABA /* Ogg.framework in Frameworks */,
@@ -633,10 +633,10 @@
 			isa = PBXGroup;
 			children = (
 				F540091416D3B81E004FFC6C /* Archive.framework */,
-				F5C5143E17E10F5B00850371 /* cURL.framework */,
 				F5308443183EE3020084A92F /* BulletCollision.framework */,
 				F5308444183EE3020084A92F /* BulletDynamics.framework */,
 				F5308445183EE3020084A92F /* BulletSoftBody.framework */,
+				F5308452183EE8190084A92F /* cURL.framework */,
 				F5C5143117E106A600850371 /* GLEW.framework */,
 				F5308446183EE3020084A92F /* LinearMath.framework */,
 				F5EF4B0B1756495300EBFABA /* Ogg.framework */,
