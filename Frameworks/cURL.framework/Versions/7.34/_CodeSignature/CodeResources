@@ -6,14 +6,14 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		tvLX0okmYMAbEsRJJocUzBQ5Z64=
+		dMWFwy1drqeqmPkjb57lIYB+4X8=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/curl/curl.h</key>
 		<data>
-		WY2D8IiE2olgAdci24VVhpSe7M4=
+		xClewIbNFlLQN6fNiNmnLfT/S4Y=
 		</data>
 		<key>Headers/curl/curlbuild.h</key>
 		<data>
@@ -33,7 +33,7 @@
 		</data>
 		<key>Headers/curl/curlver.h</key>
 		<data>
-		UJkFbPwuJiDzIqgf3elGgBc8cCM=
+		miiQH+vHZF/zMvkx+GXfWztvoqo=
 		</data>
 		<key>Headers/curl/easy.h</key>
 		<data>
@@ -53,11 +53,11 @@
 		</data>
 		<key>Headers/curl/typecheck-gcc.h</key>
 		<data>
-		iGdq65AGKelfVYkAzE0fC81sSsM=
+		A3e230zrhp9sQUN2tdI+A/JAXVs=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		tvLX0okmYMAbEsRJJocUzBQ5Z64=
+		dMWFwy1drqeqmPkjb57lIYB+4X8=
 		</data>
 	</dict>
 	<key>rules</key>
