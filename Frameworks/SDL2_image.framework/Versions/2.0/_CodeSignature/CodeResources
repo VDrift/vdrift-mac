@@ -6,27 +6,18 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		85jQ5RkhKlpJxfuiGqNNuq0JNjQ=
+		YXD3ogfouh3TXHTGuuftySoqwyg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/webp.framework</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			Zod9SBFEgVh1oL68pokJbovxasA=
-			</data>
-			<key>requirement</key>
-			<string>identifier "org.webmproject.webp" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Timothy Furlong (4YEN598Q46)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
-		</dict>
 		<key>Headers/SDL_image.h</key>
 		<data>
-		mmtkJO2JtjkRkbpIFaP+fE3AT0I=
+		coH4k49/Bjs9WW/Lcs2uDeu0Myo=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		85jQ5RkhKlpJxfuiGqNNuq0JNjQ=
+		YXD3ogfouh3TXHTGuuftySoqwyg=
 		</data>
 	</dict>
 	<key>rules</key>

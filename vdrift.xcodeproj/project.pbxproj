@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B937D144091BC36000EF8096 /* config_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B937D143091BC36000EF8096 /* config_mac.mm */; };
-		B9ADD1680907CF9C00D55A16 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A47A9E01A0483001D3D55B /* SDLMain.m */; };
 		F5005E8415ADDAB200E2B121 /* updatemanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E8215ADDAB200E2B121 /* updatemanager.cpp */; };
 		F5296EA31704948F0088D2F1 /* guiimagelist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5296EA01704942B0088D2F1 /* guiimagelist.cpp */; };
 		F52C01D816D1443100ECA7EF /* font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01BB16D1443100ECA7EF /* font.cpp */; };
@@ -25,9 +24,7 @@
 		F52C01E316D1443100ECA7EF /* guiwidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D216D1443100ECA7EF /* guiwidget.cpp */; };
 		F52C01E416D1443100ECA7EF /* guiwidgetlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D416D1443100ECA7EF /* guiwidgetlist.cpp */; };
 		F52C01E516D1443100ECA7EF /* text_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D616D1443100ECA7EF /* text_draw.cpp */; };
-		F530839D183ED26E0084A92F /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F530839B183ED26E0084A92F /* SDL2_image.framework */; };
 		F530839E183ED26E0084A92F /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F530839C183ED26E0084A92F /* SDL2.framework */; };
-		F530839F183ED3C00084A92F /* SDL2_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F530839B183ED26E0084A92F /* SDL2_image.framework */; };
 		F53083A0183ED3C00084A92F /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F530839C183ED26E0084A92F /* SDL2.framework */; };
 		F5308447183EE3020084A92F /* BulletCollision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5308443183EE3020084A92F /* BulletCollision.framework */; };
 		F5308448183EE3020084A92F /* BulletDynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5308444183EE3020084A92F /* BulletDynamics.framework */; };
@@ -39,6 +36,10 @@
 		F530844E183EE3170084A92F /* LinearMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5308446183EE3020084A92F /* LinearMath.framework */; };
 		F5308453183EE8190084A92F /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5308452183EE8190084A92F /* cURL.framework */; };
 		F5308454183EE8260084A92F /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5308452183EE8190084A92F /* cURL.framework */; };
+		F53690A21864DF1300D327D6 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53690A01864DF1300D327D6 /* SDL2_image.framework */; };
+		F53690A31864DF1300D327D6 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53690A11864DF1300D327D6 /* WebP.framework */; };
+		F53690A41864DF2100D327D6 /* SDL2_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F53690A01864DF1300D327D6 /* SDL2_image.framework */; };
+		F53690A51864DF2500D327D6 /* WebP.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F53690A11864DF1300D327D6 /* WebP.framework */; };
 		F5398026177EFFDC0087533B /* sky.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5398024177EFFDC0087533B /* sky.cpp */; };
 		F540091516D3B81E004FFC6C /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
 		F540091616D3B824004FFC6C /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
@@ -188,9 +189,10 @@
 				F5C5143317E106BF00850371 /* GLEW.framework in CopyFiles */,
 				F530844E183EE3170084A92F /* LinearMath.framework in CopyFiles */,
 				F5EF4B0D1756496000EBFABA /* Ogg.framework in CopyFiles */,
-				F530839F183ED3C00084A92F /* SDL2_image.framework in CopyFiles */,
+				F53690A41864DF2100D327D6 /* SDL2_image.framework in CopyFiles */,
 				F53083A0183ED3C00084A92F /* SDL2.framework in CopyFiles */,
 				F5EA1BC416C0136B004E34C2 /* Vorbis.framework in CopyFiles */,
+				F53690A51864DF2500D327D6 /* WebP.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,13 +243,14 @@
 		F52C01D516D1443100ECA7EF /* guiwidgetlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiwidgetlist.h; sourceTree = "<group>"; };
 		F52C01D616D1443100ECA7EF /* text_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = text_draw.cpp; sourceTree = "<group>"; };
 		F52C01D716D1443100ECA7EF /* text_draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text_draw.h; sourceTree = "<group>"; };
-		F530839B183ED26E0084A92F /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
 		F530839C183ED26E0084A92F /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		F5308443183EE3020084A92F /* BulletCollision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletCollision.framework; path = Frameworks/BulletCollision.framework; sourceTree = "<group>"; };
 		F5308444183EE3020084A92F /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = Frameworks/BulletDynamics.framework; sourceTree = "<group>"; };
 		F5308445183EE3020084A92F /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = Frameworks/BulletSoftBody.framework; sourceTree = "<group>"; };
 		F5308446183EE3020084A92F /* LinearMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearMath.framework; path = Frameworks/LinearMath.framework; sourceTree = "<group>"; };
 		F5308452183EE8190084A92F /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
+		F53690A01864DF1300D327D6 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		F53690A11864DF1300D327D6 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = Frameworks/WebP.framework; sourceTree = "<group>"; };
 		F5398024177EFFDC0087533B /* sky.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sky.cpp; sourceTree = "<group>"; };
 		F5398025177EFFDC0087533B /* sky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sky.h; sourceTree = "<group>"; };
 		F540091416D3B81E004FFC6C /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
@@ -386,8 +389,6 @@
 		F5943EF715D9829900988068 /* soundfilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = soundfilter.cpp; sourceTree = "<group>"; };
 		F5943EF815D9829900988068 /* soundfilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundfilter.h; sourceTree = "<group>"; };
 		F5943EF915D9829900988068 /* soundinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundinfo.h; sourceTree = "<group>"; };
-		F5A47A9D01A0482F01D3D55B /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = SOURCE_ROOT; };
-		F5A47A9E01A0483001D3D55B /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = SOURCE_ROOT; };
 		F5A668D613FC3EF200EBE432 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		F5A668D813FC3EF800EBE432 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B8D8EA1410223800E6A7A3 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
@@ -569,9 +570,10 @@
 				F5C5143217E106A600850371 /* GLEW.framework in Frameworks */,
 				F530844A183EE3030084A92F /* LinearMath.framework in Frameworks */,
 				F5EF4B0C1756495300EBFABA /* Ogg.framework in Frameworks */,
-				F530839D183ED26E0084A92F /* SDL2_image.framework in Frameworks */,
+				F53690A21864DF1300D327D6 /* SDL2_image.framework in Frameworks */,
 				F530839E183ED26E0084A92F /* SDL2.framework in Frameworks */,
 				F5EA1BB816C0135E004E34C2 /* Vorbis.framework in Frameworks */,
+				F53690A31864DF1300D327D6 /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,8 +583,6 @@
 		080E96DDFE201D6D7F000001 /* Mac */ = {
 			isa = PBXGroup;
 			children = (
-				F5A47A9D01A0482F01D3D55B /* SDLMain.h */,
-				F5A47A9E01A0483001D3D55B /* SDLMain.m */,
 				B937D143091BC36000EF8096 /* config_mac.mm */,
 			);
 			name = Mac;
@@ -640,9 +640,10 @@
 				F5C5143117E106A600850371 /* GLEW.framework */,
 				F5308446183EE3020084A92F /* LinearMath.framework */,
 				F5EF4B0B1756495300EBFABA /* Ogg.framework */,
-				F530839B183ED26E0084A92F /* SDL2_image.framework */,
+				F53690A01864DF1300D327D6 /* SDL2_image.framework */,
 				F530839C183ED26E0084A92F /* SDL2.framework */,
 				F5EA1BAC16C0135E004E34C2 /* Vorbis.framework */,
+				F53690A11864DF1300D327D6 /* WebP.framework */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -1133,7 +1134,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#Change to main vdrift folder.\ncd \"$SRCROOT\"/..\n\n#Delete old version, if it exists.\nif [ -a src/definitions.h ]; then\n    echo \"Removing old definitions.h ...\"\n    rm src/definitions.h\n    echo \"... done.\"\nfi\n\n#Get last git tag for version.\nDATE=`git describe --tags --abbrev=0`\n\n#Get commits since last git tag, lastest commit SHA and whether or not there are modified files for revision.\nGIT_SHA=`git describe --tags --long | sed -n 's/[^-]*-//4;p' | sed -n 's/[^-]*-//3;p' | sed -n 's/[^-]*-//2;p' | sed -n 's/[^-]*-//1;p'`\ntest -z \"$(git diff-index --name-only HEAD)\" || GIT_SHA=\"$GIT_SHA-mod\"\n\n#Generate file.\necho \"Generating definitions.h with version: \\\"$DATE\\\" and revision: \\\"$GIT_SHA\\\" ...\"\necho \"#ifndef _DEFINITIONS_H\" > src/definitions.h\necho \"#define _DEFINITIONS_H\" >> src/definitions.h\necho \"char* get_mac_data_dir();\" >> src/definitions.h\necho \"#define SETTINGS_DIR \\\"Library/Application Support/VDrift\\\"\" >> src/definitions.h\necho \"#define DATA_DIR get_mac_data_dir()\" >> src/definitions.h\necho \"#define PACKAGE \\\"VDrift\\\"\" >> src/definitions.h\necho \"#define LOCALEDIR \\\"/usr/share/locale\\\"\" >> src/definitions.h\necho \"#ifndef VERSION\" >> src/definitions.h\necho \"#define VERSION \\\"$DATE\\\"\" >> src/definitions.h\necho \"#endif //VERSION\" >> src/definitions.h\necho \"#ifndef REVISION\" >> src/definitions.h\necho \"#define REVISION \\\"$GIT_SHA\\\"\" >> src/definitions.h\necho \"#endif //REVISION\" >> src/definitions.h\necho \"#endif // _DEFINITIONS_H\" >> src/definitions.h\necho \"... done.\"\n\necho \"Finished.\"\n";
+			shellScript = "#Change to main vdrift folder.\ncd \"$SRCROOT\"/..\n\n#Delete old version, if it exists.\nif [ -a src/definitions.h ]; then\n    echo \"Removing old definitions.h ...\"\n    rm src/definitions.h\n    echo \"... done.\"\nfi\n\n#Get last git tag for version.\nDATE=`git describe --tags --abbrev=0`\n\n#Get commits since last git tag, lastest commit SHA and whether or not there are modified files for revision.\nGIT_SHA=`git describe --tags --long | sed -n 's/[^-]*-//4;p' | sed -n 's/[^-]*-//3;p' | sed -n 's/[^-]*-//2;p' | sed -n 's/[^-]*-//1;p'`\ntest -z \"$(git diff-index --name-only HEAD)\" || GIT_SHA=\"$GIT_SHA-mod\"\n\n#Generate file.\necho \"Generating definitions.h with version: \\\"$DATE\\\" and revision: \\\"$GIT_SHA\\\" ...\"\necho \"#ifndef _DEFINITIONS_H\" > src/definitions.h\necho \"#define _DEFINITIONS_H\" >> src/definitions.h\necho \"char* get_mac_data_dir();\" >> src/definitions.h\necho \"#define SETTINGS_DIR \\\"Library/Application Support/VDrift\\\"\" >> src/definitions.h\necho \"#define DATA_DIR get_mac_data_dir()\" >> src/definitions.h\necho \"#define PACKAGE \\\"VDrift\\\"\" >> src/definitions.h\necho \"#define LOCALE_DIR \\\"/usr/share/locale\\\"\" >> src/definitions.h\necho \"#ifndef VERSION\" >> src/definitions.h\necho \"#define VERSION \\\"$DATE\\\"\" >> src/definitions.h\necho \"#endif //VERSION\" >> src/definitions.h\necho \"#ifndef REVISION\" >> src/definitions.h\necho \"#define REVISION \\\"$GIT_SHA\\\"\" >> src/definitions.h\necho \"#endif //REVISION\" >> src/definitions.h\necho \"#endif // _DEFINITIONS_H\" >> src/definitions.h\necho \"... done.\"\n\necho \"Finished.\"\n";
 		};
 		B92C1E1D091E6A2700CF42D0 /* Copy data */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1156,7 +1157,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9ADD1680907CF9C00D55A16 /* SDLMain.m in Sources */,
 				B937D144091BC36000EF8096 /* config_mac.mm in Sources */,
 				F5F346E0156949B200424EBA /* aabb.cpp in Sources */,
 				F5C5142717E1026700850371 /* aabbtree.cpp in Sources */,
