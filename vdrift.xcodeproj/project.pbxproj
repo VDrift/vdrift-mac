@@ -34,12 +34,12 @@
 		F530844E183EE3170084A92F /* LinearMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5308446183EE3020084A92F /* LinearMath.framework */; };
 		F53690A31864DF1300D327D6 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53690A11864DF1300D327D6 /* WebP.framework */; };
 		F53690A51864DF2500D327D6 /* WebP.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F53690A11864DF1300D327D6 /* WebP.framework */; };
-		F53690A71864E96600D327D6 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53690A61864E96600D327D6 /* cURL.framework */; };
-		F53690A81864E96900D327D6 /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F53690A61864E96600D327D6 /* cURL.framework */; };
 		F5398026177EFFDC0087533B /* sky.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5398024177EFFDC0087533B /* sky.cpp */; };
 		F540091516D3B81E004FFC6C /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
 		F540091616D3B824004FFC6C /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
 		F54C9B36174A3D0600B55709 /* tire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54C9B34174A3D0600B55709 /* tire.cpp */; };
+		F57E14FA18EB1AE000F21648 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E14F918EB1AE000F21648 /* cURL.framework */; };
+		F57E14FB18EB1AE400F21648 /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F57E14F918EB1AE000F21648 /* cURL.framework */; };
 		F59415AF18EB0E9300945797 /* SDL2_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F59415AD18EB0E9300945797 /* SDL2_image.framework */; };
 		F59415B018EB0E9300945797 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F59415AE18EB0E9300945797 /* SDL2.framework */; };
 		F59415B118EB0E9C00945797 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59415AD18EB0E9300945797 /* SDL2_image.framework */; };
@@ -185,7 +185,7 @@
 				F530844B183EE3130084A92F /* BulletCollision.framework in CopyFiles */,
 				F530844C183EE3130084A92F /* BulletDynamics.framework in CopyFiles */,
 				F530844D183EE3130084A92F /* BulletSoftBody.framework in CopyFiles */,
-				F53690A81864E96900D327D6 /* cURL.framework in CopyFiles */,
+				F57E14FB18EB1AE400F21648 /* cURL.framework in CopyFiles */,
 				F5C5143317E106BF00850371 /* GLEW.framework in CopyFiles */,
 				F530844E183EE3170084A92F /* LinearMath.framework in CopyFiles */,
 				F5EF4B0D1756496000EBFABA /* Ogg.framework in CopyFiles */,
@@ -248,12 +248,12 @@
 		F5308445183EE3020084A92F /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = Frameworks/BulletSoftBody.framework; sourceTree = "<group>"; };
 		F5308446183EE3020084A92F /* LinearMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearMath.framework; path = Frameworks/LinearMath.framework; sourceTree = "<group>"; };
 		F53690A11864DF1300D327D6 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = Frameworks/WebP.framework; sourceTree = "<group>"; };
-		F53690A61864E96600D327D6 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
 		F5398024177EFFDC0087533B /* sky.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sky.cpp; sourceTree = "<group>"; };
 		F5398025177EFFDC0087533B /* sky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sky.h; sourceTree = "<group>"; };
 		F540091416D3B81E004FFC6C /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
 		F54C9B34174A3D0600B55709 /* tire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tire.cpp; sourceTree = "<group>"; };
 		F54C9B35174A3D0600B55709 /* tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tire.h; sourceTree = "<group>"; };
+		F57E14F918EB1AE000F21648 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
 		F59415AD18EB0E9300945797 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
 		F59415AE18EB0E9300945797 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		F5943E2715D981BC00988068 /* carcontrolmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = carcontrolmap.cpp; sourceTree = "<group>"; };
@@ -566,7 +566,7 @@
 				F5308447183EE3020084A92F /* BulletCollision.framework in Frameworks */,
 				F5308448183EE3020084A92F /* BulletDynamics.framework in Frameworks */,
 				F5308449183EE3020084A92F /* BulletSoftBody.framework in Frameworks */,
-				F53690A71864E96600D327D6 /* cURL.framework in Frameworks */,
+				F57E14FA18EB1AE000F21648 /* cURL.framework in Frameworks */,
 				F5C5143217E106A600850371 /* GLEW.framework in Frameworks */,
 				F530844A183EE3030084A92F /* LinearMath.framework in Frameworks */,
 				F5EF4B0C1756495300EBFABA /* Ogg.framework in Frameworks */,
@@ -636,7 +636,7 @@
 				F5308443183EE3020084A92F /* BulletCollision.framework */,
 				F5308444183EE3020084A92F /* BulletDynamics.framework */,
 				F5308445183EE3020084A92F /* BulletSoftBody.framework */,
-				F53690A61864E96600D327D6 /* cURL.framework */,
+				F57E14F918EB1AE000F21648 /* cURL.framework */,
 				F5C5143117E106A600850371 /* GLEW.framework */,
 				F5308446183EE3020084A92F /* LinearMath.framework */,
 				F5EF4B0B1756495300EBFABA /* Ogg.framework */,
