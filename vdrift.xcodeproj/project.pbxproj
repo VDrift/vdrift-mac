@@ -260,6 +260,7 @@
 		F54C9B35174A3D0600B55709 /* tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tire.h; sourceTree = "<group>"; };
 		F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = Libraries/libiconv.2.dylib; sourceTree = "<group>"; };
 		F5624A8818EF15EF00710BA9 /* libintl.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.8.dylib; path = Libraries/libintl.8.dylib; sourceTree = "<group>"; };
+		F5624A8D18EF1B7700710BA9 /* uniforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uniforms.h; sourceTree = "<group>"; };
 		F57E14F918EB1AE000F21648 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
 		F57E14FC18EB1D9400F21648 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
 		F57E14FD18EB1D9400F21648 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
@@ -940,6 +941,7 @@
 				F5943E9515D9821800988068 /* texture.h */,
 				F5943E9615D9821800988068 /* texture_interface.h */,
 				F5943E9715D9821800988068 /* textureinfo.h */,
+				F5624A8D18EF1B7700710BA9 /* uniforms.h */,
 				F5943E9815D9821800988068 /* vertexarray.cpp */,
 				F5943E9915D9821800988068 /* vertexarray.h */,
 				F5943E9A15D9821800988068 /* vertexattribs.h */,
