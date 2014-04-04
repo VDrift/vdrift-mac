@@ -36,6 +36,10 @@
 		F540091516D3B81E004FFC6C /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
 		F540091616D3B824004FFC6C /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
 		F54C9B36174A3D0600B55709 /* tire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54C9B34174A3D0600B55709 /* tire.cpp */; };
+		F5624A8918EF15EF00710BA9 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */; };
+		F5624A8A18EF15EF00710BA9 /* libintl.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; };
+		F5624A8B18EF15F800710BA9 /* libiconv.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */; };
+		F5624A8C18EF15F800710BA9 /* libintl.8.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; };
 		F57E14FA18EB1AE000F21648 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E14F918EB1AE000F21648 /* cURL.framework */; };
 		F57E14FB18EB1AE400F21648 /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F57E14F918EB1AE000F21648 /* cURL.framework */; };
 		F57E14FE18EB1D9400F21648 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E14FC18EB1D9400F21648 /* Ogg.framework */; };
@@ -193,6 +197,8 @@
 				F59415B018EB0E9300945797 /* SDL2.framework in CopyFiles */,
 				F57E150018EB1DA900F21648 /* Vorbis.framework in CopyFiles */,
 				F57E151118EB209300F21648 /* WebP.framework in CopyFiles */,
+				F5624A8B18EF15F800710BA9 /* libiconv.2.dylib in CopyFiles */,
+				F5624A8C18EF15F800710BA9 /* libintl.8.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +258,8 @@
 		F540091416D3B81E004FFC6C /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
 		F54C9B34174A3D0600B55709 /* tire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tire.cpp; sourceTree = "<group>"; };
 		F54C9B35174A3D0600B55709 /* tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tire.h; sourceTree = "<group>"; };
+		F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = Libraries/libiconv.2.dylib; sourceTree = "<group>"; };
+		F5624A8818EF15EF00710BA9 /* libintl.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.8.dylib; path = Libraries/libintl.8.dylib; sourceTree = "<group>"; };
 		F57E14F918EB1AE000F21648 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
 		F57E14FC18EB1D9400F21648 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
 		F57E14FD18EB1D9400F21648 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
@@ -574,6 +582,8 @@
 				F59415B218EB0E9C00945797 /* SDL2.framework in Frameworks */,
 				F57E14FF18EB1D9400F21648 /* Vorbis.framework in Frameworks */,
 				F57E150F18EB208200F21648 /* WebP.framework in Frameworks */,
+				F5624A8918EF15EF00710BA9 /* libiconv.2.dylib in Frameworks */,
+				F5624A8A18EF15EF00710BA9 /* libintl.8.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,6 +654,8 @@
 				F59415AE18EB0E9300945797 /* SDL2.framework */,
 				F57E14FD18EB1D9400F21648 /* Vorbis.framework */,
 				F57E150D18EB208200F21648 /* WebP.framework */,
+				F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */,
+				F5624A8818EF15EF00710BA9 /* libintl.8.dylib */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -1323,7 +1335,9 @@
 					Frameworks/SDL2_image.framework/Headers,
 					Frameworks/SDL2.framework/Headers,
 					Frameworks/Vorbis.framework/Headers,
+					Libraries,
 				);
+				LIBRARY_SEARCH_PATHS = Libraries;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = macosx;
 			};
@@ -1350,7 +1364,9 @@
 					Frameworks/SDL2_image.framework/Headers,
 					Frameworks/SDL2.framework/Headers,
 					Frameworks/Vorbis.framework/Headers,
+					Libraries,
 				);
+				LIBRARY_SEARCH_PATHS = Libraries;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = macosx;
 			};
@@ -1398,7 +1414,9 @@
 					Frameworks/SDL2_image.framework/Headers,
 					Frameworks/SDL2.framework/Headers,
 					Frameworks/Vorbis.framework/Headers,
+					Libraries,
 				);
+				LIBRARY_SEARCH_PATHS = Libraries;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = macosx;
 			};
@@ -1434,7 +1452,9 @@
 					Frameworks/SDL2_image.framework/Headers,
 					Frameworks/SDL2.framework/Headers,
 					Frameworks/Vorbis.framework/Headers,
+					Libraries,
 				);
+				LIBRARY_SEARCH_PATHS = Libraries;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = macosx;
 			};
