@@ -33,8 +33,6 @@
 		F530844D183EE3130084A92F /* BulletSoftBody.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5308445183EE3020084A92F /* BulletSoftBody.framework */; };
 		F530844E183EE3170084A92F /* LinearMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5308446183EE3020084A92F /* LinearMath.framework */; };
 		F5398026177EFFDC0087533B /* sky.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5398024177EFFDC0087533B /* sky.cpp */; };
-		F540091516D3B81E004FFC6C /* Archive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
-		F540091616D3B824004FFC6C /* Archive.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F540091416D3B81E004FFC6C /* Archive.framework */; };
 		F54C9B36174A3D0600B55709 /* tire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54C9B34174A3D0600B55709 /* tire.cpp */; };
 		F5624A8918EF15EF00710BA9 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */; };
 		F5624A8A18EF15EF00710BA9 /* libintl.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; };
@@ -121,7 +119,6 @@
 		F5F346E1156949B200424EBA /* ai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345A8156949B100424EBA /* ai.cpp */; };
 		F5F346E2156949B200424EBA /* ai_car_experimental.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345AB156949B100424EBA /* ai_car_experimental.cpp */; };
 		F5F346E3156949B200424EBA /* ai_car_standard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345AD156949B100424EBA /* ai_car_standard.cpp */; };
-		F5F346E4156949B200424EBA /* archiveutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345B0156949B100424EBA /* archiveutils.cpp */; };
 		F5F346E5156949B200424EBA /* autoupdate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345B2156949B100424EBA /* autoupdate.cpp */; };
 		F5F346E6156949B200424EBA /* bezier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345B4156949B100424EBA /* bezier.cpp */; };
 		F5F346E7156949B200424EBA /* camera_chase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345B7156949B100424EBA /* camera_chase.cpp */; };
@@ -185,7 +182,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F540091616D3B824004FFC6C /* Archive.framework in CopyFiles */,
 				F530844B183EE3130084A92F /* BulletCollision.framework in CopyFiles */,
 				F530844C183EE3130084A92F /* BulletDynamics.framework in CopyFiles */,
 				F530844D183EE3130084A92F /* BulletSoftBody.framework in CopyFiles */,
@@ -255,7 +251,6 @@
 		F5308446183EE3020084A92F /* LinearMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearMath.framework; path = Frameworks/LinearMath.framework; sourceTree = "<group>"; };
 		F5398024177EFFDC0087533B /* sky.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sky.cpp; sourceTree = "<group>"; };
 		F5398025177EFFDC0087533B /* sky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sky.h; sourceTree = "<group>"; };
-		F540091416D3B81E004FFC6C /* Archive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Archive.framework; path = Frameworks/Archive.framework; sourceTree = "<group>"; };
 		F54C9B34174A3D0600B55709 /* tire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tire.cpp; sourceTree = "<group>"; };
 		F54C9B35174A3D0600B55709 /* tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tire.h; sourceTree = "<group>"; };
 		F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = Libraries/libiconv.2.dylib; sourceTree = "<group>"; };
@@ -427,8 +422,6 @@
 		F5F345AD156949B100424EBA /* ai_car_standard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ai_car_standard.cpp; sourceTree = "<group>"; };
 		F5F345AE156949B100424EBA /* ai_car_standard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ai_car_standard.h; sourceTree = "<group>"; };
 		F5F345AF156949B100424EBA /* ai_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ai_factory.h; sourceTree = "<group>"; };
-		F5F345B0156949B100424EBA /* archiveutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = archiveutils.cpp; sourceTree = "<group>"; };
-		F5F345B1156949B100424EBA /* archiveutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = archiveutils.h; sourceTree = "<group>"; };
 		F5F345B2156949B100424EBA /* autoupdate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = autoupdate.cpp; sourceTree = "<group>"; };
 		F5F345B3156949B100424EBA /* autoupdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autoupdate.h; sourceTree = "<group>"; };
 		F5F345B4156949B100424EBA /* bezier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bezier.cpp; sourceTree = "<group>"; };
@@ -571,7 +564,6 @@
 			files = (
 				F5A668FB13FC432E00EBE432 /* AppKit.framework in Frameworks */,
 				F5A668FA13FC432E00EBE432 /* OpenGL.framework in Frameworks */,
-				F540091516D3B81E004FFC6C /* Archive.framework in Frameworks */,
 				F5308447183EE3020084A92F /* BulletCollision.framework in Frameworks */,
 				F5308448183EE3020084A92F /* BulletDynamics.framework in Frameworks */,
 				F5308449183EE3020084A92F /* BulletSoftBody.framework in Frameworks */,
@@ -643,7 +635,6 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F540091416D3B81E004FFC6C /* Archive.framework */,
 				F5308443183EE3020084A92F /* BulletCollision.framework */,
 				F5308444183EE3020084A92F /* BulletDynamics.framework */,
 				F5308445183EE3020084A92F /* BulletSoftBody.framework */,
@@ -670,8 +661,6 @@
 				F5C5142517E1026700850371 /* aabbtree.cpp */,
 				F5C5142617E1026700850371 /* aabbtree.h */,
 				F5F345A7156949B100424EBA /* ai */,
-				F5F345B0156949B100424EBA /* archiveutils.cpp */,
-				F5F345B1156949B100424EBA /* archiveutils.h */,
 				F5F345B2156949B100424EBA /* autoupdate.cpp */,
 				F5F345B3156949B100424EBA /* autoupdate.h */,
 				F5F345B4156949B100424EBA /* bezier.cpp */,
@@ -1177,7 +1166,6 @@
 				F5F346E1156949B200424EBA /* ai.cpp in Sources */,
 				F5F346E2156949B200424EBA /* ai_car_experimental.cpp in Sources */,
 				F5F346E3156949B200424EBA /* ai_car_standard.cpp in Sources */,
-				F5F346E4156949B200424EBA /* archiveutils.cpp in Sources */,
 				F5F346E5156949B200424EBA /* autoupdate.cpp in Sources */,
 				F5F346E6156949B200424EBA /* bezier.cpp in Sources */,
 				F5F346E7156949B200424EBA /* camera_chase.cpp in Sources */,
@@ -1326,7 +1314,6 @@
 				HEADER_SEARCH_PATHS = (
 					.,
 					../src,
-					Frameworks/Archive.framework/Headers,
 					Frameworks/BulletCollision.framework/Headers,
 					Frameworks/BulletDynamics.framework/Headers,
 					Frameworks/BulletSoftBody.framework/Headers,
@@ -1355,7 +1342,6 @@
 				HEADER_SEARCH_PATHS = (
 					.,
 					../src,
-					Frameworks/Archive.framework/Headers,
 					Frameworks/BulletCollision.framework/Headers,
 					Frameworks/BulletDynamics.framework/Headers,
 					Frameworks/BulletSoftBody.framework/Headers,
@@ -1405,7 +1391,6 @@
 				HEADER_SEARCH_PATHS = (
 					.,
 					../src,
-					Frameworks/Archive.framework/Headers,
 					Frameworks/BulletCollision.framework/Headers,
 					Frameworks/BulletDynamics.framework/Headers,
 					Frameworks/BulletSoftBody.framework/Headers,
@@ -1443,7 +1428,6 @@
 				HEADER_SEARCH_PATHS = (
 					.,
 					../src,
-					Frameworks/Archive.framework/Headers,
 					Frameworks/BulletCollision.framework/Headers,
 					Frameworks/BulletDynamics.framework/Headers,
 					Frameworks/BulletSoftBody.framework/Headers,
