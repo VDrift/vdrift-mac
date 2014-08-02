@@ -32,6 +32,8 @@
 		F530844C183EE3130084A92F /* BulletDynamics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5308444183EE3020084A92F /* BulletDynamics.framework */; };
 		F530844D183EE3130084A92F /* BulletSoftBody.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5308445183EE3020084A92F /* BulletSoftBody.framework */; };
 		F530844E183EE3170084A92F /* LinearMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5308446183EE3020084A92F /* LinearMath.framework */; };
+		F535CC9D196EF53500436385 /* vertexbuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F535CC99196EF53500436385 /* vertexbuffer.cpp */; };
+		F535CC9E196EF53500436385 /* vertexformat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F535CC9B196EF53500436385 /* vertexformat.cpp */; };
 		F5398026177EFFDC0087533B /* sky.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5398024177EFFDC0087533B /* sky.cpp */; };
 		F54C9B36174A3D0600B55709 /* tire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54C9B34174A3D0600B55709 /* tire.cpp */; };
 		F5624A8918EF15EF00710BA9 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */; };
@@ -61,7 +63,6 @@
 		F5943E4215D981F700988068 /* soundfactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E3B15D981F700988068 /* soundfactory.cpp */; };
 		F5943E4315D981F700988068 /* texturefactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E3D15D981F700988068 /* texturefactory.cpp */; };
 		F5943E9B15D9821800988068 /* drawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E4515D9821800988068 /* drawable.cpp */; };
-		F5943E9C15D9821800988068 /* drawables.def in Resources */ = {isa = PBXBuildFile; fileRef = F5943E4815D9821800988068 /* drawables.def */; };
 		F5943E9D15D9821800988068 /* fbobject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E4915D9821800988068 /* fbobject.cpp */; };
 		F5943E9E15D9821800988068 /* fbtexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E4B15D9821800988068 /* fbtexture.cpp */; };
 		F5943E9F15D9821800988068 /* glenums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E4E15D9821800988068 /* glenums.cpp */; };
@@ -90,7 +91,6 @@
 		F5943EB715D9821800988068 /* render_input_postprocess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8715D9821800988068 /* render_input_postprocess.cpp */; };
 		F5943EB815D9821800988068 /* render_input_scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8915D9821800988068 /* render_input_scene.cpp */; };
 		F5943EB915D9821800988068 /* render_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8B15D9821800988068 /* render_output.cpp */; };
-		F5943EBA15D9821800988068 /* rendermodelext_drawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8D15D9821800988068 /* rendermodelext_drawable.cpp */; };
 		F5943EBB15D9821800988068 /* scenenode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8F15D9821800988068 /* scenenode.cpp */; };
 		F5943EBC15D9821800988068 /* shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E9115D9821800988068 /* shader.cpp */; };
 		F5943EBD15D9821800988068 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E9415D9821800988068 /* texture.cpp */; };
@@ -249,6 +249,10 @@
 		F5308444183EE3020084A92F /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = Frameworks/BulletDynamics.framework; sourceTree = "<group>"; };
 		F5308445183EE3020084A92F /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = Frameworks/BulletSoftBody.framework; sourceTree = "<group>"; };
 		F5308446183EE3020084A92F /* LinearMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearMath.framework; path = Frameworks/LinearMath.framework; sourceTree = "<group>"; };
+		F535CC99196EF53500436385 /* vertexbuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vertexbuffer.cpp; sourceTree = "<group>"; };
+		F535CC9A196EF53500436385 /* vertexbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertexbuffer.h; sourceTree = "<group>"; };
+		F535CC9B196EF53500436385 /* vertexformat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vertexformat.cpp; sourceTree = "<group>"; };
+		F535CC9C196EF53500436385 /* vertexformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertexformat.h; sourceTree = "<group>"; };
 		F5398024177EFFDC0087533B /* sky.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sky.cpp; sourceTree = "<group>"; };
 		F5398025177EFFDC0087533B /* sky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sky.h; sourceTree = "<group>"; };
 		F54C9B34174A3D0600B55709 /* tire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tire.cpp; sourceTree = "<group>"; };
@@ -283,7 +287,6 @@
 		F5943E4515D9821800988068 /* drawable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = drawable.cpp; sourceTree = "<group>"; };
 		F5943E4615D9821800988068 /* drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawable.h; sourceTree = "<group>"; };
 		F5943E4715D9821800988068 /* drawable_container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawable_container.h; sourceTree = "<group>"; };
-		F5943E4815D9821800988068 /* drawables.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = drawables.def; sourceTree = "<group>"; };
 		F5943E4915D9821800988068 /* fbobject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fbobject.cpp; sourceTree = "<group>"; };
 		F5943E4A15D9821800988068 /* fbobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fbobject.h; sourceTree = "<group>"; };
 		F5943E4B15D9821800988068 /* fbtexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fbtexture.cpp; sourceTree = "<group>"; };
@@ -349,20 +352,19 @@
 		F5943E8A15D9821800988068 /* render_input_scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render_input_scene.h; sourceTree = "<group>"; };
 		F5943E8B15D9821800988068 /* render_output.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = render_output.cpp; sourceTree = "<group>"; };
 		F5943E8C15D9821800988068 /* render_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render_output.h; sourceTree = "<group>"; };
-		F5943E8D15D9821800988068 /* rendermodelext_drawable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rendermodelext_drawable.cpp; sourceTree = "<group>"; };
 		F5943E8E15D9821800988068 /* rendermodelext_drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendermodelext_drawable.h; sourceTree = "<group>"; };
 		F5943E8F15D9821800988068 /* scenenode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scenenode.cpp; sourceTree = "<group>"; };
 		F5943E9015D9821800988068 /* scenenode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scenenode.h; sourceTree = "<group>"; };
 		F5943E9115D9821800988068 /* shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shader.cpp; sourceTree = "<group>"; };
 		F5943E9215D9821800988068 /* shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shader.h; sourceTree = "<group>"; };
-		F5943E9315D9821800988068 /* staticdrawables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = staticdrawables.h; sourceTree = "<group>"; };
+		F5943E9315D9821800988068 /* aabb_tree_adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aabb_tree_adapter.h; sourceTree = "<group>"; };
 		F5943E9415D9821800988068 /* texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = texture.cpp; sourceTree = "<group>"; };
 		F5943E9515D9821800988068 /* texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texture.h; sourceTree = "<group>"; };
 		F5943E9615D9821800988068 /* texture_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texture_interface.h; sourceTree = "<group>"; };
 		F5943E9715D9821800988068 /* textureinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textureinfo.h; sourceTree = "<group>"; };
 		F5943E9815D9821800988068 /* vertexarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vertexarray.cpp; sourceTree = "<group>"; };
 		F5943E9915D9821800988068 /* vertexarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertexarray.h; sourceTree = "<group>"; };
-		F5943E9A15D9821800988068 /* vertexattribs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertexattribs.h; sourceTree = "<group>"; };
+		F5943E9A15D9821800988068 /* vertexattrib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertexattrib.h; sourceTree = "<group>"; };
 		F5943EC915D9828600988068 /* aerodevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aerodevice.h; sourceTree = "<group>"; };
 		F5943ECA15D9828600988068 /* carbrake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carbrake.h; sourceTree = "<group>"; };
 		F5943ECB15D9828600988068 /* carclutch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carclutch.h; sourceTree = "<group>"; };
@@ -878,12 +880,12 @@
 		F5943E4415D9821800988068 /* graphics */ = {
 			isa = PBXGroup;
 			children = (
+				F5943E9315D9821800988068 /* aabb_tree_adapter.h */,
 				F5DE84FA17148E1F00C7F276 /* dds.cpp */,
 				F5DE84FB17148E1F00C7F276 /* dds.h */,
 				F5943E4515D9821800988068 /* drawable.cpp */,
 				F5943E4615D9821800988068 /* drawable.h */,
 				F5943E4715D9821800988068 /* drawable_container.h */,
-				F5943E4815D9821800988068 /* drawables.def */,
 				F5943E4915D9821800988068 /* fbobject.cpp */,
 				F5943E4A15D9821800988068 /* fbobject.h */,
 				F5943E4B15D9821800988068 /* fbtexture.cpp */,
@@ -917,7 +919,6 @@
 				F5943E8A15D9821800988068 /* render_input_scene.h */,
 				F5943E8B15D9821800988068 /* render_output.cpp */,
 				F5943E8C15D9821800988068 /* render_output.h */,
-				F5943E8D15D9821800988068 /* rendermodelext_drawable.cpp */,
 				F5943E8E15D9821800988068 /* rendermodelext_drawable.h */,
 				F5943E8F15D9821800988068 /* scenenode.cpp */,
 				F5943E9015D9821800988068 /* scenenode.h */,
@@ -925,7 +926,6 @@
 				F5943E9215D9821800988068 /* shader.h */,
 				F5398024177EFFDC0087533B /* sky.cpp */,
 				F5398025177EFFDC0087533B /* sky.h */,
-				F5943E9315D9821800988068 /* staticdrawables.h */,
 				F5943E9415D9821800988068 /* texture.cpp */,
 				F5943E9515D9821800988068 /* texture.h */,
 				F5943E9615D9821800988068 /* texture_interface.h */,
@@ -933,7 +933,11 @@
 				F5624A8D18EF1B7700710BA9 /* uniforms.h */,
 				F5943E9815D9821800988068 /* vertexarray.cpp */,
 				F5943E9915D9821800988068 /* vertexarray.h */,
-				F5943E9A15D9821800988068 /* vertexattribs.h */,
+				F5943E9A15D9821800988068 /* vertexattrib.h */,
+				F535CC99196EF53500436385 /* vertexbuffer.cpp */,
+				F535CC9A196EF53500436385 /* vertexbuffer.h */,
+				F535CC9B196EF53500436385 /* vertexformat.cpp */,
+				F535CC9C196EF53500436385 /* vertexformat.h */,
 			);
 			path = graphics;
 			sourceTree = "<group>";
@@ -1116,7 +1120,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5A668D713FC3EF200EBE432 /* icon.icns in Resources */,
-				F5943E9C15D9821800988068 /* drawables.def in Resources */,
 				F5943EA015D9821800988068 /* glenums.def in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1177,6 +1180,7 @@
 				F5C5142B17E102CB00850371 /* carsound.cpp in Sources */,
 				F5F346F4156949B200424EBA /* ptree.cpp in Sources */,
 				F5F346F7156949B200424EBA /* containeralgorithm.cpp in Sources */,
+				F535CC9D196EF53500436385 /* vertexbuffer.cpp in Sources */,
 				F5F346F9156949B200424EBA /* crashdetection.cpp in Sources */,
 				F5F346FA156949B200424EBA /* downloadable.cpp in Sources */,
 				F5F346FD156949B200424EBA /* dynamicsdraw.cpp in Sources */,
@@ -1260,10 +1264,10 @@
 				F5943EB315D9821800988068 /* model.cpp in Sources */,
 				F5943EB415D9821800988068 /* model_joe03.cpp in Sources */,
 				F5943EB515D9821800988068 /* model_obj.cpp in Sources */,
+				F535CC9E196EF53500436385 /* vertexformat.cpp in Sources */,
 				F5943EB715D9821800988068 /* render_input_postprocess.cpp in Sources */,
 				F5943EB815D9821800988068 /* render_input_scene.cpp in Sources */,
 				F5943EB915D9821800988068 /* render_output.cpp in Sources */,
-				F5943EBA15D9821800988068 /* rendermodelext_drawable.cpp in Sources */,
 				F5943EBB15D9821800988068 /* scenenode.cpp in Sources */,
 				F5943EBC15D9821800988068 /* shader.cpp in Sources */,
 				F5398026177EFFDC0087533B /* sky.cpp in Sources */,
