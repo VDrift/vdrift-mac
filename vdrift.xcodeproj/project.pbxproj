@@ -112,8 +112,6 @@
 		F5C5142717E1026700850371 /* aabbtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5C5142517E1026700850371 /* aabbtree.cpp */; };
 		F5C5142B17E102CB00850371 /* carsound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5C5142917E102CB00850371 /* carsound.cpp */; };
 		F5C5142E17E102E400850371 /* cargraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5C5142C17E102E400850371 /* cargraphics.cpp */; };
-		F5C5143217E106A600850371 /* GLEW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C5143117E106A600850371 /* GLEW.framework */; };
-		F5C5143317E106BF00850371 /* GLEW.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5C5143117E106A600850371 /* GLEW.framework */; };
 		F5D0D69F16C978250074E889 /* radix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5D0D69D16C978250074E889 /* radix.cpp */; };
 		F5DE84FC17148E1F00C7F276 /* dds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DE84FA17148E1F00C7F276 /* dds.cpp */; };
 		F5F346E0156949B200424EBA /* aabb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345A4156949B100424EBA /* aabb.cpp */; };
@@ -187,7 +185,6 @@
 				F530844C183EE3130084A92F /* BulletDynamics.framework in CopyFiles */,
 				F530844D183EE3130084A92F /* BulletSoftBody.framework in CopyFiles */,
 				F57E14FB18EB1AE400F21648 /* cURL.framework in CopyFiles */,
-				F5C5143317E106BF00850371 /* GLEW.framework in CopyFiles */,
 				F530844E183EE3170084A92F /* LinearMath.framework in CopyFiles */,
 				F57E150118EB1DAC00F21648 /* Ogg.framework in CopyFiles */,
 				F57E151018EB208F00F21648 /* SDL2_image.framework in CopyFiles */,
@@ -412,7 +409,6 @@
 		F5C5142D17E102E400850371 /* cargraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cargraphics.h; sourceTree = "<group>"; };
 		F5C5142F17E1031000850371 /* gameinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameinput.h; sourceTree = "<group>"; };
 		F5C5143017E1032300850371 /* carinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carinput.h; sourceTree = "<group>"; };
-		F5C5143117E106A600850371 /* GLEW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLEW.framework; path = Frameworks/GLEW.framework; sourceTree = "<group>"; };
 		F5D0D69D16C978250074E889 /* radix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = radix.cpp; sourceTree = "<group>"; };
 		F5D0D69E16C978250074E889 /* radix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radix.h; sourceTree = "<group>"; };
 		F5DE84FA17148E1F00C7F276 /* dds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dds.cpp; sourceTree = "<group>"; };
@@ -572,7 +568,6 @@
 				F5308448183EE3020084A92F /* BulletDynamics.framework in Frameworks */,
 				F5308449183EE3020084A92F /* BulletSoftBody.framework in Frameworks */,
 				F57E14FA18EB1AE000F21648 /* cURL.framework in Frameworks */,
-				F5C5143217E106A600850371 /* GLEW.framework in Frameworks */,
 				F530844A183EE3030084A92F /* LinearMath.framework in Frameworks */,
 				F57E14FE18EB1D9400F21648 /* Ogg.framework in Frameworks */,
 				F57E150E18EB208200F21648 /* SDL2_image.framework in Frameworks */,
@@ -643,7 +638,6 @@
 				F5308444183EE3020084A92F /* BulletDynamics.framework */,
 				F5308445183EE3020084A92F /* BulletSoftBody.framework */,
 				F57E14F918EB1AE000F21648 /* cURL.framework */,
-				F5C5143117E106A600850371 /* GLEW.framework */,
 				F5308446183EE3020084A92F /* LinearMath.framework */,
 				F57E14FC18EB1D9400F21648 /* Ogg.framework */,
 				F57E150C18EB208200F21648 /* SDL2_image.framework */,
@@ -1326,7 +1320,6 @@
 					Frameworks/BulletDynamics.framework/Headers,
 					Frameworks/BulletSoftBody.framework/Headers,
 					Frameworks/cURL.framework/Headers,
-					Frameworks/GLEW.framework/Headers,
 					Frameworks/LinearMath.framework/Headers,
 					Frameworks/Ogg.framework/Headers,
 					Frameworks/SDL2_image.framework/Headers,
@@ -1354,7 +1347,6 @@
 					Frameworks/BulletDynamics.framework/Headers,
 					Frameworks/BulletSoftBody.framework/Headers,
 					Frameworks/cURL.framework/Headers,
-					Frameworks/GLEW.framework/Headers,
 					Frameworks/LinearMath.framework/Headers,
 					Frameworks/Ogg.framework/Headers,
 					Frameworks/SDL2_image.framework/Headers,
@@ -1403,7 +1395,6 @@
 					Frameworks/BulletDynamics.framework/Headers,
 					Frameworks/BulletSoftBody.framework/Headers,
 					Frameworks/cURL.framework/Headers,
-					Frameworks/GLEW.framework/Headers,
 					Frameworks/LinearMath.framework/Headers,
 					Frameworks/Ogg.framework/Headers,
 					Frameworks/SDL2_image.framework/Headers,
@@ -1440,7 +1431,6 @@
 					Frameworks/BulletDynamics.framework/Headers,
 					Frameworks/BulletSoftBody.framework/Headers,
 					Frameworks/cURL.framework/Headers,
-					Frameworks/GLEW.framework/Headers,
 					Frameworks/LinearMath.framework/Headers,
 					Frameworks/Ogg.framework/Headers,
 					Frameworks/SDL2_image.framework/Headers,
