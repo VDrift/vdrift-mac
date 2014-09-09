@@ -124,7 +124,6 @@
 		F5F346E8156949B200424EBA /* camera_free.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345B9156949B100424EBA /* camera_free.cpp */; };
 		F5F346E9156949B200424EBA /* camera_mount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345BB156949B100424EBA /* camera_mount.cpp */; };
 		F5F346EA156949B200424EBA /* camera_orbit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345BD156949B100424EBA /* camera_orbit.cpp */; };
-		F5F346EB156949B200424EBA /* car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345C0156949B100424EBA /* car.cpp */; };
 		F5F346F4156949B200424EBA /* ptree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345D9156949B100424EBA /* ptree.cpp */; };
 		F5F346F7156949B200424EBA /* containeralgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345DF156949B100424EBA /* containeralgorithm.cpp */; };
 		F5F346F9156949B200424EBA /* crashdetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345E4156949B100424EBA /* crashdetection.cpp */; };
@@ -437,8 +436,6 @@
 		F5F345BD156949B100424EBA /* camera_orbit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camera_orbit.cpp; sourceTree = "<group>"; };
 		F5F345BE156949B100424EBA /* camera_orbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera_orbit.h; sourceTree = "<group>"; };
 		F5F345BF156949B100424EBA /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
-		F5F345C0156949B100424EBA /* car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = car.cpp; sourceTree = "<group>"; };
-		F5F345C1156949B100424EBA /* car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = car.h; sourceTree = "<group>"; };
 		F5F345D0156949B100424EBA /* cartelemetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cartelemetry.h; sourceTree = "<group>"; };
 		F5F345D9156949B100424EBA /* ptree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ptree.cpp; sourceTree = "<group>"; };
 		F5F345DA156949B100424EBA /* ptree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ptree.h; sourceTree = "<group>"; };
@@ -673,8 +670,6 @@
 				F5F345BD156949B100424EBA /* camera_orbit.cpp */,
 				F5F345BE156949B100424EBA /* camera_orbit.h */,
 				F5F345BF156949B100424EBA /* camera.h */,
-				F5F345C0156949B100424EBA /* car.cpp */,
-				F5F345C1156949B100424EBA /* car.h */,
 				F5943E2715D981BC00988068 /* carcontrolmap.cpp */,
 				F5943E2815D981BC00988068 /* carcontrolmap.h */,
 				F5C5142C17E102E400850371 /* cargraphics.cpp */,
@@ -1172,7 +1167,6 @@
 				F5F346E8156949B200424EBA /* camera_free.cpp in Sources */,
 				F5F346E9156949B200424EBA /* camera_mount.cpp in Sources */,
 				F5F346EA156949B200424EBA /* camera_orbit.cpp in Sources */,
-				F5F346EB156949B200424EBA /* car.cpp in Sources */,
 				F5C5142E17E102E400850371 /* cargraphics.cpp in Sources */,
 				F5C5142B17E102CB00850371 /* carsound.cpp in Sources */,
 				F5F346F4156949B200424EBA /* ptree.cpp in Sources */,
