@@ -6,62 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		RQ8Yck/zLXnGT5h1SuLbPpUi02w=
-		</data>
-	</dict>
-	<key>files2</key>
-	<dict>
-		<key>Headers/btDefaultSoftBodySolver.h</key>
-		<data>
-		VVAB/iLL/hpAIV5g0SEsNiMeH1c=
-		</data>
-		<key>Headers/btSoftBody.h</key>
-		<data>
-		tMEVhLxqAAAGx9r5JoEg1mbiorc=
-		</data>
-		<key>Headers/btSoftBodyConcaveCollisionAlgorithm.h</key>
-		<data>
-		uRNqi1CwXfsqdfzplybUnp6I0VY=
-		</data>
-		<key>Headers/btSoftBodyData.h</key>
-		<data>
-		WWdrFinVFaOMoUlNu9G5kYBQ7e4=
-		</data>
-		<key>Headers/btSoftBodyHelpers.h</key>
-		<data>
-		fShYdROOF1TkGi4J5Z7ltuoWKxw=
-		</data>
-		<key>Headers/btSoftBodyRigidBodyCollisionConfiguration.h</key>
-		<data>
-		kR2nNdyV7m4mXzIiWRWjCzzmJys=
-		</data>
-		<key>Headers/btSoftBodySolverVertexBuffer.h</key>
-		<data>
-		RGzYg4uwLoNwIvyuEaRja8SHM4I=
-		</data>
-		<key>Headers/btSoftBodySolvers.h</key>
-		<data>
-		Htdjv4UvjO9C+j5DhV0u4euYpPw=
-		</data>
-		<key>Headers/btSoftRigidCollisionAlgorithm.h</key>
-		<data>
-		m7uFAk5o19Za4UHi3hy6nyAkae0=
-		</data>
-		<key>Headers/btSoftRigidDynamicsWorld.h</key>
-		<data>
-		KoJMjWiEm0YkW3nyX2h+b6EPyaI=
-		</data>
-		<key>Headers/btSoftSoftCollisionAlgorithm.h</key>
-		<data>
-		HS7zqYRdPcb1oNXFhsHexNuVa60=
-		</data>
-		<key>Headers/btSparseSDF.h</key>
-		<data>
-		h3JabXhsqL6wldfeshYMjjUTepY=
-		</data>
-		<key>Resources/Info.plist</key>
-		<data>
-		RQ8Yck/zLXnGT5h1SuLbPpUi02w=
+		D4Ls6n1pNJ8ZaxdXDtPGxvBVfzQ=
 		</data>
 	</dict>
 	<key>rules</key>
@@ -84,80 +29,6 @@
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
-	</dict>
-	<key>rules2</key>
-	<dict>
-		<key>.*\.dSYM($|/)</key>
-		<dict>
-			<key>weight</key>
-			<real>11</real>
-		</dict>
-		<key>^(.*/)?\.DS_Store$</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
-		</dict>
-		<key>^.*</key>
-		<true/>
-		<key>^Info\.plist$</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
-		<key>^PkgInfo$</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
-		<key>^Resources/</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
-		<key>^Resources/.*\.lproj/</key>
-		<dict>
-			<key>optional</key>
-			<true/>
-			<key>weight</key>
-			<real>1000</real>
-		</dict>
-		<key>^Resources/.*\.lproj/locversion.plist$</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>1100</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
-		</dict>
-		<key>^embedded\.provisionprofile$</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
-		<key>^version\.plist$</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 	</dict>
 </dict>
 </plist>
