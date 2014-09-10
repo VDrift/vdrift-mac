@@ -41,8 +41,6 @@
 		F5624A8A18EF15EF00710BA9 /* libintl.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; };
 		F5624A8B18EF15F800710BA9 /* libiconv.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */; };
 		F5624A8C18EF15F800710BA9 /* libintl.8.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; };
-		F57E14FA18EB1AE000F21648 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E14F918EB1AE000F21648 /* cURL.framework */; };
-		F57E14FB18EB1AE400F21648 /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F57E14F918EB1AE000F21648 /* cURL.framework */; };
 		F57E14FE18EB1D9400F21648 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E14FC18EB1D9400F21648 /* Ogg.framework */; };
 		F57E14FF18EB1D9400F21648 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E14FD18EB1D9400F21648 /* Vorbis.framework */; };
 		F57E150018EB1DA900F21648 /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F57E14FD18EB1D9400F21648 /* Vorbis.framework */; };
@@ -51,6 +49,8 @@
 		F57E150F18EB208200F21648 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E150D18EB208200F21648 /* WebP.framework */; };
 		F57E151018EB208F00F21648 /* SDL2_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F57E150C18EB208200F21648 /* SDL2_image.framework */; };
 		F57E151118EB209300F21648 /* WebP.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F57E150D18EB208200F21648 /* WebP.framework */; };
+		F581527219C0AEAD0035C897 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527119C0AEAD0035C897 /* cURL.framework */; };
+		F581527319C0AECF0035C897 /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F581527119C0AEAD0035C897 /* cURL.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F59415B018EB0E9300945797 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F59415AE18EB0E9300945797 /* SDL2.framework */; };
 		F59415B218EB0E9C00945797 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59415AE18EB0E9300945797 /* SDL2.framework */; };
 		F5943E2915D981BC00988068 /* carcontrolmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2715D981BC00988068 /* carcontrolmap.cpp */; };
@@ -183,7 +183,7 @@
 				F530844B183EE3130084A92F /* BulletCollision.framework in CopyFiles */,
 				F530844C183EE3130084A92F /* BulletDynamics.framework in CopyFiles */,
 				F530844D183EE3130084A92F /* BulletSoftBody.framework in CopyFiles */,
-				F57E14FB18EB1AE400F21648 /* cURL.framework in CopyFiles */,
+				F581527319C0AECF0035C897 /* cURL.framework in CopyFiles */,
 				F530844E183EE3170084A92F /* LinearMath.framework in CopyFiles */,
 				F57E150118EB1DAC00F21648 /* Ogg.framework in CopyFiles */,
 				F57E151018EB208F00F21648 /* SDL2_image.framework in CopyFiles */,
@@ -259,11 +259,11 @@
 		F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = Libraries/libiconv.2.dylib; sourceTree = "<group>"; };
 		F5624A8818EF15EF00710BA9 /* libintl.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.8.dylib; path = Libraries/libintl.8.dylib; sourceTree = "<group>"; };
 		F5624A8D18EF1B7700710BA9 /* uniforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uniforms.h; sourceTree = "<group>"; };
-		F57E14F918EB1AE000F21648 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
 		F57E14FC18EB1D9400F21648 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
 		F57E14FD18EB1D9400F21648 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
 		F57E150C18EB208200F21648 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
 		F57E150D18EB208200F21648 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = Frameworks/WebP.framework; sourceTree = "<group>"; };
+		F581527119C0AEAD0035C897 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
 		F59415AE18EB0E9300945797 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		F5943E2715D981BC00988068 /* carcontrolmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = carcontrolmap.cpp; sourceTree = "<group>"; };
 		F5943E2815D981BC00988068 /* carcontrolmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carcontrolmap.h; sourceTree = "<group>"; };
@@ -564,7 +564,7 @@
 				F5308447183EE3020084A92F /* BulletCollision.framework in Frameworks */,
 				F5308448183EE3020084A92F /* BulletDynamics.framework in Frameworks */,
 				F5308449183EE3020084A92F /* BulletSoftBody.framework in Frameworks */,
-				F57E14FA18EB1AE000F21648 /* cURL.framework in Frameworks */,
+				F581527219C0AEAD0035C897 /* cURL.framework in Frameworks */,
 				F530844A183EE3030084A92F /* LinearMath.framework in Frameworks */,
 				F57E14FE18EB1D9400F21648 /* Ogg.framework in Frameworks */,
 				F57E150E18EB208200F21648 /* SDL2_image.framework in Frameworks */,
@@ -634,7 +634,7 @@
 				F5308443183EE3020084A92F /* BulletCollision.framework */,
 				F5308444183EE3020084A92F /* BulletDynamics.framework */,
 				F5308445183EE3020084A92F /* BulletSoftBody.framework */,
-				F57E14F918EB1AE000F21648 /* cURL.framework */,
+				F581527119C0AEAD0035C897 /* cURL.framework */,
 				F5308446183EE3020084A92F /* LinearMath.framework */,
 				F57E14FC18EB1D9400F21648 /* Ogg.framework */,
 				F57E150C18EB208200F21648 /* SDL2_image.framework */,
