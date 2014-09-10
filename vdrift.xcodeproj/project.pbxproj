@@ -41,18 +41,18 @@
 		F5624A8A18EF15EF00710BA9 /* libintl.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; };
 		F5624A8B18EF15F800710BA9 /* libiconv.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */; };
 		F5624A8C18EF15F800710BA9 /* libintl.8.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; };
-		F57E150E18EB208200F21648 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E150C18EB208200F21648 /* SDL2_image.framework */; };
-		F57E150F18EB208200F21648 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E150D18EB208200F21648 /* WebP.framework */; };
-		F57E151018EB208F00F21648 /* SDL2_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F57E150C18EB208200F21648 /* SDL2_image.framework */; };
-		F57E151118EB209300F21648 /* WebP.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F57E150D18EB208200F21648 /* WebP.framework */; };
 		F581527219C0AEAD0035C897 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527119C0AEAD0035C897 /* cURL.framework */; };
 		F581527319C0AECF0035C897 /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F581527119C0AEAD0035C897 /* cURL.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F581527519C0B0830035C897 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527419C0B0830035C897 /* Ogg.framework */; };
 		F581527619C0B0880035C897 /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F581527419C0B0830035C897 /* Ogg.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F581527819C0B14D0035C897 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527719C0B14D0035C897 /* Vorbis.framework */; };
 		F581527919C0B1510035C897 /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F581527719C0B14D0035C897 /* Vorbis.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		F59415B018EB0E9300945797 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F59415AE18EB0E9300945797 /* SDL2.framework */; };
-		F59415B218EB0E9C00945797 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59415AE18EB0E9300945797 /* SDL2.framework */; };
+		F581528019C0B3CA0035C897 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527D19C0B3CA0035C897 /* SDL2_image.framework */; };
+		F581528119C0B3CA0035C897 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527E19C0B3CA0035C897 /* SDL2.framework */; };
+		F581528219C0B3CA0035C897 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527F19C0B3CA0035C897 /* WebP.framework */; };
+		F581528319C0B3DC0035C897 /* WebP.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F581527F19C0B3CA0035C897 /* WebP.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F581528419C0B3DD0035C897 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F581527E19C0B3CA0035C897 /* SDL2.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F581528519C0B3E00035C897 /* SDL2_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F581527D19C0B3CA0035C897 /* SDL2_image.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F5943E2915D981BC00988068 /* carcontrolmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2715D981BC00988068 /* carcontrolmap.cpp */; };
 		F5943E2C15D981E200988068 /* config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2A15D981E200988068 /* config.cpp */; };
 		F5943E3015D981EC00988068 /* ptree_inf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2D15D981EC00988068 /* ptree_inf.cpp */; };
@@ -186,10 +186,10 @@
 				F581527319C0AECF0035C897 /* cURL.framework in CopyFiles */,
 				F530844E183EE3170084A92F /* LinearMath.framework in CopyFiles */,
 				F581527619C0B0880035C897 /* Ogg.framework in CopyFiles */,
-				F57E151018EB208F00F21648 /* SDL2_image.framework in CopyFiles */,
-				F59415B018EB0E9300945797 /* SDL2.framework in CopyFiles */,
+				F581528519C0B3E00035C897 /* SDL2_image.framework in CopyFiles */,
+				F581528419C0B3DD0035C897 /* SDL2.framework in CopyFiles */,
 				F581527919C0B1510035C897 /* Vorbis.framework in CopyFiles */,
-				F57E151118EB209300F21648 /* WebP.framework in CopyFiles */,
+				F581528319C0B3DC0035C897 /* WebP.framework in CopyFiles */,
 				F5624A8B18EF15F800710BA9 /* libiconv.2.dylib in CopyFiles */,
 				F5624A8C18EF15F800710BA9 /* libintl.8.dylib in CopyFiles */,
 			);
@@ -259,12 +259,12 @@
 		F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = Libraries/libiconv.2.dylib; sourceTree = "<group>"; };
 		F5624A8818EF15EF00710BA9 /* libintl.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.8.dylib; path = Libraries/libintl.8.dylib; sourceTree = "<group>"; };
 		F5624A8D18EF1B7700710BA9 /* uniforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uniforms.h; sourceTree = "<group>"; };
-		F57E150C18EB208200F21648 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
-		F57E150D18EB208200F21648 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = Frameworks/WebP.framework; sourceTree = "<group>"; };
 		F581527119C0AEAD0035C897 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
 		F581527419C0B0830035C897 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
 		F581527719C0B14D0035C897 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
-		F59415AE18EB0E9300945797 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		F581527D19C0B3CA0035C897 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		F581527E19C0B3CA0035C897 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		F581527F19C0B3CA0035C897 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = Frameworks/WebP.framework; sourceTree = "<group>"; };
 		F5943E2715D981BC00988068 /* carcontrolmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = carcontrolmap.cpp; sourceTree = "<group>"; };
 		F5943E2815D981BC00988068 /* carcontrolmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carcontrolmap.h; sourceTree = "<group>"; };
 		F5943E2A15D981E200988068 /* config.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = config.cpp; sourceTree = "<group>"; };
@@ -567,10 +567,10 @@
 				F581527219C0AEAD0035C897 /* cURL.framework in Frameworks */,
 				F530844A183EE3030084A92F /* LinearMath.framework in Frameworks */,
 				F581527519C0B0830035C897 /* Ogg.framework in Frameworks */,
-				F57E150E18EB208200F21648 /* SDL2_image.framework in Frameworks */,
-				F59415B218EB0E9C00945797 /* SDL2.framework in Frameworks */,
+				F581528019C0B3CA0035C897 /* SDL2_image.framework in Frameworks */,
+				F581528119C0B3CA0035C897 /* SDL2.framework in Frameworks */,
 				F581527819C0B14D0035C897 /* Vorbis.framework in Frameworks */,
-				F57E150F18EB208200F21648 /* WebP.framework in Frameworks */,
+				F581528219C0B3CA0035C897 /* WebP.framework in Frameworks */,
 				F5624A8918EF15EF00710BA9 /* libiconv.2.dylib in Frameworks */,
 				F5624A8A18EF15EF00710BA9 /* libintl.8.dylib in Frameworks */,
 			);
@@ -637,10 +637,10 @@
 				F581527119C0AEAD0035C897 /* cURL.framework */,
 				F5308446183EE3020084A92F /* LinearMath.framework */,
 				F581527419C0B0830035C897 /* Ogg.framework */,
-				F57E150C18EB208200F21648 /* SDL2_image.framework */,
-				F59415AE18EB0E9300945797 /* SDL2.framework */,
+				F581527D19C0B3CA0035C897 /* SDL2_image.framework */,
+				F581527E19C0B3CA0035C897 /* SDL2.framework */,
 				F581527719C0B14D0035C897 /* Vorbis.framework */,
-				F57E150D18EB208200F21648 /* WebP.framework */,
+				F581527F19C0B3CA0035C897 /* WebP.framework */,
 				F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */,
 				F5624A8818EF15EF00710BA9 /* libintl.8.dylib */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
