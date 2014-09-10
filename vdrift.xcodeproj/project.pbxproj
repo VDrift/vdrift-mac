@@ -25,6 +25,8 @@
 		F52C01E316D1443100ECA7EF /* guiwidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D216D1443100ECA7EF /* guiwidget.cpp */; };
 		F52C01E416D1443100ECA7EF /* guiwidgetlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D416D1443100ECA7EF /* guiwidgetlist.cpp */; };
 		F52C01E516D1443100ECA7EF /* text_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52C01D616D1443100ECA7EF /* text_draw.cpp */; };
+		F52E56F919C1076600821A75 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52E56F819C1076600821A75 /* cURL.framework */; };
+		F52E56FA19C1076F00821A75 /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F52E56F819C1076600821A75 /* cURL.framework */; };
 		F535CC9D196EF53500436385 /* vertexbuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F535CC99196EF53500436385 /* vertexbuffer.cpp */; };
 		F535CC9E196EF53500436385 /* vertexformat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F535CC9B196EF53500436385 /* vertexformat.cpp */; };
 		F5398026177EFFDC0087533B /* sky.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5398024177EFFDC0087533B /* sky.cpp */; };
@@ -41,8 +43,6 @@
 		F5624A8A18EF15EF00710BA9 /* libintl.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; };
 		F5624A8B18EF15F800710BA9 /* libiconv.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */; };
 		F5624A8C18EF15F800710BA9 /* libintl.8.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; };
-		F581527219C0AEAD0035C897 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527119C0AEAD0035C897 /* cURL.framework */; };
-		F581527319C0AECF0035C897 /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F581527119C0AEAD0035C897 /* cURL.framework */; };
 		F581527519C0B0830035C897 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527419C0B0830035C897 /* Ogg.framework */; };
 		F581527619C0B0880035C897 /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F581527419C0B0830035C897 /* Ogg.framework */; };
 		F581527819C0B14D0035C897 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527719C0B14D0035C897 /* Vorbis.framework */; };
@@ -183,7 +183,7 @@
 				F53A0C2319C0EE48005047B5 /* BulletCollision.framework in CopyFiles */,
 				F53A0C2419C0EE48005047B5 /* BulletDynamics.framework in CopyFiles */,
 				F53A0C2519C0EE48005047B5 /* BulletSoftBody.framework in CopyFiles */,
-				F581527319C0AECF0035C897 /* cURL.framework in CopyFiles */,
+				F52E56FA19C1076F00821A75 /* cURL.framework in CopyFiles */,
 				F53A0C2819C0EE53005047B5 /* LinearMath.framework in CopyFiles */,
 				F581527619C0B0880035C897 /* Ogg.framework in CopyFiles */,
 				F581528519C0B3E00035C897 /* SDL2_image.framework in CopyFiles */,
@@ -244,6 +244,7 @@
 		F52C01D516D1443100ECA7EF /* guiwidgetlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiwidgetlist.h; sourceTree = "<group>"; };
 		F52C01D616D1443100ECA7EF /* text_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = text_draw.cpp; sourceTree = "<group>"; };
 		F52C01D716D1443100ECA7EF /* text_draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text_draw.h; sourceTree = "<group>"; };
+		F52E56F819C1076600821A75 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
 		F535CC99196EF53500436385 /* vertexbuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vertexbuffer.cpp; sourceTree = "<group>"; };
 		F535CC9A196EF53500436385 /* vertexbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertexbuffer.h; sourceTree = "<group>"; };
 		F535CC9B196EF53500436385 /* vertexformat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vertexformat.cpp; sourceTree = "<group>"; };
@@ -259,7 +260,6 @@
 		F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = Libraries/libiconv.2.dylib; sourceTree = "<group>"; };
 		F5624A8818EF15EF00710BA9 /* libintl.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.8.dylib; path = Libraries/libintl.8.dylib; sourceTree = "<group>"; };
 		F5624A8D18EF1B7700710BA9 /* uniforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uniforms.h; sourceTree = "<group>"; };
-		F581527119C0AEAD0035C897 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
 		F581527419C0B0830035C897 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
 		F581527719C0B14D0035C897 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
 		F581527D19C0B3CA0035C897 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
@@ -564,7 +564,7 @@
 				F53A0C2019C0EE3C005047B5 /* BulletCollision.framework in Frameworks */,
 				F53A0C2119C0EE3C005047B5 /* BulletDynamics.framework in Frameworks */,
 				F53A0C2219C0EE3C005047B5 /* BulletSoftBody.framework in Frameworks */,
-				F581527219C0AEAD0035C897 /* cURL.framework in Frameworks */,
+				F52E56F919C1076600821A75 /* cURL.framework in Frameworks */,
 				F53A0C2719C0EE4F005047B5 /* LinearMath.framework in Frameworks */,
 				F581527519C0B0830035C897 /* Ogg.framework in Frameworks */,
 				F581528019C0B3CA0035C897 /* SDL2_image.framework in Frameworks */,
@@ -634,7 +634,7 @@
 				F53A0C1D19C0EE3C005047B5 /* BulletCollision.framework */,
 				F53A0C1E19C0EE3C005047B5 /* BulletDynamics.framework */,
 				F53A0C1F19C0EE3C005047B5 /* BulletSoftBody.framework */,
-				F581527119C0AEAD0035C897 /* cURL.framework */,
+				F52E56F819C1076600821A75 /* cURL.framework */,
 				F53A0C2619C0EE4F005047B5 /* LinearMath.framework */,
 				F581527419C0B0830035C897 /* Ogg.framework */,
 				F581527D19C0B3CA0035C897 /* SDL2_image.framework */,
