@@ -41,8 +41,8 @@
 		F54C9B36174A3D0600B55709 /* tire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54C9B34174A3D0600B55709 /* tire.cpp */; };
 		F5624A8918EF15EF00710BA9 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */; };
 		F5624A8A18EF15EF00710BA9 /* libintl.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; };
-		F5624A8B18EF15F800710BA9 /* libiconv.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */; };
-		F5624A8C18EF15F800710BA9 /* libintl.8.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; };
+		F5624A8B18EF15F800710BA9 /* libiconv.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F5624A8C18EF15F800710BA9 /* libintl.8.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		F581527519C0B0830035C897 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527419C0B0830035C897 /* Ogg.framework */; };
 		F581527619C0B0880035C897 /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F581527419C0B0830035C897 /* Ogg.framework */; };
 		F581527819C0B14D0035C897 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527719C0B14D0035C897 /* Vorbis.framework */; };
@@ -615,6 +615,7 @@
 			);
 			name = vdrift;
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
