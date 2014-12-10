@@ -134,9 +134,6 @@
 		F5F34704156949B200424EBA /* forcefeedback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F345FE156949B100424EBA /* forcefeedback.cpp */; };
 		F5F34706156949B200424EBA /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F34604156949B100424EBA /* game.cpp */; };
 		F5F3471D156949B200424EBA /* http.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F3463D156949B100424EBA /* http.cpp */; };
-		F5F3471E156949B200424EBA /* hud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F3463F156949B100424EBA /* hud.cpp */; };
-		F5F3471F156949B200424EBA /* hudbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F34641156949B100424EBA /* hudbar.cpp */; };
-		F5F34720156949B200424EBA /* hudgauge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F34643156949B100424EBA /* hudgauge.cpp */; };
 		F5F34721156949B200424EBA /* joepack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F34646156949B100424EBA /* joepack.cpp */; };
 		F5F34722156949B200424EBA /* joeserialize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F34648156949B100424EBA /* joeserialize.cpp */; };
 		F5F34723156949B200424EBA /* k1999.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F3464A156949B100424EBA /* k1999.cpp */; };
@@ -465,13 +462,6 @@
 		F5F34605156949B100424EBA /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
 		F5F3463D156949B100424EBA /* http.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = http.cpp; sourceTree = "<group>"; };
 		F5F3463E156949B100424EBA /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
-		F5F3463F156949B100424EBA /* hud.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hud.cpp; sourceTree = "<group>"; };
-		F5F34640156949B100424EBA /* hud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hud.h; sourceTree = "<group>"; };
-		F5F34641156949B100424EBA /* hudbar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hudbar.cpp; sourceTree = "<group>"; };
-		F5F34642156949B100424EBA /* hudbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hudbar.h; sourceTree = "<group>"; };
-		F5F34643156949B100424EBA /* hudgauge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hudgauge.cpp; sourceTree = "<group>"; };
-		F5F34644156949B100424EBA /* hudgauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hudgauge.h; sourceTree = "<group>"; };
-		F5F34645156949B100424EBA /* inputgraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inputgraph.h; sourceTree = "<group>"; };
 		F5F34646156949B100424EBA /* joepack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = joepack.cpp; sourceTree = "<group>"; };
 		F5F34647156949B100424EBA /* joepack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = joepack.h; sourceTree = "<group>"; };
 		F5F34648156949B100424EBA /* joeserialize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = joeserialize.cpp; sourceTree = "<group>"; };
@@ -712,13 +702,6 @@
 				F5005E7F15ADDA7A00E2B121 /* hsvtorgb.h */,
 				F5F3463D156949B100424EBA /* http.cpp */,
 				F5F3463E156949B100424EBA /* http.h */,
-				F5F3463F156949B100424EBA /* hud.cpp */,
-				F5F34640156949B100424EBA /* hud.h */,
-				F5F34641156949B100424EBA /* hudbar.cpp */,
-				F5F34642156949B100424EBA /* hudbar.h */,
-				F5F34643156949B100424EBA /* hudgauge.cpp */,
-				F5F34644156949B100424EBA /* hudgauge.h */,
-				F5F34645156949B100424EBA /* inputgraph.h */,
 				F5F34646156949B100424EBA /* joepack.cpp */,
 				F5F34647156949B100424EBA /* joepack.h */,
 				F5F34648156949B100424EBA /* joeserialize.cpp */,
@@ -1184,9 +1167,6 @@
 				F5F34704156949B200424EBA /* forcefeedback.cpp in Sources */,
 				F5F34706156949B200424EBA /* game.cpp in Sources */,
 				F5F3471D156949B200424EBA /* http.cpp in Sources */,
-				F5F3471E156949B200424EBA /* hud.cpp in Sources */,
-				F5F3471F156949B200424EBA /* hudbar.cpp in Sources */,
-				F5F34720156949B200424EBA /* hudgauge.cpp in Sources */,
 				F5F34721156949B200424EBA /* joepack.cpp in Sources */,
 				F5F34722156949B200424EBA /* joeserialize.cpp in Sources */,
 				F5F34723156949B200424EBA /* k1999.cpp in Sources */,
