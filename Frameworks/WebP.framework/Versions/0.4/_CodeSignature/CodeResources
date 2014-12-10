@@ -6,18 +6,18 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		CHFybRUBxUvDaOo3HD3+uCOknE4=
+		g359mWhc8kD6AU0RPDt9bWotz34=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/decode.h</key>
 		<data>
-		aupiMNEiB17yMOe8f5dwoI9ZPsg=
+		Mf4mFLLCH5w2JGkwmZHbB6jrVQg=
 		</data>
 		<key>Headers/encode.h</key>
 		<data>
-		n0vzQAcVv3ua/XomV+TS9KvJQoc=
+		d25YL899QFamOcsqjjXeIq9p6WE=
 		</data>
 		<key>Headers/types.h</key>
 		<data>
@@ -25,11 +25,11 @@
 		</data>
 		<key>Headers/webp/decode.h</key>
 		<data>
-		aupiMNEiB17yMOe8f5dwoI9ZPsg=
+		Mf4mFLLCH5w2JGkwmZHbB6jrVQg=
 		</data>
 		<key>Headers/webp/encode.h</key>
 		<data>
-		n0vzQAcVv3ua/XomV+TS9KvJQoc=
+		d25YL899QFamOcsqjjXeIq9p6WE=
 		</data>
 		<key>Headers/webp/types.h</key>
 		<data>
@@ -37,7 +37,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		CHFybRUBxUvDaOo3HD3+uCOknE4=
+		g359mWhc8kD6AU0RPDt9bWotz34=
 		</data>
 	</dict>
 	<key>rules</key>
