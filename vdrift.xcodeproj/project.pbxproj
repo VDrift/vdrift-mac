@@ -38,6 +38,7 @@
 		F53A0C2519C0EE48005047B5 /* BulletSoftBody.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F53A0C1F19C0EE3C005047B5 /* BulletSoftBody.framework */; };
 		F53A0C2719C0EE4F005047B5 /* LinearMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53A0C2619C0EE4F005047B5 /* LinearMath.framework */; };
 		F53A0C2819C0EE53005047B5 /* LinearMath.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F53A0C2619C0EE4F005047B5 /* LinearMath.framework */; };
+		F53A89481A38977C007E2326 /* guiradialslider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53A89461A38977C007E2326 /* guiradialslider.cpp */; };
 		F54C9B36174A3D0600B55709 /* tire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54C9B34174A3D0600B55709 /* tire.cpp */; };
 		F5624A8918EF15EF00710BA9 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */; };
 		F5624A8A18EF15EF00710BA9 /* libintl.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; };
@@ -255,6 +256,8 @@
 		F53A0C1E19C0EE3C005047B5 /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = Frameworks/BulletDynamics.framework; sourceTree = "<group>"; };
 		F53A0C1F19C0EE3C005047B5 /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = Frameworks/BulletSoftBody.framework; sourceTree = "<group>"; };
 		F53A0C2619C0EE4F005047B5 /* LinearMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearMath.framework; path = Frameworks/LinearMath.framework; sourceTree = "<group>"; };
+		F53A89461A38977C007E2326 /* guiradialslider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiradialslider.cpp; sourceTree = "<group>"; };
+		F53A89471A38977C007E2326 /* guiradialslider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiradialslider.h; sourceTree = "<group>"; };
 		F54C9B34174A3D0600B55709 /* tire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tire.cpp; sourceTree = "<group>"; };
 		F54C9B35174A3D0600B55709 /* tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tire.h; sourceTree = "<group>"; };
 		F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = Libraries/libiconv.2.dylib; sourceTree = "<group>"; };
@@ -838,6 +841,8 @@
 				F52C01CD16D1443100ECA7EF /* guioption.h */,
 				F52C01CE16D1443100ECA7EF /* guipage.cpp */,
 				F52C01CF16D1443100ECA7EF /* guipage.h */,
+				F53A89461A38977C007E2326 /* guiradialslider.cpp */,
+				F53A89471A38977C007E2326 /* guiradialslider.h */,
 				F52C01D016D1443100ECA7EF /* guislider.cpp */,
 				F52C01D116D1443100ECA7EF /* guislider.h */,
 				F52C01D216D1443100ECA7EF /* guiwidget.cpp */,
@@ -1277,6 +1282,7 @@
 				F52C01DF16D1443100ECA7EF /* guilanguage.cpp in Sources */,
 				F52C01E016D1443100ECA7EF /* guioption.cpp in Sources */,
 				F52C01E116D1443100ECA7EF /* guipage.cpp in Sources */,
+				F53A89481A38977C007E2326 /* guiradialslider.cpp in Sources */,
 				F52C01E216D1443100ECA7EF /* guislider.cpp in Sources */,
 				F52C01E316D1443100ECA7EF /* guiwidget.cpp in Sources */,
 				F52C01E416D1443100ECA7EF /* guiwidgetlist.cpp in Sources */,
