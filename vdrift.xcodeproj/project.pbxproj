@@ -142,7 +142,6 @@
 		F5F34727156949B200424EBA /* loadcamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F34652156949B100424EBA /* loadcamera.cpp */; };
 		F5F34728156949B200424EBA /* loadcollisionshape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F34654156949B100424EBA /* loadcollisionshape.cpp */; };
 		F5F34729156949B200424EBA /* loaddrawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F34656156949B100424EBA /* loaddrawable.cpp */; };
-		F5F3472A156949B200424EBA /* loadingscreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F34658156949B100424EBA /* loadingscreen.cpp */; };
 		F5F3472B156949B200424EBA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F3465C156949B100424EBA /* main.cpp */; };
 		F5F3472C156949B200424EBA /* mathplane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F3465D156949B100424EBA /* mathplane.cpp */; };
 		F5F3472D156949B200424EBA /* mathvector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F3465F156949B100424EBA /* mathvector.cpp */; };
@@ -478,8 +477,6 @@
 		F5F34655156949B100424EBA /* loadcollisionshape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadcollisionshape.h; sourceTree = "<group>"; };
 		F5F34656156949B100424EBA /* loaddrawable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loaddrawable.cpp; sourceTree = "<group>"; };
 		F5F34657156949B100424EBA /* loaddrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loaddrawable.h; sourceTree = "<group>"; };
-		F5F34658156949B100424EBA /* loadingscreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loadingscreen.cpp; sourceTree = "<group>"; };
-		F5F34659156949B100424EBA /* loadingscreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadingscreen.h; sourceTree = "<group>"; };
 		F5F3465A156949B100424EBA /* logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
 		F5F3465B156949B100424EBA /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
 		F5F3465C156949B100424EBA /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -718,8 +715,6 @@
 				F5F34655156949B100424EBA /* loadcollisionshape.h */,
 				F5F34656156949B100424EBA /* loaddrawable.cpp */,
 				F5F34657156949B100424EBA /* loaddrawable.h */,
-				F5F34658156949B100424EBA /* loadingscreen.cpp */,
-				F5F34659156949B100424EBA /* loadingscreen.h */,
 				F5F3465A156949B100424EBA /* logging.h */,
 				F5F3465B156949B100424EBA /* macros.h */,
 				F5F3465C156949B100424EBA /* main.cpp */,
@@ -1175,7 +1170,6 @@
 				F5F34727156949B200424EBA /* loadcamera.cpp in Sources */,
 				F5F34728156949B200424EBA /* loadcollisionshape.cpp in Sources */,
 				F5F34729156949B200424EBA /* loaddrawable.cpp in Sources */,
-				F5F3472A156949B200424EBA /* loadingscreen.cpp in Sources */,
 				F5F3472B156949B200424EBA /* main.cpp in Sources */,
 				F5F3472C156949B200424EBA /* mathplane.cpp in Sources */,
 				F5F3472D156949B200424EBA /* mathvector.cpp in Sources */,
