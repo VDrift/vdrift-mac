@@ -537,7 +537,6 @@
 		F5F346BA156949B200424EBA /* trackmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trackmap.h; sourceTree = "<group>"; };
 		F5F346BC156949B200424EBA /* transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transform.h; sourceTree = "<group>"; };
 		F5F346BD156949B200424EBA /* unittest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unittest.h; sourceTree = "<group>"; };
-		F5F346BE156949B200424EBA /* unordered_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unordered_map.h; sourceTree = "<group>"; };
 		F5F346C1156949B200424EBA /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
 		F5F346C2156949B200424EBA /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 		F5F346DD156949B200424EBA /* window.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = window.cpp; sourceTree = "<group>"; };
@@ -781,7 +780,6 @@
 				F5F346BC156949B200424EBA /* transform.h */,
 				F5005E8115ADDAA600E2B121 /* tripplebuffer.h */,
 				F5F346BD156949B200424EBA /* unittest.h */,
-				F5F346BE156949B200424EBA /* unordered_map.h */,
 				F5005E8215ADDAB200E2B121 /* updatemanager.cpp */,
 				F5005E8315ADDAB200E2B121 /* updatemanager.h */,
 				F5F346C1156949B200424EBA /* utils.cpp */,
