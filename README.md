@@ -89,8 +89,7 @@ Download platform specific build dependencies on OS X:
 
 ## Compiling VDrift
 
-- The VDrift OS X project requires Xcode 3.2 or later. The latest version, Xcode
-4.3 is free on the Mac App Store.
+- The VDrift OS X project requires Xcode 3.2 or later. You can download the latest version for free at https://developer.apple.com/xcode/.
 - Open *vdrift/vdrift-mac/vdrift.xcodeproj* and in Xcode 4 or higher click
 "Build" in the "Product" menu, otherwise hit "Build" from Xcode's "Build" menu.
 
