@@ -487,7 +487,6 @@
 		F5F34661156949B100424EBA /* matrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix3.h; sourceTree = "<group>"; };
 		F5F34662156949B100424EBA /* matrix4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matrix4.cpp; sourceTree = "<group>"; };
 		F5F34663156949B100424EBA /* matrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix4.h; sourceTree = "<group>"; };
-		F5F34664156949B100424EBA /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
 		F5F3466E156949B100424EBA /* numprocessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numprocessors.h; sourceTree = "<group>"; };
 		F5F34671156949B100424EBA /* optional.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = optional.cpp; sourceTree = "<group>"; };
 		F5F34672156949B100424EBA /* optional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = optional.h; sourceTree = "<group>"; };
@@ -724,7 +723,6 @@
 				F5F34661156949B100424EBA /* matrix3.h */,
 				F5F34662156949B100424EBA /* matrix4.cpp */,
 				F5F34663156949B100424EBA /* matrix4.h */,
-				F5F34664156949B100424EBA /* memory.h */,
 				F5F3466E156949B100424EBA /* numprocessors.h */,
 				F5F34671156949B100424EBA /* optional.cpp */,
 				F5F34672156949B100424EBA /* optional.h */,
