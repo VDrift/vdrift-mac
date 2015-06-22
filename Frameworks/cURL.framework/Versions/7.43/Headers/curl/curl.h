@@ -7,7 +7,7 @@
  *                            | (__| |_| |  _ <| |___
  *                             \___|\___/|_| \_\_____|
  *
- * Copyright (C) 1998 - 2014, Daniel Stenberg, <daniel@haxx.se>, et al.
+ * Copyright (C) 1998 - 2015, Daniel Stenberg, <daniel@haxx.se>, et al.
  *
  * This software is licensed as described in the file COPYING, which
  * you should have received as part of this distribution. The terms
@@ -523,6 +523,7 @@ typedef enum {
                                     session will be queued */
   CURLE_SSL_PINNEDPUBKEYNOTMATCH, /* 90 - specified pinned public key did not
                                      match */
+  CURLE_SSL_INVALIDCERTSTATUS,   /* 91 - invalid certificate status */
   CURL_LAST /* never use! */
 } CURLcode;
 
@@ -845,7 +846,7 @@ typedef enum {
   CINIT(WRITEDATA, OBJECTPOINT, 1),
 
   /* The full URL to get/put */
-  CINIT(URL,  OBJECTPOINT, 2),
+  CINIT(URL, OBJECTPOINT, 2),
 
   /* Port number to connect to, if other than default. */
   CINIT(PORT, LONG, 3),
@@ -1622,6 +1623,24 @@ typedef enum {
   /* Path to Unix domain socket */
   CINIT(UNIX_SOCKET_PATH, OBJECTPOINT, 231),
 
+  /* Set if we should verify the certificate status. */
+  CINIT(SSL_VERIFYSTATUS, LONG, 232),
+
+  /* Set if we should enable TLS false start. */
+  CINIT(SSL_FALSESTART, LONG, 233),
+
+  /* Do not squash dot-dot sequences */
+  CINIT(PATH_AS_IS, LONG, 234),
+
+  /* Proxy Service Name */
+  CINIT(PROXY_SERVICE_NAME, OBJECTPOINT, 235),
+
+  /* Service Name */
+  CINIT(SERVICE_NAME, OBJECTPOINT, 236),
+
+  /* Wait/don't wait for pipe/mutex to clarify */
+  CINIT(PIPEWAIT, LONG, 237),
+
   CURLOPT_LASTENTRY /* the last unused */
 } CURLoption;
 
@@ -1675,6 +1694,11 @@ enum {
 
   CURL_HTTP_VERSION_LAST /* *ILLEGAL* http version */
 };
+
+/* Convenience definition simple because the name of the version is HTTP/2 and
+   not 2.0. The 2_0 version of the enum name was set while the version was
+   still planned to be 2.0 and we stick to it for compatibility. */
+#define CURL_HTTP_VERSION_2 CURL_HTTP_VERSION_2_0
 
 /*
  * Public API enums for RTSP requests
