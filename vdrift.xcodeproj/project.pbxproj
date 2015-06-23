@@ -487,7 +487,6 @@
 		F5F34661156949B100424EBA /* matrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix3.h; sourceTree = "<group>"; };
 		F5F34662156949B100424EBA /* matrix4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matrix4.cpp; sourceTree = "<group>"; };
 		F5F34663156949B100424EBA /* matrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix4.h; sourceTree = "<group>"; };
-		F5F34664156949B100424EBA /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
 		F5F3466E156949B100424EBA /* numprocessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numprocessors.h; sourceTree = "<group>"; };
 		F5F34671156949B100424EBA /* optional.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = optional.cpp; sourceTree = "<group>"; };
 		F5F34672156949B100424EBA /* optional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = optional.h; sourceTree = "<group>"; };
@@ -537,7 +536,6 @@
 		F5F346BA156949B200424EBA /* trackmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trackmap.h; sourceTree = "<group>"; };
 		F5F346BC156949B200424EBA /* transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transform.h; sourceTree = "<group>"; };
 		F5F346BD156949B200424EBA /* unittest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unittest.h; sourceTree = "<group>"; };
-		F5F346BE156949B200424EBA /* unordered_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unordered_map.h; sourceTree = "<group>"; };
 		F5F346C1156949B200424EBA /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
 		F5F346C2156949B200424EBA /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 		F5F346DD156949B200424EBA /* window.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = window.cpp; sourceTree = "<group>"; };
@@ -725,7 +723,6 @@
 				F5F34661156949B100424EBA /* matrix3.h */,
 				F5F34662156949B100424EBA /* matrix4.cpp */,
 				F5F34663156949B100424EBA /* matrix4.h */,
-				F5F34664156949B100424EBA /* memory.h */,
 				F5F3466E156949B100424EBA /* numprocessors.h */,
 				F5F34671156949B100424EBA /* optional.cpp */,
 				F5F34672156949B100424EBA /* optional.h */,
@@ -781,7 +778,6 @@
 				F5F346BC156949B200424EBA /* transform.h */,
 				F5005E8115ADDAA600E2B121 /* tripplebuffer.h */,
 				F5F346BD156949B200424EBA /* unittest.h */,
-				F5F346BE156949B200424EBA /* unordered_map.h */,
 				F5005E8215ADDAB200E2B121 /* updatemanager.cpp */,
 				F5005E8315ADDAB200E2B121 /* updatemanager.h */,
 				F5F346C1156949B200424EBA /* utils.cpp */,
@@ -1282,6 +1278,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = Frameworks;
@@ -1303,7 +1301,7 @@
 					Libraries,
 				);
 				LIBRARY_SEARCH_PATHS = Libraries;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -1312,6 +1310,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = Frameworks;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
@@ -1330,7 +1330,7 @@
 					Libraries,
 				);
 				LIBRARY_SEARCH_PATHS = Libraries;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -1357,6 +1357,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = Frameworks;
@@ -1378,7 +1380,7 @@
 					Libraries,
 				);
 				LIBRARY_SEARCH_PATHS = Libraries;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = "Debug no data";
@@ -1396,6 +1398,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = Frameworks;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
@@ -1414,7 +1418,7 @@
 					Libraries,
 				);
 				LIBRARY_SEARCH_PATHS = Libraries;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = "Release no data";
