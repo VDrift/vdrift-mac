@@ -48,6 +48,7 @@
 		F5624A8A18EF15EF00710BA9 /* libintl.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; };
 		F5624A8B18EF15F800710BA9 /* libiconv.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		F5624A8C18EF15F800710BA9 /* libintl.8.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F5794E9F1CA2DF9400535505 /* guilinearslider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5794E9D1CA2DF9400535505 /* guilinearslider.cpp */; };
 		F581527519C0B0830035C897 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527419C0B0830035C897 /* Ogg.framework */; };
 		F581527619C0B0880035C897 /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F581527419C0B0830035C897 /* Ogg.framework */; };
 		F581528019C0B3CA0035C897 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527D19C0B3CA0035C897 /* SDL2_image.framework */; };
@@ -261,6 +262,8 @@
 		F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = Libraries/libiconv.2.dylib; sourceTree = "<group>"; };
 		F5624A8818EF15EF00710BA9 /* libintl.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.8.dylib; path = Libraries/libintl.8.dylib; sourceTree = "<group>"; };
 		F5624A8D18EF1B7700710BA9 /* uniforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uniforms.h; sourceTree = "<group>"; };
+		F5794E9D1CA2DF9400535505 /* guilinearslider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guilinearslider.cpp; sourceTree = "<group>"; };
+		F5794E9E1CA2DF9400535505 /* guilinearslider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guilinearslider.h; sourceTree = "<group>"; };
 		F581527419C0B0830035C897 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
 		F581527D19C0B3CA0035C897 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
 		F581527E19C0B3CA0035C897 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = Frameworks/SDL2.framework; sourceTree = "<group>"; };
@@ -810,6 +813,8 @@
 				F52C01C816D1443100ECA7EF /* guilabellist.h */,
 				F52C01C916D1443100ECA7EF /* guilanguage.cpp */,
 				F52C01CA16D1443100ECA7EF /* guilanguage.h */,
+				F5794E9D1CA2DF9400535505 /* guilinearslider.cpp */,
+				F5794E9E1CA2DF9400535505 /* guilinearslider.h */,
 				F52C01CB16D1443100ECA7EF /* guilist.h */,
 				F52C01CC16D1443100ECA7EF /* guioption.cpp */,
 				F52C01CD16D1443100ECA7EF /* guioption.h */,
@@ -1149,7 +1154,6 @@
 				F5F346EA156949B200424EBA /* camera_orbit.cpp in Sources */,
 				F5C5142E17E102E400850371 /* cargraphics.cpp in Sources */,
 				F5C5142B17E102CB00850371 /* carsound.cpp in Sources */,
-				F5F346F4156949B200424EBA /* ptree.cpp in Sources */,
 				F5F346F7156949B200424EBA /* containeralgorithm.cpp in Sources */,
 				F5F346F9156949B200424EBA /* crashdetection.cpp in Sources */,
 				F5F346FA156949B200424EBA /* downloadable.cpp in Sources */,
@@ -1196,6 +1200,7 @@
 				F5F34762156949B200424EBA /* window.cpp in Sources */,
 				F5943E2915D981BC00988068 /* carcontrolmap.cpp in Sources */,
 				F5943E2C15D981E200988068 /* config.cpp in Sources */,
+				F5F346F4156949B200424EBA /* ptree.cpp in Sources */,
 				F5943E3015D981EC00988068 /* ptree_inf.cpp in Sources */,
 				F5943E3115D981EC00988068 /* ptree_ini.cpp in Sources */,
 				F5943E3215D981EC00988068 /* ptree_xml.cpp in Sources */,
@@ -1250,6 +1255,7 @@
 				F52C01DD16D1443100ECA7EF /* guilabel.cpp in Sources */,
 				F52C01DE16D1443100ECA7EF /* guilabellist.cpp in Sources */,
 				F52C01DF16D1443100ECA7EF /* guilanguage.cpp in Sources */,
+				F5794E9F1CA2DF9400535505 /* guilinearslider.cpp in Sources */,
 				F52C01E016D1443100ECA7EF /* guioption.cpp in Sources */,
 				F52C01E116D1443100ECA7EF /* guipage.cpp in Sources */,
 				F53A89481A38977C007E2326 /* guiradialslider.cpp in Sources */,
