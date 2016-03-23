@@ -1068,7 +1068,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "VDrift Team";
 			};
 			buildConfigurationList = B9ADCF750907C8EB00D55A16 /* Build configuration list for PBXProject "vdrift" */;
@@ -1288,6 +1288,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = Frameworks;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -1308,6 +1309,9 @@
 				);
 				LIBRARY_SEARCH_PATHS = Libraries;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.vdrift.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -1337,6 +1341,8 @@
 				);
 				LIBRARY_SEARCH_PATHS = Libraries;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.vdrift.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -1346,7 +1352,6 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = VDrift.entitlements;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
@@ -1355,7 +1360,6 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = VDrift.entitlements;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -1367,6 +1371,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = Frameworks;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -1387,6 +1392,9 @@
 				);
 				LIBRARY_SEARCH_PATHS = Libraries;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.vdrift.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
 			name = "Debug no data";
@@ -1396,7 +1404,6 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = VDrift.entitlements;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = "Debug no data";
 		};
@@ -1425,6 +1432,8 @@
 				);
 				LIBRARY_SEARCH_PATHS = Libraries;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.vdrift.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
 			name = "Release no data";
@@ -1434,7 +1443,6 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = VDrift.entitlements;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = "Release no data";
 		};
