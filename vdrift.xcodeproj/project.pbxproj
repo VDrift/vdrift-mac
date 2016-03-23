@@ -11,8 +11,6 @@
 		F5005E8415ADDAB200E2B121 /* updatemanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E8215ADDAB200E2B121 /* updatemanager.cpp */; };
 		F504D5161B386FF70095D45D /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504D5151B386FF70095D45D /* Vorbis.framework */; };
 		F504D5171B386FFC0095D45D /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F504D5151B386FF70095D45D /* Vorbis.framework */; };
-		F504D5191B3876A30095D45D /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504D5181B3876A30095D45D /* WebP.framework */; };
-		F504D51A1B3876B10095D45D /* WebP.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F504D5181B3876A30095D45D /* WebP.framework */; };
 		F504D51E1B388EB70095D45D /* BulletCollision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504D51B1B388EB70095D45D /* BulletCollision.framework */; };
 		F504D51F1B388EB70095D45D /* BulletDynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504D51C1B388EB70095D45D /* BulletDynamics.framework */; };
 		F504D5201B388EB70095D45D /* BulletSoftBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F504D51D1B388EB70095D45D /* BulletSoftBody.framework */; };
@@ -49,12 +47,14 @@
 		F5794E9F1CA2DF9400535505 /* guilinearslider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5794E9D1CA2DF9400535505 /* guilinearslider.cpp */; };
 		F5794EA71CA2FD6F00535505 /* cURL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5794EA31CA2FD5F00535505 /* cURL.framework */; };
 		F5794EA91CA2FD7F00535505 /* cURL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5794EA31CA2FD5F00535505 /* cURL.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F5794F131CA3113A00535505 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5794F101CA3113A00535505 /* SDL2_image.framework */; };
+		F5794F141CA3113A00535505 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5794F111CA3113A00535505 /* SDL2.framework */; };
+		F5794F151CA3113A00535505 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5794F121CA3113A00535505 /* WebP.framework */; };
+		F5794F161CA3114D00535505 /* SDL2_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5794F101CA3113A00535505 /* SDL2_image.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F5794F171CA3115000535505 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5794F111CA3113A00535505 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F5794F181CA3115200535505 /* WebP.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5794F121CA3113A00535505 /* WebP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F581527519C0B0830035C897 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527419C0B0830035C897 /* Ogg.framework */; };
 		F581527619C0B0880035C897 /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F581527419C0B0830035C897 /* Ogg.framework */; };
-		F581528019C0B3CA0035C897 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527D19C0B3CA0035C897 /* SDL2_image.framework */; };
-		F581528119C0B3CA0035C897 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581527E19C0B3CA0035C897 /* SDL2.framework */; };
-		F581528419C0B3DD0035C897 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F581527E19C0B3CA0035C897 /* SDL2.framework */; };
-		F581528519C0B3E00035C897 /* SDL2_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F581527D19C0B3CA0035C897 /* SDL2_image.framework */; };
 		F5943E2915D981BC00988068 /* carcontrolmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2715D981BC00988068 /* carcontrolmap.cpp */; };
 		F5943E2C15D981E200988068 /* config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2A15D981E200988068 /* config.cpp */; };
 		F5943E3015D981EC00988068 /* ptree_inf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2D15D981EC00988068 /* ptree_inf.cpp */; };
@@ -184,10 +184,10 @@
 				F5794EA91CA2FD7F00535505 /* cURL.framework in CopyFiles */,
 				F504D5261B388ECF0095D45D /* LinearMath.framework in CopyFiles */,
 				F581527619C0B0880035C897 /* Ogg.framework in CopyFiles */,
-				F581528519C0B3E00035C897 /* SDL2_image.framework in CopyFiles */,
-				F581528419C0B3DD0035C897 /* SDL2.framework in CopyFiles */,
+				F5794F161CA3114D00535505 /* SDL2_image.framework in CopyFiles */,
+				F5794F171CA3115000535505 /* SDL2.framework in CopyFiles */,
 				F504D5171B386FFC0095D45D /* Vorbis.framework in CopyFiles */,
-				F504D51A1B3876B10095D45D /* WebP.framework in CopyFiles */,
+				F5794F181CA3115200535505 /* WebP.framework in CopyFiles */,
 				F5624A8B18EF15F800710BA9 /* libiconv.2.dylib in CopyFiles */,
 				F5624A8C18EF15F800710BA9 /* libintl.8.dylib in CopyFiles */,
 			);
@@ -208,7 +208,6 @@
 		F5005E8215ADDAB200E2B121 /* updatemanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = updatemanager.cpp; sourceTree = "<group>"; };
 		F5005E8315ADDAB200E2B121 /* updatemanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = updatemanager.h; sourceTree = "<group>"; };
 		F504D5151B386FF70095D45D /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
-		F504D5181B3876A30095D45D /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = Frameworks/WebP.framework; sourceTree = "<group>"; };
 		F504D51B1B388EB70095D45D /* BulletCollision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletCollision.framework; path = Frameworks/BulletCollision.framework; sourceTree = "<group>"; };
 		F504D51C1B388EB70095D45D /* BulletDynamics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletDynamics.framework; path = Frameworks/BulletDynamics.framework; sourceTree = "<group>"; };
 		F504D51D1B388EB70095D45D /* BulletSoftBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BulletSoftBody.framework; path = Frameworks/BulletSoftBody.framework; sourceTree = "<group>"; };
@@ -264,9 +263,10 @@
 		F5794E9D1CA2DF9400535505 /* guilinearslider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guilinearslider.cpp; sourceTree = "<group>"; };
 		F5794E9E1CA2DF9400535505 /* guilinearslider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guilinearslider.h; sourceTree = "<group>"; };
 		F5794EA31CA2FD5F00535505 /* cURL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cURL.framework; path = Frameworks/cURL.framework; sourceTree = "<group>"; };
+		F5794F101CA3113A00535505 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		F5794F111CA3113A00535505 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		F5794F121CA3113A00535505 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = Frameworks/WebP.framework; sourceTree = "<group>"; };
 		F581527419C0B0830035C897 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
-		F581527D19C0B3CA0035C897 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
-		F581527E19C0B3CA0035C897 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		F5943E2715D981BC00988068 /* carcontrolmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = carcontrolmap.cpp; sourceTree = "<group>"; };
 		F5943E2815D981BC00988068 /* carcontrolmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carcontrolmap.h; sourceTree = "<group>"; };
 		F5943E2A15D981E200988068 /* config.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = config.cpp; sourceTree = "<group>"; };
@@ -558,10 +558,10 @@
 				F5794EA71CA2FD6F00535505 /* cURL.framework in Frameworks */,
 				F504D5221B388EBB0095D45D /* LinearMath.framework in Frameworks */,
 				F581527519C0B0830035C897 /* Ogg.framework in Frameworks */,
-				F581528019C0B3CA0035C897 /* SDL2_image.framework in Frameworks */,
-				F581528119C0B3CA0035C897 /* SDL2.framework in Frameworks */,
+				F5794F141CA3113A00535505 /* SDL2.framework in Frameworks */,
+				F5794F131CA3113A00535505 /* SDL2_image.framework in Frameworks */,
 				F504D5161B386FF70095D45D /* Vorbis.framework in Frameworks */,
-				F504D5191B3876A30095D45D /* WebP.framework in Frameworks */,
+				F5794F151CA3113A00535505 /* WebP.framework in Frameworks */,
 				F5624A8918EF15EF00710BA9 /* libiconv.2.dylib in Frameworks */,
 				F5624A8A18EF15EF00710BA9 /* libintl.8.dylib in Frameworks */,
 			);
@@ -629,10 +629,10 @@
 				F5794EA31CA2FD5F00535505 /* cURL.framework */,
 				F504D5211B388EBB0095D45D /* LinearMath.framework */,
 				F581527419C0B0830035C897 /* Ogg.framework */,
-				F581527D19C0B3CA0035C897 /* SDL2_image.framework */,
-				F581527E19C0B3CA0035C897 /* SDL2.framework */,
+				F5794F101CA3113A00535505 /* SDL2_image.framework */,
+				F5794F111CA3113A00535505 /* SDL2.framework */,
 				F504D5151B386FF70095D45D /* Vorbis.framework */,
-				F504D5181B3876A30095D45D /* WebP.framework */,
+				F5794F121CA3113A00535505 /* WebP.framework */,
 				F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */,
 				F5624A8818EF15EF00710BA9 /* libintl.8.dylib */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
