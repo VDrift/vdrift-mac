@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>14D136</string>
+	<string>15E65</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -17,26 +17,31 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>7.43.0</string>
+	<string>7.48.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>6D2105</string>
+	<string>7D175</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>14D125</string>
+	<string>15E60</string>
 	<key>DTSDKName</key>
-	<string>macosx10.10</string>
+	<string>macosx10.11</string>
 	<key>DTXcode</key>
-	<string>0632</string>
+	<string>0730</string>
 	<key>DTXcodeBuild</key>
-	<string>6D2105</string>
+	<string>7D175</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 1996 - 2013, Daniel Stenberg, &lt;daniel@haxx.se&gt;. All rights reserved.</string>
+	<string>Copyright (c) 1996 - 2016, Daniel Stenberg, &lt;daniel@haxx.se&gt;, and many
+contributors. All rights reserved.</string>
 </dict>
 </plist>
