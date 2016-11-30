@@ -215,6 +215,7 @@
 		F50708D219BFAFDB003FDB32 /* glcore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glcore.cpp; sourceTree = "<group>"; };
 		F50708D319BFAFDB003FDB32 /* glcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glcore.h; sourceTree = "<group>"; };
 		F50BD7E21DEF42600012AF9F /* fastmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fastmath.h; sourceTree = "<group>"; };
+		F50BD7E31DEF44080012AF9F /* minmax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = minmax.h; sourceTree = "<group>"; };
 		F50E396714F8439F005998F2 /* VDrift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VDrift.entitlements; sourceTree = "<group>"; };
 		F5296EA01704942B0088D2F1 /* guiimagelist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiimagelist.cpp; sourceTree = "<group>"; };
 		F5296EA11704942B0088D2F1 /* guiimagelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiimagelist.h; sourceTree = "<group>"; };
@@ -728,6 +729,7 @@
 				F5F34661156949B100424EBA /* matrix3.h */,
 				F5F34662156949B100424EBA /* matrix4.cpp */,
 				F5F34663156949B100424EBA /* matrix4.h */,
+				F50BD7E31DEF44080012AF9F /* minmax.h */,
 				F5F3466E156949B100424EBA /* numprocessors.h */,
 				F5F34671156949B100424EBA /* optional.cpp */,
 				F5F34672156949B100424EBA /* optional.h */,
