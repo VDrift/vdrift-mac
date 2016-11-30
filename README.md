@@ -6,7 +6,7 @@ VDrift is a cross-platform, open source driving simulation made with drift
 racing in mind. The driving physics engine was recently re-written from scratch
 but was inspired and owes much to the Vamos physics engine. It is released under
 the GNU General Public License (GPL) v3. It is currently available for Windows,
-OS X, Linux, and FreeBSD.
+macOS, Linux, and FreeBSD.
 
 ### See also
 
@@ -77,7 +77,7 @@ checking out the repository with subversion:
 
 ### Downloading OS X Dependencies
 
-Download platform specific build dependencies on OS X:
+Download platform specific build dependencies on macOS:
 
     git clone https://github.com/VDrift/vdrift-mac.git
 
@@ -96,7 +96,7 @@ Download platform specific build dependencies on OS X:
 ## Error Fixing
 
 If when building, you get some errors, it is most likely because the Xcode
-project is out of date (it often is as we don't have an active OS X developer).
+project is out of date (it often is as we don't have an active macOS developer).
 To fix it:
 
 - Remove files from Xcode that are in the project but not in the repository
