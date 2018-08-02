@@ -249,7 +249,6 @@
 		F5398025177EFFDC0087533B /* sky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sky.h; sourceTree = "<group>"; };
 		F53A89461A38977C007E2326 /* guiradialslider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiradialslider.cpp; sourceTree = "<group>"; };
 		F53A89471A38977C007E2326 /* guiradialslider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiradialslider.h; sourceTree = "<group>"; };
-		F54C9B35174A3D0600B55709 /* tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tire.h; sourceTree = "<group>"; };
 		F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = Libraries/libiconv.2.dylib; sourceTree = "<group>"; };
 		F5624A8818EF15EF00710BA9 /* libintl.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.8.dylib; path = Libraries/libintl.8.dylib; sourceTree = "<group>"; };
 		F5624A8D18EF1B7700710BA9 /* uniforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uniforms.h; sourceTree = "<group>"; };
@@ -423,7 +422,6 @@
 		F5F345E4156949B100424EBA /* crashdetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crashdetection.cpp; sourceTree = "<group>"; };
 		F5F345E5156949B100424EBA /* crashdetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crashdetection.h; sourceTree = "<group>"; };
 		F5F345E6156949B100424EBA /* definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = definitions.h; sourceTree = "<group>"; };
-		F5F345E7156949B100424EBA /* derived.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = derived.h; sourceTree = "<group>"; };
 		F5F345E8156949B100424EBA /* downloadable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = downloadable.cpp; sourceTree = "<group>"; };
 		F5F345E9156949B100424EBA /* downloadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = downloadable.h; sourceTree = "<group>"; };
 		F5F345EF156949B100424EBA /* dynamicsdraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dynamicsdraw.cpp; sourceTree = "<group>"; };
@@ -655,7 +653,6 @@
 				F5F345E5156949B100424EBA /* crashdetection.h */,
 				F5F345E6156949B100424EBA /* definitions.h */,
 				F5005E6515ADDA4300E2B121 /* delegate.h */,
-				F5F345E7156949B100424EBA /* derived.h */,
 				F5F345E8156949B100424EBA /* downloadable.cpp */,
 				F5F345E9156949B100424EBA /* downloadable.h */,
 				F5F345EF156949B100424EBA /* dynamicsdraw.cpp */,
@@ -954,7 +951,6 @@
 				F5943EDE15D9828600988068 /* fracturebody.cpp */,
 				F5943EDF15D9828600988068 /* fracturebody.h */,
 				F5943EE215D9828600988068 /* motionstate.h */,
-				F54C9B35174A3D0600B55709 /* tire.h */,
 				F5943EE715D9828600988068 /* tracksurface.h */,
 			);
 			path = physics;
