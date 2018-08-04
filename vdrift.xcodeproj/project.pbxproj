@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91DE511521138E3600F2181E /* cartire1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91DE511321138E3500F2181E /* cartire1.cpp */; };
 		B937D144091BC36000EF8096 /* config_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B937D143091BC36000EF8096 /* config_mac.mm */; };
 		F5005E8415ADDAB200E2B121 /* updatemanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E8215ADDAB200E2B121 /* updatemanager.cpp */; };
 		F50708D419BFAFDB003FDB32 /* glcore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F50708D219BFAFDB003FDB32 /* glcore.cpp */; };
@@ -49,7 +50,6 @@
 		F535CC9E196EF53500436385 /* vertexformat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F535CC9B196EF53500436385 /* vertexformat.cpp */; };
 		F5398026177EFFDC0087533B /* sky.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5398024177EFFDC0087533B /* sky.cpp */; };
 		F53A89481A38977C007E2326 /* guiradialslider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53A89461A38977C007E2326 /* guiradialslider.cpp */; };
-		F54C9B36174A3D0600B55709 /* tire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54C9B34174A3D0600B55709 /* tire.cpp */; };
 		F5624A8918EF15EF00710BA9 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */; };
 		F5624A8A18EF15EF00710BA9 /* libintl.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5624A8818EF15EF00710BA9 /* libintl.8.dylib */; };
 		F5624A8B18EF15F800710BA9 /* libiconv.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -71,17 +71,8 @@
 		F5943E9F15D9821800988068 /* glenums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E4E15D9821800988068 /* glenums.cpp */; };
 		F5943EA015D9821800988068 /* glenums.def in Resources */ = {isa = PBXBuildFile; fileRef = F5943E4F15D9821800988068 /* glenums.def */; };
 		F5943EA115D9821800988068 /* glwrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E5115D9821800988068 /* glwrapper.cpp */; };
-		F5943EA215D9821800988068 /* renderdimensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E5415D9821800988068 /* renderdimensions.cpp */; };
 		F5943EA315D9821800988068 /* renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E5615D9821800988068 /* renderer.cpp */; };
-		F5943EA415D9821800988068 /* rendermodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E5815D9821800988068 /* rendermodel.cpp */; };
-		F5943EA515D9821800988068 /* rendermodelext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E5B15D9821800988068 /* rendermodelext.cpp */; };
 		F5943EA615D9821800988068 /* renderpass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E5D15D9821800988068 /* renderpass.cpp */; };
-		F5943EA715D9821800988068 /* rendersampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E6015D9821800988068 /* rendersampler.cpp */; };
-		F5943EA815D9821800988068 /* renderstate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E6315D9821800988068 /* renderstate.cpp */; };
-		F5943EA915D9821800988068 /* rendertextureentry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E6715D9821800988068 /* rendertextureentry.cpp */; };
-		F5943EAA15D9821800988068 /* renderuniform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E6915D9821800988068 /* renderuniform.cpp */; };
-		F5943EAB15D9821800988068 /* renderuniformentry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E6B15D9821800988068 /* renderuniformentry.cpp */; };
-		F5943EAC15D9821800988068 /* stringidmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E6E15D9821800988068 /* stringidmap.cpp */; };
 		F5943EAD15D9821800988068 /* glutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E7115D9821800988068 /* glutil.cpp */; };
 		F5943EAE15D9821800988068 /* graphics_config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E7515D9821800988068 /* graphics_config.cpp */; };
 		F5943EAF15D9821800988068 /* graphics_config_condition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E7715D9821800988068 /* graphics_config_condition.cpp */; };
@@ -94,15 +85,12 @@
 		F5943EB715D9821800988068 /* render_input_postprocess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8715D9821800988068 /* render_input_postprocess.cpp */; };
 		F5943EB815D9821800988068 /* render_input_scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8915D9821800988068 /* render_input_scene.cpp */; };
 		F5943EB915D9821800988068 /* render_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8B15D9821800988068 /* render_output.cpp */; };
-		F5943EBB15D9821800988068 /* scenenode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E8F15D9821800988068 /* scenenode.cpp */; };
 		F5943EBC15D9821800988068 /* shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E9115D9821800988068 /* shader.cpp */; };
 		F5943EBD15D9821800988068 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E9415D9821800988068 /* texture.cpp */; };
 		F5943EBE15D9821800988068 /* vertexarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E9815D9821800988068 /* vertexarray.cpp */; };
-		F5943EE815D9828600988068 /* cardifferential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943ECC15D9828600988068 /* cardifferential.cpp */; };
 		F5943EE915D9828600988068 /* cardynamics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943ECE15D9828600988068 /* cardynamics.cpp */; };
 		F5943EEA15D9828600988068 /* carengine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943ED015D9828600988068 /* carengine.cpp */; };
 		F5943EEB15D9828600988068 /* carsuspension.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943ED315D9828600988068 /* carsuspension.cpp */; };
-		F5943EEC15D9828600988068 /* cartire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943ED515D9828600988068 /* cartire.cpp */; };
 		F5943EED15D9828600988068 /* dynamicsworld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EDC15D9828600988068 /* dynamicsworld.cpp */; };
 		F5943EEE15D9828600988068 /* fracturebody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EDE15D9828600988068 /* fracturebody.cpp */; };
 		F5943EFA15D9829900988068 /* sound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943EF315D9829900988068 /* sound.cpp */; };
@@ -196,6 +184,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		91DE511321138E3500F2181E /* cartire1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cartire1.cpp; sourceTree = "<group>"; };
+		91DE511421138E3500F2181E /* cartire1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cartire1.h; sourceTree = "<group>"; };
 		B2F67ED704C74A3F00A80002 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		B937D143091BC36000EF8096 /* config_mac.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = config_mac.mm; sourceTree = "<group>"; };
 		B9653A8C091E84FE00006133 /* ReadMe.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = ReadMe.rtfd; sourceTree = "<group>"; };
@@ -262,8 +252,6 @@
 		F5398025177EFFDC0087533B /* sky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sky.h; sourceTree = "<group>"; };
 		F53A89461A38977C007E2326 /* guiradialslider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiradialslider.cpp; sourceTree = "<group>"; };
 		F53A89471A38977C007E2326 /* guiradialslider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiradialslider.h; sourceTree = "<group>"; };
-		F54C9B34174A3D0600B55709 /* tire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tire.cpp; sourceTree = "<group>"; };
-		F54C9B35174A3D0600B55709 /* tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tire.h; sourceTree = "<group>"; };
 		F5624A8718EF15EF00710BA9 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = Libraries/libiconv.2.dylib; sourceTree = "<group>"; };
 		F5624A8818EF15EF00710BA9 /* libintl.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.8.dylib; path = Libraries/libintl.8.dylib; sourceTree = "<group>"; };
 		F5624A8D18EF1B7700710BA9 /* uniforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uniforms.h; sourceTree = "<group>"; };
@@ -300,33 +288,24 @@
 		F5943E5115D9821800988068 /* glwrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glwrapper.cpp; sourceTree = "<group>"; };
 		F5943E5215D9821800988068 /* glwrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glwrapper.h; sourceTree = "<group>"; };
 		F5943E5315D9821800988068 /* rendercachevector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendercachevector.h; sourceTree = "<group>"; };
-		F5943E5415D9821800988068 /* renderdimensions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderdimensions.cpp; sourceTree = "<group>"; };
 		F5943E5515D9821800988068 /* renderdimensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderdimensions.h; sourceTree = "<group>"; };
 		F5943E5615D9821800988068 /* renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderer.cpp; sourceTree = "<group>"; };
 		F5943E5715D9821800988068 /* renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderer.h; sourceTree = "<group>"; };
-		F5943E5815D9821800988068 /* rendermodel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rendermodel.cpp; sourceTree = "<group>"; };
 		F5943E5915D9821800988068 /* rendermodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendermodel.h; sourceTree = "<group>"; };
 		F5943E5A15D9821800988068 /* rendermodelentry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendermodelentry.h; sourceTree = "<group>"; };
-		F5943E5B15D9821800988068 /* rendermodelext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rendermodelext.cpp; sourceTree = "<group>"; };
 		F5943E5C15D9821800988068 /* rendermodelext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendermodelext.h; sourceTree = "<group>"; };
 		F5943E5D15D9821800988068 /* renderpass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderpass.cpp; sourceTree = "<group>"; };
 		F5943E5E15D9821800988068 /* renderpass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderpass.h; sourceTree = "<group>"; };
 		F5943E5F15D9821800988068 /* renderpassinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderpassinfo.h; sourceTree = "<group>"; };
-		F5943E6015D9821800988068 /* rendersampler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rendersampler.cpp; sourceTree = "<group>"; };
 		F5943E6115D9821800988068 /* rendersampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendersampler.h; sourceTree = "<group>"; };
 		F5943E6215D9821800988068 /* rendershader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendershader.h; sourceTree = "<group>"; };
-		F5943E6315D9821800988068 /* renderstate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderstate.cpp; sourceTree = "<group>"; };
 		F5943E6415D9821800988068 /* renderstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderstate.h; sourceTree = "<group>"; };
 		F5943E6515D9821800988068 /* renderstatusverbosity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderstatusverbosity.h; sourceTree = "<group>"; };
 		F5943E6615D9821800988068 /* rendertexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendertexture.h; sourceTree = "<group>"; };
-		F5943E6715D9821800988068 /* rendertextureentry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rendertextureentry.cpp; sourceTree = "<group>"; };
 		F5943E6815D9821800988068 /* rendertextureentry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendertextureentry.h; sourceTree = "<group>"; };
-		F5943E6915D9821800988068 /* renderuniform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderuniform.cpp; sourceTree = "<group>"; };
 		F5943E6A15D9821800988068 /* renderuniform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderuniform.h; sourceTree = "<group>"; };
-		F5943E6B15D9821800988068 /* renderuniformentry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderuniformentry.cpp; sourceTree = "<group>"; };
 		F5943E6C15D9821800988068 /* renderuniformentry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderuniformentry.h; sourceTree = "<group>"; };
 		F5943E6D15D9821800988068 /* renderuniformvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderuniformvector.h; sourceTree = "<group>"; };
-		F5943E6E15D9821800988068 /* stringidmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stringidmap.cpp; sourceTree = "<group>"; };
 		F5943E6F15D9821800988068 /* stringidmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringidmap.h; sourceTree = "<group>"; };
 		F5943E7115D9821800988068 /* glutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glutil.cpp; sourceTree = "<group>"; };
 		F5943E7215D9821800988068 /* glutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glutil.h; sourceTree = "<group>"; };
@@ -356,7 +335,6 @@
 		F5943E8B15D9821800988068 /* render_output.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = render_output.cpp; sourceTree = "<group>"; };
 		F5943E8C15D9821800988068 /* render_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render_output.h; sourceTree = "<group>"; };
 		F5943E8E15D9821800988068 /* rendermodelext_drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendermodelext_drawable.h; sourceTree = "<group>"; };
-		F5943E8F15D9821800988068 /* scenenode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scenenode.cpp; sourceTree = "<group>"; };
 		F5943E9015D9821800988068 /* scenenode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scenenode.h; sourceTree = "<group>"; };
 		F5943E9115D9821800988068 /* shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shader.cpp; sourceTree = "<group>"; };
 		F5943E9215D9821800988068 /* shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shader.h; sourceTree = "<group>"; };
@@ -371,7 +349,6 @@
 		F5943EC915D9828600988068 /* aerodevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aerodevice.h; sourceTree = "<group>"; };
 		F5943ECA15D9828600988068 /* carbrake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carbrake.h; sourceTree = "<group>"; };
 		F5943ECB15D9828600988068 /* carclutch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carclutch.h; sourceTree = "<group>"; };
-		F5943ECC15D9828600988068 /* cardifferential.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cardifferential.cpp; sourceTree = "<group>"; };
 		F5943ECD15D9828600988068 /* cardifferential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cardifferential.h; sourceTree = "<group>"; };
 		F5943ECE15D9828600988068 /* cardynamics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cardynamics.cpp; sourceTree = "<group>"; };
 		F5943ECF15D9828600988068 /* cardynamics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cardynamics.h; sourceTree = "<group>"; };
@@ -380,7 +357,6 @@
 		F5943ED215D9828600988068 /* carfueltank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carfueltank.h; sourceTree = "<group>"; };
 		F5943ED315D9828600988068 /* carsuspension.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = carsuspension.cpp; sourceTree = "<group>"; };
 		F5943ED415D9828600988068 /* carsuspension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carsuspension.h; sourceTree = "<group>"; };
-		F5943ED515D9828600988068 /* cartire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cartire.cpp; sourceTree = "<group>"; };
 		F5943ED615D9828600988068 /* cartire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cartire.h; sourceTree = "<group>"; };
 		F5943ED715D9828600988068 /* cartransmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cartransmission.h; sourceTree = "<group>"; };
 		F5943ED815D9828600988068 /* carwheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carwheel.h; sourceTree = "<group>"; };
@@ -449,7 +425,6 @@
 		F5F345E4156949B100424EBA /* crashdetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crashdetection.cpp; sourceTree = "<group>"; };
 		F5F345E5156949B100424EBA /* crashdetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crashdetection.h; sourceTree = "<group>"; };
 		F5F345E6156949B100424EBA /* definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = definitions.h; sourceTree = "<group>"; };
-		F5F345E7156949B100424EBA /* derived.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = derived.h; sourceTree = "<group>"; };
 		F5F345E8156949B100424EBA /* downloadable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = downloadable.cpp; sourceTree = "<group>"; };
 		F5F345E9156949B100424EBA /* downloadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = downloadable.h; sourceTree = "<group>"; };
 		F5F345EF156949B100424EBA /* dynamicsdraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dynamicsdraw.cpp; sourceTree = "<group>"; };
@@ -681,7 +656,6 @@
 				F5F345E5156949B100424EBA /* crashdetection.h */,
 				F5F345E6156949B100424EBA /* definitions.h */,
 				F5005E6515ADDA4300E2B121 /* delegate.h */,
-				F5F345E7156949B100424EBA /* derived.h */,
 				F5F345E8156949B100424EBA /* downloadable.cpp */,
 				F5F345E9156949B100424EBA /* downloadable.h */,
 				F5F345EF156949B100424EBA /* dynamicsdraw.cpp */,
@@ -901,7 +875,6 @@
 				F5943E8B15D9821800988068 /* render_output.cpp */,
 				F5943E8C15D9821800988068 /* render_output.h */,
 				F5943E8E15D9821800988068 /* rendermodelext_drawable.h */,
-				F5943E8F15D9821800988068 /* scenenode.cpp */,
 				F5943E9015D9821800988068 /* scenenode.h */,
 				F5943E9115D9821800988068 /* shader.cpp */,
 				F5943E9215D9821800988068 /* shader.h */,
@@ -932,33 +905,24 @@
 				F5943E5115D9821800988068 /* glwrapper.cpp */,
 				F5943E5215D9821800988068 /* glwrapper.h */,
 				F5943E5315D9821800988068 /* rendercachevector.h */,
-				F5943E5415D9821800988068 /* renderdimensions.cpp */,
 				F5943E5515D9821800988068 /* renderdimensions.h */,
 				F5943E5615D9821800988068 /* renderer.cpp */,
 				F5943E5715D9821800988068 /* renderer.h */,
-				F5943E5815D9821800988068 /* rendermodel.cpp */,
 				F5943E5915D9821800988068 /* rendermodel.h */,
 				F5943E5A15D9821800988068 /* rendermodelentry.h */,
-				F5943E5B15D9821800988068 /* rendermodelext.cpp */,
 				F5943E5C15D9821800988068 /* rendermodelext.h */,
 				F5943E5D15D9821800988068 /* renderpass.cpp */,
 				F5943E5E15D9821800988068 /* renderpass.h */,
 				F5943E5F15D9821800988068 /* renderpassinfo.h */,
-				F5943E6015D9821800988068 /* rendersampler.cpp */,
 				F5943E6115D9821800988068 /* rendersampler.h */,
 				F5943E6215D9821800988068 /* rendershader.h */,
-				F5943E6315D9821800988068 /* renderstate.cpp */,
 				F5943E6415D9821800988068 /* renderstate.h */,
 				F5943E6515D9821800988068 /* renderstatusverbosity.h */,
 				F5943E6615D9821800988068 /* rendertexture.h */,
-				F5943E6715D9821800988068 /* rendertextureentry.cpp */,
 				F5943E6815D9821800988068 /* rendertextureentry.h */,
-				F5943E6915D9821800988068 /* renderuniform.cpp */,
 				F5943E6A15D9821800988068 /* renderuniform.h */,
-				F5943E6B15D9821800988068 /* renderuniformentry.cpp */,
 				F5943E6C15D9821800988068 /* renderuniformentry.h */,
 				F5943E6D15D9821800988068 /* renderuniformvector.h */,
-				F5943E6E15D9821800988068 /* stringidmap.cpp */,
 				F5943E6F15D9821800988068 /* stringidmap.h */,
 			);
 			path = gl3v;
@@ -967,10 +931,11 @@
 		F5943EC815D9828600988068 /* physics */ = {
 			isa = PBXGroup;
 			children = (
+				91DE511321138E3500F2181E /* cartire1.cpp */,
+				91DE511421138E3500F2181E /* cartire1.h */,
 				F5943EC915D9828600988068 /* aerodevice.h */,
 				F5943ECA15D9828600988068 /* carbrake.h */,
 				F5943ECB15D9828600988068 /* carclutch.h */,
-				F5943ECC15D9828600988068 /* cardifferential.cpp */,
 				F5943ECD15D9828600988068 /* cardifferential.h */,
 				F5943ECE15D9828600988068 /* cardynamics.cpp */,
 				F5943ECF15D9828600988068 /* cardynamics.h */,
@@ -980,7 +945,6 @@
 				F5C5143017E1032300850371 /* carinput.h */,
 				F5943ED315D9828600988068 /* carsuspension.cpp */,
 				F5943ED415D9828600988068 /* carsuspension.h */,
-				F5943ED515D9828600988068 /* cartire.cpp */,
 				F5943ED615D9828600988068 /* cartire.h */,
 				F5943ED715D9828600988068 /* cartransmission.h */,
 				F5943ED815D9828600988068 /* carwheel.h */,
@@ -992,8 +956,6 @@
 				F5943EDE15D9828600988068 /* fracturebody.cpp */,
 				F5943EDF15D9828600988068 /* fracturebody.h */,
 				F5943EE215D9828600988068 /* motionstate.h */,
-				F54C9B34174A3D0600B55709 /* tire.cpp */,
-				F54C9B35174A3D0600B55709 /* tire.h */,
 				F5943EE715D9828600988068 /* tracksurface.h */,
 			);
 			path = physics;
@@ -1194,6 +1156,7 @@
 				F5F3474A156949B200424EBA /* sprite2d.cpp in Sources */,
 				F5F3474B156949B200424EBA /* suspensionbumpdetection.cpp in Sources */,
 				F5F3474C156949B200424EBA /* svn_sourceforge.cpp in Sources */,
+				91DE511521138E3600F2181E /* cartire1.cpp in Sources */,
 				F5F3474F156949B200424EBA /* timer.cpp in Sources */,
 				F5F34750156949B200424EBA /* toggle.cpp in Sources */,
 				F5F34751156949B200424EBA /* track.cpp in Sources */,
@@ -1219,17 +1182,8 @@
 				F5943E9E15D9821800988068 /* fbtexture.cpp in Sources */,
 				F5943E9F15D9821800988068 /* glenums.cpp in Sources */,
 				F5943EA115D9821800988068 /* glwrapper.cpp in Sources */,
-				F5943EA215D9821800988068 /* renderdimensions.cpp in Sources */,
 				F5943EA315D9821800988068 /* renderer.cpp in Sources */,
-				F5943EA415D9821800988068 /* rendermodel.cpp in Sources */,
-				F5943EA515D9821800988068 /* rendermodelext.cpp in Sources */,
 				F5943EA615D9821800988068 /* renderpass.cpp in Sources */,
-				F5943EA715D9821800988068 /* rendersampler.cpp in Sources */,
-				F5943EA815D9821800988068 /* renderstate.cpp in Sources */,
-				F5943EA915D9821800988068 /* rendertextureentry.cpp in Sources */,
-				F5943EAA15D9821800988068 /* renderuniform.cpp in Sources */,
-				F5943EAB15D9821800988068 /* renderuniformentry.cpp in Sources */,
-				F5943EAC15D9821800988068 /* stringidmap.cpp in Sources */,
 				F50708D419BFAFDB003FDB32 /* glcore.cpp in Sources */,
 				F5943EAD15D9821800988068 /* glutil.cpp in Sources */,
 				F5943EAE15D9821800988068 /* graphics_config.cpp in Sources */,
@@ -1244,7 +1198,6 @@
 				F5943EB715D9821800988068 /* render_input_postprocess.cpp in Sources */,
 				F5943EB815D9821800988068 /* render_input_scene.cpp in Sources */,
 				F5943EB915D9821800988068 /* render_output.cpp in Sources */,
-				F5943EBB15D9821800988068 /* scenenode.cpp in Sources */,
 				F5943EBC15D9821800988068 /* shader.cpp in Sources */,
 				F5398026177EFFDC0087533B /* sky.cpp in Sources */,
 				F5943EBD15D9821800988068 /* texture.cpp in Sources */,
@@ -1267,14 +1220,11 @@
 				F52C01E316D1443100ECA7EF /* guiwidget.cpp in Sources */,
 				F52C01E416D1443100ECA7EF /* guiwidgetlist.cpp in Sources */,
 				F52C01E516D1443100ECA7EF /* text_draw.cpp in Sources */,
-				F5943EE815D9828600988068 /* cardifferential.cpp in Sources */,
 				F5943EE915D9828600988068 /* cardynamics.cpp in Sources */,
 				F5943EEA15D9828600988068 /* carengine.cpp in Sources */,
 				F5943EEB15D9828600988068 /* carsuspension.cpp in Sources */,
-				F5943EEC15D9828600988068 /* cartire.cpp in Sources */,
 				F5943EED15D9828600988068 /* dynamicsworld.cpp in Sources */,
 				F5943EEE15D9828600988068 /* fracturebody.cpp in Sources */,
-				F54C9B36174A3D0600B55709 /* tire.cpp in Sources */,
 				F5943EFA15D9829900988068 /* sound.cpp in Sources */,
 				F5943EFB15D9829900988068 /* soundbuffer.cpp in Sources */,
 				F5943EFC15D9829900988068 /* soundfilter.cpp in Sources */,

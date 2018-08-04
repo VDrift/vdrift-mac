@@ -71,9 +71,9 @@ VDrift, so change your directory to the root of the sources:
     cd vdrift
 
 Currently the data is still hosted at Sourceforge, so to getting it requires
-checking out the repository with subversion:
+checking out the repository with subversion (almost 3.4G):
 
-    svn checkout https://vdrift.svn.sourceforge.net/svnroot/vdrift/vdrift-data data
+    svn checkout https://svn.code.sf.net/p/vdrift/code/vdrift-data data
 
 ### Downloading OS X Dependencies
 
