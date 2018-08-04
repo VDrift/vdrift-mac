@@ -4,3 +4,4 @@ VDrift.app
 vdrift-mac-*
 vdrift.xcodeproj/xcuserdata
 vdrift.xcodeproj/project.xcworkspace
+config_mac.o
