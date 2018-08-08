@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9161E8962117568100227C9E /* frustumcull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9161E8952117568100227C9E /* frustumcull.cpp */; };
 		91DE511521138E3600F2181E /* cartire1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91DE511321138E3500F2181E /* cartire1.cpp */; };
 		B937D144091BC36000EF8096 /* config_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B937D143091BC36000EF8096 /* config_mac.mm */; };
 		F5005E8415ADDAB200E2B121 /* updatemanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E8215ADDAB200E2B121 /* updatemanager.cpp */; };
@@ -184,6 +185,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9161E8952117568100227C9E /* frustumcull.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = frustumcull.cpp; sourceTree = "<group>"; };
 		91DE511321138E3500F2181E /* cartire1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cartire1.cpp; sourceTree = "<group>"; };
 		91DE511421138E3500F2181E /* cartire1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cartire1.h; sourceTree = "<group>"; };
 		B2F67ED704C74A3F00A80002 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
@@ -667,6 +669,7 @@
 				F50BD7E21DEF42600012AF9F /* fastmath.h */,
 				F5F345FE156949B100424EBA /* forcefeedback.cpp */,
 				F5F345FF156949B100424EBA /* forcefeedback.h */,
+				9161E8952117568100227C9E /* frustumcull.cpp */,
 				F5F34602156949B100424EBA /* frustum.h */,
 				F5F34603156949B100424EBA /* game_downloader.h */,
 				F5F34604156949B100424EBA /* game.cpp */,
@@ -1158,6 +1161,7 @@
 				F5F3474C156949B200424EBA /* svn_sourceforge.cpp in Sources */,
 				91DE511521138E3600F2181E /* cartire1.cpp in Sources */,
 				F5F3474F156949B200424EBA /* timer.cpp in Sources */,
+				9161E8962117568100227C9E /* frustumcull.cpp in Sources */,
 				F5F34750156949B200424EBA /* toggle.cpp in Sources */,
 				F5F34751156949B200424EBA /* track.cpp in Sources */,
 				F5F34752156949B200424EBA /* trackloader.cpp in Sources */,
