@@ -19,6 +19,13 @@
 
 #import <Cocoa/Cocoa.h>
 
+template <typename T> T VD_CFReleaseIf(T objRef){
+	if (NULL != objRef){
+		CFRelease(objRef);
+	}
+	return NULL;
+}
+
 char* get_mac_data_dir()
 {
     NSAutoreleasePool   *pool = [[NSAutoreleasePool alloc] init];
@@ -82,7 +89,7 @@ char* get_mac_data_dir()
             exit(1);
         }
     }
-    
+    url = VD_CFReleaseIf(url);
     if(resolvedPath != nil)
     {
         path = [NSString stringWithString:(NSString *)resolvedPath];
