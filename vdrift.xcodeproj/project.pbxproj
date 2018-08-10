@@ -60,7 +60,6 @@
 		F5943E2C15D981E200988068 /* config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2A15D981E200988068 /* config.cpp */; };
 		F5943E3015D981EC00988068 /* ptree_inf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2D15D981EC00988068 /* ptree_inf.cpp */; };
 		F5943E3115D981EC00988068 /* ptree_ini.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2E15D981EC00988068 /* ptree_ini.cpp */; };
-		F5943E3215D981EC00988068 /* ptree_xml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E2F15D981EC00988068 /* ptree_xml.cpp */; };
 		F5943E3F15D981F700988068 /* configfactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E3415D981F700988068 /* configfactory.cpp */; };
 		F5943E4015D981F700988068 /* contentmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E3715D981F700988068 /* contentmanager.cpp */; };
 		F5943E4115D981F700988068 /* modelfactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5943E3915D981F700988068 /* modelfactory.cpp */; };
@@ -265,7 +264,6 @@
 		F5943E2B15D981E200988068 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		F5943E2D15D981EC00988068 /* ptree_inf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ptree_inf.cpp; sourceTree = "<group>"; };
 		F5943E2E15D981EC00988068 /* ptree_ini.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ptree_ini.cpp; sourceTree = "<group>"; };
-		F5943E2F15D981EC00988068 /* ptree_xml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ptree_xml.cpp; sourceTree = "<group>"; };
 		F5943E3415D981F700988068 /* configfactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = configfactory.cpp; sourceTree = "<group>"; };
 		F5943E3515D981F700988068 /* configfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configfactory.h; sourceTree = "<group>"; };
 		F5943E3615D981F700988068 /* contentfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contentfactory.h; sourceTree = "<group>"; };
@@ -1000,7 +998,6 @@
 				F5943E2B15D981E200988068 /* config.h */,
 				F5943E2D15D981EC00988068 /* ptree_inf.cpp */,
 				F5943E2E15D981EC00988068 /* ptree_ini.cpp */,
-				F5943E2F15D981EC00988068 /* ptree_xml.cpp */,
 				F5F345D9156949B100424EBA /* ptree.cpp */,
 				F5F345DA156949B100424EBA /* ptree.h */,
 			);
@@ -1174,7 +1171,6 @@
 				F5F346F4156949B200424EBA /* ptree.cpp in Sources */,
 				F5943E3015D981EC00988068 /* ptree_inf.cpp in Sources */,
 				F5943E3115D981EC00988068 /* ptree_ini.cpp in Sources */,
-				F5943E3215D981EC00988068 /* ptree_xml.cpp in Sources */,
 				F5943E3F15D981F700988068 /* configfactory.cpp in Sources */,
 				F5943E4015D981F700988068 /* contentmanager.cpp in Sources */,
 				F5943E4115D981F700988068 /* modelfactory.cpp in Sources */,
