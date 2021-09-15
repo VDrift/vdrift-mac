@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9161E8962117568100227C9E /* frustumcull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9161E8952117568100227C9E /* frustumcull.cpp */; };
+		9164487826F20D80003D60B9 /* bcndecode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9164487726F20AE7003D60B9 /* bcndecode.cpp */; };
+		9164487B26F2105B003D60B9 /* skidmarks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9164487A26F21023003D60B9 /* skidmarks.cpp */; };
 		91DE511521138E3600F2181E /* cartire1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91DE511321138E3500F2181E /* cartire1.cpp */; };
 		B937D144091BC36000EF8096 /* config_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B937D143091BC36000EF8096 /* config_mac.mm */; };
 		F5005E8415ADDAB200E2B121 /* updatemanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5005E8215ADDAB200E2B121 /* updatemanager.cpp */; };
@@ -185,6 +187,10 @@
 
 /* Begin PBXFileReference section */
 		9161E8952117568100227C9E /* frustumcull.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = frustumcull.cpp; sourceTree = "<group>"; };
+		9164487626F20AE7003D60B9 /* bcndecode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bcndecode.h; sourceTree = "<group>"; };
+		9164487726F20AE7003D60B9 /* bcndecode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bcndecode.cpp; sourceTree = "<group>"; };
+		9164487926F21023003D60B9 /* skidmarks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skidmarks.h; sourceTree = "<group>"; };
+		9164487A26F21023003D60B9 /* skidmarks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = skidmarks.cpp; sourceTree = "<group>"; };
 		91DE511321138E3500F2181E /* cartire1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cartire1.cpp; sourceTree = "<group>"; };
 		91DE511421138E3500F2181E /* cartire1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cartire1.h; sourceTree = "<group>"; };
 		B2F67ED704C74A3F00A80002 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
@@ -620,6 +626,8 @@
 		B97D75FF12AA720D0042C221 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				9164487A26F21023003D60B9 /* skidmarks.cpp */,
+				9164487926F21023003D60B9 /* skidmarks.h */,
 				F5F345A4156949B100424EBA /* aabb.cpp */,
 				F5F345A5156949B100424EBA /* aabb.h */,
 				F5C5142517E1026700850371 /* aabbtree.cpp */,
@@ -834,6 +842,8 @@
 		F5943E4415D9821800988068 /* graphics */ = {
 			isa = PBXGroup;
 			children = (
+				9164487726F20AE7003D60B9 /* bcndecode.cpp */,
+				9164487626F20AE7003D60B9 /* bcndecode.h */,
 				F5943E9315D9821800988068 /* aabb_tree_adapter.h */,
 				F5DE84FA17148E1F00C7F276 /* dds.cpp */,
 				F5DE84FB17148E1F00C7F276 /* dds.h */,
@@ -1129,6 +1139,7 @@
 				F5F34706156949B200424EBA /* game.cpp in Sources */,
 				F5F3471D156949B200424EBA /* http.cpp in Sources */,
 				F5F34721156949B200424EBA /* joepack.cpp in Sources */,
+				9164487B26F2105B003D60B9 /* skidmarks.cpp in Sources */,
 				F5F34722156949B200424EBA /* joeserialize.cpp in Sources */,
 				F5F34723156949B200424EBA /* k1999.cpp in Sources */,
 				F5F34724156949B200424EBA /* keyed_container.cpp in Sources */,
@@ -1206,6 +1217,7 @@
 				F52C01D816D1443100ECA7EF /* font.cpp in Sources */,
 				F52C01D916D1443100ECA7EF /* gui.cpp in Sources */,
 				F52C01DA16D1443100ECA7EF /* guicontrol.cpp in Sources */,
+				9164487826F20D80003D60B9 /* bcndecode.cpp in Sources */,
 				F52C01DB16D1443100ECA7EF /* guicontrollist.cpp in Sources */,
 				F52C01DC16D1443100ECA7EF /* guiimage.cpp in Sources */,
 				F5296EA31704948F0088D2F1 /* guiimagelist.cpp in Sources */,
